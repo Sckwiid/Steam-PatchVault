@@ -1,0 +1,29 @@
+[
+  {
+    "appid": 413150,
+    "name": "Stardew Valley",
+    "slug": "stardew-valley",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+    "description": "Simulation agricole indé avec mods, coop et progression longue durée.",
+    "last_synced_at": "2026-05-10T08:14:00Z",
+    "tags": ["Indie", "RPG", "Modded"]
+  },
+  {
+    "appid": 294100,
+    "name": "RimWorld",
+    "slug": "rimworld",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg",
+    "description": "Colony sim narratif orienté événements dynamiques et versions moddées.",
+    "last_synced_at": "2026-05-11T06:42:00Z",
+    "tags": ["Survival", "Indie", "Modded"]
+  },
+  {
+    "appid": 892970,
+    "name": "Valheim",
+    "slug": "valheim",
+    "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
+    "description": "Survival coop nordique avec biomes, crafts et progression multijoueur.",
+    "last_synced_at": "2026-05-09T22:31:00Z",
+    "tags": ["Survival", "Multiplayer", "Speedrun"]
+  }
+]

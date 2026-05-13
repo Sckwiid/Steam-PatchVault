@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Steam PatchVault: timeline de patch notes, manifests et commandes Steam Console prêtes à copier."
+    />
+    <title>Steam PatchVault</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <noscript>
+      <p style="padding: 1rem; color: #e8e1d2; background: #121619; border: 1px solid rgba(232, 225, 210, 0.12)">
+        Steam PatchVault nécessite JavaScript pour afficher la recherche, les timelines et les commandes.
+      </p>
+    </noscript>
+
+    <div id="app" aria-live="polite"></div>
+    <div id="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+    <script src="./assets/js/storage.js" defer></script>
+    <script src="./assets/js/steamCommands.js" defer></script>
+    <script src="./assets/js/search.js" defer></script>
+    <script src="./assets/js/mockApi.js" defer></script>
+    <script src="./assets/js/router.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+  </body>
+</html>
