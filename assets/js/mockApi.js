@@ -275,9 +275,43 @@
     var fallback = buildFallbackManifestsFile(appid);
     var loaded = await loadJsonFile("./data/manifests/" + key + ".json", fallback);
 
-    var manifests = loaded && Array.isArray(loaded.manifests) ? loaded.manifests : fallback.manifests;
+    var manifests = flattenManifestFile(loaded || fallback, key);
     state.manifestsByAppCache[key] = manifests.sort(byDateDesc);
     return state.manifestsByAppCache[key];
+  }
+
+  function flattenManifestFile(payload, appid) {
+    if (payload && Array.isArray(payload.manifests)) {
+      return payload.manifests;
+    }
+
+    if (!payload || !Array.isArray(payload.depots)) {
+      return buildFallbackManifestsFile(appid).manifests;
+    }
+
+    return payload.depots.reduce(function reduceDepots(items, depot) {
+      var depotid = depot.depotid;
+      var depotName = depot.name || "";
+      var os = depot.os || "all";
+      var language = depot.language || "all";
+
+      (depot.manifests || []).forEach(function eachManifest(manifest) {
+        items.push(Object.assign({}, manifest, {
+          appid: Number(appid),
+          depotid: manifest.depotid || depotid,
+          depot_name: manifest.depot_name || depotName,
+          os: manifest.os || os,
+          language: manifest.language || language,
+          date: manifest.date || manifest.first_seen_at || manifest.last_seen_at,
+          notes: manifest.notes || "Manifest connu, téléchargement non garanti.",
+          source: manifest.source || "unknown",
+          status: manifest.status || "unverified",
+          download_command: manifest.download_command || ("download_depot " + appid + " " + (manifest.depotid || depotid) + " " + manifest.manifestid)
+        }));
+      });
+
+      return items;
+    }, []);
   }
 
   async function searchGames(query) {

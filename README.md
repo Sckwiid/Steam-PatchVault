@@ -117,7 +117,11 @@ Variables utiles:
 /data/games/*.json
 /data/patches/*.json
 /data/manifests/*.json
+/data/manifest-snapshots/<appid>/<date>.json
+/data/contributions/pending-manifests.json
 /data/tracked-apps.json
+/data/manual/patches/*.json
+/data/manual/manifests/*.json
 /data/*.sample.json
 /robots.txt
 /sitemap.xml
@@ -131,6 +135,149 @@ Le fichier [data/tracked-apps.json](/Users/julien/Documents/projets/steam-PatchV
 - définir les jeux prioritaires
 - enrichir nom/slug/description/tags/header
 - choisir les AppIDs pour la génération patch/news/manifests statiques
+
+## Imports manuels de patchs et manifests
+
+Steam ne fournit pas toujours l'historique complet `DepotID` + `ManifestID`. Pour compléter la base sans API SteamDB et sans scraping, ajoutez des fichiers manuels dans `data/manual`.
+
+Ne modifiez pas directement:
+
+- `data/patches/<appid>.json`
+- `data/manifests/<appid>.json`
+
+Ces fichiers sont générés par le workflow et peuvent être écrasés.
+
+### Ajouter des patch notes manuellement
+
+Créez un fichier:
+
+```text
+data/manual/patches/739630.json
+```
+
+Format:
+
+```json
+{
+  "patches": [
+    {
+      "id": "manual-739630-2024-08-12",
+      "appid": 739630,
+      "title": "Titre du patch",
+      "version_detected": "0.10",
+      "date": "2024-08-12T18:00:00.000Z",
+      "type": "major",
+      "content": "Résumé court du patch.",
+      "source_url": "https://store.steampowered.com/news/app/739630",
+      "source_type": "manual",
+      "keywords": ["content", "performance"]
+    }
+  ]
+}
+```
+
+### Ajouter des depots/manifests manuellement
+
+Créez un fichier:
+
+```text
+data/manual/manifests/739630.json
+```
+
+Format:
+
+```json
+{
+  "manifests": [
+    {
+      "id": "manual-739630-739631-2382933349983046343",
+      "appid": 739630,
+      "depotid": 739631,
+      "manifestid": "2382933349983046343",
+      "buildid": "unknown",
+      "branch": "public",
+      "os": "windows",
+      "language": "all",
+      "date": "2024-08-12T18:00:00.000Z",
+      "patch_note_id": "manual-739630-2024-08-12",
+      "confidence_score": 70,
+      "notes": "Ajout manuel. Disponibilité non garantie."
+    }
+  ]
+}
+```
+
+`patch_note_id` doit correspondre à l'`id` d'une patch note existante ou importée manuellement. Si l'association est incertaine, baissez `confidence_score`.
+
+Après ajout:
+
+```bash
+node scripts/build-static-db.mjs
+git add data/manual data/patches data/manifests
+git commit -m "data: add manual manifests for app 739630"
+git push
+```
+
+Sur GitHub, le workflow quotidien fusionnera aussi automatiquement les imports manuels dans les fichiers publics.
+
+## Historisation des manifests
+
+Le build statique conserve l'historique des manifests connus au lieu de remplacer brutalement l'état précédent.
+
+À chaque exécution:
+
+- les manifests existants dans `data/manifests/<appid>.json` sont relus
+- les imports manuels sont fusionnés
+- les manifests déjà connus gardent leur `first_seen_at`
+- les manifests revus pendant le scan mettent à jour `last_seen_at`
+- un snapshot daté est écrit dans `data/manifest-snapshots/<appid>/<date>.json`
+- les manifests sont regroupés par depot dans `data/manifests/<appid>.json`
+
+Format public:
+
+```json
+{
+  "appid": 1091500,
+  "last_scanned_at": "2026-05-14T03:00:00Z",
+  "tracked_since": "2026-05-14T03:00:00Z",
+  "depots": [
+    {
+      "depotid": 1091501,
+      "name": "Windows Content",
+      "os": "windows",
+      "language": "all",
+      "manifests": [
+        {
+          "manifestid": "1234567890123456789",
+          "buildid": "9876543",
+          "branch": "public",
+          "first_seen_at": "2026-05-14T03:00:00Z",
+          "last_seen_at": "2026-05-15T03:00:00Z",
+          "patch_note_id": "1091500-2026-05-14-001",
+          "confidence_score": 80,
+          "source": "steam_appinfo_snapshot",
+          "status": "unverified",
+          "download_command": "download_depot 1091500 1091501 1234567890123456789"
+        }
+      ]
+    }
+  ]
+}
+```
+
+Important: ce système historise ce qui est détecté à partir du moment où le projet suit un jeu. Il ne reconstruit pas automatiquement tout l'historique Steam passé.
+
+## Contributions communautaires
+
+Le frontend affiche:
+
+- `Détecté automatiquement`
+- `Confirmé communauté`
+- `Non garanti`
+- bouton `Proposer un manifest`
+- bouton `Signaler manifest invalide`
+
+Les boutons ouvrent une GitHub Issue pré-remplie. Après validation, ajoutez la donnée dans `data/manual/manifests/<appid>.json`.
 
 ## SEO
 

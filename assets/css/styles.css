@@ -542,6 +542,24 @@ h2 {
   gap: 10px;
 }
 
+.manifest-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.manifest-section-head h4 {
+  margin: 0;
+}
+
+.manifest-disclaimer {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .manifest-card {
   border: 1px solid var(--line);
   border-radius: 12px;
@@ -557,6 +575,40 @@ h2 {
   gap: 8px;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.manifest-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.manifest-badge {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.badge-auto {
+  border-color: rgba(143, 214, 148, 0.36);
+  color: #b2dfba;
+}
+
+.badge-community {
+  border-color: rgba(196, 122, 60, 0.5);
+  color: #e0b184;
+}
+
+.badge-unguaranteed {
+  border-color: rgba(232, 225, 210, 0.18);
+}
+
+.manifest-dates {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
 }
 
 .confidence {
@@ -656,6 +708,11 @@ h2 {
 
 .btn-subtle {
   background: rgba(255, 255, 255, 0.01);
+}
+
+.btn-small {
+  padding: 7px 9px;
+  font-size: 0.82rem;
 }
 
 .btn:hover {

@@ -34,6 +34,7 @@
     nonSteamDialog: "https://cdn.mos.cms.futurecdn.net/JesibHpNgqiFpDEjcU3GNA-1200-80.jpg"
   };
   var FEATURED_APPIDS = [739630, 108600, 105600, 413150, 892970, 294100, 489830, 1091500];
+  var GITHUB_ISSUES_URL = "https://github.com/Sckwiid/Steam-PatchVault/issues/new";
 
   function escapeHtml(value) {
     return String(value || "")
@@ -195,6 +196,60 @@
     return '<span class="confidence confidence-' + level + '">Confiance ' + escapeHtml(numeric) + "/100</span>";
   }
 
+  function ManifestStatusBadges(manifest) {
+    var badges = [];
+    var source = String(manifest.source || manifest.source_type || "").toLowerCase();
+    var status = String(manifest.status || "unverified").toLowerCase();
+
+    if (source.indexOf("steam_appinfo") > -1 || source.indexOf("snapshot") > -1) {
+      badges.push('<span class="manifest-badge badge-auto">Détecté automatiquement</span>');
+    }
+
+    if (status === "confirmed" || status === "community_confirmed" || source === "community") {
+      badges.push('<span class="manifest-badge badge-community">Confirmé communauté</span>');
+    }
+
+    if (status !== "confirmed" && status !== "community_confirmed") {
+      badges.push('<span class="manifest-badge badge-unguaranteed">Non garanti</span>');
+    }
+
+    return badges.join("");
+  }
+
+  function buildContributionUrl(type, game, manifest) {
+    var title = type === "invalid"
+      ? "[Manifest invalide] " + game.name + " (" + game.appid + ")"
+      : "[Manifest proposé] " + game.name + " (" + game.appid + ")";
+
+    var body = type === "invalid"
+      ? [
+        "Manifest à vérifier:",
+        "",
+        "- AppID: " + game.appid,
+        "- DepotID: " + (manifest && manifest.depotid ? manifest.depotid : ""),
+        "- ManifestID: " + (manifest && manifest.manifestid ? manifest.manifestid : ""),
+        "- Problème constaté:",
+        "- Source / preuve:"
+      ].join("\n")
+      : [
+        "Manifest proposé:",
+        "",
+        "- AppID: " + game.appid,
+        "- DepotID:",
+        "- ManifestID:",
+        "- BuildID:",
+        "- Branche: public",
+        "- OS: windows / linux / macos / all",
+        "- Langue: all",
+        "- Date estimée:",
+        "- Patch note liée si connue:",
+        "- Source / preuve:",
+        "- Notes:"
+      ].join("\n");
+
+    return GITHUB_ISSUES_URL + "?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
+  }
+
   function CopyButton(command) {
     return '<button class="btn btn-subtle" data-action="copy-command" data-command="' + escapeHtml(command) + '" aria-label="Copier la commande">Copier la commande</button>';
   }
@@ -314,16 +369,23 @@
       '<p class="detail-content">' + escapeHtml(patch.content) + "</p>" +
       '<p class="muted">Source: <a href="' + escapeHtml(patch.source_url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(patch.source_url) + "</a></p>" +
       '<section class="manifest-section">' +
+      '<div class="manifest-section-head">' +
       '<h4>Versions téléchargeables</h4>' +
+      '<button class="btn btn-subtle btn-small" data-action="propose-manifest" data-url="' + escapeHtml(buildContributionUrl("propose", game, null)) + '">Proposer un manifest</button>' +
+      "</div>" +
+      '<p class="manifest-disclaimer">Manifest connu, téléchargement non garanti. Vous devez posséder le jeu sur Steam.</p>' +
       (manifests.length ? manifests.map(function mapManifest(manifest) {
         return "" +
           '<div class="manifest-card">' +
           '<div class="manifest-head">' +
           ConfidenceBadge(manifest.confidence_score) +
+          '<span class="manifest-badges">' + ManifestStatusBadges(manifest) + "</span>" +
           '<span class="mono">' + escapeHtml((manifest.branch || "public") + " · " + (manifest.os || "all") + " · " + (manifest.language || "all")) + "</span>" +
           "</div>" +
+          '<p class="manifest-dates mono">Vu: ' + escapeHtml(formatDateTime(manifest.first_seen_at || manifest.date)) + " → " + escapeHtml(formatDateTime(manifest.last_seen_at || manifest.date)) + "</p>" +
           '<p class="muted">' + escapeHtml(manifest.notes || "") + "</p>" +
           CommandBox(game.appid, manifest) +
+          '<button class="btn btn-subtle btn-small" data-action="report-manifest" data-url="' + escapeHtml(buildContributionUrl("invalid", game, manifest)) + '">Signaler manifest invalide</button>' +
           "</div>";
       }).join("") : EmptyState("Aucun manifest lié", "Ce patch n'a pas d'association exploitable pour le moment.")) +
       "</section>" +
@@ -756,6 +818,14 @@
     if (action === "toggle-drawer") {
       state.mobileDrawerOpen = !state.mobileDrawerOpen;
       await renderGame(state.route);
+      return;
+    }
+
+    if (action === "propose-manifest" || action === "report-manifest") {
+      var url = button.getAttribute("data-url");
+      if (url) {
+        window.open(url, "_blank", "noopener,noreferrer");
+      }
       return;
     }
 

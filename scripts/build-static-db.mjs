@@ -10,6 +10,12 @@ const dataRoot = path.join(repoRoot, "data");
 const gamesDir = path.join(dataRoot, "games");
 const patchesDir = path.join(dataRoot, "patches");
 const manifestsDir = path.join(dataRoot, "manifests");
+const manualRoot = path.join(dataRoot, "manual");
+const manualPatchesDir = path.join(manualRoot, "patches");
+const manualManifestsDir = path.join(manualRoot, "manifests");
+const manifestSnapshotsDir = path.join(dataRoot, "manifest-snapshots");
+const contributionsDir = path.join(dataRoot, "contributions");
+const pendingManifestsFile = path.join(contributionsDir, "pending-manifests.json");
 const searchIndexFile = path.join(dataRoot, "search-index.json");
 const trackedAppsFile = path.join(dataRoot, "tracked-apps.json");
 
@@ -77,6 +83,21 @@ async function writeJson(filePath, value) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, next, "utf8");
   return true;
+}
+
+async function listNumericJsonFiles(dirPath) {
+  try {
+    const entries = await fs.readdir(dirPath, { withFileTypes: true });
+    return entries
+      .filter((entry) => entry.isFile() && /^\d+\.json$/.test(entry.name))
+      .map((entry) => ({
+        appid: Number(entry.name.replace(".json", "")),
+        filePath: path.join(dirPath, entry.name)
+      }))
+      .filter((entry) => Number.isFinite(entry.appid) && entry.appid > 0);
+  } catch (error) {
+    return [];
+  }
 }
 
 async function emptyDir(dirPath) {
@@ -399,6 +420,12 @@ function resolveTrackedAppIds(trackedEntries) {
   return Array.from(new Set([...fromFile, ...fromEnv]));
 }
 
+async function resolveManualAppIds() {
+  const patchFiles = await listNumericJsonFiles(manualPatchesDir);
+  const manifestFiles = await listNumericJsonFiles(manualManifestsDir);
+  return Array.from(new Set([...patchFiles, ...manifestFiles].map((entry) => entry.appid)));
+}
+
 async function fetchNewsForApp(appid, useFeeds = true) {
   const url = new URL("https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/");
   url.searchParams.set("appid", String(appid));
@@ -442,8 +469,221 @@ function normalizePatchItems(appid, newsItems) {
   }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
+async function loadManualPatches(appid) {
+  const payload = await readJson(path.join(manualPatchesDir, `${appid}.json`), null);
+  if (!payload) return [];
+  const patches = Array.isArray(payload) ? payload : payload.patches;
+  return Array.isArray(patches) ? patches : [];
+}
+
+async function loadManualManifests(appid) {
+  const payload = await readJson(path.join(manualManifestsDir, `${appid}.json`), null);
+  if (!payload) return [];
+  const manifests = Array.isArray(payload) ? payload : payload.manifests;
+  return Array.isArray(manifests) ? manifests : [];
+}
+
+function mergeByKey(baseItems, manualItems, keyFn) {
+  const map = new Map();
+
+  (baseItems || []).forEach((item) => {
+    const key = keyFn(item);
+    if (key) map.set(key, item);
+  });
+
+  (manualItems || []).forEach((item) => {
+    const key = keyFn(item);
+    if (key) map.set(key, item);
+  });
+
+  return Array.from(map.values());
+}
+
+function patchKey(patch) {
+  return String(patch?.id || `${patch?.appid || ""}:${patch?.date || ""}:${patch?.title || ""}`);
+}
+
+function manifestKey(manifest) {
+  return String(
+    manifest?.id ||
+      `${manifest?.appid || ""}:${manifest?.depotid || ""}:${manifest?.manifestid || ""}:${manifest?.branch || ""}`
+  );
+}
+
+function flattenManifestPayload(payload) {
+  if (!payload) return [];
+  if (Array.isArray(payload)) return payload;
+  if (Array.isArray(payload.manifests)) return payload.manifests;
+
+  if (!Array.isArray(payload.depots)) return [];
+
+  return payload.depots.flatMap((depot) => {
+    const depotid = depot?.depotid;
+    const depotName = depot?.name || "";
+    const depotOs = depot?.os || "all";
+    const depotLanguage = depot?.language || "all";
+
+    return (depot?.manifests || []).map((manifest) => ({
+      ...manifest,
+      depotid: manifest.depotid || depotid,
+      depot_name: manifest.depot_name || depotName,
+      os: manifest.os || depotOs,
+      language: manifest.language || depotLanguage
+    }));
+  });
+}
+
+function normalizeManifestRecord(appid, manifest, observedAt) {
+  const depotid = Number(manifest?.depotid);
+  const manifestid = String(manifest?.manifestid || "").trim();
+  if (!Number.isFinite(depotid) || !manifestid) return null;
+
+  const source = manifest.source || manifest.source_type || "manual";
+  const firstSeen = manifest.first_seen_at || manifest.date || observedAt;
+  const lastSeen = manifest.last_seen_at || manifest.date || observedAt;
+  const downloadCommand = manifest.download_command || `download_depot ${appid} ${depotid} ${manifestid}`;
+
+  return {
+    id: manifest.id || `manifest-${appid}-${depotid}-${manifestid}`,
+    appid,
+    depotid,
+    depot_name: manifest.depot_name || manifest.name || `Depot ${depotid}`,
+    manifestid,
+    buildid: String(manifest.buildid || "unknown"),
+    branch: manifest.branch || "public",
+    os: manifest.os || "all",
+    language: manifest.language || "all",
+    date: manifest.date || firstSeen,
+    first_seen_at: firstSeen,
+    last_seen_at: lastSeen,
+    patch_note_id: manifest.patch_note_id || "",
+    confidence_score: Number.isFinite(Number(manifest.confidence_score)) ? Number(manifest.confidence_score) : 40,
+    source,
+    status: manifest.status || "unverified",
+    download_command: downloadCommand,
+    notes: manifest.notes || "Manifest connu, téléchargement non garanti."
+  };
+}
+
+function associateManifestToPatch(manifest, patches) {
+  if (manifest.patch_note_id || !Array.isArray(patches) || !patches.length) {
+    return manifest;
+  }
+
+  const manifestDate = new Date(manifest.date || manifest.first_seen_at || 0).getTime();
+  if (!Number.isFinite(manifestDate)) return manifest;
+
+  let bestPatch = null;
+  let bestDistance = Number.POSITIVE_INFINITY;
+
+  patches.forEach((patch) => {
+    const patchDate = new Date(patch.date || 0).getTime();
+    if (!Number.isFinite(patchDate)) return;
+    const distance = Math.abs(manifestDate - patchDate);
+    if (distance < bestDistance) {
+      bestDistance = distance;
+      bestPatch = patch;
+    }
+  });
+
+  if (!bestPatch) return manifest;
+
+  const days = bestDistance / 86400000;
+  if (days > 14) return manifest;
+
+  const temporalScore = Math.max(35, Math.round(90 - days * 8));
+  return {
+    ...manifest,
+    patch_note_id: bestPatch.id,
+    confidence_score: Math.max(Number(manifest.confidence_score || 0), temporalScore),
+    notes: `${manifest.notes || "Manifest connu."} Association patch note estimée par proximité temporelle.`
+  };
+}
+
+function buildDepotHistory(appid, existingPayload, incomingManifests, patches, observedAt) {
+  const existing = flattenManifestPayload(existingPayload)
+    .map((manifest) => normalizeManifestRecord(appid, manifest, observedAt))
+    .filter(Boolean);
+
+  const incoming = flattenManifestPayload(incomingManifests)
+    .map((manifest) => normalizeManifestRecord(appid, manifest, observedAt))
+    .filter(Boolean)
+    .map((manifest) => associateManifestToPatch(manifest, patches));
+
+  const history = new Map();
+
+  existing.forEach((manifest) => {
+    history.set(manifestKey(manifest), manifest);
+  });
+
+  incoming.forEach((manifest) => {
+    const key = manifestKey(manifest);
+    const previous = history.get(key);
+
+    if (previous) {
+      history.set(key, {
+        ...previous,
+        ...manifest,
+        first_seen_at: previous.first_seen_at || manifest.first_seen_at,
+        last_seen_at: observedAt,
+        confidence_score: Math.max(Number(previous.confidence_score || 0), Number(manifest.confidence_score || 0))
+      });
+      return;
+    }
+
+    history.set(key, {
+      ...manifest,
+      first_seen_at: manifest.first_seen_at || observedAt,
+      last_seen_at: observedAt
+    });
+  });
+
+  const depotsMap = new Map();
+
+  Array.from(history.values())
+    .sort((a, b) => new Date(b.first_seen_at || b.date || 0).getTime() - new Date(a.first_seen_at || a.date || 0).getTime())
+    .forEach((manifest) => {
+      const depotKey = String(manifest.depotid);
+      if (!depotsMap.has(depotKey)) {
+        depotsMap.set(depotKey, {
+          depotid: manifest.depotid,
+          name: manifest.depot_name || `Depot ${manifest.depotid}`,
+          os: manifest.os || "all",
+          language: manifest.language || "all",
+          manifests: []
+        });
+      }
+      depotsMap.get(depotKey).manifests.push({
+        manifestid: manifest.manifestid,
+        buildid: manifest.buildid,
+        branch: manifest.branch,
+        first_seen_at: manifest.first_seen_at,
+        last_seen_at: manifest.last_seen_at,
+        patch_note_id: manifest.patch_note_id,
+        confidence_score: manifest.confidence_score,
+        source: manifest.source,
+        status: manifest.status,
+        download_command: manifest.download_command,
+        notes: manifest.notes
+      });
+    });
+
+  return Array.from(depotsMap.values()).sort((a, b) => a.depotid - b.depotid);
+}
+
+async function writeManifestSnapshot(appid, observedAt, depots) {
+  const day = observedAt.slice(0, 10);
+  await writeJson(path.join(manifestSnapshotsDir, String(appid), `${day}.json`), {
+    appid,
+    scanned_at: observedAt,
+    source: "steam_appinfo_snapshot",
+    depots
+  });
+}
+
 async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampleManifests, generatedAt }) {
-  const trackedIds = resolveTrackedAppIds(trackedEntries);
+  const manualIds = await resolveManualAppIds();
+  const trackedIds = Array.from(new Set([...resolveTrackedAppIds(trackedEntries), ...manualIds]));
   const samplePatchesByApp = new Map();
   const sampleManifestsByApp = new Map();
 
@@ -462,6 +702,8 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
   for (const appid of trackedIds) {
     const appKey = String(appid);
     let patches = [];
+    const manualPatches = await loadManualPatches(appid);
+    const manualManifests = await loadManualManifests(appid);
     const existingPatchFile = await readJson(path.join(patchesDir, `${appid}.json`), { patches: [] });
     const existingManifestFile = await readJson(path.join(manifestsDir, `${appid}.json`), { manifests: [] });
 
@@ -484,10 +726,22 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
       patches = samplePatchesByApp.get(appKey) || [];
     }
 
+    patches = mergeByKey(patches, manualPatches, patchKey)
+      .map((patch) => ({ ...patch, appid }))
+      .sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+
     let manifests = Array.isArray(existingManifestFile.manifests) ? existingManifestFile.manifests : [];
+    if (!manifests.length && Array.isArray(existingManifestFile.depots)) {
+      manifests = flattenManifestPayload(existingManifestFile);
+    }
     if (!manifests.length) {
       manifests = sampleManifestsByApp.get(appKey) || [];
     }
+    manifests = mergeByKey(manifests, manualManifests, manifestKey).map((manifest) => ({ ...manifest, appid }));
+    const depots = buildDepotHistory(appid, existingManifestFile, manifests, patches, generatedAt);
+    const trackedSince = existingManifestFile.tracked_since || generatedAt;
+
+    await writeManifestSnapshot(appid, generatedAt, depots);
 
     await writeJson(path.join(patchesDir, `${appid}.json`), {
       appid,
@@ -498,13 +752,13 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
 
     await writeJson(path.join(manifestsDir, `${appid}.json`), {
       appid,
-      generated_at: generatedAt,
-      source: "steam-static-db",
-      manifests,
+      last_scanned_at: generatedAt,
+      tracked_since: trackedSince,
+      depots,
       notes:
-        manifests.length === 0
+        depots.length === 0
           ? "Aucun mapping manifest fiable disponible publiquement pour cet AppID."
-          : "Mappings de démonstration. Vérifier la validité avant usage."
+          : "Mappings issus de sources automatiques et/ou manuelles. Vérifier la validité avant usage."
     });
   }
 }
@@ -526,6 +780,15 @@ async function main() {
   await emptyDir(gamesDir);
   await fs.mkdir(patchesDir, { recursive: true });
   await fs.mkdir(manifestsDir, { recursive: true });
+  await fs.mkdir(manifestSnapshotsDir, { recursive: true });
+  await fs.mkdir(contributionsDir, { recursive: true });
+  const pendingManifests = await readJson(pendingManifestsFile, null);
+  if (!pendingManifests) {
+    await writeJson(pendingManifestsFile, {
+      updated_at: generatedAt,
+      manifests: []
+    });
+  }
 
   await writeJson(searchIndexFile, searchIndex);
 
