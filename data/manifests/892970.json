@@ -1,64 +1,76 @@
 {
   "appid": 892970,
-  "generated_at": "2026-05-14T00:55:42.996Z",
-  "source": "steam-static-db",
-  "manifests": [
+  "last_scanned_at": "2026-05-14T11:38:08.041Z",
+  "tracked_since": "2026-05-14T11:38:08.041Z",
+  "depots": [
     {
-      "id": "manifest-vh-1",
-      "appid": 892970,
       "depotid": 892971,
-      "manifestid": "1189435172299604470",
-      "buildid": "14533102",
-      "branch": "public",
+      "name": "Depot 892971",
       "os": "windows",
       "language": "all",
-      "date": "2024-05-16T16:35:00Z",
-      "patch_note_id": "patch-vh-1",
-      "confidence_score": 92,
-      "notes": "Mise à jour majeure, build principal très probable."
+      "manifests": [
+        {
+          "manifestid": "5553048082701490012",
+          "buildid": "14555218",
+          "branch": "public",
+          "first_seen_at": "2024-05-22T11:04:00Z",
+          "last_seen_at": "2026-05-14T11:38:08.041Z",
+          "patch_note_id": "patch-vh-2",
+          "confidence_score": 96,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 892970 892971 5553048082701490012",
+          "notes": "Hotfix dédié au réseau, correspondance temporelle forte."
+        },
+        {
+          "manifestid": "1189435172299604470",
+          "buildid": "14533102",
+          "branch": "public",
+          "first_seen_at": "2024-05-16T16:35:00Z",
+          "last_seen_at": "2026-05-14T11:38:08.041Z",
+          "patch_note_id": "patch-vh-1",
+          "confidence_score": 92,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 892970 892971 1189435172299604470",
+          "notes": "Mise à jour majeure, build principal très probable."
+        },
+        {
+          "manifestid": "7148136675026431715",
+          "buildid": "14211093",
+          "branch": "public",
+          "first_seen_at": "2024-02-08T14:36:00Z",
+          "last_seen_at": "2026-05-14T11:38:08.041Z",
+          "patch_note_id": "patch-vh-3",
+          "confidence_score": 81,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 892970 892971 7148136675026431715",
+          "notes": "Association correcte mais changelog partiellement communautaire."
+        }
+      ]
     },
     {
-      "id": "manifest-vh-2",
-      "appid": 892970,
       "depotid": 892972,
-      "manifestid": "3348225600749016631",
-      "buildid": "14533102",
-      "branch": "public",
+      "name": "Depot 892972",
       "os": "linux",
       "language": "all",
-      "date": "2024-05-16T16:41:00Z",
-      "patch_note_id": "patch-vh-1",
-      "confidence_score": 74,
-      "notes": "Même build, mais dépôt Linux parfois mis à jour en décalé."
-    },
-    {
-      "id": "manifest-vh-3",
-      "appid": 892970,
-      "depotid": 892971,
-      "manifestid": "5553048082701490012",
-      "buildid": "14555218",
-      "branch": "public",
-      "os": "windows",
-      "language": "all",
-      "date": "2024-05-22T11:04:00Z",
-      "patch_note_id": "patch-vh-2",
-      "confidence_score": 96,
-      "notes": "Hotfix dédié au réseau, correspondance temporelle forte."
-    },
-    {
-      "id": "manifest-vh-4",
-      "appid": 892970,
-      "depotid": 892971,
-      "manifestid": "7148136675026431715",
-      "buildid": "14211093",
-      "branch": "public",
-      "os": "windows",
-      "language": "all",
-      "date": "2024-02-08T14:36:00Z",
-      "patch_note_id": "patch-vh-3",
-      "confidence_score": 81,
-      "notes": "Association correcte mais changelog partiellement communautaire."
+      "manifests": [
+        {
+          "manifestid": "3348225600749016631",
+          "buildid": "14533102",
+          "branch": "public",
+          "first_seen_at": "2024-05-16T16:41:00Z",
+          "last_seen_at": "2026-05-14T11:38:08.041Z",
+          "patch_note_id": "patch-vh-1",
+          "confidence_score": 74,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 892970 892972 3348225600749016631",
+          "notes": "Même build, mais dépôt Linux parfois mis à jour en décalé."
+        }
+      ]
     }
   ],
-  "notes": "Mappings de démonstration. Vérifier la validité avant usage."
+  "notes": "Mappings issus de sources automatiques et/ou manuelles. Vérifier la validité avant usage."
 }
