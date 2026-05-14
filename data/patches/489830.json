@@ -1,0 +1,201 @@
+{
+  "appid": 489830,
+  "generated_at": "2026-05-14T01:33:35.453Z",
+  "source": "steam-static-db",
+  "patches": [
+    {
+      "id": "steam-news-489830-1826362059922471",
+      "appid": 489830,
+      "title": "Adventure awaits in these Skyrim Creations!",
+      "version_detected": "",
+      "date": "2026-03-05T20:42:14.000Z",
+      "type": "content",
+      "content": "Legacy of OrsiniumBy VeelpootNew adventures await from the creators of Lordbound! Prove your worth to the Agra Crun, as the might of Orsinium descends upon a humble stronghold. Travel through the expanded mines of Mor Khazgur, inspired by the events in The Elder Scrolls Online and uncover the secrets of a long-forgotten Orcish tomb.Legacy of Orsinium: A new professionally-voiced storyline with multiple endings for the Orc stronghold of Mor Khazgur!Orc Strongholds Quests: new side quests for all Orc strongholds: Narzulbur, Dushnikh Yal and even Largashbur!Armors & Artifacts: unique items & quest rewards inspired by the Orsinium DLC from The Elder Scrolls Online.Epic Dungeons: new dungeons made by veteran modder RoKMod, best known for his dungeons in Lordbound and Children of Ug-Qualtoth.Defenders of Hla’ruhnBy MysticMadmanSeek out and recruit Nammu-ko, an honorable Khajiit mercenary currently lodging at the Bannered Mare. She and many other Defenders of Hla’ruhn - a bustling trading town in the Sea of Ghosts - have journeyed to Skyrim in hopes of aiding in the fight against the dragon menace. Claim five glorious new sets of armor of Hlaalu craftsmanship, and uncover Nammu-ko’s hidden past!Five beautifully crafted armor sets of traditional Hlaalu design.A fully voiced Follower, Nammu-ko, featuring an emotional character arc.Fourteen newly added Defenders of Hla'ruhn, hand-placed throughout Skyrim.Aetherspire CastleBy PrincessMelyJourney on a quest to explore the mysterious castle that has suddenly appeared in the sea of ghosts, in Skyrim’s far north. Meet new characters, discover hidden treasures, and claim Aetherspire Castle as your own, in this new mystical experience.Aetherspire is a full-fledged player home complete with an alchemy garden, throne room, training rooms, dining room, blacksmiths, library, kitchen, dressing hall, bathhouse, and a master bedroom. Aetherspire also features portals to every major settlement, and many secret items to be found.Thief HideoutsBy: TheRealElianoraA small hideout in every major city (Riften, Solitude, Whiterun, Windhelm and Markarth) for your thief character. They can be accessed through wells in the cities.STATIC CLUTTER -...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059922471",
+      "source_type": "manual",
+      "keywords": [
+        "mod",
+        "ui",
+        "quest",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-489830-1815034432906499",
+      "appid": 489830,
+      "title": "Find your next Skyrim adventure in these mini DLC-sized Creations!",
+      "version_detected": "",
+      "date": "2025-10-31T14:38:02.000Z",
+      "type": "content",
+      "content": "Coven of Crones by HightaleCoven of Crones is an exciting new land and quest creation, which explores a secretive plot orchestrated by Anise and her coven of Hags, who have settled in a mysterious land once home to druids, but now a cesspool of lost souls doomed to be fodder to the Crones' wicked scheme. Explore The Blighted Marsh, a Solstheim-sized island encased by raging storms in the Sea of Ghosts. and fight to unravel Anise's plans. The Marsh is home to new custom creatures to slay, professional grade voice acted quests to complete, dungeons to explore, and many additions to aid you in your future adventures.Laylana: a companion creationBy TheOscar0Laylana is a fully voiced companion creation. After recently leaving her estate in the Imperial Province for the first time, Laylana wishes to see the wonders of Skyrim. But she does not want to do so alone. Take Laylana with you as your companion, travel across Skyrim and undertake quests together. This follower creation includes:• Over 1300 lines of fully voiced professional dialogue, including: in depth character story, quest and location commentary, extensive combat lines, and more witty remarks than you'll know what to do with!• An affinity system. Laylana's relationship with you will change depending on how you treat her and the actions you take. Be kind to her and she will think of you as a great friend. Treat her poorly, and she may just leave you altogether.• The option to romance her. Travel with her for some time, treat her well, say the right things, and she may be open to more than just a friendship.• A combat capable companion. Laylana is a strong mage proficient with many spells that will level alongside you.A Tale of Blood and SnowBy DarthVitrialDecide the future of Skyrim’s vampires in this DLC-sized story Creation! Lead the Quarra or Cronvangr clans to victory over their rivals as a vampire or stay mortal and help the Vigilants of Stendarr purge Skyrim of both clans!For millennia, the vampire clans of the Old Holds have been led by the venerable Cronvangr Clan. But as the Fourth Era enters its third century, the Cronvangr find themselves challenged by the Quarra Clan of Morrowind, who seek to es...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034432906499",
+      "source_type": "manual",
+      "keywords": [
+        "ui",
+        "quest"
+      ]
+    },
+    {
+      "id": "steam-news-489830-6258337460562640347",
+      "appid": 489830,
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.6.640",
+      "version_detected": "1.6.640",
+      "date": "2022-09-20T18:20:48.000Z",
+      "type": "hotfix",
+      "content": "Update Version 1.6.640 PC (Steam): 25.9MB FIXES Resolved issue preventing some mods from properly loading. Resolved an issue causing the player's Creation Credit balance to display incorrectly after immediately purchasing credits. Resolved issue preventing player from purchasing the pet Nix-Hound in some non-English languages. Resolved issue preventing player from purchasing horse armor in some non-English languages.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6258337460562640347",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "balance",
+        "mod",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-489830-6258337460543332485",
+      "appid": 489830,
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.6.629",
+      "version_detected": "1.6.629",
+      "date": "2022-09-15T11:09:05.000Z",
+      "type": "hotfix",
+      "content": "Update Version 1.6.629 PC (Steam): 196.5MB NEW FEATURES Added \"Installed Content\" menu item. FIXES Fixed mods access for Japanese and Chinese regions. Fixed some Creations showing as 'Owned' but not installed.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6258337460543332485",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "content",
+        "mod"
+      ]
+    },
+    {
+      "id": "steam-news-489830-4224939386876509763",
+      "appid": 489830,
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.6.353",
+      "version_detected": "1.6.353",
+      "date": "2022-01-06T15:04:10.000Z",
+      "type": "hotfix",
+      "content": "Update Version 1.6.353 PC (Steam): 74.5MB FIXES Fixed an issue causing PC players (Steam and Microsoft Store) to crash when entering Kolbjorn Barrow and the Dawnstar Museum.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4224939386876509763",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "crash"
+      ]
+    },
+    {
+      "id": "steam-news-489830-4224936849665461638",
+      "appid": 489830,
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.6.342",
+      "version_detected": "1.6.342",
+      "date": "2021-12-13T15:36:09.000Z",
+      "type": "hotfix",
+      "content": "Update Version 1.6.342 PC (Steam): 25.2MB FIXES Added additional translations when downloaded creations Fixed Ash Zombies respawning and finding the player in their home (Ghost of the Tribunal) Fixed light flicker in the Ragged Flagon Cistern Fixed Palomino Horses missing mane textures Fixed an issue some PC Steam players were experiencing when trying to upgrade using their keyboard Fixed an issue where Creation Club Bundles were incorrectly showing as “owned” Fixed an issue some players experienced when trying to change button mapping. Fixed crashing issue when spam casting Fireball.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4224936849665461638",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "crash"
+      ]
+    },
+    {
+      "id": "steam-news-489830-4227186657155872732",
+      "appid": 489830,
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.6.323",
+      "version_detected": "1.6.323",
+      "date": "2021-11-22T15:45:53.000Z",
+      "type": "hotfix",
+      "content": "Update Version 1.6.323 PC (Steam): 28.5 MB FIXES Fixed a problem preventing some doors in Rielle from opening properly. Fixed an issue where Russian and Polish notes were not displaying text properly. Fixed an issue where German and French players were given incorrect menu text when leveling up. Fixed an issue where players were experiencing a “black screen” and upon launching.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4227186657155872732",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-489830-4971405952699782913",
+      "appid": 489830,
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.6",
+      "version_detected": "1.6",
+      "date": "2021-11-11T05:52:52.000Z",
+      "type": "hotfix",
+      "content": "The Elder Scrolls V: Skyrim Anniversary Edition is available now. For more information on the Anniversary Edition, visit our article here. Please find the update notes for The Elder Scrolls V: Skyrim Anniversary Edition below. Update Version 1.6 PC (Steam): 5.3 GB FIXES General performance optimizations Minor art and lighting fixes Adjusted creation quests so they no longer start upon leaving Helgen Bug fixes and balance updates to the following Creations: • Alternative Armors – Daedric Mail • Alternative Armors – Elven Hunter • Alternative Armors – Ebony Plate • Alternative Armors – Ebony Plate • Arcane Archer Pack • Bone Wolf • Dawnfang & Duskfang • Dead Man's Dread • Chrysamere • Civil War Champions • Divine Crusader • Forgotten Seasons • Goblins • Hendraheim • Myrwatch • Pets of Skyrim • Plague of the Dead • Rare Curios • Ruin’s Edge • Saints and Seducers • Saturalia • Spell Knight Armor • Staff of Sheogorath • Stendarr's Hammer • Sunder & Wraithguard • Survival Mode • Tundra Homestead",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4971405952699782913",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "bug",
+        "fix",
+        "balance",
+        "mod",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-489830-4186653626163607755",
+      "appid": 489830,
+      "title": "A LOOK AT SKYRIM’S UPCOMING ANNIVERSARY EDITION",
+      "version_detected": "",
+      "date": "2021-11-10T22:13:38.000Z",
+      "type": "content",
+      "content": "In celebration of The Elder Scrolls V: Skyrim’s tenth anniversary, we’re excited to dive deeper into the Skyrim Anniversary Edition, the most comprehensive edition of the game released to date, and new Creation Club content – both coming this November. ENHANCE YOUR EXPERIENCE WITH FOUR FREE CREATIONS 10 years of Skyrim is a big occasion, so we’re giving away not one, but four creations away to owners of Skyrim Special Edition, adding additional quests to uncover, gear to equip and yes, fish to catch: Saints & Seducers Originally released in 2019, this creation introduces an additional storyline across two quests (complete with side quests) for players to delve into. With additional armor sets, weapons, enemies and much more to discover, Saints & Seducers features some of the largest amounts of content we’ve ever packed into a single creation! Rare Curios Included as part of Saints & Seducers, the Rare Curios creation brings additional goods imported from all over Tamriel to Skyrim’s Khajiit Caravans. So long as you have coin, these merchants can supply you with all sorts of useful wares, including ingredients to concoct special potions, arrows and poisons! Survival Mode Looking to immerse yourself in Skyrim’s untamed wilderness like never before? Previously released in 2017, the Survival Mode creation has your Dragonborn contend with the very elements of Skyrim itself to survive! Players must wear warm gear and seek shelter in cold climates to keep from freezing to death, as well as mind their hunger and exhaustion on top of the usual threats like pesky bandits and ambushing dragons. Thankfully, Skyrim is rich in food to harvest (or scavenge), weather-appropriate armor and even taverns to rest your weary head. If you’re looking for a different way to experience Skyrim, we highly recommend you check Survival Mode out! Fishing On the topic of obtaining your own food, Skyrim’s all-new Fishing mode creation lets you angle over 20 unique aquatic species across the area’s many bodies of water. Cook your catch for a meal, display it as trophy in your den or even keep it inside your own home aquarium – the choice is yours! With many of Skyrim’s fishing spots located in ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4186653626163607755",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "mod",
+        "ui",
+        "quest"
+      ]
+    },
+    {
+      "id": "steam-news-489830-2140760316608552508",
+      "appid": 489830,
+      "title": "Skyrim Special Edition 1.5.16 Update",
+      "version_detected": "1.5.16",
+      "date": "2017-11-07T17:05:45.000Z",
+      "type": "hotfix",
+      "content": "A new update is now available for Skyrim Special Edition (v.1.5.16). If you run into any issues or have any feedback, please let us know here or on our official support forums: https://bethesda.net/community/category/89/pc-se For a full list of fixes and changes, please see the list below. Bug Fixes Fixed issue with rate of critters respawning in world Fixed issues with screenshots displaying incorrectly in Creation Club/Mods Message of the Day heading revised Changed logic for how Creation Club content is initialized Minor bug fixes to Bethesda.net",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2140760316608552508",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "content",
+        "mod"
+      ]
+    },
+    {
+      "id": "steam-news-489830-4249665521684580466",
+      "appid": 489830,
+      "title": "Skyrim Special Edition 1.5.16 Update",
+      "version_detected": "1.5.16",
+      "date": "2017-11-07T17:05:45.000Z",
+      "type": "hotfix",
+      "content": "A new update is now available for Skyrim Special Edition (v.1.5.16). If you run into any issues or have any feedback, please let us know here or on our official support forums: https://bethesda.net/community/category/89/pc-se For a full list of fixes and changes, please see the list below. Bug Fixes Fixed issue with rate of critters respawning in world Fixed issues with screenshots displaying incorrectly in Creation Club/Mods Message of the Day heading revised Changed logic for how Creation Club content is initialized Minor bug fixes to Bethesda.net",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4249665521684580466",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "content",
+        "mod"
+      ]
+    },
+    {
+      "id": "steam-news-489830-2175660043461256697",
+      "appid": 489830,
+      "title": "Skyrim Special Edition's Survival Mode",
+      "version_detected": "",
+      "date": "2017-09-27T15:08:44.000Z",
+      "type": "content",
+      "content": "http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/clans/25333721/0a04a5ab743ba2af256b0940cd933407da12cf96.png EDIT: This is now live. Thank you for your continued feedback. Feel free to post here, discussion, our on our official forums. Thanks again! Skyrim Creation Club’s all-new Survival Mode, is now available on Steam beta. You can be one of the first to check it out by simply opting-into the beta. Survival Mode adds new gameplay features and challenges to transform Skyrim into a land of unrelenting cold and harsh wilderness. Instructions for how to opt-in to the beta are provided below. Before you do that, there are a few important details to note. We welcome your feedback and thoughts on what you’d like to see and any issues you run into. You are encouraged to let us know here on Steam or in our Official Beta Forums. Please Note: Once you opt-in to the Skyrim Creation Club beta, Survival Mode will no longer work if you back out. Additionally, we cannot accept any feedback or aid in any issues experienced if you opt-in to the beta with mods installed. Last but not least, please be sure to back up your saves before opting in to the beta. For more information on Survival Mode, please see our post on Bethesda.net. Instructions on how to access the beta: Log into Steam. Right Click on The Elder Scrolls V: Skyrim Special Edition in your Library. Select Properties. Select Betas. A drop down menu will appear. Select the available beta option Select OK. Wait for the game to update.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2175660043461256697",
+      "source_type": "manual",
+      "keywords": [
+        "mod"
+      ]
+    }
+  ]
+}

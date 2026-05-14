@@ -1,0 +1,213 @@
+{
+  "appid": 108600,
+  "generated_at": "2026-05-14T01:33:35.453Z",
+  "source": "steam-static-db",
+  "patches": [
+    {
+      "id": "steam-news-108600-1832065502820909",
+      "appid": 108600,
+      "title": "Build 42.18.0 Unstable Released",
+      "version_detected": "42.18.0",
+      "date": "2026-05-11T11:08:10.000Z",
+      "type": "hotfix",
+      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". NEW Added new Weapon Reload animations for lever action rifles and shotguns Added Option to Accessibility section to automatically pause the game when reading maps. If enabled the game will unpause when a map is closed. Important: this setting is known to freeze the map screen on controllers. A fix will be included in an upcoming patch, but it's recommended that controller users disable this feature for the time being. Added keybind for \"Sit on Ground\" action Updated assets for propane tanks to reflect US standards Added some new garbage bins to Spiffos and PizzaWhirled BALANCE Park Ranger occupation now has +1 Carving, and no longer has +1 Tracking Rancher occupation now has +1 Fitness, and no longer has +1 Agriculture Improvised Gas Mask has been rebalanced Clean rags can be used as Rag Filters in Improvised Gas Masks Not as powerful as commercial gas masks / respirators, but more powerful than wearing a bandana Rag Filters with 20L base.Canteen, base.CanteenMilitary - 500ml -> 900mL base.CanteenCowboy - 1L -> 1.8L base.HydrationBackpack - 1L -> 2L base.HydrationBackpack_Camo - 1L -> 3L base.BeerEmpty - 1L -> 300mL MODDING Non-base Module Recipes now work in MP Fixed \"Game Crash with Missing Recipe Items\" Improved Craft History (added cleanup) Added \"getModTags()\", \"setTags()\" for CraftRecipe. Added \"getItems()\" for InputScript Fixed File writers bug. Now it return null, when initialized incorrectly. Returned Tag \"FITS_CLOTHING_RACK\" for items for clothing rack. Added Event \"SyncFactionServer(factionName, isRemove)). It triggers on any change in faction. Added Texture field for Trait Script. Now you can set path to texture for Trait. Fixed Mod Foraging Icon bug. Now it possible to collect mod items by Foraging. Added public methods for zombie: \"doCrawlerSpeed(zombieSpeed)\", \"doSprinter()\", \"doF...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502820909",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "balance",
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1832065502816211",
+      "appid": 108600,
+      "title": "SPRING IS HERE",
+      "version_detected": "42.18",
+      "date": "2026-05-08T20:18:06.000Z",
+      "type": "hotfix",
+      "content": "Happy May, Survivors! Glad to see you made it through the winter. {STEAM_CLAN_IMAGE}/4460946/38f462d03fe96f02cb08217ed825ac57f92bde27.png Build 42.18 Unstable will be releasing soon, so here is a quick preview of what to expect. This update primarily focuses on modding improvements and bug fixing across both Single and Multiplayer, with some light balance changes. As always, we strongly recommend starting a fresh save with each update and backing up any existing ones before updating. So put down that zombie corpse you’ve been dragging and let’s take a sneak peek at what’s coming: MODDING AND MULTIPLAYER POLISH The team has been working hard on modding support, including backend support for some multiplayer mods that were affected by recent security updates, new exposed functions for modders, and fixes for several issues with the potential to cause errors related to mods. This is an ongoing effort, so modders can expect more polish in upcoming releases. More Multiplayer polish and bug fixes are coming with this update, including improved sound propagation for distant events to players, fixes for muscle strain being applied improperly to some clients, and a wide swath of issues and optimization related to vehicles hitting players. Be sure to check out the update notes for the full (long) list of MP fixes and optimizations when it is released. BALANCE AND OCCUPATION TWEAKS While relatively light in this update, there will be some balance tweaking. On the Occupation front, we have some minor adjustments: Rancher now receives a bump in Fitness rather than Agriculture, as this is more fitting with their athletic job. Park Ranger now receives Carving in place of Tracking, reflecting their broad forestry skillset and ability to maintain wood-handled tools. Along with some related bug fixes, Improvised Gas Mask Filters are getting a rework for the folks who wade through piles of zombie corpses. This change bridges the gap between standard Gas Masks and simple Bandanas while providing a renewable source of early-to-mid game protection. And remember, while Gas Masks provide some protection against generator fumes indoors, that won’t last long and definitely violates the ma...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502816211",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "balance",
+        "multiplayer",
+        "mod",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1830163047266254",
+      "appid": 108600,
+      "title": "Build 42.17.0 Unstable Released",
+      "version_detected": "42.17.0",
+      "date": "2026-04-20T14:52:42.000Z",
+      "type": "hotfix",
+      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". NEW The Survival Guide has been updated with new content Added additional static spawn points to Sandbox Mode Brandenburg Echo Creek Ekron Fallas Lake Irvington March Ridge Valley Station Added new Skill VHS tapes Aiming Animal Care Blacksmithing Electrical First Aid Knapping Pottery Tailoring Welding Fluid container empty rates now depend type of container Added book \"The Moments of Darius\" by Ignas Updated Pet Name list in memoriam UI/CONTROLLER Additional WIP controller changes have been implemented. (Please keep providing feedback. It has been extremely valuable.) The ability to customise controls in-game still requires additional work, and will be included in a future update. Added dedicated Credits Screen In-Game UI improvements Clamp XUI to screen size Rearranged and compacted Crafting window craft control box Reduced size of input item boxes Rearranged and compacted recipe filter box Compacted Building window input panel Reduced size of output item boxes Fixed Crafting window input and output panels Reduced preferred width of handcraft window Reduced preferred width of build window Compacted craft inventory panel Improved scale of Admin Powers window Host loading bar width has been resized BALANCE Game Mode Defaults Updated Apocalypse Chance for vehicles to spawn with gas increased from \"Low\" to \"Normal\" Increased \"Other\" loot spawn rate from 0.6 to 0.8 Increased \"Wound Infection Damage Factor\" from 0.0 to 1.0 Extinction Increased \"Wound Infection Damage Factor\" from 0.5 to 1.0 Outbreak Increased \"Other\" loot spawn rate from 0.6 to 0.8 Increased \"Wound Infection Damage Factor\" from 0.0 to 1.0 Rising Increased \"Other\" loot spawn rate from 0.6 to 1.0 Increased \"Wound Infection Damage Factor\" from 0.0 to 1.0 Sandbox Vehicle \"Chance Has Gas\" setting value of \"Normal\" reduced from 70 to 45 Occ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047266254",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "balance",
+        "content",
+        "mod",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1830163047261202",
+      "appid": 108600,
+      "title": "Location, Location",
+      "version_detected": "42.17",
+      "date": "2026-04-17T19:11:01.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/4460946/9973551bd1653b253e986b8e16450df165a35eb9.png Hello Survivors, we hope your shelter is keeping you dry and warm! Shortly we plan on releasing Build 42.17 Unstable, which contains some new sandbox options, balancing changes, and (as usual), tons of bug fixes and Multiplayer stability improvements. A lot of this content was based on your feedback, so please keep it coming! While 42.16 saves should convert to 42.17, there are always potential issues with converting saves between Unstable builds, so as always we recommend starting a fresh save with each update, and backing up any existing ones before updating. So turn off Life and Living and let’s jump right in: NEW SANDBOX LOCATION OPTIONS For Sandbox players, there is now an option to choose from each of the “Exclusion Zone” towns to start in when creating a new Sandbox game. This gives players more options when setting up custom gameplay scenarios. When choosing this option, please keep in mind that Occupational Spawns are not supported outside of the four ‘canon’ starting towns, and your spawn location will be much more static when using non-canon starts. BALANCE TWEAKING While less broad than the 42.16 Occupation Revamp, 42.17 does bring some important fixes and tweaks to Occupations and Traits. Chefs now properly use blades instead of blunts to do their cooking, Farmers receive a Strength boost reflecting their heavy workload, and DIY Experts now receive the Inventive trait to represent their ability to…DIY. Several Occupations have also had their point costs reduced based on observed usage impact. On the Trait side of things, Smoker and High Thirst will get a small Trait point boost, reflecting overall B42 game system changes affecting their impact on gameplay. Nutritionist will also be a bit more palatable cost wise as it primarily provides information. Additionally, one big new option for Multiplayer servers is the ability to enable Sprinters if desired! This should still be considered a prototype, and we are actively on the lookout for edge cases that may come up under heavy server loads. LOOT ADJUSTMENTS One set of items that players will be able to find in the world is an entire...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047261202",
+      "source_type": "manual",
+      "keywords": [
+        "stability",
+        "bug",
+        "fix",
+        "balance",
+        "content",
+        "multiplayer"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1829528821318104",
+      "appid": 108600,
+      "title": "Charity Merch Update",
+      "version_detected": "",
+      "date": "2026-04-14T15:18:00.000Z",
+      "type": "major",
+      "content": "{STEAM_CLAN_IMAGE}/4460946/195b23eb99e439fce0dd605644edb6d3b7905950.png Hey all! This is just a quick and happy update for those who had been following our recent \"Brawler Spiffo\" merch drop in support of Médecins Sans Frontières. Thanks to the amazing support of the Project Zomboid community, we were able to raise more than $180,000 (USD) to support the amazing and important work of MSF! In addition to this, our merch partner Makeship contributed a further 5% of all proceeds! A big thank you to everyone who contributed or shared, and we hope you're enjoying your PZ merch, whether it be a badass plush Spiffo or a cozy hoodie. More merch will be coming later in the year! As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821318104",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1829528821304702",
+      "appid": 108600,
+      "title": "Patching a Zero Day Exploit",
+      "version_detected": "",
+      "date": "2026-04-08T15:55:10.000Z",
+      "type": "content",
+      "content": "On April 7th, we received reports from multiple users regarding a mod that was allegedly generating malicious code when run. We immediately investigated the mod in question, which contained heavily obfuscated code, and confirmed that it was creating malicious files outside of the Project Zomboid directory. Further investigation revealed that the same user had uploaded a total of 14 mods, all containing the same exploit. These mods had been installed on between 500 and 2200 devices. The user has since been banned, and all affected mods have been removed from the Steam Workshop. At this time, the full scope and behavior of the malicious files have not been fully determined. However, because these mods were capable of creating files outside the game directory, we strongly recommend that anyone who downloaded them take appropriate security measures to ensure their system is safe. Simply uninstalling the mods is not sufficient. Affected Mods - Risk of Rain 2 OST (True MoooZIC) Workshop ID: 3681934105 - Mod ID: RiskOfRain2Music - Risk of Rain 1 OST (True MoooZIC) Workshop ID: 3681810963 - Mod ID: RiskOfRain1Music - NieR: Automata OST (True MoooZIC) Workshop ID: 3681765529 - Mod ID: NierAutomataMusic - Katana ZERO OST (True MoooZIC) Workshop ID: 3681764942 - Mod ID: KatanaZeroMusic - Persona 5 OST (True MoooZIC) Workshop ID: 3681756112 - Mod ID: Persona5Music - Jujutsu Kaisen S1 OST (True MoooZIC) Workshop ID: 3681755051 - Mod ID: JujutsuKaisenMusic - Hotline Miami 2: Wrong Number OST (True MoooZIC) Workshop ID: 3681719339 - Mod ID: HotlineMiami2Music - Hotline Miami OST (True MoooZIC) Workshop ID: 3681718339 - Mod ID: HotlineMiami1Music - Silent Hill OST (True MoooZIC) Workshop ID: 3681477980 - Mod ID: SilentHillMusic - Cowboy Bebop OST (True MoooZIC) Workshop ID: 3681476976 - Mod ID: CowboyBebopMusic - Metal Gear Rising: Revengeance Vocal Tracks (True MoooZIC) Workshop ID: 3681339955 - Mod ID: MGRRevengeanceMusic - Classic Roblox Music (True MoooZIC) Workshop ID: 3681335952 - Mod ID: RobloxClassicMusic - DELTARUNE Ch3+4 Music (True MoooZIC) Workshop ID: 3681334251 - Mod ID: DeltaruneCh34Music - Minecraft Alpha+Beta OST (True MoooZIC) Workshop ID: 3680972796 - Mod ID:...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821304702",
+      "source_type": "manual",
+      "keywords": [
+        "mod",
+        "quest"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1829528821304362",
+      "appid": 108600,
+      "title": "Stable(41.78.19) + UNSTABLE(42.16.3) Hotfixes Released",
+      "version_detected": "41.78.19",
+      "date": "2026-04-08T13:49:00.000Z",
+      "type": "hotfix",
+      "content": "STABLE (41.78.19) - Security Vulnerability Update UNSTABLE (42.16.3) - Fixed an exception in Server Browser - Security Vulnerability Update As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821304362",
+      "source_type": "manual",
+      "keywords": [
+        "fix"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1829528821303710",
+      "appid": 108600,
+      "title": "42.16.2 UNSTABLE Hotfix Released",
+      "version_detected": "42.16.2",
+      "date": "2026-04-08T09:48:50.000Z",
+      "type": "hotfix",
+      "content": "GAMEPADS AND CONTROLS - Right-click no longer toggles forceAim conflicting with RMC menu. Now waits slightly longer before engaging, so that RMC menu doesn't pop up. - Gamepad interactions with UI and Vehicles. -- Controller users can now move or perform actions while the inventory is open -- Vehicle radial menu isn't being interrupted by the player aim anymore -- Switching seats no longer makes the player exit the vehicle -- Squeezing right-trigger for gas pedal no longer activates aim while driving (requires both right-stick and trigger to aim in vehicles) - ToggleToAim no longer breaks for melee/unarmed. - Fixed characters getting stuck at rotating character at the start of the tutorial on controller As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821303710",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1828894815557868",
+      "appid": 108600,
+      "title": "42.16.1 UNSTABLE Hotfix Released",
+      "version_detected": "42.16.1",
+      "date": "2026-04-02T15:49:33.000Z",
+      "type": "hotfix",
+      "content": "Just a heads-up: thanks for reporting the controller issues and bugs in the latest patch! We’ve logged them all and while we couldn't squeeze every fix in before the Easter holidays, they are already cooking and will be released as soon as possible! FIXES - (Server Browser) IP Addresses now hidden by default. Toggle check-box to reveal - Fixed GameClientConcurrentModification Exception when remote players time out - Fixed Park Ranger's herbalist trait being a trait point exploit - (MP Exploit) Creating a new character causes errors and the dead character reappears after reconnecting",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815557868",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1828441623111900",
+      "appid": 108600,
+      "title": "Build 42.16.0 Unstable Released",
+      "version_detected": "42.16.0",
+      "date": "2026-03-31T11:00:30.000Z",
+      "type": "hotfix",
+      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". IMPORTANT: B42.15 and earlier saves will not be compatible with B42.16+ builds. If you wish to continue a 42.15 savegame, please select the \"outdatedunstable\" Steam beta and make a local backup of your game. UI UPDATES - Added new Game Mode UI menu - Updated loading screen tips - Campfires, BBQ's, Fireplaces now supported in revamped RMC system - New highlight added when mouse-over container with same highlight as moused-over \"on ground\" item in loot UI menu - Changed default size of the various main screen UIs - Anchor permanent Oven/Campfire/etc options to the lower-right of the loot UI to prevent conflicts with loot options - Improved context-menu handling of window frames without windows - Vehicle Lightbar Control UI Panel can now be repositioned - Transfer liquid UI will default to maximum transfer amounts instead of 'none' when appropriate - Disabled Welcome Text Box BALANCE - Occupation Balance Pass -- Overall: Generalized increase in skill points added for core profession competency -- Rebalanced Occupation cost and adjusted included skills affecting most Occupations -- Occ Affected: Police Officer, Park Ranger, Construction Worker, Security Guard, Carpenter, Chef, Rancher, Farmer, Electrician, Fishing Guide, Doctor, Nurse, Welder, Blacksmith, Mechanic -- Renamed Fire Officer to Firefighter -- Renamed Angler to Fishing Guide - Trait Balance Pass -- New Traits Added: Tinkerer: +1 Maintenance, Target Shooter: +1 Aiming -- Renamed Wilderness Knowledge to Bushcrafter -- Increased cost for Cat's Eyes and Wakeful -- Decreased cost for First Aider and Iron Gut -- Increased bonus for Illiterate and Reluctant Fighter -- Decreased bonus for Weak Stomach -- 'Start fire speed with Bow Drill' bonus removed from Outdoorsey and added to Bushcrafter and Former Scout -- Desensitized trait now also provide...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623111900",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "balance",
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1828441623110846",
+      "appid": 108600,
+      "title": "Balancing Time",
+      "version_detected": "42.16",
+      "date": "2026-03-30T23:15:50.000Z",
+      "type": "hotfix",
+      "content": "Greetings Survivors, we hope this update finds you bite-free! This week, we plan on releasing Build 42.16 Unstable, and we wanted to let you know ahead of time some of the changes coming with it. Along with continuing stabilization in Multiplayer and general bug-stomping, this update has a strong focus on balancing! Full update notes will be included in the release, of course, but here is a preview and some important information. So pop some beta-blockers and let’s dive right in: OCCUPATIONS & TRAITS The biggest balance changes you are going to see in this update primarily focus on Occupations and Traits. All existing Occupations are still available (some with refreshed names), but starting skills and costs have been reworked, with an aim to give players the feeling of being professionals rather than apprentices. Just a few examples include: Carpenter having higher starting Carpentry than you can learn from a TV show, Construction Worker now having Blunt skills split between Long and Short to reflect broader tool knowledge, and Nurse starting with higher First Aid and the Night Owl Trait to reflect their background in medical shift work. There are also two new Traits, Tinkerer and Target Shooter, so you can get a bump to your Maintenance and Aiming respectively. Several existing Traits have also had their costs adjusted to better reflect their value in relation to current gameplay features, and Veterans no longer notice Discomfort via an updated Desensitized Trait, as they are very used to being uncomfortable. AND MORE BALANCE Along with the Occupations updates, there are a broad set of additional changes, including UI and menu polishing, tweaks to firearm attachments (with new 3D art!), Stress no longer being caused by Zeds banging fences, and a reworked Tailoring recipe layout aimed at rewarding crafting new items over grinding. Game Modes have also received some minor changes based on feedback and player observations. These include a slight reduction of firearm spawns, more fresh food in canon modes, and a general reduction in world erosion speeds. Extinction Mode now contains day Sprinters, so sunlight is no longer a respite to your rapidly impending demise....",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623110846",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "balance",
+        "multiplayer",
+        "mod",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1827626365750608",
+      "appid": 108600,
+      "title": "[Updated 2026-03-20] Important Security Updates",
+      "version_detected": "41.78.18",
+      "date": "2026-03-18T15:30:10.000Z",
+      "type": "hotfix",
+      "content": "- We have pushed additional hotfixes to fix rare crash bugs for both the stable and unstable branches. The version numbers below have been updated to reflect the current versions. On the 3rd of March we were made aware of a significant security vulnerability in the game thanks to a member of our modding community, copiumsawsed, who responsibly reported the issue to us. We immediately investigated the vulnerability, and were fortunately able to patch it on the main stable branch, and on the unstable branch that same day. We were however unable to patch every legacy version in that time frame, and rather than leave the vulnerability in place until we were able to patch every version, we opted to temporarily remove all of the legacy versions from circulation. Over the following days we patched the legacy versions, and eventually brought them back. Shortly after that incident we received another report from a member of our amazing modding community, Albion, while at the same time we were conducting our own internal security audit. We immediately began investigating the reported issue, and confirmed it, as well as some additional issues that our internal audit identified. These new vulnerabilities were more complex to resolve, however our team has been working diligently since the report to patch the issues, and today we have released patches to a number of our branches. Legacy versions that could not yet be patched have again been removed from official circulation to ensure user safety. The current available versions are: Default Public Version -> 41.78.18 unstable -> 42.15.3 outdatedunstable -> 42.15.2 (this will lag 1 minor version behind unstable going forward) Like the vulnerability reported on the 3rd of March, these new vulnerabilities only affected mods, and we have received no reports of anyone being affected in a malicious way due to these issues, nor have we seen anybody being exploited in the wild. Nevertheless, we have both a legal and an ethical responsibility to ensure that our users are protected, and so some difficult decisions had to be made. Unfortunately, due the extensive work required to patch these vulnerabilities, legacy versions will remain u...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365750608",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod",
+        "ui",
+        "event",
+        "crash"
+      ]
+    }
+  ]
+}
