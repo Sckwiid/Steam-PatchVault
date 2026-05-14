@@ -25,6 +25,10 @@
 
   var root = document.getElementById("app");
   var toastContainer = document.getElementById("toast-container");
+  var guideAssets = {
+    nonSteamMenu: "https://lh3.googleusercontent.com/-Y45I3C9rvnE/Ylu12vKFisI/AAAAAAAA3wM/0IfIRfWRr78OiPPoEE-OssnKJUSy1aiNACEwYBhgLKu8DABHVOhwaa7g60LHQemuduabT1vY5p6DWOH406TzWeHWoB3NjYjXNbqfRViRIijDO2gTqjQDqWILEsQgSxwtgSPq8V_KgXGUrRLhqPiTLHI5g7XknuOjwJpZPuDu5Msk5096SSW7zm28BBG3owv_6nTELsRLa4nmIBAj6bZAXrPL6gQu-ZvXZEalWM0J6LDRI59cYdhPe0vgYkZC3r34OGKE9dKxHT9vapbMPffcIkymyvGr815ARozsNmjBSZxxoLbvnjOSQpdznsx3yXhAqChFLKEMqHA-DBiUKjShcYBlfTAU-NevGguKDGaAMGuiQ8RJ46GsAVobBM7kXNM4Zb9DTOEtc2G0tKwh8AKC4l_6vGmh-b-HJG53KW8lMAJ7he1PBnGfgEMdcKxI1eLjsm0wQKzoxhWJLlZhoJ2KJOh-0GsRXJaOHAr3Q1FgMO2tK76QnrfZ21XUy1TafxR-6lv8UZFUZCXtMwnmNYs5DZzImkBCK9K1uHxuqIO0dUF0DIteJk7EHULkEKjoG_L_QVXtn6jf09DZmm1S7IQiyUjh3CYaGFKkyXxXebH4G5KfvB1txyQ_Yj-jUVeH_tC1kZ_C-b0unikIQqsPsfVbjPVXzteNYM6YL2TwqGySJbXBi9ukIaY_BvL3Qwz5t3AMlMKn17pIG/s0/hZaC87hLblF0J5EGu_yYlR7jpCg.jpeg",
+    nonSteamDialog: "https://lh3.googleusercontent.com/-dpYzy1lSxjg/YlupQ3fvbaI/AAAAAAAA1L0/nf0DSieDf-QoZFQbxqimZ0D2zrwLN36DACEwYBhgLKu8DABHVOhwaa7g60LHQemuduabT1vY5p6DWOH406TzWeHWoB3NjYjXNbqfRViRIijDO2gTqjQDqWILEsQgSxwtgSPq8V_KgXGUrRLhqPiTLHI5g7XknuOjwJpZPuDu5Msk5096SSW7zm28BBG3owv_6nTELsRLa4nmIBAj6bZAXrPL6gQu-ZvXZEalWM0J6LDRI59cYdhPe0vgYkZC3r34OGKE9dKxHT9vapbMPffcIkymyvGr815ARozsNmjBSZxxoLbvnjOSQpdznsx3yXhAqChFLKEMqHA-DBiUKjShcYBlfTAU-NevGguKDGaAMGuiQ8RJ46GsAVobBM7kXNM4Zb9DTOEtc2G0tKwh8AKC4l_6vGmh-b-HJG53KW8lMAJ7he1PBnGfgEMdcKxI1eLjsm0wQKzoxhWJLlZhoJ2KJOh-0GsRXJaOHAr3Q1FgMO2tK76QnrfZ21XUy1TafxR-6lv8UZFUZCXtMwnmNYs5DZzImkBCK9K1uHxuqIO0dUF0DIteJk7EHULkEKjoG_L_QVXtn6jf09DZmm1S7IQiyUjh3CYaGFKkyXxXebH4G5KfvB1txyQ_Yj-jUVeH_tC1kZ_C-b0unikIQqsPsfVbjPVXzteNYM6YL2TwqGySJbXBi9ukIaY_BvL3Qwz5t3AMlMKj17pIG/s0/ENZJ_Z8CEW8KcFFPHR5MFf3hTu8.jpg"
+  };
 
   function escapeHtml(value) {
     return String(value || "")
@@ -168,6 +172,45 @@
     return '<button class="btn btn-main" data-action="copy-open-console" data-command="' + escapeHtml(command) + '" aria-label="Copier et ouvrir la console Steam">Copier + ouvrir Steam Console</button>';
   }
 
+  function NonSteamQuickGuide() {
+    return "" +
+      '<section class="inline-guide">' +
+      '<h5>Après le téléchargement</h5>' +
+      '<p class="muted">La console Steam affiche le dossier final (ex: <span class="mono">.../steamapps/content/app_XXXX/depot_YYYY</span>). Utilise ce chemin pour retrouver rapidement les fichiers.</p>' +
+      '<ol class="inline-steps">' +
+      "<li>Ouvre Steam.</li>" +
+      "<li>Menu <strong>Jeux</strong> → <strong>Ajouter un jeu non Steam à ma bibliothèque…</strong></li>" +
+      "<li>Sélectionne l'exécutable dans le dossier affiché par la console.</li>" +
+      "<li>Valide avec <strong>Ajouter les sélections</strong>.</li>" +
+      "</ol>" +
+      '<button class="btn btn-subtle" data-action="go-non-steam-tutorial" aria-label="Ouvrir le tutoriel jeu non Steam">Ouvrir le tuto pas à pas</button>' +
+      "</section>";
+  }
+
+  function NonSteamTutorialSection() {
+    return "" +
+      '<section class="notes-box non-steam-tutorial">' +
+      '<h2>Ajouter le raccourci d’un jeu non Steam</h2>' +
+      '<ol class="tutorial-steps">' +
+      "<li>Lance Steam.</li>" +
+      "<li>Clique sur le menu Jeux puis sélectionne Ajouter un jeu non Steam à ma bibliothèque…</li>" +
+      "<li>Parcours les jeux installés sur ton ordinateur ou coche les jeux que tu veux ajouter à ta bibliothèque.</li>" +
+      "<li>Clique sur Ajouter les sélections.</li>" +
+      "</ol>" +
+      '<div class="tutorial-media-grid">' +
+      '<figure class="tutorial-media">' +
+      '<img loading="lazy" src="' + escapeHtml(guideAssets.nonSteamMenu) + '" alt="Menu Steam Jeux puis Ajouter un jeu non Steam" />' +
+      "<figcaption>Étape menu Steam.</figcaption>" +
+      "</figure>" +
+      '<figure class="tutorial-media">' +
+      '<img loading="lazy" src="' + escapeHtml(guideAssets.nonSteamDialog) + '" alt="Fenêtre Steam Ajouter un jeu" />' +
+      "<figcaption>Sélection de l'exécutable à ajouter.</figcaption>" +
+      "</figure>" +
+      "</div>" +
+      '<p class="muted">Astuce: quand <span class="mono">download_depot</span> se termine, Steam affiche un chemin du type <span class="mono">Steam/steamapps/content/app_.../depot_...</span>. C’est la source à cibler.</p>' +
+      "</section>";
+  }
+
   function CommandBox(appid, manifest) {
     var command = App.steamCommands.buildDownloadCommand(appid, manifest.depotid, manifest.manifestid);
     return "" +
@@ -182,6 +225,7 @@
       CopyButton(command) +
       SteamConsoleButton(command) +
       "</div>" +
+      NonSteamQuickGuide() +
       '<div class="command-fallback" hidden>' +
       '<p class="muted">Copie bloquée: sélectionne la commande manuellement ci-dessus, ou utilise le bouton ci-dessous.</p>' +
       '<button class="btn btn-subtle" data-action="copy-command" data-command="' + escapeHtml(command) + '">Copie manuelle</button>' +
@@ -444,7 +488,9 @@
 
     var content = "" +
       '<section class="game-hero">' +
+      '<div class="game-hero-media">' +
       '<img class="game-hero-image" src="' + escapeHtml(game.header_image || "") + '" alt="Header ' + escapeHtml(game.name) + '" />' +
+      "</div>" +
       '<div class="game-hero-meta">' +
       '<p class="mono">AppID ' + escapeHtml(game.appid) + '</p>' +
       '<h1>' + escapeHtml(game.name) + "</h1>" +
@@ -484,12 +530,15 @@
     root.innerHTML = layout(content);
   }
 
-  function renderTutorial() {
+  function renderTutorial(mode) {
+    var nonSteamFocused = mode === "non-steam";
     var content = "" +
       '<section class="home-section">' +
       '<h1>Tutoriel Steam Console</h1>' +
       '<p class="lead">Procédure prudente: aucune garantie de disponibilité de manifest ou de compatibilité runtime.</p>' +
+      (nonSteamFocused ? '<p class="muted">Section ciblée: ajout d’un jeu non Steam depuis les fichiers téléchargés.</p>' : "") +
       TutorialSteps() +
+      NonSteamTutorialSection() +
       '<section class="notes-box">' +
       '<h2>Notes importantes</h2>' +
       '<ul class="help-list">' +
@@ -540,6 +589,10 @@
       renderTutorial();
       return;
     }
+    if (route.name === "tutorial-non-steam") {
+      renderTutorial("non-steam");
+      return;
+    }
     if (route.name === "about") {
       renderAbout();
       return;
@@ -570,6 +623,11 @@
 
     if (action === "go-tutorial") {
       App.router.navigate("/tutorial");
+      return;
+    }
+
+    if (action === "go-non-steam-tutorial") {
+      App.router.navigate("/tutorial/non-steam");
       return;
     }
 

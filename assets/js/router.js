@@ -25,6 +25,10 @@
       return { name: "tutorial", path: path, params: {} };
     }
 
+    if (path === "/tutorial/non-steam") {
+      return { name: "tutorial-non-steam", path: path, params: {} };
+    }
+
     if (path === "/about") {
       return { name: "about", path: path, params: {} };
     }

@@ -83,6 +83,7 @@ gh repo edit --enable-pages --pages-source main --pages-path /
   - `#/`
   - `#/game/:slug`
   - `#/tutorial`
+  - `#/tutorial/non-steam`
   - `#/about`
 - modules JS globaux via `window.SteamPatchArchive` (compatibles ouverture directe `index.html`)
 - couche API simulée dans `mockApi.js` avec fonctions remplaçables plus tard:
