@@ -1,0 +1,4936 @@
+{
+  "bucket": "j",
+  "generated_at": "2026-05-14T01:07:12.492Z",
+  "games": [
+    {
+      "appid": 936820,
+      "name": "J-Girl",
+      "slug": "j-girl",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/936820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 753610,
+      "name": "J.A.W.S",
+      "slug": "j-a-w-s",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/753610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 257690,
+      "name": "J.U.L.I.A.: Among the Stars",
+      "slug": "j-u-l-i-a-among-the-stars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/257690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 513930,
+      "name": "J.U.R : Japan Underground Racing",
+      "slug": "j-u-r-japan-underground-racing",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/513930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 880200,
+      "name": "J15 Jet Fighter VR (歼15舰载机)",
+      "slug": "j15-jet-fighter-vr-15",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/880200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1504050,
+      "name": "JAB!",
+      "slug": "jab",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1504050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1258750,
+      "name": "JACK 'N' HAT",
+      "slug": "jack-n-hat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1258750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 668570,
+      "name": "Jack & the cat",
+      "slug": "jack-the-cat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/668570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 841010,
+      "name": "Jack and Sara: Educational game",
+      "slug": "jack-and-sara-educational-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/841010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 985780,
+      "name": "Jack Axe",
+      "slug": "jack-axe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/985780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1502920,
+      "name": "Jack Axe: The Trial",
+      "slug": "jack-axe-the-trial",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1502920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 718120,
+      "name": "Jack B. Nimble",
+      "slug": "jack-b-nimble",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/718120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1295750,
+      "name": "Jack Hayes: The Lazarus Sign",
+      "slug": "jack-hayes-the-lazarus-sign",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1295750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1175500,
+      "name": "Jack In Town",
+      "slug": "jack-in-town",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1175500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 921500,
+      "name": "Jack Is Missing",
+      "slug": "jack-is-missing",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/921500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 236970,
+      "name": "Jack Keane 2 - The Fire Within",
+      "slug": "jack-keane-2-the-fire-within",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/236970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 220900,
+      "name": "Jack Lumber",
+      "slug": "jack-lumber",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/220900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1099640,
+      "name": "Jack Move",
+      "slug": "jack-move",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1099640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 873560,
+      "name": "Jack N' Jill DX",
+      "slug": "jack-n-jill-dx",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/873560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 253960,
+      "name": "Jack Orlando: Director's Cut",
+      "slug": "jack-orlando-director-s-cut",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/253960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 620660,
+      "name": "Jack Spriggan",
+      "slug": "jack-spriggan",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/620660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 852160,
+      "name": "Jack the Barbarian",
+      "slug": "jack-the-barbarian",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/852160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1205020,
+      "name": "Jack troubles",
+      "slug": "jack-troubles",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1205020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1274440,
+      "name": "Jack Walker: Ethereal",
+      "slug": "jack-walker-ethereal",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1274440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1193660,
+      "name": "Jack-O-Lantern Covers of Darkness",
+      "slug": "jack-o-lantern-covers-of-darkness",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1193660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 670790,
+      "name": "Jack's Game",
+      "slug": "jack-s-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/670790/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1493400,
+      "name": "Jack's Labyrinth",
+      "slug": "jack-s-labyrinth",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1493400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1311780,
+      "name": "Jackalope",
+      "slug": "jackalope",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1311780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 630040,
+      "name": "JackHammer: Demolition Dodgeball",
+      "slug": "jackhammer-demolition-dodgeball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/630040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 455020,
+      "name": "Jackpot Poker by PokerStars",
+      "slug": "jackpot-poker-by-pokerstars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/455020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 937050,
+      "name": "JackQuest: The Tale of The Sword",
+      "slug": "jackquest-the-tale-of-the-sword",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/937050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 449780,
+      "name": "Jacob",
+      "slug": "jacob",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/449780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 264400,
+      "name": "Jacob Jones and the Bigfoot Mystery : Episode 1",
+      "slug": "jacob-jones-and-the-bigfoot-mystery-episode-1",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/264400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 308180,
+      "name": "Jacob Jones and the Bigfoot Mystery : Episode 2",
+      "slug": "jacob-jones-and-the-bigfoot-mystery-episode-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/308180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1067060,
+      "name": "Jacob's Fantastic SeXXXual Voyage",
+      "slug": "jacob-s-fantastic-sexxxual-voyage",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1067060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1447060,
+      "name": "Jad",
+      "slug": "jad",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1447060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1264820,
+      "name": "Jade Cicada",
+      "slug": "jade-cicada",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1264820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 7110,
+      "name": "Jade Empire™: Special Edition",
+      "slug": "jade-empire-special-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1119680,
+      "name": "Jade's Ascension",
+      "slug": "jade-s-ascension",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1119680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 864600,
+      "name": "Jade's Dungeon Descent",
+      "slug": "jade-s-dungeon-descent",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/864600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 552580,
+      "name": "Jade's Journey",
+      "slug": "jade-s-journey",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/552580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 607030,
+      "name": "Jade's Journey 2",
+      "slug": "jade-s-journey-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/607030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1417650,
+      "name": "Jaeger",
+      "slug": "jaeger",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1417650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1175590,
+      "name": "JAGD LANZER",
+      "slug": "jagd-lanzer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1175590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 57740,
+      "name": "Jagged Alliance - Back in Action",
+      "slug": "jagged-alliance-back-in-action",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/57740/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 283270,
+      "name": "Jagged Alliance 1: Gold Edition",
+      "slug": "jagged-alliance-1-gold-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/283270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 215930,
+      "name": "Jagged Alliance 2 - Wildfire",
+      "slug": "jagged-alliance-2-wildfire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/215930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1620,
+      "name": "Jagged Alliance 2 Gold",
+      "slug": "jagged-alliance-2-gold",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1084160,
+      "name": "Jagged Alliance 3",
+      "slug": "jagged-alliance-3",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1084160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 256010,
+      "name": "Jagged Alliance Flashback",
+      "slug": "jagged-alliance-flashback",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/256010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 205810,
+      "name": "Jagged Alliance: Crossfire",
+      "slug": "jagged-alliance-crossfire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/205810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 463170,
+      "name": "Jagged Alliance: Rage!",
+      "slug": "jagged-alliance-rage",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/463170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 589240,
+      "name": "Jaguar I-PACE Concept | Virtual Reality Experience",
+      "slug": "jaguar-i-pace-concept-virtual-reality-experience",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/589240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1113070,
+      "name": "Jail Simulator",
+      "slug": "jail-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1113070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 869420,
+      "name": "Jailbreak Lockdown",
+      "slug": "jailbreak-lockdown",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/869420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1131940,
+      "name": "Jailbreak Simulator",
+      "slug": "jailbreak-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1131940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1401130,
+      "name": "Jajazinho e as Delicias de Cristais",
+      "slug": "jajazinho-e-as-delicias-de-cristais",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1401130/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 940240,
+      "name": "Jake and the Giant",
+      "slug": "jake-and-the-giant",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/940240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 699080,
+      "name": "Jake's Love Story",
+      "slug": "jake-s-love-story",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/699080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 446020,
+      "name": "Jalopy",
+      "slug": "jalopy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/446020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 732480,
+      "name": "Jam Session VR",
+      "slug": "jam-session-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/732480/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 777860,
+      "name": "Jambo",
+      "slug": "jambo",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/777860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1243010,
+      "name": "James Peris: Sin licencia ni control - Edición definitiva",
+      "slug": "james-peris-sin-licencia-ni-control-edicion-definitiva",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1243010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1204760,
+      "name": "James Town Courier Frog MD",
+      "slug": "james-town-courier-frog-md",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1204760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 94200,
+      "name": "Jamestown",
+      "slug": "jamestown",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/94200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 377950,
+      "name": "Jamestown+",
+      "slug": "jamestown-377950",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/377950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 383010,
+      "name": "JamG",
+      "slug": "jamg",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/383010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 708020,
+      "name": "Jamie's Dream",
+      "slug": "jamie-s-dream",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/708020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 658880,
+      "name": "Jammerball",
+      "slug": "jammerball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/658880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 314460,
+      "name": "Jamsouls",
+      "slug": "jamsouls",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/314460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1491280,
+      "name": "Jane Angel 2: Fallen Heaven",
+      "slug": "jane-angel-2-fallen-heaven",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1491280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 323270,
+      "name": "Jane Angel: Templar Mystery",
+      "slug": "jane-angel-templar-mystery",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/323270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1334510,
+      "name": "Jane Skriff",
+      "slug": "jane-skriff",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1334510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1158430,
+      "name": "Jane Westlake Adventures - The Mystery Train",
+      "slug": "jane-westlake-adventures-the-mystery-train",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1158430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 207790,
+      "name": "Jane's Advanced Strike Fighters",
+      "slug": "jane-s-advanced-strike-fighters",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/207790/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 412440,
+      "name": "Jane's Realty",
+      "slug": "jane-s-realty",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/412440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1106700,
+      "name": "Janga",
+      "slug": "janga",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1106700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1493930,
+      "name": "JankBrain",
+      "slug": "jankbrain",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1493930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 527210,
+      "name": "Janken Cards",
+      "slug": "janken-cards",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/527210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 344220,
+      "name": "Janky Tanks",
+      "slug": "janky-tanks",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/344220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1412170,
+      "name": "Janosik",
+      "slug": "janosik",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1412170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 663330,
+      "name": "Janusz - A 90's adventure game",
+      "slug": "janusz-a-90-s-adventure-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/663330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1361360,
+      "name": "JAPAN SIMULATOR",
+      "slug": "japan-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1361360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1388720,
+      "name": "Japanese Romaji Adventure",
+      "slug": "japanese-romaji-adventure",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1388720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 555640,
+      "name": "Japanese School Life",
+      "slug": "japanese-school-life",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/555640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 617610,
+      "name": "Japanese Women - Animated Jigsaws",
+      "slug": "japanese-women-animated-jigsaws",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/617610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1112950,
+      "name": "Japocaliptyca/ Япокалиптика",
+      "slug": "japocaliptyca",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1112950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 344960,
+      "name": "Jaques Roque",
+      "slug": "jaques-roque",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/344960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 921050,
+      "name": "Jar Battlers",
+      "slug": "jar-battlers",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/921050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 921850,
+      "name": "Jar Sam",
+      "slug": "jar-sam",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/921850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1095060,
+      "name": "Jar Wars",
+      "slug": "jar-wars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1095060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1422290,
+      "name": "Jardinains!",
+      "slug": "jardinains",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1422290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 661250,
+      "name": "Jarheads",
+      "slug": "jarheads",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/661250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 610840,
+      "name": "JASEM: Just Another Shooter with Electronic Music",
+      "slug": "jasem-just-another-shooter-with-electronic-music",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/610840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1213080,
+      "name": "Java Saga",
+      "slug": "java-saga",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1460230,
+      "name": "Javols VR",
+      "slug": "javols-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1460230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 524940,
+      "name": "Javva Juice",
+      "slug": "javva-juice",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/524940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1271820,
+      "name": "Jaw Breakers & The Confection Connection",
+      "slug": "jaw-breakers-the-confection-connection",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1271820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 617850,
+      "name": "Jaws Of Extinction™",
+      "slug": "jaws-of-extinction",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/617850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 915680,
+      "name": "Jaws of Hell",
+      "slug": "jaws-of-hell",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/915680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1113650,
+      "name": "Jaxon The Thief",
+      "slug": "jaxon-the-thief",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1113650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1346290,
+      "name": "Jay and Silent Bob: Chronic Blunt Punch",
+      "slug": "jay-and-silent-bob-chronic-blunt-punch",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1346290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1087440,
+      "name": "Jay and Silent Bob: Mall Brawl",
+      "slug": "jay-and-silent-bob-mall-brawl",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1087440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 665890,
+      "name": "Jay Fighter: Remastered",
+      "slug": "jay-fighter-remastered",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/665890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1432020,
+      "name": "Jay Schilling's Edge of Chaos",
+      "slug": "jay-schilling-s-edge-of-chaos",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1432020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 937320,
+      "name": "Jay Walker",
+      "slug": "jay-walker",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/937320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1183280,
+      "name": "Jazz Age",
+      "slug": "jazz-age",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1183280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1179570,
+      "name": "Jazz Lightning : Castle Dungeons",
+      "slug": "jazz-lightning-castle-dungeons",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1179570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 250260,
+      "name": "Jazzpunk: Director's Cut",
+      "slug": "jazzpunk-director-s-cut",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/250260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 536660,
+      "name": "JCB Pioneer: Mars",
+      "slug": "jcb-pioneer-mars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/536660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 488210,
+      "name": "JDM Tuner Racing",
+      "slug": "jdm-tuner-racing",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/488210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1153410,
+      "name": "JDM: Japanese Drift Master",
+      "slug": "jdm-japanese-drift-master",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1153410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1366850,
+      "name": "Jected - Rivals",
+      "slug": "jected-rivals",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1366850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1188760,
+      "name": "JEF",
+      "slug": "jef",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1188760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1494320,
+      "name": "JEI VR",
+      "slug": "jei-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1494320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 246820,
+      "name": "Jeklynn Heights",
+      "slug": "jeklynn-heights",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/246820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1048850,
+      "name": "Jelly Blocks",
+      "slug": "jelly-blocks",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1048850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 828270,
+      "name": "Jelly Bomber",
+      "slug": "jelly-bomber",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/828270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1278350,
+      "name": "Jelly Brawl",
+      "slug": "jelly-brawl",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1278350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1386040,
+      "name": "Jelly Brawl: Classic",
+      "slug": "jelly-brawl-classic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1386040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 771860,
+      "name": "Jelly Escape",
+      "slug": "jelly-escape",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/771860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 593530,
+      "name": "Jelly in the sky",
+      "slug": "jelly-in-the-sky",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/593530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1492620,
+      "name": "Jelly Is Sticky",
+      "slug": "jelly-is-sticky",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1492620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 441670,
+      "name": "Jelly Killer",
+      "slug": "jelly-killer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/441670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 886780,
+      "name": "Jelly Wrestle",
+      "slug": "jelly-wrestle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/886780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 700440,
+      "name": "Jellyfish",
+      "slug": "jellyfish",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/700440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 937980,
+      "name": "Jellyfish Season",
+      "slug": "jellyfish-season",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/937980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 922510,
+      "name": "Jellyfish the Ghost",
+      "slug": "jellyfish-the-ghost",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/922510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1449430,
+      "name": "Jendo: Origins",
+      "slug": "jendo-origins",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1449430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1466350,
+      "name": "Jennifer Wilde: Unlikely Revolutionaries",
+      "slug": "jennifer-wilde-unlikely-revolutionaries",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1466350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 319870,
+      "name": "Jenny LeClue - Detectivu",
+      "slug": "jenny-leclue-detectivu",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/319870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1132860,
+      "name": "Jera",
+      "slug": "jera",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1132860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1193830,
+      "name": "Jeremiah",
+      "slug": "jeremiah",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1193830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1333360,
+      "name": "Jerez's Arena",
+      "slug": "jerez-s-arena",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1333360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1285840,
+      "name": "Jericho's Prophecies",
+      "slug": "jericho-s-prophecies",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1285840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1224120,
+      "name": "Jerking Off In Class Simulator",
+      "slug": "jerking-off-in-class-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1224120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1032520,
+      "name": "JermaSlots",
+      "slug": "jermaslots",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1032520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 782700,
+      "name": "Jerry and the mystery loot box",
+      "slug": "jerry-and-the-mystery-loot-box",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/782700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 762100,
+      "name": "Jerry Frog's Retro Arcade",
+      "slug": "jerry-frog-s-retro-arcade",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/762100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1116360,
+      "name": "JERRY JOBHOPPER",
+      "slug": "jerry-jobhopper",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1116360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 438660,
+      "name": "Jerry Rice & Nitus' Dog Football",
+      "slug": "jerry-rice-nitus-dog-football",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/438660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1525050,
+      "name": "Jerry Wanker and the Quest to get Laid",
+      "slug": "jerry-wanker-and-the-quest-to-get-laid",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1525050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1251980,
+      "name": "Jessika",
+      "slug": "jessika",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1251980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1424300,
+      "name": "Jester / King",
+      "slug": "jester-king",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1424300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 638940,
+      "name": "Jester's Quest",
+      "slug": "jester-s-quest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/638940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 800840,
+      "name": "Jesters Poker",
+      "slug": "jesters-poker",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/800840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 449040,
+      "name": "Jesus Christ RPG Trilogy",
+      "slug": "jesus-christ-rpg-trilogy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/449040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1255870,
+      "name": "Jesus Christ RPG: Lucifer",
+      "slug": "jesus-christ-rpg-lucifer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1255870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 869850,
+      "name": "Jet Ant",
+      "slug": "jet-ant",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/869850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 618070,
+      "name": "Jet Buster",
+      "slug": "jet-buster",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/618070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 274880,
+      "name": "Jet Car Stunts",
+      "slug": "jet-car-stunts",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/274880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 314250,
+      "name": "Jet Gunner",
+      "slug": "jet-gunner",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/314250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 533610,
+      "name": "Jet Gunner: Refueled",
+      "slug": "jet-gunner-refueled",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/533610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 586060,
+      "name": "JET HERO",
+      "slug": "jet-hero",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/586060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 587220,
+      "name": "Jet Island",
+      "slug": "jet-island",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1383700,
+      "name": "Jet Kave Adventure",
+      "slug": "jet-kave-adventure",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1383700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 913060,
+      "name": "Jet Lancer",
+      "slug": "jet-lancer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/913060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 385270,
+      "name": "Jet Racing Extreme: The First Encounter",
+      "slug": "jet-racing-extreme-the-first-encounter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/385270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1376290,
+      "name": "JET SET CORPS",
+      "slug": "jet-set-corps",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1376290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 405550,
+      "name": "Jet Set Knights",
+      "slug": "jet-set-knights",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 872700,
+      "name": "Jet-Story 2018",
+      "slug": "jet-story-2018",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/872700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 666590,
+      "name": "Jetball",
+      "slug": "jetball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/666590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1008890,
+      "name": "JetBall Arena",
+      "slug": "jetball-arena",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1008890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1181600,
+      "name": "Jetboard Joust",
+      "slug": "jetboard-joust",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1181600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1397650,
+      "name": "Jetborne Racing",
+      "slug": "jetborne-racing",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1397650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1090020,
+      "name": "JETBOY",
+      "slug": "jetboy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1090020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 601700,
+      "name": "JETBROS",
+      "slug": "jetbros",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/601700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1071600,
+      "name": "Jetlad",
+      "slug": "jetlad",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1071600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 665120,
+      "name": "Jetman Go",
+      "slug": "jetman-go",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/665120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1465450,
+      "name": "Jetpack City Action VR",
+      "slug": "jetpack-city-action-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1465450/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 880370,
+      "name": "Jetpack Dog",
+      "slug": "jetpack-dog",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/880370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1250700,
+      "name": "Jetpack Guy",
+      "slug": "jetpack-guy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1250700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1241030,
+      "name": "Jetpack Stadium",
+      "slug": "jetpack-stadium",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1241030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1293930,
+      "name": "Jetpack Vacation",
+      "slug": "jetpack-vacation",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1293930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 912410,
+      "name": "JETPACK WARRIOR VR",
+      "slug": "jetpack-warrior-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/912410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1380340,
+      "name": "Jetpackin' Heat++",
+      "slug": "jetpackin-heat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1380340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1461190,
+      "name": "jetPIN",
+      "slug": "jetpin",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1461190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 830820,
+      "name": "Jets'n'Guns 2",
+      "slug": "jets-n-guns-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/830820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 262260,
+      "name": "Jets'n'Guns Gold",
+      "slug": "jets-n-guns-gold",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/262260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1526340,
+      "name": "Jetscout: Boot Camp",
+      "slug": "jetscout-boot-camp",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1526340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1395410,
+      "name": "Jetscout: Mystery of the Valunians",
+      "slug": "jetscout-mystery-of-the-valunians",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1395410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 738860,
+      "name": "Jetstream",
+      "slug": "jetstream",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/738860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1073640,
+      "name": "JetX Space Edition",
+      "slug": "jetx-space-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1073640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 684620,
+      "name": "JetX VR",
+      "slug": "jetx-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/684620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 414140,
+      "name": "Jewel bits",
+      "slug": "jewel-bits",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/414140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1126470,
+      "name": "Jewel Match Atlantis Solitaire - Collector's Edition",
+      "slug": "jewel-match-atlantis-solitaire-collector-s-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1126470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1448780,
+      "name": "Jewel Match Origins - Palais Imperial Collector's Edition",
+      "slug": "jewel-match-origins-palais-imperial-collector-s-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1448780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 886070,
+      "name": "Jewel Match Solitaire",
+      "slug": "jewel-match-solitaire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/886070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1035770,
+      "name": "Jewel Match Solitaire 2 Collector's Edition",
+      "slug": "jewel-match-solitaire-2-collector-s-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1035770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1426890,
+      "name": "Jewel Match Solitaire Collector's Edition",
+      "slug": "jewel-match-solitaire-collector-s-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1426890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1009700,
+      "name": "Jewel Match Solitaire L'Amour",
+      "slug": "jewel-match-solitaire-l-amour",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1009700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 993780,
+      "name": "Jewel Match Solitaire Winterscapes",
+      "slug": "jewel-match-solitaire-winterscapes",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/993780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 918670,
+      "name": "Jewel Match Twilight Solitaire",
+      "slug": "jewel-match-twilight-solitaire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/918670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1370310,
+      "name": "Jewel of Kuru",
+      "slug": "jewel-of-kuru",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1370310/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 716850,
+      "name": "Jewel of WonderLand",
+      "slug": "jewel-of-wonderland",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/716850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 995700,
+      "name": "Jewel Puzzle Click",
+      "slug": "jewel-puzzle-click",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/995700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 37960,
+      "name": "Jewel Quest Pack",
+      "slug": "jewel-quest-pack",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/37960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 540360,
+      "name": "Jewel Quest Seven Seas Collector's Edition",
+      "slug": "jewel-quest-seven-seas-collector-s-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/540360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 938630,
+      "name": "Jewel Tree",
+      "slug": "jewel-tree",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/938630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 656890,
+      "name": "Jewel Venture",
+      "slug": "jewel-venture",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/656890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 685370,
+      "name": "Jewels of the Mysterious Woodland",
+      "slug": "jewels-of-the-mysterious-woodland",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/685370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1051420,
+      "name": "Jey's Empire",
+      "slug": "jey-s-empire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1051420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1338460,
+      "name": "Jiangshi x Daoshi",
+      "slug": "jiangshi-x-daoshi",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1338460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 753960,
+      "name": "Jida Chronicle Chaos frontier VR",
+      "slug": "jida-chronicle-chaos-frontier-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/753960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 368950,
+      "name": "Jigoku Kisetsukan: Sense of the Seasons",
+      "slug": "jigoku-kisetsukan-sense-of-the-seasons",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/368950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1138530,
+      "name": "Jigoro",
+      "slug": "jigoro",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1138530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 836610,
+      "name": "Jigsaw 360",
+      "slug": "jigsaw-360",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/836610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1427960,
+      "name": "Jigsaw Boom",
+      "slug": "jigsaw-boom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1427960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 977490,
+      "name": "Jigsaw Masterpieces",
+      "slug": "jigsaw-masterpieces",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/977490/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1529410,
+      "name": "Jigsaw Pieces - Romance",
+      "slug": "jigsaw-pieces-romance",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1529410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1523680,
+      "name": "Jigsaw Pieces - Sweet Times",
+      "slug": "jigsaw-pieces-sweet-times",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1523680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1532750,
+      "name": "Jigsaw Pieces 2 - Shades of Mood",
+      "slug": "jigsaw-pieces-2-shades-of-mood",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1532750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1532760,
+      "name": "Jigsaw Pieces 3 - Fantasy",
+      "slug": "jigsaw-pieces-3-fantasy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1532760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1349000,
+      "name": "Jigsaw Puzzle - Animals",
+      "slug": "jigsaw-puzzle-animals",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1349000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1153030,
+      "name": "Jigsaw puzzle - Evolution",
+      "slug": "jigsaw-puzzle-evolution",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1153030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1498400,
+      "name": "Jigsaw Puzzle - Pixel Art Master",
+      "slug": "jigsaw-puzzle-pixel-art-master",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1498400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1143800,
+      "name": "Jigsaw Puzzle - Pro Edition",
+      "slug": "jigsaw-puzzle-pro-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1143800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 707850,
+      "name": "Jigsaw Puzzles",
+      "slug": "jigsaw-puzzles",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/707850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1281180,
+      "name": "Jigsaw Puzzles for Kids and Adults - Europe",
+      "slug": "jigsaw-puzzles-for-kids-and-adults-europe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1281180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1368750,
+      "name": "Jigsaw Puzzles: Master Artists of Old",
+      "slug": "jigsaw-puzzles-master-artists-of-old",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1368750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1427990,
+      "name": "Jigsaw Tour",
+      "slug": "jigsaw-tour",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1427990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1427290,
+      "name": "Jiguland",
+      "slug": "jiguland",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1427290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 643940,
+      "name": "Jim is Moving Out!",
+      "slug": "jim-is-moving-out",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/643940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 370270,
+      "name": "Jim Power -The Lost Dimension",
+      "slug": "jim-power-the-lost-dimension",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/370270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 706560,
+      "name": "Jimmy and the Pulsating Mass",
+      "slug": "jimmy-and-the-pulsating-mass",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/706560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1520090,
+      "name": "Jin Conception",
+      "slug": "jin-conception",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1520090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1166760,
+      "name": "Jinga Online",
+      "slug": "jinga-online",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1166760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 763810,
+      "name": "Jingle",
+      "slug": "jingle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/763810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 731690,
+      "name": "Jingo",
+      "slug": "jingo",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/731690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1063850,
+      "name": "Jinxed",
+      "slug": "jinxed",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1063850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 754460,
+      "name": "Jisei",
+      "slug": "jisei",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/754460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1522080,
+      "name": "Jitsu Squad",
+      "slug": "jitsu-squad",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1522080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 895140,
+      "name": "JJBoom",
+      "slug": "jjboom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/895140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 678150,
+      "name": "JMPR",
+      "slug": "jmpr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/678150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1038640,
+      "name": "Joan Jade and the Gates of Xibalba",
+      "slug": "joan-jade-and-the-gates-of-xibalba",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1038640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1212580,
+      "name": "Joan of Arc：The Beginning",
+      "slug": "joan-of-arc-the-beginning",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1212580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 513740,
+      "name": "Joana's Life",
+      "slug": "joana-s-life",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/513740/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 448280,
+      "name": "Job Simulator",
+      "slug": "job-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/448280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 386420,
+      "name": "Job the Leprechaun",
+      "slug": "job-the-leprechaun",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/386420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 695320,
+      "name": "Jobous the alien R",
+      "slug": "jobous-the-alien-r",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/695320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 993290,
+      "name": "JOBU-KI",
+      "slug": "jobu-ki",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/993290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 500680,
+      "name": "Jockey Rush",
+      "slug": "jockey-rush",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/500680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1146000,
+      "name": "Joe Blunt - Up In Smoke",
+      "slug": "joe-blunt-up-in-smoke",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1146000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 229890,
+      "name": "Joe Danger",
+      "slug": "joe-danger",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/229890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 242110,
+      "name": "Joe Danger 2: The Movie",
+      "slug": "joe-danger-2-the-movie",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/242110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 279440,
+      "name": "Joe Dever's Lone Wolf HD Remastered",
+      "slug": "joe-dever-s-lone-wolf-hd-remastered",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/279440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1502960,
+      "name": "Joe Kowalski Chronicles: Murder in a flat",
+      "slug": "joe-kowalski-chronicles-murder-in-a-flat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1502960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 346040,
+      "name": "Joe's Diner",
+      "slug": "joe-s-diner",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/346040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1280920,
+      "name": "Joe's Quest",
+      "slug": "joe-s-quest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1280920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 956280,
+      "name": "Joe's Wrath",
+      "slug": "joe-s-wrath",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/956280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1137480,
+      "name": "Joel Mayer's Purgatory",
+      "slug": "joel-mayer-s-purgatory",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1137480/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 747620,
+      "name": "Joggernauts",
+      "slug": "joggernauts",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/747620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1311220,
+      "name": "Johann Weiss",
+      "slug": "johann-weiss",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1311220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 915380,
+      "name": "John Black: Memories",
+      "slug": "john-black-memories",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/915380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 776040,
+      "name": "John Lazarus - Episode 1: Dead Man's Origin",
+      "slug": "john-lazarus-episode-1-dead-man-s-origin",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/776040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 849280,
+      "name": "John Mambo",
+      "slug": "john-mambo",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/849280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 741500,
+      "name": "John, The Zombie",
+      "slug": "john-the-zombie",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/741500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 959170,
+      "name": "John:Condemned",
+      "slug": "john-condemned",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/959170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1093750,
+      "name": "John's Wizard Dungeon",
+      "slug": "john-s-wizard-dungeon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1093750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 711840,
+      "name": "Johnny Chainsaw",
+      "slug": "johnny-chainsaw",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/711840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 476030,
+      "name": "Johnny Graves—The Unchosen One",
+      "slug": "johnny-graves-the-unchosen-one",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/476030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1386140,
+      "name": "Johnny Lionface",
+      "slug": "johnny-lionface",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1386140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1323600,
+      "name": "Johnny Mystery and The Halloween Killer",
+      "slug": "johnny-mystery-and-the-halloween-killer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1323600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 597240,
+      "name": "johnsgame",
+      "slug": "johnsgame",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/597240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 32770,
+      "name": "Joint Operations: Combined Arms Gold",
+      "slug": "joint-operations-combined-arms-gold",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/32770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 6400,
+      "name": "Joint Task Force",
+      "slug": "joint-task-force",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/6400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1372110,
+      "name": "JoJo's Bizarre Adventure: All-Star Battle R",
+      "slug": "jojo-s-bizarre-adventure-all-star-battle-r",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1372110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 824620,
+      "name": "Jolly Battle",
+      "slug": "jolly-battle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/824620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1393910,
+      "name": "Jolly Good: Cakes and Ale",
+      "slug": "jolly-good-cakes-and-ale",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1393910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 882870,
+      "name": "Jolly Riot",
+      "slug": "jolly-riot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/882870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 876120,
+      "name": "Jolly Rogers Pirates Rumble",
+      "slug": "jolly-rogers-pirates-rumble",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/876120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 58200,
+      "name": "Jolly Rover",
+      "slug": "jolly-rover",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/58200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 485790,
+      "name": "JOLT: Super Robot Racer",
+      "slug": "jolt-super-robot-racer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/485790/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1113210,
+      "name": "Jomp The Jumper",
+      "slug": "jomp-the-jumper",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1113210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 241000,
+      "name": "Jon Shafer's At the Gates",
+      "slug": "jon-shafer-s-at-the-gates",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/241000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 493810,
+      "name": "Jonah's Path",
+      "slug": "jonah-s-path",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/493810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1350280,
+      "name": "Jonas Willy Online",
+      "slug": "jonas-willy-online",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1350280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 270810,
+      "name": "Jones On Fire",
+      "slug": "jones-on-fire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/270810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1398910,
+      "name": "Jorel’s Brother and The Most Important Game of the Galaxy - Complete Edition",
+      "slug": "jorel-s-brother-and-the-most-important-game-of-the-galaxy-complete-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1398910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 883190,
+      "name": "Jorji and Impossible Forest",
+      "slug": "jorji-and-impossible-forest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/883190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1037470,
+      "name": "Jormungandr",
+      "slug": "jormungandr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1037470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1206350,
+      "name": "JORRY",
+      "slug": "jorry",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1206350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1383280,
+      "name": "Josh Journey: Darkness Totems",
+      "slug": "josh-journey-darkness-totems",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1383280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1149830,
+      "name": "Josie's Tank",
+      "slug": "josie-s-tank",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1149830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 323580,
+      "name": "Jotun: Valhalla Edition",
+      "slug": "jotun-valhalla-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/323580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 673220,
+      "name": "Joumee The Hedgehog",
+      "slug": "joumee-the-hedgehog",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/673220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 261680,
+      "name": "Journal",
+      "slug": "journal",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/261680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 638230,
+      "name": "Journey",
+      "slug": "journey",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/638230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1036260,
+      "name": "Journey For Elysium",
+      "slug": "journey-for-elysium",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1036260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 255300,
+      "name": "Journey of a Roach",
+      "slug": "journey-of-a-roach",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/255300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1032790,
+      "name": "Journey of Greed",
+      "slug": "journey-of-greed",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1032790/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 697670,
+      "name": "Journey of Haha",
+      "slug": "journey-of-haha",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/697670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 625630,
+      "name": "Journey of Johann",
+      "slug": "journey-of-johann",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/625630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 794490,
+      "name": "Journey Of Life",
+      "slug": "journey-of-life",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/794490/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1179620,
+      "name": "Journey of the Broken Circle",
+      "slug": "journey-of-the-broken-circle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1179620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 849880,
+      "name": "Journey of the Fox",
+      "slug": "journey-of-the-fox",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/849880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 327960,
+      "name": "Journey of the King",
+      "slug": "journey-of-the-king",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/327960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 650310,
+      "name": "Journey of the Sword",
+      "slug": "journey-of-the-sword",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/650310/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1493560,
+      "name": "Journey On",
+      "slug": "journey-on",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1493560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 948340,
+      "name": "Journey Through Memories",
+      "slug": "journey-through-memories",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/948340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 628960,
+      "name": "Journey to Alien Worlds",
+      "slug": "journey-to-alien-worlds",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/628960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 737490,
+      "name": "Journey to Luonto",
+      "slug": "journey-to-luonto",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/737490/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1211320,
+      "name": "Journey to New Atlantis",
+      "slug": "journey-to-new-atlantis",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1211320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1222720,
+      "name": "Journey To Planet Earth",
+      "slug": "journey-to-planet-earth",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1222720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 474240,
+      "name": "Journey to the Center of the Earth",
+      "slug": "journey-to-the-center-of-the-earth-474240",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/474240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 382120,
+      "name": "Journey To The Center Of The Earth",
+      "slug": "journey-to-the-center-of-the-earth",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/382120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1308470,
+      "name": "Journey to the Centre of the Cell",
+      "slug": "journey-to-the-centre-of-the-cell",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1308470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1284460,
+      "name": "Journey to the Place of Tomorrow",
+      "slug": "journey-to-the-place-of-tomorrow",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1284460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 973810,
+      "name": "Journey To The Savage Planet",
+      "slug": "journey-to-the-savage-planet",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/973810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 851240,
+      "name": "Journey to Valhalla",
+      "slug": "journey-to-valhalla",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/851240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 584040,
+      "name": "Journey: Benjamin's Adventures",
+      "slug": "journey-benjamin-s-adventures",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/584040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1093850,
+      "name": "JoustMania",
+      "slug": "joustmania",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1093850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1335610,
+      "name": "JoY",
+      "slug": "joy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1335610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 792350,
+      "name": "Joy Climb",
+      "slug": "joy-climb",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/792350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 685950,
+      "name": "Joy Pony",
+      "slug": "joy-pony",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/685950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1387300,
+      "name": "Joy the Pug",
+      "slug": "joy-the-pug",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1387300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 917800,
+      "name": "JOYDOOR",
+      "slug": "joydoor",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/917800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1095700,
+      "name": "Joyfess Ep1: Martin's Secret Recipe",
+      "slug": "joyfess-ep1-martin-s-secret-recipe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1095700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 843120,
+      "name": "Joyo Kanji Quiz",
+      "slug": "joyo-kanji-quiz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/843120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1532360,
+      "name": "Joyspring",
+      "slug": "joyspring",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1532360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1513800,
+      "name": "JPN Burst",
+      "slug": "jpn-burst",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1513800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 918070,
+      "name": "JQ: Beautiful Japan",
+      "slug": "jq-beautiful-japan",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/918070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 826010,
+      "name": "JQ: chemistry",
+      "slug": "jq-chemistry",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/826010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1054650,
+      "name": "JQ: cosmos",
+      "slug": "jq-cosmos",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1054650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 796360,
+      "name": "JQ: countries",
+      "slug": "jq-countries",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/796360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 816250,
+      "name": "JQ: dogs & cats",
+      "slug": "jq-dogs-cats",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/816250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 684430,
+      "name": "JU",
+      "slug": "ju",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/684430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1352300,
+      "name": "Jubeez",
+      "slug": "jubeez",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1352300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 388860,
+      "name": "Judas",
+      "slug": "judas",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/388860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 581820,
+      "name": "Judas",
+      "slug": "judas-581820",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/581820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 3710,
+      "name": "Judge Dredd: Dredd vs. Death",
+      "slug": "judge-dredd-dredd-vs-death",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/3710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 383780,
+      "name": "Judgement",
+      "slug": "judgement",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/383780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 278510,
+      "name": "JUDGEMENT SILVERSWORD - Resurrection -",
+      "slug": "judgement-silversword-resurrection",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/278510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 455980,
+      "name": "Judgment: Apocalypse Survival Simulation",
+      "slug": "judgment-apocalypse-survival-simulation",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/455980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 999330,
+      "name": "Juggernauts",
+      "slug": "juggernauts",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/999330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 974070,
+      "name": "Juggly",
+      "slug": "juggly",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/974070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1233510,
+      "name": "Juice Mania",
+      "slug": "juice-mania",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1233510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1287310,
+      "name": "Juiced!",
+      "slug": "juiced",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1287310/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1404800,
+      "name": "Juicy Army",
+      "slug": "juicy-army",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1404800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1153060,
+      "name": "Juicy Army: Prologue",
+      "slug": "juicy-army-prologue",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1153060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 732370,
+      "name": "Juicy Realm",
+      "slug": "juicy-realm",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/732370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 300840,
+      "name": "JUJU",
+      "slug": "juju",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/300840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 665780,
+      "name": "Juke",
+      "slug": "juke",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/665780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1189740,
+      "name": "Juken Jigoku | 受験地獄",
+      "slug": "juken-jigoku",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1189740/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 898260,
+      "name": "Juliantli",
+      "slug": "juliantli",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/898260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 970810,
+      "name": "Julie's Sweets",
+      "slug": "julie-s-sweets",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/970810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 932270,
+      "name": "July the Lost Child",
+      "slug": "july-the-lost-child",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/932270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 896950,
+      "name": "JUMANJI: The Video Game",
+      "slug": "jumanji-the-video-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/896950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1417520,
+      "name": "Jumbo: Jewel of Realms",
+      "slug": "jumbo-jewel-of-realms",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1417520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 334410,
+      "name": "JUMP",
+      "slug": "jump",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/334410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1430040,
+      "name": "Jump Again!",
+      "slug": "jump-again",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1430040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 898680,
+      "name": "JUMP AND RUN - DON'T FALL",
+      "slug": "jump-and-run-don-t-fall",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/898680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1227150,
+      "name": "Jump Boy",
+      "slug": "jump-boy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1227150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1017750,
+      "name": "Jump Doper",
+      "slug": "jump-doper",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1017750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 697660,
+      "name": "Jump Gunners",
+      "slug": "jump-gunners",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/697660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1396390,
+      "name": "Jump Hero: Beginning",
+      "slug": "jump-hero-beginning",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1396390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 968200,
+      "name": "Jump Jumpz",
+      "slug": "jump-jumpz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/968200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1061090,
+      "name": "Jump King",
+      "slug": "jump-king",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1061090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1057780,
+      "name": "Jump Off The Bridge",
+      "slug": "jump-off-the-bridge",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1057780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 486990,
+      "name": "Jump Stars",
+      "slug": "jump-stars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/486990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1224640,
+      "name": "Jump To Die 2 - Bloody Soul",
+      "slug": "jump-to-die-2-bloody-soul",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1224640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 581060,
+      "name": "Jump To Die!!",
+      "slug": "jump-to-die",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/581060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 951160,
+      "name": "JUMP UP",
+      "slug": "jump-up",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/951160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1463030,
+      "name": "Jump With Dragons",
+      "slug": "jump-with-dragons",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1463030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1077550,
+      "name": "Jump with Friends",
+      "slug": "jump-with-friends",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1077550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 575710,
+      "name": "Jump, Step, Step",
+      "slug": "jump-step-step",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/575710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 761100,
+      "name": "Jump! Jump! Jump!",
+      "slug": "jump-jump-jump",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/761100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1278190,
+      "name": "Jumpala",
+      "slug": "jumpala",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1278190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 750870,
+      "name": "JumpBall 2",
+      "slug": "jumpball-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/750870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 291250,
+      "name": "Jumpdrive",
+      "slug": "jumpdrive",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/291250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 688150,
+      "name": "JUMPER : SPEEDRUN",
+      "slug": "jumper-speedrun",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/688150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 526780,
+      "name": "Jumper Jape",
+      "slug": "jumper-jape",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/526780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 886020,
+      "name": "Jumper Magic",
+      "slug": "jumper-magic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/886020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1328830,
+      "name": "Jumper Starman",
+      "slug": "jumper-starman",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1328830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 983650,
+      "name": "Jumper Tree",
+      "slug": "jumper-tree",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/983650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1310480,
+      "name": "Jumperbird",
+      "slug": "jumperbird",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1310480/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 707470,
+      "name": "JumpFist",
+      "slug": "jumpfist",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/707470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 942060,
+      "name": "JUMPGRID",
+      "slug": "jumpgrid",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/942060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 402080,
+      "name": "JumpHead: Battle4Fun!",
+      "slug": "jumphead-battle4fun",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/402080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 703200,
+      "name": "Jumphobia Classic",
+      "slug": "jumphobia-classic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/703200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1315100,
+      "name": "Jumping Jax",
+      "slug": "jumping-jax",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1315100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1273590,
+      "name": "Jumping Joe! - Friends Edition",
+      "slug": "jumping-joe-friends-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1273590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1463870,
+      "name": "Jumping Knight",
+      "slug": "jumping-knight",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1463870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 857090,
+      "name": "Jumping Man: Mine",
+      "slug": "jumping-man-mine",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/857090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1000110,
+      "name": "Jumping Master(跳跳大咖)",
+      "slug": "jumping-master",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1000110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1220040,
+      "name": "Jumping Mellow",
+      "slug": "jumping-mellow",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1220040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1107210,
+      "name": "Jumping Over It With Kang KiYun",
+      "slug": "jumping-over-it-with-kang-kiyun",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1107210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1492380,
+      "name": "Jumping Over It With Neko Girl",
+      "slug": "jumping-over-it-with-neko-girl",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1492380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1390560,
+      "name": "Jumping Platform Minigame",
+      "slug": "jumping-platform-minigame",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1390560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 329460,
+      "name": "JumpJet Rex",
+      "slug": "jumpjet-rex",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/329460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1419770,
+      "name": "JumpJumpBall",
+      "slug": "jumpjumpball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1419770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1214130,
+      "name": "Jumplord",
+      "slug": "jumplord",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214130/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1251320,
+      "name": "JumPlose",
+      "slug": "jumplose",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1251320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1462970,
+      "name": "Jumpman (C64/MSDOS)",
+      "slug": "jumpman-c64-msdos",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1462970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 870150,
+      "name": "Jumponaut",
+      "slug": "jumponaut",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/870150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 544310,
+      "name": "Jumps",
+      "slug": "jumps",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/544310/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 651600,
+      "name": "Jumps VR",
+      "slug": "jumps-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/651600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 846780,
+      "name": "JumpStream",
+      "slug": "jumpstream",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/846780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1448740,
+      "name": "Jumpy Paws - World Adventures",
+      "slug": "jumpy-paws-world-adventures",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1448740/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 709710,
+      "name": "Jung's Labyrinth",
+      "slug": "jung-s-labyrinth",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/709710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1041630,
+      "name": "Jungle Adventure",
+      "slug": "jungle-adventure",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1041630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1032650,
+      "name": "Jungle Defense",
+      "slug": "jungle-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1032650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 600260,
+      "name": "Jungle Dino VR",
+      "slug": "jungle-dino-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/600260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 645190,
+      "name": "Jungle Hostages",
+      "slug": "jungle-hostages",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/645190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 844580,
+      "name": "Jungle Juggle",
+      "slug": "jungle-juggle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/844580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1460670,
+      "name": "Jungle Town: Birthday quest",
+      "slug": "jungle-town-birthday-quest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1460670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1015580,
+      "name": "Jungle Z",
+      "slug": "jungle-z",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1015580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1431770,
+      "name": "JungleKnight",
+      "slug": "jungleknight",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1431770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1384450,
+      "name": "Jungles of Maxtheria",
+      "slug": "jungles-of-maxtheria",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1384450/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 809760,
+      "name": "JungleShoot",
+      "slug": "jungleshoot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/809760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1036600,
+      "name": "Junglex",
+      "slug": "junglex",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1036600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1460520,
+      "name": "Junior Solutions",
+      "slug": "junior-solutions",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1460520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 564140,
+      "name": "Juniper Theory",
+      "slug": "juniper-theory",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/564140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 687590,
+      "name": "Juniper's Knot",
+      "slug": "juniper-s-knot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/687590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1150420,
+      "name": "Junk",
+      "slug": "junk",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1150420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1458600,
+      "name": "Junk Architect",
+      "slug": "junk-architect",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1458600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 414190,
+      "name": "Junk Jack",
+      "slug": "junk-jack",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/414190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 983160,
+      "name": "Junk on Wheels",
+      "slug": "junk-on-wheels",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/983160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 730270,
+      "name": "JunkerBot",
+      "slug": "junkerbot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/730270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1495770,
+      "name": "JunkRats",
+      "slug": "junkrats",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1495770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 671970,
+      "name": "Junkyard Simulator",
+      "slug": "junkyard-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/671970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 931940,
+      "name": "Junkyard Wizard",
+      "slug": "junkyard-wizard",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/931940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 870200,
+      "name": "Juno: New Origins",
+      "slug": "juno-new-origins",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/870200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 516120,
+      "name": "Juno's Darkest Hour",
+      "slug": "juno-s-darkest-hour",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/516120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1447250,
+      "name": "Junxions",
+      "slug": "junxions",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1447250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 811320,
+      "name": "Jupiter Hell",
+      "slug": "jupiter-hell",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/811320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1286690,
+      "name": "Jupiter Moons: Mecha - Prologue🤖",
+      "slug": "jupiter-moons-mecha-prologue",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1286690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1288540,
+      "name": "Jupiter Moons: Mecha🦾",
+      "slug": "jupiter-moons-mecha",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1288540/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 592240,
+      "name": "Jupiteration",
+      "slug": "jupiteration",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/592240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1342220,
+      "name": "Jurassic Fantasy",
+      "slug": "jurassic-fantasy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1342220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 378420,
+      "name": "Jurassic Island: The Dinosaur Zoo",
+      "slug": "jurassic-island-the-dinosaur-zoo",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/378420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1103660,
+      "name": "Jurassic Snap",
+      "slug": "jurassic-snap",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1103660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 498280,
+      "name": "Jurassic Survival",
+      "slug": "jurassic-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/498280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 648350,
+      "name": "Jurassic World Evolution",
+      "slug": "jurassic-world-evolution",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/648350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1244460,
+      "name": "Jurassic World Evolution 2",
+      "slug": "jurassic-world-evolution-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1244460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1413000,
+      "name": "Jurisdiction",
+      "slug": "jurisdiction",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1413000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 978630,
+      "name": "Juro Janosik",
+      "slug": "juro-janosik",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/978630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1389140,
+      "name": "Jury Trial",
+      "slug": "jury-trial",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1389140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 467330,
+      "name": "Just a Cleric",
+      "slug": "just-a-cleric",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/467330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 712770,
+      "name": "Just A Dream",
+      "slug": "just-a-dream",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/712770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1289280,
+      "name": "Just A Flu",
+      "slug": "just-a-flu",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1289280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1485080,
+      "name": "Just Act Natural",
+      "slug": "just-act-natural",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1485080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 388300,
+      "name": "Just Alone",
+      "slug": "just-alone",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/388300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1121290,
+      "name": "Just Another Memory",
+      "slug": "just-another-memory",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1121290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1215750,
+      "name": "Just Arms",
+      "slug": "just-arms",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1215750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 525950,
+      "name": "JUST BAT (VR CRICKET)",
+      "slug": "just-bat-vr-cricket",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/525950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 857420,
+      "name": "Just Beat Em Up : World of Fury",
+      "slug": "just-beat-em-up-world-of-fury",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/857420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 605060,
+      "name": "Just Beneath The Skin 2D",
+      "slug": "just-beneath-the-skin-2d",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/605060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 6880,
+      "name": "Just Cause",
+      "slug": "just-cause",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/6880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 8190,
+      "name": "Just Cause 2",
+      "slug": "just-cause-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/8190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 259080,
+      "name": "Just Cause 2: Multiplayer Mod",
+      "slug": "just-cause-2-multiplayer-mod",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/259080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 517630,
+      "name": "Just Cause 4 Reloaded",
+      "slug": "just-cause-4-reloaded",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/517630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 225540,
+      "name": "Just Cause™ 3",
+      "slug": "just-cause-3",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/225540/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 619910,
+      "name": "Just Cause™ 3: Multiplayer Mod",
+      "slug": "just-cause-3-multiplayer-mod",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/619910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1221560,
+      "name": "Just Chatting",
+      "slug": "just-chatting",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1221560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 891350,
+      "name": "JUST DASH",
+      "slug": "just-dash",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/891350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 336210,
+      "name": "Just Death",
+      "slug": "just-death",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/336210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 488660,
+      "name": "Just Deserts",
+      "slug": "just-deserts",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/488660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 979070,
+      "name": "Just Die Already",
+      "slug": "just-die-already",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/979070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1151200,
+      "name": "Just Drift It !",
+      "slug": "just-drift-it",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1151200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 338190,
+      "name": "Just Get Through",
+      "slug": "just-get-through",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/338190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 527760,
+      "name": "Just Hero",
+      "slug": "just-hero",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/527760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 561770,
+      "name": "Just Ignore Them",
+      "slug": "just-ignore-them",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/561770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 592030,
+      "name": "Just In Time Incorporated",
+      "slug": "just-in-time-incorporated",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/592030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 749880,
+      "name": "Just Jump",
+      "slug": "just-jump",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/749880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1059980,
+      "name": "Just King",
+      "slug": "just-king",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1059980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1286470,
+      "name": "Just Like Golf",
+      "slug": "just-like-golf",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1286470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1095610,
+      "name": "Just N",
+      "slug": "just-n",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1095610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 805840,
+      "name": "Just One Color",
+      "slug": "just-one-color",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/805840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 640210,
+      "name": "Just One Line",
+      "slug": "just-one-line",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/640210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1109880,
+      "name": "Just Random Squares",
+      "slug": "just-random-squares",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1109880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1461370,
+      "name": "Just Read The Instructions",
+      "slug": "just-read-the-instructions",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1461370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 693960,
+      "name": "Just Ride：Apparent Horizon 狂飙：极限视界",
+      "slug": "just-ride-apparent-horizon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/693960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 981710,
+      "name": "Just Roll With It",
+      "slug": "just-roll-with-it",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/981710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1521960,
+      "name": "Just Shake It",
+      "slug": "just-shake-it",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1521960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 531510,
+      "name": "Just Shapes & Beats",
+      "slug": "just-shapes-beats",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/531510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1212120,
+      "name": "Just Shoot",
+      "slug": "just-shoot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1212120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 740230,
+      "name": "Just Ski+",
+      "slug": "just-ski",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/740230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1093150,
+      "name": "Just Sleep - Meditate, Focus, Relax",
+      "slug": "just-sleep-meditate-focus-relax",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1093150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1150140,
+      "name": "Just Spin",
+      "slug": "just-spin",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1150140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1459930,
+      "name": "Just Take Your Left",
+      "slug": "just-take-your-left",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1459930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 612660,
+      "name": "Just Us",
+      "slug": "just-us",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/612660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 586990,
+      "name": "Just VR Slingshot Target Practice",
+      "slug": "just-vr-slingshot-target-practice",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/586990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 792030,
+      "name": "Just, Bearly",
+      "slug": "just-bearly",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/792030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 819270,
+      "name": "JUSTICE LEGION",
+      "slug": "justice-legion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/819270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1206020,
+      "name": "Justice Strikes",
+      "slug": "justice-strikes",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1206020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 856890,
+      "name": "JUSTICE SUCKS: Tactical Vacuum Action",
+      "slug": "justice-sucks-tactical-vacuum-action",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/856890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 975100,
+      "name": "Justice: Fallen Clan",
+      "slug": "justice-fallen-clan",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/975100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1291210,
+      "name": "Justice.exe",
+      "slug": "justice-exe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1291210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1131670,
+      "name": "Justin Wack and the Big Time Hack",
+      "slug": "justin-wack-and-the-big-time-hack",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1131670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1135030,
+      "name": "jut",
+      "slug": "jut",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1135030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 769420,
+      "name": "JuVentures",
+      "slug": "juventures",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/769420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    },
+    {
+      "appid": 1081990,
+      "name": "jwing - the next puzzle game",
+      "slug": "jwing-the-next-puzzle-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1081990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "j"
+    }
+  ]
+}

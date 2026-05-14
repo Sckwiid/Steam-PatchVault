@@ -1,0 +1,1376 @@
+{
+  "bucket": "x",
+  "generated_at": "2026-05-14T01:07:12.492Z",
+  "games": [
+    {
+      "appid": 1519620,
+      "name": "X air combat",
+      "slug": "x-air-combat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1519620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 984230,
+      "name": "X Archetype",
+      "slug": "x-archetype",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/984230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 796620,
+      "name": "X Mushrooms(X蘑菇)",
+      "slug": "x-mushrooms-x",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/796620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 2870,
+      "name": "X Rebirth",
+      "slug": "x-rebirth",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 570420,
+      "name": "X Rebirth VR Edition",
+      "slug": "x-rebirth-vr-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/570420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1134150,
+      "name": "X Wars Deluxe",
+      "slug": "x-wars-deluxe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1134150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 448060,
+      "name": "X-17",
+      "slug": "x-17",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/448060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 7510,
+      "name": "X-Blades",
+      "slug": "x-blades",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 7660,
+      "name": "X-COM: Apocalypse",
+      "slug": "x-com-apocalypse",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 7770,
+      "name": "X-COM: Enforcer",
+      "slug": "x-com-enforcer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 7730,
+      "name": "X-COM: Interceptor",
+      "slug": "x-com-interceptor",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 7650,
+      "name": "X-COM: Terror From the Deep",
+      "slug": "x-com-terror-from-the-deep",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 7760,
+      "name": "X-COM: UFO Defense",
+      "slug": "x-com-ufo-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/7760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 768990,
+      "name": "X-Fire VR",
+      "slug": "x-fire-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/768990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1314590,
+      "name": "X-Fitness",
+      "slug": "x-fitness",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1314590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 408410,
+      "name": "X-Morph: Defense",
+      "slug": "x-morph-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/408410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 337940,
+      "name": "X-note",
+      "slug": "x-note",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/337940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 292180,
+      "name": "X-Plane 10 Global - 64 Bit",
+      "slug": "x-plane-10-global-64-bit",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/292180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 269950,
+      "name": "X-Plane 11",
+      "slug": "x-plane-11",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/269950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1018720,
+      "name": "X-POINT",
+      "slug": "x-point",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1018720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 290850,
+      "name": "X-Team",
+      "slug": "x-team",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/290850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 828160,
+      "name": "X-Town 3D game",
+      "slug": "x-town-3d-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/828160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 2840,
+      "name": "X: Beyond the Frontier",
+      "slug": "x-beyond-the-frontier",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 2850,
+      "name": "X: Tension",
+      "slug": "x-tension",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 2800,
+      "name": "X2: The Threat",
+      "slug": "x2-the-threat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 2810,
+      "name": "X3: Reunion",
+      "slug": "x3-reunion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 2820,
+      "name": "X3: Terran Conflict",
+      "slug": "x3-terran-conflict",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/2820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 392160,
+      "name": "X4: Foundations",
+      "slug": "x4-foundations",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/392160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 727960,
+      "name": "Xagia Wars",
+      "slug": "xagia-wars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/727960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1491380,
+      "name": "Xagonia Colony",
+      "slug": "xagonia-colony",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1491380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 312560,
+      "name": "Xanadu Next",
+      "slug": "xanadu-next",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/312560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1073770,
+      "name": "XANARTHRAXIA",
+      "slug": "xanarthraxia",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1073770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1025160,
+      "name": "Xander the Monster Morpher: Universe Breaker",
+      "slug": "xander-the-monster-morpher-universe-breaker",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1025160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 546670,
+      "name": "Xark",
+      "slug": "xark",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/546670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 794570,
+      "name": "XBall Champion",
+      "slug": "xball-champion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/794570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 421610,
+      "name": "XBlaze Code: Embryo",
+      "slug": "xblaze-code-embryo",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/421610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 438940,
+      "name": "XBlaze Lost: Memories",
+      "slug": "xblaze-lost-memories",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/438940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 447960,
+      "name": "XCavalypse",
+      "slug": "xcavalypse",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/447960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 200510,
+      "name": "XCOM: Enemy Unknown",
+      "slug": "xcom-enemy-unknown",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/200510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 268500,
+      "name": "XCOM® 2",
+      "slug": "xcom-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/268500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 882100,
+      "name": "XCOM®: Chimera Squad",
+      "slug": "xcom-chimera-squad",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/882100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1278290,
+      "name": "xDasher",
+      "slug": "xdasher",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1278290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 623370,
+      "name": "xDrive VR",
+      "slug": "xdrive-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/623370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 510000,
+      "name": "Xecryst Remains",
+      "slug": "xecryst-remains",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/510000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1218930,
+      "name": "XECUTER",
+      "slug": "xecuter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1218930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 542210,
+      "name": "Xemo® : Robot Simulation",
+      "slug": "xemo-robot-simulation",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/542210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1343330,
+      "name": "Xendless",
+      "slug": "xendless",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1343330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 687310,
+      "name": "Xenia",
+      "slug": "xenia",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/687310/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 944640,
+      "name": "Xenia's Ark",
+      "slug": "xenia-s-ark",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/944640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 464260,
+      "name": "Xeno Crisis",
+      "slug": "xeno-crisis",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/464260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1452900,
+      "name": "Xeno Shooter",
+      "slug": "xeno-shooter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1452900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 721460,
+      "name": "Xeno Time Inception",
+      "slug": "xeno-time-inception",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/721460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 391440,
+      "name": "XenoBloom",
+      "slug": "xenobloom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/391440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 587710,
+      "name": "Xenobox VR",
+      "slug": "xenobox-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/587710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 838300,
+      "name": "XENOCAVE",
+      "slug": "xenocave",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/838300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 381910,
+      "name": "Xenocide",
+      "slug": "xenocide",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/381910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1146920,
+      "name": "Xenociders",
+      "slug": "xenociders",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1146920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 796920,
+      "name": "Xenoform",
+      "slug": "xenoform",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/796920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 869450,
+      "name": "XENOGROVE",
+      "slug": "xenogrove",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/869450/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1267870,
+      "name": "Xenogunner",
+      "slug": "xenogunner",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1267870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 676830,
+      "name": "Xenomarine",
+      "slug": "xenomarine",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/676830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 899390,
+      "name": "Xenon Racer",
+      "slug": "xenon-racer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/899390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 573780,
+      "name": "Xenon Valkyrie",
+      "slug": "xenon-valkyrie",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/573780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 223830,
+      "name": "Xenonauts",
+      "slug": "xenonauts",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/223830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 538030,
+      "name": "Xenonauts 2",
+      "slug": "xenonauts-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/538030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 460220,
+      "name": "Xenoraid: The First Space War",
+      "slug": "xenoraid-the-first-space-war",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/460220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 298280,
+      "name": "XenoRaptor",
+      "slug": "xenoraptor",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/298280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1122760,
+      "name": "XENOS Defense",
+      "slug": "xenos-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1122760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 429390,
+      "name": "XenoShyft",
+      "slug": "xenoshyft",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/429390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 611820,
+      "name": "Xenosis: Alien Infection",
+      "slug": "xenosis-alien-infection",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/611820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 654240,
+      "name": "Xenoslaive Overdrive",
+      "slug": "xenoslaive-overdrive",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/654240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1440030,
+      "name": "Xenotype",
+      "slug": "xenotype",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1440030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1222980,
+      "name": "Xenovaders",
+      "slug": "xenovaders",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1222980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1149800,
+      "name": "Xenrai",
+      "slug": "xenrai",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1149800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1131690,
+      "name": "Xentripetal Force",
+      "slug": "xentripetal-force",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1131690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1386110,
+      "name": "Xentron Attack",
+      "slug": "xentron-attack",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1386110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 546230,
+      "name": "Xenus 2. White gold.",
+      "slug": "xenus-2-white-gold",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/546230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 319140,
+      "name": "Xeodrifter",
+      "slug": "xeodrifter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/319140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 625340,
+      "name": "XERA: Survival",
+      "slug": "xera-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/625340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1224220,
+      "name": "Xevorel - The Way Of The Feather",
+      "slug": "xevorel-the-way-of-the-feather",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1224220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1085990,
+      "name": "XEYYEX",
+      "slug": "xeyyex",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1085990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1357580,
+      "name": "XF5700 Mantis Experimental Fighter",
+      "slug": "xf5700-mantis-experimental-fighter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1357580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1393630,
+      "name": "XGAMEX",
+      "slug": "xgamex",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1393630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 534780,
+      "name": "XGun-Weapon Evolution",
+      "slug": "xgun-weapon-evolution",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/534780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1436220,
+      "name": "XIBALBA",
+      "slug": "xibalba",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1436220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1154790,
+      "name": "XIII",
+      "slug": "xiii",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1154790/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1170760,
+      "name": "XIII - Classic",
+      "slug": "xiii-classic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1170760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 34420,
+      "name": "XIII Century – Gold Edition",
+      "slug": "xiii-century-gold-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/34420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 364250,
+      "name": "XIIZEAL",
+      "slug": "xiizeal",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/364250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 943270,
+      "name": "XILOST",
+      "slug": "xilost",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/943270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 299400,
+      "name": "XING: The Land Beyond",
+      "slug": "xing-the-land-beyond",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/299400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 644420,
+      "name": "Xion",
+      "slug": "xion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/644420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1064440,
+      "name": "Xiu's SuperMarket",
+      "slug": "xiu-s-supermarket",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1064440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 747240,
+      "name": "XL1-ClippingPoint",
+      "slug": "xl1-clippingpoint",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/747240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 360030,
+      "name": "XLarn",
+      "slug": "xlarn",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/360030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 447100,
+      "name": "XLR",
+      "slug": "xlr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/447100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 560050,
+      "name": "Xmas Shooting - Scramble!!",
+      "slug": "xmas-shooting-scramble",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/560050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 570690,
+      "name": "Xmas Zombie Rampage",
+      "slug": "xmas-zombie-rampage",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/570690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 769390,
+      "name": "Xmas Zombie Rampage 2",
+      "slug": "xmas-zombie-rampage-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/769390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 671050,
+      "name": "XMinutes: Wings",
+      "slug": "xminutes-wings",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/671050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1035410,
+      "name": "xMoon",
+      "slug": "xmoon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1035410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 399240,
+      "name": "XNemesis",
+      "slug": "xnemesis",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/399240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 399720,
+      "name": "XO",
+      "slug": "xo",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/399720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 439730,
+      "name": "XO-Planets",
+      "slug": "xo-planets",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/439730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1454950,
+      "name": "XOB",
+      "slug": "xob",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1454950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 946240,
+      "name": "Xobox - circle and cross",
+      "slug": "xobox-circle-and-cross",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/946240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 589270,
+      "name": "xoEl Empire",
+      "slug": "xoel-empire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/589270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1384840,
+      "name": "XOL",
+      "slug": "xol",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1384840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 957800,
+      "name": "XONG VR",
+      "slug": "xong-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/957800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1339180,
+      "name": "Xoo: Xeno Xafari",
+      "slug": "xoo-xeno-xafari",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1339180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 454170,
+      "name": "XorceD - Sashiro's Laedrum",
+      "slug": "xorced-sashiro-s-laedrum",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/454170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 92600,
+      "name": "Xotic",
+      "slug": "xotic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/92600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 780820,
+      "name": "XOXO Blood Droplets",
+      "slug": "xoxo-blood-droplets",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/780820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 622060,
+      "name": "XOXO Droplets",
+      "slug": "xoxo-droplets",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/622060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 3010,
+      "name": "Xpand Rally",
+      "slug": "xpand-rally",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/3010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 3050,
+      "name": "Xpand Rally Xtreme",
+      "slug": "xpand-rally-xtreme",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/3050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1288330,
+      "name": "XpCade",
+      "slug": "xpcade",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1288330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 763870,
+      "name": "Xploquest",
+      "slug": "xploquest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/763870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 791370,
+      "name": "Xploquest 2",
+      "slug": "xploquest-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/791370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1475180,
+      "name": "XPock",
+      "slug": "xpock",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1475180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1270030,
+      "name": "XRacer 2: Evolution",
+      "slug": "xracer-2-evolution",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1270030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 297470,
+      "name": "Xsyon - Prelude",
+      "slug": "xsyon-prelude",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/297470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1527080,
+      "name": "XTHRUST",
+      "slug": "xthrust",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1527080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 974140,
+      "name": "Xtractor Defender",
+      "slug": "xtractor-defender",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/974140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 800640,
+      "name": "Xtreme Paddleball",
+      "slug": "xtreme-paddleball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/800640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1145220,
+      "name": "Xtreme Typing",
+      "slug": "xtreme-typing",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1145220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 658250,
+      "name": "Xtrike",
+      "slug": "xtrike",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/658250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1249800,
+      "name": "Xuan-Yuan Sword VII",
+      "slug": "xuan-yuan-sword-vii",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1249800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 427030,
+      "name": "Xuan-Yuan Sword: The Gate of Firmament",
+      "slug": "xuan-yuan-sword-the-gate-of-firmament",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/427030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 874650,
+      "name": "XXX Puzzle",
+      "slug": "xxx-puzzle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/874650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 692920,
+      "name": "XXZ",
+      "slug": "xxz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/692920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 696590,
+      "name": "XXZ: XXL",
+      "slug": "xxz-xxl",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/696590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1239920,
+      "name": "Xyla and the 'Shrooms of Doom",
+      "slug": "xyla-and-the-shrooms-of-doom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1239920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1210640,
+      "name": "XYLITH - Hostile Planet",
+      "slug": "xylith-hostile-planet",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1210640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 771180,
+      "name": "XZ",
+      "slug": "xz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/771180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 771190,
+      "name": "XZ: XL",
+      "slug": "xz-xl",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/771190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    },
+    {
+      "appid": 1471450,
+      "name": "X遊戲",
+      "slug": "x-1471450",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1471450/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "x"
+    }
+  ]
+}

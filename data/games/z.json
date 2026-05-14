@@ -1,0 +1,4696 @@
+{
+  "bucket": "z",
+  "generated_at": "2026-05-14T01:07:12.492Z",
+  "games": [
+    {
+      "appid": 275530,
+      "name": "Z",
+      "slug": "z",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/275530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 885840,
+      "name": "Z After: A Point and Click Survival",
+      "slug": "z-after-a-point-and-click-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/885840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1411460,
+      "name": "Z Arena",
+      "slug": "z-arena",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1411460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 872680,
+      "name": "Z Dawn",
+      "slug": "z-dawn",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/872680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1041560,
+      "name": "Z Ops: Campus",
+      "slug": "z-ops-campus",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1041560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 275510,
+      "name": "Z Steel Soldiers",
+      "slug": "z-steel-soldiers",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/275510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 652730,
+      "name": "Z-Aftershock",
+      "slug": "z-aftershock",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/652730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1502480,
+      "name": "Z-Blood Mission",
+      "slug": "z-blood-mission",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1502480/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 582610,
+      "name": "Z-End",
+      "slug": "z-end",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/582610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 434750,
+      "name": "Z-Exemplar",
+      "slug": "z-exemplar",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/434750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1343750,
+      "name": "Z-Race",
+      "slug": "z-race",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1343750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 843190,
+      "name": "Z: Escape",
+      "slug": "z-escape",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/843190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 786770,
+      "name": "Z: The End",
+      "slug": "z-the-end",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/786770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 351820,
+      "name": "Z.A.R.",
+      "slug": "z-a-r",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/351820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 466890,
+      "name": "Z.I.O.N.",
+      "slug": "z-i-o-n",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/466890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 848720,
+      "name": "Z.W!",
+      "slug": "z-w",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/848720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 543950,
+      "name": "Z`code (VR for HTC Vive)",
+      "slug": "z-code-vr-for-htc-vive",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/543950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 433850,
+      "name": "Z1 Battle Royale",
+      "slug": "z1-battle-royale",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/433850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 439700,
+      "name": "Z1 Battle Royale: Test Server",
+      "slug": "z1-battle-royale-test-server",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/439700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1492230,
+      "name": "Zaacar",
+      "slug": "zaacar",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1492230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1128220,
+      "name": "ZAAM",
+      "slug": "zaam",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1128220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 673530,
+      "name": "Zaba The Frog",
+      "slug": "zaba-the-frog",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/673530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1298520,
+      "name": "Zac Zac adventure",
+      "slug": "zac-zac-adventure",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1298520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 444930,
+      "name": "Zaccaria Pinball",
+      "slug": "zaccaria-pinball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/444930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1098840,
+      "name": "ZACH-LIKE",
+      "slug": "zach-like",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1098840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1218320,
+      "name": "Zack 2: Celestine's Map",
+      "slug": "zack-2-celestine-s-map",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1218320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 937620,
+      "name": "Zack Y",
+      "slug": "zack-y",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/937620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 234290,
+      "name": "Zack Zero",
+      "slug": "zack-zero",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/234290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1510670,
+      "name": "ZADETTE",
+      "slug": "zadette",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1510670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 653940,
+      "name": "Zafehouse Diaries 2",
+      "slug": "zafehouse-diaries-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/653940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 249360,
+      "name": "Zafehouse: Diaries",
+      "slug": "zafehouse-diaries",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/249360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1416940,
+      "name": "Zagamihara",
+      "slug": "zagamihara",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1416940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1295030,
+      "name": "Zagan Must Be Rescued",
+      "slug": "zagan-must-be-rescued",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1295030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 791320,
+      "name": "Zahalia",
+      "slug": "zahalia",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/791320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 562290,
+      "name": "Zahalia: The Knights of Galiveth",
+      "slug": "zahalia-the-knights-of-galiveth",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/562290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1530260,
+      "name": "Zahhak",
+      "slug": "zahhak",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1530260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 559070,
+      "name": "Zak McKracken and the Alien Mindbenders",
+      "slug": "zak-mckracken-and-the-alien-mindbenders",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/559070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1037150,
+      "name": "Zakk Hazard The Deadly Spawn",
+      "slug": "zakk-hazard-the-deadly-spawn",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1037150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1430350,
+      "name": "Zakumba: Astraia",
+      "slug": "zakumba-astraia",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1430350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 429120,
+      "name": "Zamarian",
+      "slug": "zamarian",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/429120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 819280,
+      "name": "ZAMB! Endless Extermination",
+      "slug": "zamb-endless-extermination",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/819280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 564040,
+      "name": "ZANGEKI WARP",
+      "slug": "zangeki-warp",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/564040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 819020,
+      "name": "Zanki Zero: Last Beginning",
+      "slug": "zanki-zero-last-beginning",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/819020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 768550,
+      "name": "Zanshin",
+      "slug": "zanshin",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/768550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 384570,
+      "name": "Zanzarah: The Hidden Portal",
+      "slug": "zanzarah-the-hidden-portal",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/384570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 696850,
+      "name": "Zap Blastum",
+      "slug": "zap-blastum",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/696850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 679860,
+      "name": "ZAP Master",
+      "slug": "zap-master",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/679860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 743190,
+      "name": "Zap Zap Zombie Cats",
+      "slug": "zap-zap-zombie-cats",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/743190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 572180,
+      "name": "Zap Zone",
+      "slug": "zap-zone",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/572180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1173230,
+      "name": "Zapitalism",
+      "slug": "zapitalism",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1173230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1489110,
+      "name": "Zapling Bygone",
+      "slug": "zapling-bygone",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1489110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1484800,
+      "name": "Zardy's Maze",
+      "slug": "zardy-s-maze",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1484800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 992930,
+      "name": "Zarvot",
+      "slug": "zarvot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/992930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 605040,
+      "name": "Zarya and the Cursed Skull",
+      "slug": "zarya-and-the-cursed-skull",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/605040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 640090,
+      "name": "Zarya-1: Mystery on the Moon",
+      "slug": "zarya-1-mystery-on-the-moon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/640090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 447240,
+      "name": "Zasa - An AI Story",
+      "slug": "zasa-an-ai-story",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/447240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1257520,
+      "name": "Zatorski, Ph.D.",
+      "slug": "zatorski-ph-d",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1257520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 427910,
+      "name": "Zavix Tower",
+      "slug": "zavix-tower",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/427910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1437200,
+      "name": "ZAVOD: Conveyor Logic",
+      "slug": "zavod-conveyor-logic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1437200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1386650,
+      "name": "ZCREW",
+      "slug": "zcrew",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1386650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 574220,
+      "name": "Ze VR",
+      "slug": "ze-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/574220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 703280,
+      "name": "Zeal",
+      "slug": "zeal",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/703280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1473900,
+      "name": "Zealot",
+      "slug": "zealot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1473900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1135730,
+      "name": "Zebra Logic Master",
+      "slug": "zebra-logic-master",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1135730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 794390,
+      "name": "Zed Survival",
+      "slug": "zed-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/794390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1211600,
+      "name": "ZED ZONE",
+      "slug": "zed-zone",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1211600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1037080,
+      "name": "Zedfest",
+      "slug": "zedfest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1037080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1440670,
+      "name": "Zeepkist",
+      "slug": "zeepkist",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1440670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1078380,
+      "name": "Zefira",
+      "slug": "zefira",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1078380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1344990,
+      "name": "Zefyr: A Thief's Melody",
+      "slug": "zefyr-a-thief-s-melody",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1344990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 437520,
+      "name": "ZeGame",
+      "slug": "zegame",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/437520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 33390,
+      "name": "Zeit²",
+      "slug": "zeit",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/33390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1093800,
+      "name": "Zeke's Peak",
+      "slug": "zeke-s-peak",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1093800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1357200,
+      "name": "Zeko",
+      "slug": "zeko",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1357200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 855630,
+      "name": "Zeliria Sanctuary",
+      "slug": "zeliria-sanctuary",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/855630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1256330,
+      "name": "Zeliria Sanctuary II: Xinori Asylum",
+      "slug": "zeliria-sanctuary-ii-xinori-asylum",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1256330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 725330,
+      "name": "Zelle",
+      "slug": "zelle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/725330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1193340,
+      "name": "Zelter",
+      "slug": "zelter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1193340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1434550,
+      "name": "Zeltrus",
+      "slug": "zeltrus",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1434550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 849340,
+      "name": "zeMa",
+      "slug": "zema",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/849340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1111970,
+      "name": "Zeminator",
+      "slug": "zeminator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1111970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 733020,
+      "name": "Zen Blocks - Relaxing Puzzle Board Game",
+      "slug": "zen-blocks-relaxing-puzzle-board-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/733020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 61600,
+      "name": "Zen Bound 2",
+      "slug": "zen-bound-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/61600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1108550,
+      "name": "Zen Chess: Blindfold Masters",
+      "slug": "zen-chess-blindfold-masters",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1108550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1108540,
+      "name": "Zen Chess: Champion's Moves",
+      "slug": "zen-chess-champion-s-moves",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1108540/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1043000,
+      "name": "Zen Chess: Mate in Four",
+      "slug": "zen-chess-mate-in-four",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1043000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 748970,
+      "name": "Zen Chess: Mate in One",
+      "slug": "zen-chess-mate-in-one",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/748970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1042990,
+      "name": "Zen Chess: Mate in Three",
+      "slug": "zen-chess-mate-in-three",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1042990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1042980,
+      "name": "Zen Chess: Mate in Two",
+      "slug": "zen-chess-mate-in-two",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1042980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 592660,
+      "name": "Zen Garden",
+      "slug": "zen-garden",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/592660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 4900,
+      "name": "Zen of Sudoku",
+      "slug": "zen-of-sudoku",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/4900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 876210,
+      "name": "Zen Space Flight - VR Showcase",
+      "slug": "zen-space-flight-vr-showcase",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/876210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1418570,
+      "name": "Zen Trails",
+      "slug": "zen-trails",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1418570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1281600,
+      "name": "Zen Universe",
+      "slug": "zen-universe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1281600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 852620,
+      "name": "Zen Vs Gravity",
+      "slug": "zen-vs-gravity",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/852620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1485650,
+      "name": "Zen World",
+      "slug": "zen-world",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1485650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1444700,
+      "name": "Zen! Slider",
+      "slug": "zen-slider",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1444700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1441690,
+      "name": "ZendoVR",
+      "slug": "zendovr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1441690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 37290,
+      "name": "Zenerchi®",
+      "slug": "zenerchi",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/37290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 694960,
+      "name": "Zenethics Lab : Outbreak",
+      "slug": "zenethics-lab-outbreak",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/694960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 461840,
+      "name": "Zenge",
+      "slug": "zenge",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/461840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1000080,
+      "name": "Zengeon",
+      "slug": "zengeon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1000080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 438420,
+      "name": "Zenith",
+      "slug": "zenith",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/438420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1031860,
+      "name": "Zenith Frontier",
+      "slug": "zenith-frontier",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1031860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 924360,
+      "name": "Zenith Hunter",
+      "slug": "zenith-hunter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/924360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1522070,
+      "name": "Zenith Into Maronarium",
+      "slug": "zenith-into-maronarium",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1522070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1403370,
+      "name": "Zenith: Nexus",
+      "slug": "zenith-nexus",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1403370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1085800,
+      "name": "Zenkat",
+      "slug": "zenkat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1085800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 22200,
+      "name": "Zeno Clash",
+      "slug": "zeno-clash",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/22200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 215690,
+      "name": "Zeno Clash 2",
+      "slug": "zeno-clash-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/215690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 761920,
+      "name": "Zenodeath",
+      "slug": "zenodeath",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/761920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 466820,
+      "name": "Zenodyne R",
+      "slug": "zenodyne-r",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/466820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 402030,
+      "name": "Zenohell",
+      "slug": "zenohell",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/402030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1490950,
+      "name": "Zenorost Realm",
+      "slug": "zenorost-realm",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1490950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 519990,
+      "name": "Zenza",
+      "slug": "zenza",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/519990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1279810,
+      "name": "Zeph",
+      "slug": "zeph",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1279810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1481170,
+      "name": "ZEPHON",
+      "slug": "zephon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1481170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1423010,
+      "name": "Zephyr",
+      "slug": "zephyr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1423010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 611200,
+      "name": "Zeppelin VR",
+      "slug": "zeppelin-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/611200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 665030,
+      "name": "Zeran's Folly",
+      "slug": "zeran-s-folly",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/665030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1359240,
+      "name": "Zeriliah Chronicles",
+      "slug": "zeriliah-chronicles",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1359240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 877200,
+      "name": "Zero Caliber VR",
+      "slug": "zero-caliber-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/877200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 754930,
+      "name": "Zero Days VR",
+      "slug": "zero-days-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/754930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 477740,
+      "name": "Zero Escape: The Nonary Games",
+      "slug": "zero-escape-the-nonary-games",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/477740/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 311240,
+      "name": "Zero Escape: Zero Time Dilemma",
+      "slug": "zero-escape-zero-time-dilemma",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/311240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 467820,
+      "name": "Zero G Arena",
+      "slug": "zero-g-arena",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/467820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 18820,
+      "name": "Zero Gear",
+      "slug": "zero-gear",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/18820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 423780,
+      "name": "Zero Gravity",
+      "slug": "zero-gravity",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/423780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 778600,
+      "name": "Zero Gravity Pool",
+      "slug": "zero-gravity-pool",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/778600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1359090,
+      "name": "Zero Hour",
+      "slug": "zero-hour",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1359090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1236240,
+      "name": "Zero IDLE",
+      "slug": "zero-idle",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1236240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 645930,
+      "name": "Zero Killed",
+      "slug": "zero-killed",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/645930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1040610,
+      "name": "Zero One / 杀戮世界",
+      "slug": "zero-one",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1040610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 403700,
+      "name": "Zero Punctuation: Hatfall - Hatters Gonna Hat Edition",
+      "slug": "zero-punctuation-hatfall-hatters-gonna-hat-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/403700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 405650,
+      "name": "Zero Reflex : Black Eye Edition",
+      "slug": "zero-reflex-black-eye-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/405650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 951010,
+      "name": "Zero spring episode 1 English translation version",
+      "slug": "zero-spring-episode-1-english-translation-version",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/951010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 974010,
+      "name": "Zero spring episode 2",
+      "slug": "zero-spring-episode-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/974010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1000900,
+      "name": "Zero spring episode 3",
+      "slug": "zero-spring-episode-3",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1000900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1079560,
+      "name": "Zero Strain",
+      "slug": "zero-strain",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1079560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 873470,
+      "name": "Zero Sum Future",
+      "slug": "zero-sum-future",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/873470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 753190,
+      "name": "Zero Symptom",
+      "slug": "zero-symptom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/753190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1257930,
+      "name": "Zero Tolerance",
+      "slug": "zero-tolerance",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1257930/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1377200,
+      "name": "Zero Wrath Vendetta",
+      "slug": "zero-wrath-vendetta",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1377200/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 639880,
+      "name": "Zero Zero Zero Zero",
+      "slug": "zero-zero-zero-zero",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/639880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1058860,
+      "name": "ZERO ZION",
+      "slug": "zero-zion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1058860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1044870,
+      "name": "Zero-based World-从零开始",
+      "slug": "zero-based-world",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1044870/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 567890,
+      "name": "Zero-G",
+      "slug": "zero-g",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/567890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1312060,
+      "name": "Zero-G Gunfight",
+      "slug": "zero-g-gunfight",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1312060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1504630,
+      "name": "Zero-G Revolution",
+      "slug": "zero-g-revolution",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1504630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 491520,
+      "name": "Zero-G VR",
+      "slug": "zero-g-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/491520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 334920,
+      "name": "Zero-K",
+      "slug": "zero-k",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/334920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1492440,
+      "name": "Zero-Point",
+      "slug": "zero-point",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1492440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 790080,
+      "name": "ZEROCAR: Future Motorsport",
+      "slug": "zerocar-future-motorsport",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/790080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1274970,
+      "name": "ZEROED",
+      "slug": "zeroed",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1274970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1218580,
+      "name": "Zerograve",
+      "slug": "zerograve",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1218580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1203940,
+      "name": "ZERONE - First Encounter",
+      "slug": "zerone-first-encounter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1203940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 952710,
+      "name": "ZERONE Episode 1 Gunner",
+      "slug": "zerone-episode-1-gunner",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/952710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 974110,
+      "name": "Zeroptian Invasion",
+      "slug": "zeroptian-invasion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/974110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 809020,
+      "name": "ZeroRanger",
+      "slug": "zeroranger",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/809020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1276300,
+      "name": "Zerowood",
+      "slug": "zerowood",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1276300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1128100,
+      "name": "ZeroZone2020",
+      "slug": "zerozone2020",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1128100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 517280,
+      "name": "ZEscape",
+      "slug": "zescape",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/517280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 968640,
+      "name": "ZET",
+      "slug": "zet",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/968640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1042230,
+      "name": "Zeta Complex",
+      "slug": "zeta-complex",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1042230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 915860,
+      "name": "Zettavolt Trigger",
+      "slug": "zettavolt-trigger",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/915860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 566050,
+      "name": "Zeus + Poseidon",
+      "slug": "zeus-poseidon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/566050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1092850,
+      "name": "Zeus Begins",
+      "slug": "zeus-begins",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1092850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 444430,
+      "name": "Zeus vs Monsters - Math Game for kids",
+      "slug": "zeus-vs-monsters-math-game-for-kids",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/444430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 682290,
+      "name": "Zeus' Battlegrounds",
+      "slug": "zeus-battlegrounds",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/682290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 497860,
+      "name": "Zezenia Online",
+      "slug": "zezenia-online",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/497860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 721890,
+      "name": "ZhanDou (VR and Non-VR)",
+      "slug": "zhandou-vr-and-non-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/721890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 543040,
+      "name": "ZHED - Puzzle Game",
+      "slug": "zhed-puzzle-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/543040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 423270,
+      "name": "ZHEROS",
+      "slug": "zheros",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/423270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1119530,
+      "name": "ZHIVE",
+      "slug": "zhive",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1119530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 816180,
+      "name": "Zhmyshenko Valery Albertovich",
+      "slug": "zhmyshenko-valery-albertovich",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/816180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 768300,
+      "name": "Zhulik.exe",
+      "slug": "zhulik-exe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/768300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 649670,
+      "name": "ZHUST - THE ILLUSION SOUL",
+      "slug": "zhust-the-illusion-soul",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/649670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1411580,
+      "name": "ZI Survival",
+      "slug": "zi-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1411580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 533360,
+      "name": "Zia and the goddesses of magic",
+      "slug": "zia-and-the-goddesses-of-magic",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/533360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 554720,
+      "name": "Ziba",
+      "slug": "ziba",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/554720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1001960,
+      "name": "Zibbs - Alien Survival",
+      "slug": "zibbs-alien-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1001960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1051290,
+      "name": "ZIC – Zombies in City",
+      "slug": "zic-zombies-in-city",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1051290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1065210,
+      "name": "ZIC: Survival",
+      "slug": "zic-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1065210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 796140,
+      "name": "Zig",
+      "slug": "zig",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/796140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1514880,
+      "name": "Zigglox",
+      "slug": "zigglox",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1514880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 308420,
+      "name": "Ziggurat",
+      "slug": "ziggurat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/308420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1159560,
+      "name": "Ziggurat 2",
+      "slug": "ziggurat-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1159560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 654680,
+      "name": "Ziggurat 3D Chess",
+      "slug": "ziggurat-3d-chess",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/654680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1145300,
+      "name": "Ziggy",
+      "slug": "ziggy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1145300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1362750,
+      "name": "Ziggy The Chaser",
+      "slug": "ziggy-the-chaser",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1362750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 533660,
+      "name": "Ziggy's Chase",
+      "slug": "ziggy-s-chase",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/533660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1501820,
+      "name": "Ziggy's Cosmic Adventures",
+      "slug": "ziggy-s-cosmic-adventures",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1501820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 601170,
+      "name": "ZiL Truck RallyCross",
+      "slug": "zil-truck-rallycross",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/601170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 789450,
+      "name": "Zim's Word Game",
+      "slug": "zim-s-word-game",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/789450/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 834470,
+      "name": "Zima uhodi!",
+      "slug": "zima-uhodi",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/834470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1227760,
+      "name": "Zip! Speedster of Valiant City",
+      "slug": "zip-speedster-of-valiant-city",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1227760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 433110,
+      "name": "Zipple World",
+      "slug": "zipple-world",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/433110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 461600,
+      "name": "Zipple World 2: The Sweet Chaos",
+      "slug": "zipple-world-2-the-sweet-chaos",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/461600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 538900,
+      "name": "ZIQ",
+      "slug": "ziq",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/538900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 33660,
+      "name": "Ziro",
+      "slug": "ziro",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/33660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 516500,
+      "name": "Zissi's Island",
+      "slug": "zissi-s-island",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/516500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 635700,
+      "name": "ZIX",
+      "slug": "zix",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/635700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1170830,
+      "name": "ZLM Crafter",
+      "slug": "zlm-crafter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1170830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 904750,
+      "name": "Zniw Adventure",
+      "slug": "zniw-adventure",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/904750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 745380,
+      "name": "Znkl - 177",
+      "slug": "znkl-177",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/745380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1298410,
+      "name": "Zodiac - Hellish Memory",
+      "slug": "zodiac-hellish-memory",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1298410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1432280,
+      "name": "Zodiac Angel",
+      "slug": "zodiac-angel",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1432280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 946370,
+      "name": "Zodiac Axis",
+      "slug": "zodiac-axis",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/946370/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1397000,
+      "name": "Zodiac DX",
+      "slug": "zodiac-dx",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1397000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1370620,
+      "name": "Zodiac Girls",
+      "slug": "zodiac-girls",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1370620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 616390,
+      "name": "Zodiac Hentai - Hellish Memory",
+      "slug": "zodiac-hentai-hellish-memory",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/616390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 812910,
+      "name": "Zodiac Legion",
+      "slug": "zodiac-legion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/812910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1386460,
+      "name": "Zodiakalik",
+      "slug": "zodiakalik",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1386460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 876100,
+      "name": "Zodicat",
+      "slug": "zodicat",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/876100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1266610,
+      "name": "ZOE Begone!",
+      "slug": "zoe-begone",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1266610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1434540,
+      "name": "Zoeti",
+      "slug": "zoeti",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1434540/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1414480,
+      "name": "Zof",
+      "slug": "zof",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1414480/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 652770,
+      "name": "Zofia",
+      "slug": "zofia",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/652770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 555710,
+      "name": "Zolg",
+      "slug": "zolg",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/555710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 888380,
+      "name": "ZOLO - Zombies Only Live Once",
+      "slug": "zolo-zombies-only-live-once",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/888380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1193070,
+      "name": "Zom Nom",
+      "slug": "zom-nom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1193070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1053040,
+      "name": "Zom-bie, or Not Zom-bie",
+      "slug": "zom-bie-or-not-zom-bie",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1053040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1098980,
+      "name": "ZomB",
+      "slug": "zomb",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1098980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1114020,
+      "name": "ZomB: Battlegrounds",
+      "slug": "zomb-battlegrounds",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1114020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1216580,
+      "name": "Zombase",
+      "slug": "zombase",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1216580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 408960,
+      "name": "Zombasite",
+      "slug": "zombasite",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/408960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 262190,
+      "name": "Zombeer",
+      "slug": "zombeer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/262190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1332630,
+      "name": "Zombeer: Delivery Mission",
+      "slug": "zombeer-delivery-mission",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1332630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 339230,
+      "name": "ZOMBI",
+      "slug": "zombi",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/339230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 612020,
+      "name": "Zombidle : REMONSTERED",
+      "slug": "zombidle-remonstered",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/612020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 898690,
+      "name": "Zombie",
+      "slug": "zombie",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/898690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1143860,
+      "name": "Zombie Admin",
+      "slug": "zombie-admin",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1143860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1496710,
+      "name": "Zombie Alert",
+      "slug": "zombie-alert",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1496710/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 589160,
+      "name": "Zombie Apocalypse",
+      "slug": "zombie-apocalypse",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/589160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 986080,
+      "name": "Zombie Apocalypse",
+      "slug": "zombie-apocalypse-986080",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/986080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1074960,
+      "name": "Zombie Apocalypse Mini Golf (VR)",
+      "slug": "zombie-apocalypse-mini-golf-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1074960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 492490,
+      "name": "Zombie Apocalypse: Escape The Undead City",
+      "slug": "zombie-apocalypse-escape-the-undead-city",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/492490/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 694280,
+      "name": "Zombie Army 4: Dead War",
+      "slug": "zombie-army-4-dead-war",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/694280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 301640,
+      "name": "Zombie Army Trilogy",
+      "slug": "zombie-army-trilogy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/301640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 581970,
+      "name": "Zombie Ballz",
+      "slug": "zombie-ballz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/581970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1418430,
+      "name": "Zombie Bar Simulator",
+      "slug": "zombie-bar-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1418430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 867720,
+      "name": "Zombie Barricades",
+      "slug": "zombie-barricades",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/867720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 521110,
+      "name": "Zombie Birds First Encounter Halloween",
+      "slug": "zombie-birds-first-encounter-halloween",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/521110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 713090,
+      "name": "Zombie Bloxx",
+      "slug": "zombie-bloxx",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/713090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 32160,
+      "name": "Zombie Bowl-o-Rama",
+      "slug": "zombie-bowl-o-rama",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/32160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 945460,
+      "name": "Zombie Builder Defense",
+      "slug": "zombie-builder-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/945460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 618590,
+      "name": "Zombie Buster VR",
+      "slug": "zombie-buster-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/618590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1202550,
+      "name": "Zombie Busters VR",
+      "slug": "zombie-busters-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1202550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 357840,
+      "name": "Zombie Camp: Last Survivor",
+      "slug": "zombie-camp-last-survivor",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/357840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1417670,
+      "name": "Zombie camping",
+      "slug": "zombie-camping",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1417670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 771570,
+      "name": "Zombie City",
+      "slug": "zombie-city",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/771570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 473970,
+      "name": "Zombie City Defense 2",
+      "slug": "zombie-city-defense-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/473970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1213640,
+      "name": "Zombie Claus",
+      "slug": "zombie-claus",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1213640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 790230,
+      "name": "Zombie Clicker Defense",
+      "slug": "zombie-clicker-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/790230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 847240,
+      "name": "Zombie Commander",
+      "slug": "zombie-commander",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/847240/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 688330,
+      "name": "Zombie Commando 3D",
+      "slug": "zombie-commando-3d",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/688330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 757420,
+      "name": "Zombie Crisis: Last One Standing",
+      "slug": "zombie-crisis-last-one-standing",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/757420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 959030,
+      "name": "Zombie Cubes",
+      "slug": "zombie-cubes",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/959030/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 951780,
+      "name": "Zombie Deathrace Feeding Frenzy",
+      "slug": "zombie-deathrace-feeding-frenzy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/951780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 533780,
+      "name": "Zombie Defense",
+      "slug": "zombie-defense",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/533780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1245550,
+      "name": "Zombie Defense Shelter",
+      "slug": "zombie-defense-shelter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1245550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 831770,
+      "name": "Zombie Derby",
+      "slug": "zombie-derby",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/831770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 762590,
+      "name": "Zombie Derby 2",
+      "slug": "zombie-derby-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/762590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1271690,
+      "name": "Zombie Derby: Pixel Survival",
+      "slug": "zombie-derby-pixel-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1271690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 818570,
+      "name": "Zombie Desperation",
+      "slug": "zombie-desperation",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/818570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1522350,
+      "name": "Zombie Drift",
+      "slug": "zombie-drift",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1522350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 220820,
+      "name": "Zombie Driver HD",
+      "slug": "zombie-driver-hd",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/220820/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1526580,
+      "name": "Zombie Dungeon",
+      "slug": "zombie-dungeon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1526580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 512490,
+      "name": "Zombie Estate 2",
+      "slug": "zombie-estate-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/512490/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 411570,
+      "name": "Zombie Exodus",
+      "slug": "zombie-exodus",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/411570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 543980,
+      "name": "Zombie Exodus: Safe Haven",
+      "slug": "zombie-exodus-safe-haven",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/543980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 906680,
+      "name": "Zombie Flick | 僵尸快打",
+      "slug": "zombie-flick",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/906680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 833010,
+      "name": "Zombie Forest 2",
+      "slug": "zombie-forest-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/833010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1360250,
+      "name": "Zombie Frenzy",
+      "slug": "zombie-frenzy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1360250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1131270,
+      "name": "Zombie Golf",
+      "slug": "zombie-golf",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1131270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 398890,
+      "name": "Zombie Gotchi",
+      "slug": "zombie-gotchi",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/398890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 263920,
+      "name": "Zombie Grinder",
+      "slug": "zombie-grinder",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/263920/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1516730,
+      "name": "Zombie Groove",
+      "slug": "zombie-groove",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1516730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 888570,
+      "name": "Zombie Head",
+      "slug": "zombie-head",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/888570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1417280,
+      "name": "Zombie Hills",
+      "slug": "zombie-hills",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1417280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 665620,
+      "name": "Zombie Hobby VR",
+      "slug": "zombie-hobby-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/665620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1163320,
+      "name": "Zombie horde",
+      "slug": "zombie-horde",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1163320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 851570,
+      "name": "Zombie Hotel",
+      "slug": "zombie-hotel",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/851570/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 387130,
+      "name": "Zombie Hunter, Inc.",
+      "slug": "zombie-hunter-inc",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/387130/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 594760,
+      "name": "Zombie in my city",
+      "slug": "zombie-in-my-city",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/594760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1122970,
+      "name": "Zombie Island",
+      "slug": "zombie-island",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1122970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 636430,
+      "name": "Zombie Kill",
+      "slug": "zombie-kill",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/636430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 342300,
+      "name": "Zombie Kill of the Week - Reborn",
+      "slug": "zombie-kill-of-the-week-reborn",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/342300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1009100,
+      "name": "Zombie Killer - Type to Shoot!",
+      "slug": "zombie-killer-type-to-shoot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1009100/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 582350,
+      "name": "Zombie Killin'",
+      "slug": "zombie-killin",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/582350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 872350,
+      "name": "Zombie Killing Simulator",
+      "slug": "zombie-killing-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/872350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 794530,
+      "name": "Zombie Lane Survival",
+      "slug": "zombie-lane-survival",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/794530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1336690,
+      "name": "ZOMBIE MATHters",
+      "slug": "zombie-mathters",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1336690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 810680,
+      "name": "Zombie Murder",
+      "slug": "zombie-murder",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/810680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 810720,
+      "name": "Zombie Murder Hell Arrives",
+      "slug": "zombie-murder-hell-arrives",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/810720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1214380,
+      "name": "Zombie Mutant DNA",
+      "slug": "zombie-mutant-dna",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214380/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1519280,
+      "name": "Zombie Neighborhood",
+      "slug": "zombie-neighborhood",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1519280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 416680,
+      "name": "Zombie Night Terror",
+      "slug": "zombie-night-terror",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/416680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 725950,
+      "name": "Zombie Nightmare",
+      "slug": "zombie-nightmare",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/725950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1173850,
+      "name": "Zombie Panic In Wonderland DX",
+      "slug": "zombie-panic-in-wonderland-dx",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1173850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 17500,
+      "name": "Zombie Panic! Source",
+      "slug": "zombie-panic-source",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/17500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 449090,
+      "name": "Zombie Parking",
+      "slug": "zombie-parking",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/449090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 384500,
+      "name": "Zombie Party",
+      "slug": "zombie-party",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/384500/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 458510,
+      "name": "Zombie Pinball",
+      "slug": "zombie-pinball",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/458510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 46850,
+      "name": "Zombie Pirates",
+      "slug": "zombie-pirates",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/46850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 215550,
+      "name": "Zombie Playground™",
+      "slug": "zombie-playground",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/215550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 360400,
+      "name": "Zombie Quarantine",
+      "slug": "zombie-quarantine",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/360400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 688540,
+      "name": "ZOMBIE RAID: No One Survives",
+      "slug": "zombie-raid-no-one-survives",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/688540/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 864590,
+      "name": "Zombie Rampage",
+      "slug": "zombie-rampage",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/864590/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 639460,
+      "name": "Zombie Riot",
+      "slug": "zombie-riot",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/639460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1175640,
+      "name": "Zombie Road Rider",
+      "slug": "zombie-road-rider",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1175640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 915230,
+      "name": "Zombie Rollerz: Pinball Heroes",
+      "slug": "zombie-rollerz-pinball-heroes",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/915230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1414840,
+      "name": "Zombie Rush - Heroes",
+      "slug": "zombie-rush-heroes",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1414840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1070890,
+      "name": "Zombie Rush : Extinction",
+      "slug": "zombie-rush-extinction",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1070890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 943290,
+      "name": "Zombie school-丧尸学院",
+      "slug": "zombie-school",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/943290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 997170,
+      "name": "Zombie Scrapper",
+      "slug": "zombie-scrapper",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/997170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1157120,
+      "name": "Zombie Season",
+      "slug": "zombie-season",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1157120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 792230,
+      "name": "Zombie Serial Killer Incident",
+      "slug": "zombie-serial-killer-incident",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/792230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 33130,
+      "name": "Zombie Shooter",
+      "slug": "zombie-shooter",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/33130/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 33180,
+      "name": "Zombie Shooter 2",
+      "slug": "zombie-shooter-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/33180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1032750,
+      "name": "Zombie Shooter: Ares Virus",
+      "slug": "zombie-shooter-ares-virus",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1032750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1328000,
+      "name": "Zombie Shooting Star",
+      "slug": "zombie-shooting-star",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1328000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1362310,
+      "name": "Zombie Simulator",
+      "slug": "zombie-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1362310/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1299890,
+      "name": "Zombie Slayer",
+      "slug": "zombie-slayer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1299890/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1203600,
+      "name": "Zombie Slayers",
+      "slug": "zombie-slayers",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1203600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 954780,
+      "name": "Zombie Soldier",
+      "slug": "zombie-soldier",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/954780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 311850,
+      "name": "Zombie Solitaire",
+      "slug": "zombie-solitaire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/311850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 623160,
+      "name": "Zombie Solitaire 2 Chapter 1",
+      "slug": "zombie-solitaire-2-chapter-1",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/623160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 623170,
+      "name": "Zombie Solitaire 2 Chapter 2",
+      "slug": "zombie-solitaire-2-chapter-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/623170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 623180,
+      "name": "Zombie Solitaire 2 Chapter 3",
+      "slug": "zombie-solitaire-2-chapter-3",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/623180/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1095290,
+      "name": "Zombie Soup",
+      "slug": "zombie-soup",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1095290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1411090,
+      "name": "Zombie Spectre",
+      "slug": "zombie-spectre",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1411090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1194220,
+      "name": "Zombie Tag Royale",
+      "slug": "zombie-tag-royale",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1194220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 826020,
+      "name": "Zombie Teacher",
+      "slug": "zombie-teacher",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/826020/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 666600,
+      "name": "Zombie Town",
+      "slug": "zombie-town",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/666600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 810190,
+      "name": "Zombie Town : Online",
+      "slug": "zombie-town-online",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/810190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 562740,
+      "name": "Zombie Town VR",
+      "slug": "zombie-town-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/562740/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1223210,
+      "name": "Zombie Towns",
+      "slug": "zombie-towns",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1223210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 446620,
+      "name": "Zombie Training Simulator",
+      "slug": "zombie-training-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/446620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 512830,
+      "name": "Zombie Trigger",
+      "slug": "zombie-trigger",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/512830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 252270,
+      "name": "Zombie Tycoon 2: Brainhov's Revenge",
+      "slug": "zombie-tycoon-2-brainhov-s-revenge",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/252270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1168320,
+      "name": "Zombie valley",
+      "slug": "zombie-valley",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1168320/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1247950,
+      "name": "zombie variant",
+      "slug": "zombie-variant",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1247950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 337480,
+      "name": "Zombie Vikings",
+      "slug": "zombie-vikings",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/337480/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 566910,
+      "name": "Zombie Vikings: Stab-a-thon",
+      "slug": "zombie-vikings-stab-a-thon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/566910/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 680550,
+      "name": "Zombie Waiting",
+      "slug": "zombie-waiting",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/680550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 429060,
+      "name": "Zombie Wars: Invasion",
+      "slug": "zombie-wars-invasion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/429060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 785860,
+      "name": "Zombie Watch",
+      "slug": "zombie-watch",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/785860/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 815170,
+      "name": "Zombie World",
+      "slug": "zombie-world",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/815170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1206080,
+      "name": "Zombie World Coronavirus Apocalypse VR",
+      "slug": "zombie-world-coronavirus-apocalypse-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1206080/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1419760,
+      "name": "Zombie's Cool",
+      "slug": "zombie-s-cool",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1419760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 569640,
+      "name": "ZombieFight VR",
+      "slug": "zombiefight-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/569640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 799120,
+      "name": "ZombieHunt",
+      "slug": "zombiehunt",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/799120/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 857700,
+      "name": "ZombieHunterZ",
+      "slug": "zombiehunterz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/857700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1296970,
+      "name": "Zombieland VR: Headshot Fever",
+      "slug": "zombieland-vr-headshot-fever",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1296970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1124400,
+      "name": "Zombien",
+      "slug": "zombien",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1124400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 358840,
+      "name": "ZombieRun",
+      "slug": "zombierun",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/358840/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1167150,
+      "name": "Zombies and Keys",
+      "slug": "zombies-and-keys",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1167150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1137970,
+      "name": "Zombies Ate My Neighbors and Ghoul Patrol",
+      "slug": "zombies-ate-my-neighbors-and-ghoul-patrol",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1137970/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 928410,
+      "name": "Zombies In The Dark",
+      "slug": "zombies-in-the-dark",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/928410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1035190,
+      "name": "Zombies In The Forest",
+      "slug": "zombies-in-the-forest",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1035190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1359850,
+      "name": "Zombies Must Die",
+      "slug": "zombies-must-die",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1359850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 297450,
+      "name": "Zombies on a Plane",
+      "slug": "zombies-on-a-plane",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/297450/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1081140,
+      "name": "Zombies war",
+      "slug": "zombies-war",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1081140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1487280,
+      "name": "Zombies Wars",
+      "slug": "zombies-wars",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1487280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1389980,
+      "name": "Zombies!",
+      "slug": "zombies",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1389980/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1534610,
+      "name": "ZombiesWaves",
+      "slug": "zombieswaves",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1534610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 718270,
+      "name": "ZombieThon",
+      "slug": "zombiethon",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/718270/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1521050,
+      "name": "ZombieVan Drive",
+      "slug": "zombievan-drive",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1521050/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1491850,
+      "name": "ZombieWave-UnlimitedChallenges",
+      "slug": "zombiewave-unlimitedchallenges",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1491850/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 403230,
+      "name": "ZombieZoid® Zenith",
+      "slug": "zombiezoid-zenith",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/403230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 456810,
+      "name": "Zombillie",
+      "slug": "zombillie",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/456810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 932950,
+      "name": "Zombiotik",
+      "slug": "zombiotik",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/932950/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 508620,
+      "name": "ZombLabs",
+      "slug": "zomblabs",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/508620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1302780,
+      "name": "Zombo Buster Advance",
+      "slug": "zombo-buster-advance",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1302780/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 518730,
+      "name": "Zombo Buster Rising",
+      "slug": "zombo-buster-rising",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/518730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 729720,
+      "name": "Zomborg",
+      "slug": "zomborg",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/729720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 664830,
+      "name": "Zombotron",
+      "slug": "zombotron",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/664830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 823650,
+      "name": "Zombow",
+      "slug": "zombow",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/823650/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1272300,
+      "name": "Zombusters",
+      "slug": "zombusters",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1272300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 523940,
+      "name": "ZombVR",
+      "slug": "zombvr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/523940/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 769340,
+      "name": "Zomby Soldier",
+      "slug": "zomby-soldier",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/769340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1305220,
+      "name": "Zomcade",
+      "slug": "zomcade",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1305220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 681390,
+      "name": "ZomDay",
+      "slug": "zomday",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/681390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1262460,
+      "name": "Zompiercer",
+      "slug": "zompiercer",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1262460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1084530,
+      "name": "Zone 10",
+      "slug": "zone-10",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1084530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 321390,
+      "name": "Zone 22",
+      "slug": "zone-22",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/321390/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 979830,
+      "name": "Zone Anomaly",
+      "slug": "zone-anomaly",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/979830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1423410,
+      "name": "Zone of Death",
+      "slug": "zone-of-death",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1423410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 496540,
+      "name": "Zone of Lacryma",
+      "slug": "zone-of-lacryma",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/496540/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 650510,
+      "name": "ZONE OF THE ENDERS THE 2nd RUNNER : M∀RS / アヌビス ゾーン・オブ・エンダーズ : マーズ",
+      "slug": "zone-of-the-enders-the-2nd-runner-m-rs",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/650510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1488000,
+      "name": "Zone Of War",
+      "slug": "zone-of-war",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1488000/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 518660,
+      "name": "Zone4",
+      "slug": "zone4",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/518660/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 700770,
+      "name": "ZoneDriver",
+      "slug": "zonedriver",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/700770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1339290,
+      "name": "ZONEX",
+      "slug": "zonex",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1339290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1352330,
+      "name": "Zoo 2: Animal Park",
+      "slug": "zoo-2-animal-park",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1352330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 868260,
+      "name": "Zoo Constructor",
+      "slug": "zoo-constructor",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/868260/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 286750,
+      "name": "Zoo Empire",
+      "slug": "zoo-empire",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/286750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1135150,
+      "name": "Zoo Packs",
+      "slug": "zoo-packs",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1135150/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 307760,
+      "name": "Zoo Park",
+      "slug": "zoo-park",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/307760/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 312900,
+      "name": "Zoo Rampage",
+      "slug": "zoo-rampage",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/312900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 685140,
+      "name": "Zoo Strikers",
+      "slug": "zoo-strikers",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/685140/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 613880,
+      "name": "Zoo Tycoon: Ultimate Animal Collection",
+      "slug": "zoo-tycoon-ultimate-animal-collection",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/613880/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1311770,
+      "name": "Zoo World VR",
+      "slug": "zoo-world-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1311770/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1358110,
+      "name": "Zooconomy",
+      "slug": "zooconomy",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1358110/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 622040,
+      "name": "Zooicide",
+      "slug": "zooicide",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/622040/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1027810,
+      "name": "ZooKeeper",
+      "slug": "zookeeper",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1027810/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1194680,
+      "name": "ZooKeeper Simulator",
+      "slug": "zookeeper-simulator",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1194680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1128010,
+      "name": "Zoological Era II",
+      "slug": "zoological-era-ii",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1128010/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1214410,
+      "name": "Zooma VR",
+      "slug": "zooma-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1214410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 397430,
+      "name": "Zoombinis",
+      "slug": "zoombinis",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/397430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 870580,
+      "name": "ZOOMnBOOM",
+      "slug": "zoomnboom",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/870580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 577460,
+      "name": "Zoop! - Hunter's Grimm",
+      "slug": "zoop-hunter-s-grimm",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/577460/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1482790,
+      "name": "ZooSim",
+      "slug": "zoosim",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1482790/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1162990,
+      "name": "ZOR: Pilgrimage of the Slorfs",
+      "slug": "zor-pilgrimage-of-the-slorfs",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1162990/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 739410,
+      "name": "Zorbit's Orbits",
+      "slug": "zorbit-s-orbits",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/739410/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1102750,
+      "name": "Zorg The Typing Warrior",
+      "slug": "zorg-the-typing-warrior",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1102750/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1159090,
+      "name": "Zoria: Age of Shattering",
+      "slug": "zoria-age-of-shattering",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1159090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1216470,
+      "name": "Zoria: Prologue (2020)",
+      "slug": "zoria-prologue-2020",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1216470/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 570580,
+      "name": "Zork Anthology",
+      "slug": "zork-anthology",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/570580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 571060,
+      "name": "Zork Nemesis: The Forbidden Lands",
+      "slug": "zork-nemesis-the-forbidden-lands",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/571060/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 570680,
+      "name": "Zork: Grand Inquisitor",
+      "slug": "zork-grand-inquisitor",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/570680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 918190,
+      "name": "Zoroastra",
+      "slug": "zoroastra",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/918190/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1098530,
+      "name": "ZorroMoro",
+      "slug": "zorromoro",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1098530/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 343280,
+      "name": "Zotrix",
+      "slug": "zotrix",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/343280/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 351720,
+      "name": "Zotrix - Solar Division",
+      "slug": "zotrix-solar-division",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/351720/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1412400,
+      "name": "Zoxel",
+      "slug": "zoxel",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1412400/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1447700,
+      "name": "ZpellCatz",
+      "slug": "zpellcatz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1447700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 966580,
+      "name": "Zquirrels Jump",
+      "slug": "zquirrels-jump",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/966580/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 458600,
+      "name": "ZRoll",
+      "slug": "zroll",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/458600/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 523440,
+      "name": "zTime (Danger Noodles!)",
+      "slug": "ztime-danger-noodles",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/523440/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 952290,
+      "name": "Zueirama",
+      "slug": "zueirama",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/952290/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 547160,
+      "name": "Zukara",
+      "slug": "zukara",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/547160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 747610,
+      "name": "Zula Global",
+      "slug": "zula-global",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/747610/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 714210,
+      "name": "Zula Türkiye",
+      "slug": "zula-turkiye",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/714210/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1047430,
+      "name": "Zulin Time",
+      "slug": "zulin-time",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1047430/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 401250,
+      "name": "Zulu Response",
+      "slug": "zulu-response",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/401250/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1228730,
+      "name": "Zulup",
+      "slug": "zulup",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1228730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 3330,
+      "name": "Zuma Deluxe",
+      "slug": "zuma-deluxe",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/3330/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 935960,
+      "name": "Zuma Legend VR",
+      "slug": "zuma-legend-vr",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/935960/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 3620,
+      "name": "Zuma's Revenge!",
+      "slug": "zuma-s-revenge",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/3620/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1085230,
+      "name": "Zumou Battoru",
+      "slug": "zumou-battoru",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1085230/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1058510,
+      "name": "Zunius",
+      "slug": "zunius",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1058510/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 533300,
+      "name": "Zup!",
+      "slug": "zup",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/533300/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 562220,
+      "name": "Zup! 2",
+      "slug": "zup-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/562220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 575640,
+      "name": "Zup! 3",
+      "slug": "zup-3",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/575640/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 591420,
+      "name": "Zup! 4",
+      "slug": "zup-4",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/591420/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 645090,
+      "name": "Zup! 5",
+      "slug": "zup-5",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/645090/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 566160,
+      "name": "Zup! 6",
+      "slug": "zup-6",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/566160/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 658560,
+      "name": "Zup! 7",
+      "slug": "zup-7",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/658560/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 799070,
+      "name": "Zup! 8",
+      "slug": "zup-8",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/799070/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1098340,
+      "name": "Zup! 9",
+      "slug": "zup-9",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1098340/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 601220,
+      "name": "Zup! F",
+      "slug": "zup-f",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/601220/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 617670,
+      "name": "Zup! S",
+      "slug": "zup-s",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/617670/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 508900,
+      "name": "Zup! X",
+      "slug": "zup-x",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/508900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 673800,
+      "name": "Zup! XS",
+      "slug": "zup-xs",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/673800/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1218900,
+      "name": "Zup! Z",
+      "slug": "zup-z",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1218900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 610360,
+      "name": "Zup! Zero",
+      "slug": "zup-zero",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/610360/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 658550,
+      "name": "Zup! Zero 2",
+      "slug": "zup-zero-2",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/658550/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1040730,
+      "name": "ZUSI 3 - Aerosoft Edition",
+      "slug": "zusi-3-aerosoft-edition",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1040730/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 427680,
+      "name": "Zwei: The Arges Adventure",
+      "slug": "zwei-the-arges-adventure",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/427680/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 427700,
+      "name": "Zwei: The Ilvard Insurrection",
+      "slug": "zwei-the-ilvard-insurrection",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/427700/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 397830,
+      "name": "Zxill: A Legend of Time",
+      "slug": "zxill-a-legend-of-time",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/397830/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1246170,
+      "name": "ZYNET",
+      "slug": "zynet",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1246170/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 820690,
+      "name": "ZYTERNION",
+      "slug": "zyternion",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/820690/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 888900,
+      "name": "ZYX STORY",
+      "slug": "zyx-story",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/888900/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 768630,
+      "name": "Zyxia: Neon Termination",
+      "slug": "zyxia-neon-termination",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/768630/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 507520,
+      "name": "Zzzz-Zzzz-Zzzz",
+      "slug": "zzzz-zzzz-zzzz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/507520/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    },
+    {
+      "appid": 1154350,
+      "name": "zzzzz",
+      "slug": "zzzzz",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1154350/header.jpg",
+      "description": "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
+      "last_synced_at": "2026-05-14T01:07:12.492Z",
+      "tags": [],
+      "bucket": "z"
+    }
+  ]
+}
