@@ -52,6 +52,12 @@ git push -u origin main
 - Source: `Deploy from a branch`
 - Branch: `main` / `root`
 
+3. Mettre à jour les URLs SEO si nécessaire:
+
+- `index.html` (`canonical`, `og:url`, `hreflang`)
+- `robots.txt` (ligne `Sitemap`)
+- `sitemap.xml` (`<loc>`)
+
 ### Variante via GitHub CLI
 
 ```bash
@@ -72,6 +78,8 @@ gh repo edit --enable-pages --pages-source main --pages-path /
 /data/games.sample.json
 /data/patches.sample.json
 /data/manifests.sample.json
+/robots.txt
+/sitemap.xml
 /README.md
 ```
 
@@ -79,6 +87,10 @@ gh repo edit --enable-pages --pages-source main --pages-path /
 
 - 100% statique (MVP)
 - HTML/CSS/JS vanilla (pas de framework)
+- SEO technique de base prêt pour GitHub Pages:
+  - balises `canonical`, Open Graph, Twitter Cards
+  - `robots.txt` et `sitemap.xml`
+  - JSON-LD (`WebSite` + `SoftwareApplication`)
 - routeur hash:
   - `#/`
   - `#/game/:slug`

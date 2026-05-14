@@ -728,8 +728,8 @@ h2 {
 
 .tutorial-media img {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
 
 .tutorial-media figcaption {
