@@ -284,8 +284,9 @@
     var index = await ensureSearchIndexLoaded();
     var games = Array.isArray(index.games) ? index.games : [];
     var search = App.search;
+    var cleanQuery = search && search.normalizeText ? search.normalizeText(query) : String(query || "").trim().toLowerCase();
 
-    if (!query || !String(query).trim()) {
+    if (!cleanQuery) {
       return games.slice(0, 24);
     }
 
@@ -293,7 +294,24 @@
       return games;
     }
 
-    return search.searchGames(games, query, { limit: 24, minScore: 26 }).map(function mapEntry(entry) {
+    var primaryResults = search.searchGames(games, cleanQuery, { limit: 24, minScore: 26 });
+    var queryBucket = normalizeBucket(cleanQuery);
+    var bucketGames = await loadGamesBucket(queryBucket);
+    var mergedByAppId = Object.create(null);
+
+    games.concat(bucketGames).forEach(function eachGame(game) {
+      if (!game || !game.appid) return;
+      mergedByAppId[String(game.appid)] = game;
+    });
+
+    var expandedGames = Object.keys(mergedByAppId).map(function mapKey(appid) {
+      return mergedByAppId[appid];
+    });
+
+    var expandedResults = search.searchGames(expandedGames, cleanQuery, { limit: 24, minScore: 18 });
+    var finalResults = expandedResults.length ? expandedResults : primaryResults;
+
+    return finalResults.map(function mapEntry(entry) {
       var result = Object.assign({}, entry.game);
       result.search_score = entry.score;
       return result;

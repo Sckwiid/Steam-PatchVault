@@ -1,6 +1,30 @@
 {
   "apps": [
     {
+      "appid": 739630,
+      "name": "Phasmophobia",
+      "slug": "phasmophobia",
+      "description": "Horreur coop paranormale, souvent jouée avec anciennes versions pour mods, speedruns et compatibilité.",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg",
+      "tags": ["Horror", "Multiplayer", "Modded"]
+    },
+    {
+      "appid": 108600,
+      "name": "Project Zomboid",
+      "slug": "project-zomboid",
+      "description": "Survival sandbox où les builds et mods peuvent rendre les anciennes versions utiles.",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/108600/header.jpg",
+      "tags": ["Survival", "Modded", "Multiplayer"]
+    },
+    {
+      "appid": 105600,
+      "name": "Terraria",
+      "slug": "terraria",
+      "description": "Sandbox aventure très moddée, avec historiques de versions pertinents pour joueurs et speedrunners.",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg",
+      "tags": ["Indie", "Modded", "Speedrun"]
+    },
+    {
       "appid": 413150,
       "name": "Stardew Valley",
       "slug": "stardew-valley",
@@ -23,6 +47,22 @@
       "description": "Survival coop nordique avec biomes, crafts et progression multijoueur.",
       "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
       "tags": ["Survival", "Multiplayer", "Speedrun"]
+    },
+    {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "slug": "skyrim-special-edition",
+      "description": "RPG massivement moddé où le retour à une version précise peut être nécessaire.",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg",
+      "tags": ["RPG", "Modded", "Speedrun"]
+    },
+    {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077",
+      "slug": "cyberpunk-2077",
+      "description": "RPG open-world avec gros patchs et compatibilité mods parfois liée à une version spécifique.",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg",
+      "tags": ["RPG", "Modded", "Singleplayer"]
     }
   ]
 }

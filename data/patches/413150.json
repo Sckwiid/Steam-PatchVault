@@ -1,199 +1,71 @@
 {
   "appid": 413150,
-  "generated_at": "2026-05-14T01:13:18.175Z",
+  "generated_at": "2026-05-14T00:55:42.996Z",
   "source": "steam-static-db",
   "patches": [
     {
-      "id": "steam-news-413150-1825727806709248",
+      "id": "patch-sv-1",
       "appid": 413150,
-      "title": "Stardew Valley 10-year Anniversary",
-      "version_detected": "1.7",
-      "date": "2026-02-26T23:40:00.000Z",
-      "type": "content",
-      "content": "Hello everyone,Today is the 10-year Anniversary of Stardew Valley. Back when Stardew first came out, I was worried it might be a flop. Now, 10 years later, it's one of the highest rated games on Steam, and has sold over 50 million copies worldwide. It's been quite a journey. Of course, none of this would be possible without you, the players. So I would like to thank all of you for playing this game, for being part of the community, your love for the characters, the billions of crops you've harvested, and even your screams of terror as the serpents swarm over you in the skull caverns. There's been many free updates to the game over the years, and even now, there is a new major content update in the works--the 1.7 update. With 1.7, My goal is to add more depth to various areas of the game that are somewhat lacking, without \"bloating\" the game with too many systems. More depth, but not necessarily more complexity. I'm confident you'll be happy with the result. However, there is no release date, it's just \"in development\". Thanks for your patience.Oh, and you'll be able to marry Clint and Sandy. I know you've all been dying to marry Clint... right? ...guys??..........Welp.... Anyway, thanks so much for supporting me and my game over the years. I hope Stardew continues to bring you many, many hours of fun & relaxation. Your friend, -Ape ːstardropː(if you're interested, I made a video for today that shows off some pre-release versions of the game, and more)",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806709248",
-      "source_type": "manual",
+      "title": "Mise à jour 1.6 - Festival & Qualité de vie",
+      "version_detected": "1.6.0",
+      "date": "2024-03-19T17:15:00Z",
+      "type": "major",
+      "content": "Ajout de nouveaux événements saisonniers, équilibrage des revenus en fin de partie et correction de sauvegardes incompatibles avec certains mods.",
+      "source_url": "https://store.steampowered.com/news/app/413150",
+      "source_type": "steam_news",
       "keywords": [
-        "content",
-        "ui"
+        "festival",
+        "economy",
+        "mods",
+        "save"
       ]
     },
     {
-      "id": "steam-news-413150-1816849002015096",
+      "id": "patch-sv-2",
       "appid": 413150,
-      "title": "Stardew Valley Merchandise by Fangamer -- Special Promotion",
-      "version_detected": "",
-      "date": "2025-11-21T17:58:09.000Z",
-      "type": "minor",
-      "content": "Hello everyone, With the \"Feast of the Winter Star\" fast approaching, I would like to share a special promotion from Stardew Valley's merchandise partner, Fangamer. They make some of the coolest merch, and they are doing a free shipping thing for the holidays (Details below). Check it out!links:Worldwide: https://fanga.me/r/stardew-valley-holidays-2025EU and UK: https://fanga.me/r/stardew-valley-holidays-2025-euFrom November 14 to December 1, every in-stock item in Fangamer's Stardew Valley collection will ship for free within the US and at a discounted international rate, in addition to building up store credit for future orders. If you're in Europe and the UK, you can also get free shipping from Fangamer EuropeStardew Valley stationary set Some things of note: -The Spanish translation of the guidebook is now availableStardew Valley mug (I personally use this mug)-You can now decorate your tree with the first ever Stardew Valley ornament (made of wood)Krobus plush (squash unfortunately not included with purchase) everyone's favorite shopkeeper (bag) Alright thanks for reading, and if you have any interest in Stardew Valley physical merchandise, please check out Fangamer's collection. Thank you-Apeːstardropː",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002015096",
-      "source_type": "manual",
-      "keywords": [
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-413150-1786573930663336",
-      "appid": 413150,
-      "title": "Stardew Valley 1.6.15 Patch now available",
-      "version_detected": "1.6.15",
-      "date": "2024-12-20T18:14:21.000Z",
+      "title": "Hotfix 1.6.2 - Correctifs coop",
+      "version_detected": "1.6.2",
+      "date": "2024-04-02T09:00:00Z",
       "type": "hotfix",
-      "content": "Hello everyone, The 1.6.15 patch is now available. This fixes a few lingering issues in Stardew Valley, balances some things, and adds some quality of life improvements. To new and seasoned players alike, I hope you are enjoying Stardew Valley. (for people with mods, please be aware there are several \"beta\" branches available which can help you ease into the new update. For example, there is a previous_version branch which is set to 1.6.14, as well as a few other version targets.) 1.6.15 Patch Notes: ## Balance changes - Legendary fish ponds now produce roe much more often and have a higher average daily value. ## Quality of life changes - Performance optimizations. - Added the Junimo bundle button to fridge and mini-fridge UIs. - Fixed debris able to spread under giant crops. - Fixed bad-word filtering added to some extra text boxes in 1.6. Those are now only filtered on platforms that require it, as originally intended. ## Gameplay fixes - Fixed Krobus' shop not accessible on Fridays for Japanese players. - Fixed some achievements not unlocked retroactively in some cases. - Fixed some things being less random than intended. - Fixed new-game data corruption issue, where viewing the load screen before creating a new save in rare cases would incorrectly copy data from one of the load slots into the new save. - Fixed some older items in the lost & found not correctly retrieveable. - Fixed crash when collecting empty crab pots. - Fixed crash when farm animals somehow end up in multiple locations. - Fixed crash when failing to play/resume/pause/stop sound effects. - Fixed crash in raccoon menu if you have a base flavored item in your inventory. - Fixed crash if a shop somehow has a null item from a player to sell. - Fixed rare crash in Calico Jack minigame. - Fixed error loading pre-1.6 saves with case-sensitive stat key conflicts; conflicting stats are now merged. - Fixed selected tool lost in some cases when obtaining a stardrop. ## Multiplayer fixes - Fixed some mail getting re-sent to farmhands every day. - Fixed unable to join a server whose invite code contains a bad word. - Fixed issue where the host's mine levels could be frozen in time. - Fixed crash in WeG...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1786573930663336",
+      "content": "Correction de crashs en coop locale, amélioration de la stabilité en chargement de ferme partagée.",
+      "source_url": "https://store.steampowered.com/news/app/413150",
+      "source_type": "steam_news",
+      "keywords": [
+        "coop",
+        "crash",
+        "stability"
+      ]
+    },
+    {
+      "id": "patch-sv-3",
+      "appid": 413150,
+      "title": "Patch Balance - Croissance artisanale",
+      "version_detected": "1.5.7b",
+      "date": "2023-11-14T13:20:00Z",
+      "type": "balance",
+      "content": "Ajustements de rendement pour les produits artisanaux et réduction de l'impact de certaines boucles d'optimisation économique.",
+      "source_url": "https://store.steampowered.com/news/app/413150",
       "source_type": "manual",
       "keywords": [
-        "performance",
-        "fix",
         "balance",
-        "multiplayer",
-        "mod",
-        "ui"
+        "artisan",
+        "economy"
       ]
     },
     {
-      "id": "steam-news-413150-1786573930637526",
+      "id": "patch-sv-4",
       "appid": 413150,
-      "title": "Stardew Valley up for \"Labor of Love\" Steam Award",
-      "version_detected": "",
-      "date": "2024-12-20T00:42:25.000Z",
+      "title": "Mise à jour mineure - Compatibilité modding",
+      "version_detected": "1.5.6",
+      "date": "2023-08-03T19:45:00Z",
       "type": "minor",
-      "content": "Hello everyone, Stardew Valley was successfully nominated for the Steam Awards, in the category \"Labor of Love\". Now it is in the final selection. Please consider voting for Stardew Valley in the final Steam Award vote! Thank you for your continued support of Stardew Valley through the years. -Ape ːstardropː",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1786573930637526",
-      "source_type": "manual",
-      "keywords": []
-    },
-    {
-      "id": "steam-news-413150-1784506358991087",
-      "appid": 413150,
-      "title": "Stardew Valley up for \"Labor of Love\" Steam Award Nomination",
-      "version_detected": "",
-      "date": "2024-11-27T21:35:42.000Z",
-      "type": "content",
-      "content": "Hello everyone, Stardew Valley is up for nomination in the Steam Awards, in the category \"Labor of Love\". This is for games that continue to provide updates and content well after their release date. If you feel like this is appropriate for Stardew Valley, It would be an honor if you gave it a vote. I've always hoped that Stardew Valley could win this award some day. Thank you for your continued support of Stardew Valley through the years. -Ape :stardrop:",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1784506358991087",
-      "source_type": "manual",
+      "content": "Nettoyage API interne utilisé par les mods communautaires et corrections d'affichage d'inventaire.",
+      "source_url": "https://steamcommunity.com/app/413150/allnews",
+      "source_type": "community",
       "keywords": [
-        "content"
-      ]
-    },
-    {
-      "id": "steam-news-413150-1783238125358744",
-      "appid": 413150,
-      "title": "Stardew Valley x Fangamer Merch Holiday Sale",
-      "version_detected": "",
-      "date": "2024-11-19T01:16:31.000Z",
-      "type": "minor",
-      "content": "Hello everyone, I hope you are having fun playing Stardew Valley. I just wanted to share a special opportunity, if you are interested in Stardew Valley merchandise. Fangamer has a special holiday promotion from now until December 3rd. You can get free or discounted shipping on their large selection of Stardew Valley items. Check it out! US: https://fanga.me/r/stardew-valley-holidays-2024-us EU: https://fanga.me/r/stardew-valley-holidays-2024-eu https://clan.fastly.steamstatic.com/images/11170746/b330e52f09019fa1242b6bb9b97b810e523ddca9.png",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1783238125358744",
-      "source_type": "manual",
-      "keywords": []
-    },
-    {
-      "id": "steam-news-413150-6148070194801749418",
-      "appid": 413150,
-      "title": "1.6.14 Update",
-      "version_detected": "1.6.14",
-      "date": "2024-11-12T08:07:20.000Z",
-      "type": "hotfix",
-      "content": "Changes for vanilla players: - Added a few extra spouse reactions when interacting with them without dialogue - You no longer lose a fish if you pass out while holding it, or pass out while fishing into a fish pond - Fixed animal products always harvesting with 0 quality - Improved efficiency of playing sound effects. - Fixed spouses being warped to 0,0 for farmhands. - Fixed some cases where spouses would point the wrong direction after interactions - Prevent rare crash when updating Robin's construction animation. - Prevent rare crash when obtaining Stardrops with stowed tools. - Fix chimney duplication when creating a new 1.6.9+ save. - Fix crash when homeless farmhands remain after deleting cabins. - Fix players inside farm buildings mis-positioned on world map - Made geode menu more stable if you resize the window during geode opening - Fixed roommates requiring 2 house upgrades instead of 1 like marriage candidates - Improvements to Russian translation Changes for modded players: - Fix crash when mods add too many streamed .ogg sound effects. Changes for mod authors: - Allow for multiple instances of the same streamed .ogg sound effect.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6148070194801749418",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "mod",
-        "ui",
-        "event",
-        "crash"
-      ]
-    },
-    {
-      "id": "steam-news-413150-6148070194801619948",
-      "appid": 413150,
-      "title": "Minor update 1.6.13",
-      "version_detected": "1.6.13",
-      "date": "2024-11-08T07:04:25.000Z",
-      "type": "hotfix",
-      "content": "A small update that fixes some bugs and adjusts a few things. Balance changes: Fixed legendary fish in fish ponds being more profitable than intended. Visual Changes: Signs placed on legendary fish ponds no longer show a \"1\" under the fish Bug fixes Fixed NPC's not being able to walk over beach bridge Fixed controller rumble being disabled after 1.6.9 Added support for more controller types Fixed all phone calls being redirected to Robin after 1.6.9.12 Technical changes Updated SDL from 2.30.4 to 2.30.9 (used for input and windowing) Changes for mod authors: Added tool.PlayUseSounds field, which allows disabling sound effects for a particular tool.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6148070194801619948",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "balance",
-        "mod"
-      ]
-    },
-    {
-      "id": "steam-news-413150-6148070194801588759",
-      "appid": 413150,
-      "title": "1.6.12 Update",
-      "version_detected": "1.6.12",
-      "date": "2024-11-07T08:25:48.000Z",
-      "type": "hotfix",
-      "content": "A small update which adjusts a few things and fixes some bugs. Gameplay Changes Digging up special dirt spots, panning, harvesting ginger, and chopping twigs now grant foraging experience Chopping trees and stumps grant a little more foraging experience Sandy now sells basic pants in her shop Bug fixes Fixed bug where you could harvest unusual quantities of items from crab pots Fixed secret gift recipient hint no longer showing up on Skills Tab Fixed rare crash when making a call using the telephone Fixed sound effects sounding different when using headphones after 1.6.11 Fixed crash when trying to connect to an improperly formatted IP address Fixed rare crash in LAN multiplayer when not connected to a server Fixed some minor visual issues with Cyrillic characters. Changes for modded players Fixed rare crash when streaming .ogg Vorbis sounds NOTE: If you use mods that are not yet compatible with 1.6.9+, you can roll back to 1.6.8 by switching to \"Legacy_1.6.8\" in the betas tab. (Right click Stardew Valley in library > Properties > Betas)",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6148070194801588759",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "multiplayer",
-        "mod",
-        "crash"
-      ]
-    },
-    {
-      "id": "steam-news-413150-6148070194801553515",
-      "appid": 413150,
-      "title": "Update 1.6.11",
-      "version_detected": "1.6.11",
-      "date": "2024-11-06T06:46:34.000Z",
-      "type": "hotfix",
-      "content": "Minor bug fix patch: Bug fixes Potentially fixed farm animals disappearing in rare cases. Fixed NPCs not responding the first time you talk to them. Fixed being unable to grab furniture from walls with a controller. Updated OpenAL to the latest version to fix a rare crash. Changes for modded players When you enter the /unlinkPlayer chat command, it'll now write technical info to the log. Disabled 'light source ... already exists' warnings.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6148070194801553515",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "mod",
-        "crash"
-      ]
-    },
-    {
-      "id": "steam-news-413150-6146943657174044314",
-      "appid": 413150,
-      "title": "1.6.10 Bug Fix Patch",
-      "version_detected": "1.6.10",
-      "date": "2024-11-05T00:04:17.000Z",
-      "type": "hotfix",
-      "content": "This patch fixes a few bugs from today's earlier 1.6.9 patch. Bug fixess & Changes: Improved some French and Russian translations. Fixed crash when the lost items shop sells Penny's 14-heart event items. Fixed chickens disappearing on newly created Meadowlands farms in 1.6.9. Fixed rare crash when transitioning between mine locations in multiplayer. Fixes for mod authors: Reverted changes to how map tilesheets are loaded in 1.6.9 to resolve mod issues. Fixed crash in some cases when creating furniture from an invalid item ID.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6146943657174044314",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "multiplayer",
-        "mod",
-        "event",
-        "crash"
-      ]
-    },
-    {
-      "id": "steam-news-413150-6146943657174036265",
-      "appid": 413150,
-      "title": "1.6.9 Update Now Available",
-      "version_detected": "1.6.9",
-      "date": "2024-11-04T17:57:56.000Z",
-      "type": "hotfix",
-      "content": "Hello everyone, Here is the latest Stardew Valley update for you. I hope you have been enjoying everything new in 1.6. Thanks for playing Stardew Valley! -Ape ːstardropː 1.6.9 Changelog: ### New content & features * If you lost an item that can't be found again, a new friend appears in the secret woods who can get it back (for a price). * You can now put legendary fish in fish ponds. These are limited to one per pond and produce legendary fish roe. Each fish has a unique water color. * You can now place beds and sleep inside any constructed buildings that allow furniture. * Items dropped in water now float for a short time, so you can collect them if you're quick or have a magnet ring. * Sam and Shane now have work portraits while working at JojaMart. * Slightly tweaked some dialogues. * Added new Easter eggs. * Added hidden cheat commands ### Balance changes * Blue grass no longer grows slower than normal grass. * Fruit tree growth is no longer blocked by grass and seed spots. * Pine trees now drop one extra wood when chopped down. * The initiation quest now counts wild slimes killed on the farm. * Thorns ring damage now stacks if you equip two of them, and monsters killed by a thorns ring now drop loot like regular kills. * With the Gatherer skill, the chance to double harvested forage now applies when using an iridium scythe too. * Son of Crimsonfish can now be caught during the night market. * Robin no longer constructs buildings during green rain in year 1. * Placing a bomb and then switching to a weapon no longer applies its enchantments to the bomb damage. * Added some items to shops: * Adventurer's Guild: Rusty Sword, Femur, Elf Blade, Steel Smallsword, Crystal Dagger, Obsidian Edge, and Work Boots. These unlock after you reach a certain mine level, regardless of whether you found them in a mine chest. * Marnie's shop: Cow Decal. * Hat mouse: Sports Cap. * Willy's shop: Advanced Iridium Rod. * Passing trains are now more likely to happen multiple times in the same session, but can no longer appear on consecutive days. * Willy's shop now opens on spring 2 in the first year even if you didn't read his letter. * Fixed Queen of Sauce reruns being affected by...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6146943657174036265",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "balance",
-        "content",
-        "ui",
-        "quest"
+        "api",
+        "modding",
+        "inventory"
       ]
     }
   ]

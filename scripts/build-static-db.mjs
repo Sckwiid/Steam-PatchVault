@@ -399,13 +399,13 @@ function resolveTrackedAppIds(trackedEntries) {
   return Array.from(new Set([...fromFile, ...fromEnv]));
 }
 
-async function fetchNewsForApp(appid) {
+async function fetchNewsForApp(appid, useFeeds = true) {
   const url = new URL("https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/");
   url.searchParams.set("appid", String(appid));
   url.searchParams.set("count", String(config.newsCount));
   url.searchParams.set("maxlength", String(config.newsMaxLength));
   url.searchParams.set("enddate", String(Math.floor(Date.now() / 1000)));
-  if (config.includeFeeds) {
+  if (useFeeds && config.includeFeeds) {
     url.searchParams.set("feeds", config.includeFeeds);
   }
 
@@ -466,7 +466,10 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
     const existingManifestFile = await readJson(path.join(manifestsDir, `${appid}.json`), { manifests: [] });
 
     try {
-      const news = await fetchNewsForApp(appid);
+      let news = await fetchNewsForApp(appid, true);
+      if (!news.length && config.includeFeeds) {
+        news = await fetchNewsForApp(appid, false);
+      }
       patches = normalizePatchItems(appid, news);
       info(`Patch notes récupérées pour appid=${appid}: ${patches.length}`);
     } catch (error) {

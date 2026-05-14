@@ -6,6 +6,10 @@
   var state = {
     route: { name: "home", path: "/", params: {} },
     allGames: [],
+    homeSearchResults: [],
+    homeSearchQuery: "",
+    homeSearchLoading: false,
+    homeSearchRequestId: 0,
     searchQuery: "",
     activeQuickTag: "",
     gameFilters: {
@@ -29,6 +33,7 @@
     nonSteamMenu: "https://tse1.mm.bing.net/th/id/OIP.ObomnzvG8JYNOg3bTRbKyQHaDd?pid=Api",
     nonSteamDialog: "https://cdn.mos.cms.futurecdn.net/JesibHpNgqiFpDEjcU3GNA-1200-80.jpg"
   };
+  var FEATURED_APPIDS = [739630, 108600, 105600, 413150, 892970, 294100, 489830, 1091500];
 
   function escapeHtml(value) {
     return String(value || "")
@@ -153,6 +158,32 @@
           "</button>";
       }).join("") +
       "</div>";
+  }
+
+  function getFeaturedGames(games) {
+    var byAppId = Object.create(null);
+    (games || []).forEach(function eachGame(game) {
+      if (game && game.appid) byAppId[String(game.appid)] = game;
+    });
+
+    var featured = FEATURED_APPIDS.map(function mapAppId(appid) {
+      return byAppId[String(appid)];
+    }).filter(Boolean);
+
+    if (featured.length >= 8) {
+      return featured.slice(0, 8);
+    }
+
+    (games || []).some(function fillGame(game) {
+      if (!game || !game.appid || byAppId["featured-" + game.appid]) return false;
+      if (FEATURED_APPIDS.indexOf(Number(game.appid)) === -1) {
+        featured.push(game);
+        byAppId["featured-" + game.appid] = true;
+      }
+      return featured.length >= 8;
+    });
+
+    return featured.slice(0, 8);
   }
 
   function ConfidenceBadge(score) {
@@ -344,15 +375,18 @@
   function renderHome() {
     var storage = App.storage;
     var allGames = state.allGames;
-    var filteredByTag = state.activeQuickTag ? App.search.filterGamesByQuickTag(allGames, state.activeQuickTag) : allGames;
+    var sourceGames = state.searchQuery && state.homeSearchQuery === state.searchQuery
+      ? state.homeSearchResults
+      : allGames;
+    var filteredByTag = state.activeQuickTag ? App.search.filterGamesByQuickTag(sourceGames, state.activeQuickTag) : sourceGames;
 
     var results = [];
-    if (state.searchQuery) {
-      results = App.search.searchGames(filteredByTag, state.searchQuery, { limit: 12, minScore: 26 }).map(function map(entry) {
-        return entry.game;
-      });
+    if (state.searchQuery && state.homeSearchLoading) {
+      results = [];
+    } else if (state.searchQuery) {
+      results = filteredByTag.slice(0, 12);
     } else {
-      results = filteredByTag.slice(0, 9);
+      results = getFeaturedGames(filteredByTag);
     }
 
     var recentGames = storage.getRecentGames(6);
@@ -363,7 +397,9 @@
       return '<button class="tag-chip ' + (active ? "is-active" : "") + '" data-action="set-quick-tag" data-tag="' + escapeHtml(tag) + '">' + escapeHtml(tag) + "</button>";
     }).join("");
 
-    var resultsHtml = results.length
+    var resultsHtml = state.searchQuery && state.homeSearchLoading
+      ? EmptyState("Recherche en cours", "Chargement de l'index local et du bucket correspondant.")
+      : results.length
       ? '<div class="results-grid">' + results.map(GameResultCard).join("") + "</div>"
       : EmptyState("Aucun jeu trouvé", "Essaie un autre mot-clé, une version approximative du nom ou retire un tag rapide.");
 
@@ -377,6 +413,8 @@
       }).join(" · ") + "</p>"
       : "";
 
+    var resultsTitle = state.searchQuery ? "Résultats" : "Jeux populaires";
+
     var content = "" +
       '<section class="hero">' +
       '<p class="hero-kicker mono">Monolith Archive</p>' +
@@ -388,7 +426,7 @@
       searchHistoryHtml +
       "</section>" +
       '<section class="home-section">' +
-      '<h2>Résultats</h2>' +
+      '<h2>' + resultsTitle + "</h2>" +
       resultsHtml +
       "</section>" +
       '<section class="home-section">' +
@@ -409,6 +447,43 @@
       "</section>";
 
     root.innerHTML = layout(content);
+  }
+
+  function restoreSearchFocus(cursor) {
+    var input = root.querySelector("#home-search");
+    if (!input) return;
+
+    input.focus();
+    var position = typeof cursor === "number" ? cursor : input.value.length;
+    input.setSelectionRange(position, position);
+  }
+
+  async function refreshHomeSearch(cursor) {
+    var query = String(state.searchQuery || "").trim();
+    var requestId = state.homeSearchRequestId + 1;
+    state.homeSearchRequestId = requestId;
+
+    if (!query) {
+      state.homeSearchResults = [];
+      state.homeSearchQuery = "";
+      state.homeSearchLoading = false;
+      renderHome();
+      restoreSearchFocus(cursor);
+      return;
+    }
+
+    state.homeSearchLoading = true;
+    renderHome();
+    restoreSearchFocus(cursor);
+
+    var results = await App.api.searchGames(query);
+    if (requestId !== state.homeSearchRequestId || state.route.name !== "home") return;
+
+    state.homeSearchResults = results;
+    state.homeSearchQuery = state.searchQuery;
+    state.homeSearchLoading = false;
+    renderHome();
+    restoreSearchFocus();
   }
 
   function applyPatchFilters(patches) {
@@ -579,6 +654,10 @@
     }
 
     if (route.name === "home") {
+      if (state.searchQuery) {
+        await refreshHomeSearch();
+        return;
+      }
       renderHome();
       return;
     }
@@ -662,7 +741,7 @@
 
     if (action === "reuse-search") {
       state.searchQuery = button.getAttribute("data-query") || "";
-      renderHome();
+      refreshHomeSearch();
       return;
     }
 
@@ -744,12 +823,7 @@
     if (target.id === "home-search") {
       var cursor = target.selectionStart || target.value.length;
       state.searchQuery = target.value;
-      renderHome();
-      var refreshedInput = root.querySelector("#home-search");
-      if (refreshedInput) {
-        refreshedInput.focus();
-        refreshedInput.setSelectionRange(cursor, cursor);
-      }
+      refreshHomeSearch(cursor);
       return;
     }
 
