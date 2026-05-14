@@ -6,7 +6,8 @@
       "slug": "phasmophobia",
       "description": "Horreur coop paranormale, souvent jouée avec anciennes versions pour mods, speedruns et compatibilité.",
       "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg",
-      "tags": ["Horror", "Multiplayer", "Modded"]
+      "tags": ["Horror", "Multiplayer", "Modded"],
+      "depotids": ["739631"]
     },
     {
       "appid": 108600,

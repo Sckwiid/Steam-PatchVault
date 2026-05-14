@@ -24,6 +24,18 @@
     selectedPatchId: "",
     manifestsByPatchId: {},
     currentManifests: [],
+    currentAllManifests: [],
+    githubManifestSearch: {
+      status: "idle",
+      message: "Aucune recherche GitHub lancée.",
+      results: [],
+      partial: false,
+      sourcesChecked: 0,
+      sourceSummaries: [],
+      fromCache: false,
+      missingDepots: false,
+      controller: null
+    },
     mobileDrawerOpen: false
   };
 
@@ -298,7 +310,7 @@
   }
 
   function CommandBox(appid, manifest) {
-    var command = App.steamCommands.buildDownloadCommand(appid, manifest.depotid, manifest.manifestid);
+    var command = manifest.download_command || App.steamCommands.buildDownloadCommand(appid, manifest.depotid, manifest.manifestid);
     return "" +
       '<article class="command-box">' +
       '<div class="command-meta">' +
@@ -323,6 +335,99 @@
       }).join("") + "</ul>" +
       "</div>" +
       "</article>";
+  }
+
+  function getKnownDepotIds(game, manifests) {
+    var seen = Object.create(null);
+    (game && (game.depotids || game.depotIds) || []).forEach(function eachDepotId(depotid) {
+      if (depotid) seen[String(depotid)] = true;
+    });
+    (game && game.depots || []).forEach(function eachDepot(depot) {
+      if (depot && depot.depotid) seen[String(depot.depotid)] = true;
+    });
+    (manifests || []).forEach(function eachManifest(manifest) {
+      if (manifest && manifest.depotid) {
+        seen[String(manifest.depotid)] = true;
+      }
+    });
+    return Object.keys(seen);
+  }
+
+  function GitHubManifestCard(game, manifest) {
+    return "" +
+      '<article class="github-manifest-card">' +
+      '<div class="manifest-head">' +
+      '<span class="manifest-badge badge-unguaranteed">Non vérifié</span>' +
+      '<span class="mono">' + escapeHtml(manifest.source_repo || "GitHub") + "</span>" +
+      "</div>" +
+      '<p class="mono">Depot ' + escapeHtml(manifest.depotid) + " · Manifest " + escapeHtml(manifest.manifestid) + "</p>" +
+      '<p class="muted">ManifestID connu ≠ téléchargement garanti. Source: index GitHub public, contenu du fichier non lu.</p>' +
+      CommandBox(game.appid, manifest) +
+      "</article>";
+  }
+
+  function GitHubManifestSearchPanel(game, knownDepotIds) {
+    var search = state.githubManifestSearch;
+    var status = search.status;
+    var isLoading = status === "loading";
+    var title = "Recherche communautaire GitHub";
+    var buttonLabel = status === "success" || status === "partial" || status === "empty" || search.fromCache
+      ? "Actualiser la recherche GitHub"
+      : "Chercher des manifests GitHub";
+
+    var statusText = search.message || "Aucune recherche GitHub lancée.";
+    if (status === "partial") {
+      statusText = "Résultats partiels : GitHub a tronqué certains index.";
+    } else if (status === "success") {
+      statusText = search.results.length + " manifests trouvés pour les depots connus de ce jeu.";
+    } else if (status === "empty") {
+      statusText = search.missingDepots
+        ? "Aucun DepotID connu localement pour ce jeu. Ajoute d'abord un depot via import manuel ou index statique."
+        : "Aucun manifest communautaire trouvé pour les depots connus.";
+    } else if (status === "error") {
+      statusText = "Recherche GitHub impossible pour le moment. Réessaie plus tard.";
+    }
+
+    var sourceHtml = search.sourceSummaries.length
+      ? '<div class="github-source-list">' + search.sourceSummaries.map(function mapSummary(summary) {
+        return "" +
+          '<span class="github-source-pill ' + (summary.error ? "has-error" : "") + '">' +
+          escapeHtml(summary.source) + " · " + escapeHtml(summary.found || 0) + (summary.partial ? " · partiel" : "") +
+          "</span>";
+      }).join("") + "</div>"
+      : "";
+
+    var loaderHtml = isLoading
+      ? '<div class="monolith-loader" aria-hidden="true"><span></span></div><div class="loader-bar"></div>'
+      : "";
+
+    var resultsHtml = search.results.length
+      ? '<div class="github-manifest-grid">' + search.results.map(function mapManifest(manifest) {
+        return GitHubManifestCard(game, manifest);
+      }).join("") + "</div>"
+      : EmptyState("Aucune donnée GitHub affichée", status === "idle" ? "Aucune recherche GitHub lancée." : statusText);
+
+    return "" +
+      '<section class="github-search-panel">' +
+      '<div class="github-search-head">' +
+      '<div>' +
+      '<h2>' + title + "</h2>" +
+      '<p class="muted">Depots connus: <span class="mono">' + escapeHtml(knownDepotIds.length ? knownDepotIds.join(", ") : "aucun") + "</span></p>" +
+      "</div>" +
+      '<div class="github-search-actions">' +
+      '<button class="btn btn-main" data-action="github-search-manifests" data-ignore-cache="' + (status === "success" || status === "partial" || status === "empty" || search.fromCache ? "true" : "false") + '" ' + (isLoading || !knownDepotIds.length ? "disabled" : "") + ">" + escapeHtml(buttonLabel) + "</button>" +
+      (isLoading ? '<button class="btn btn-subtle" data-action="github-cancel-search">Annuler</button>' : "") +
+      "</div>" +
+      "</div>" +
+      '<div class="github-search-status status-' + escapeHtml(status) + '">' +
+      loaderHtml +
+      '<p>' + escapeHtml(statusText) + "</p>" +
+      '<p class="muted">Sources testées: ' + escapeHtml(search.sourcesChecked || 0) + "/" + escapeHtml((App.githubManifestSearch && App.githubManifestSearch.GITHUB_MANIFEST_SOURCES || []).length) + " · Manifests trouvés: " + escapeHtml(search.results.length) + "</p>" +
+      sourceHtml +
+      "</div>" +
+      '<p class="legal-inline">Ces manifests proviennent d’index communautaires publics. Ils ne sont pas vérifiés. ManifestID connu ≠ téléchargement garanti. Vous devez posséder le jeu sur Steam.</p>' +
+      resultsHtml +
+      "</section>";
   }
 
   function PatchCard(patch, active) {
@@ -588,6 +693,18 @@
       state.selectedPatchId = "";
       state.manifestsByPatchId = {};
       state.currentManifests = [];
+      state.currentAllManifests = [];
+      state.githubManifestSearch = {
+        status: "idle",
+        message: "Aucune recherche GitHub lancée.",
+        results: [],
+        partial: false,
+        sourcesChecked: 0,
+        sourceSummaries: [],
+        fromCache: false,
+        missingDepots: false,
+        controller: null
+      };
       state.mobileDrawerOpen = false;
       state.gameFilters = {
         version: "",
@@ -609,6 +726,10 @@
       state.currentPatches = await App.api.getPatchesByAppId(game.appid);
     }
 
+    if (!state.currentAllManifests.length) {
+      state.currentAllManifests = await App.api.getManifestsByAppId(game.appid);
+    }
+
     App.storage.addRecentGame(game);
 
     var filteredPatches = applyPatchFilters(state.currentPatches);
@@ -623,6 +744,7 @@
 
     state.selectedPatchId = selectedPatch ? selectedPatch.id : "";
     state.currentManifests = selectedPatch ? await ensureManifestsForPatch(selectedPatch.id, game.appid) : [];
+    var knownDepotIds = getKnownDepotIds(game, state.currentAllManifests);
 
     var content = "" +
       '<section class="game-hero">' +
@@ -663,7 +785,8 @@
       '<button class="drawer-toggle" data-action="toggle-drawer" aria-expanded="' + (state.mobileDrawerOpen ? "true" : "false") + '">' + (state.mobileDrawerOpen ? "Fermer détail patch" : "Ouvrir détail patch") + "</button>" +
       PatchDetailPanel(game, selectedPatch, state.currentManifests) +
       "</div>" +
-      "</section>";
+      "</section>" +
+      GitHubManifestSearchPanel(game, knownDepotIds);
 
     root.innerHTML = layout(content);
   }
@@ -752,6 +875,88 @@
     return null;
   }
 
+  function setGitHubSearchState(next) {
+    state.githubManifestSearch = Object.assign({}, state.githubManifestSearch, next);
+  }
+
+  async function runGitHubManifestSearch(ignoreCache) {
+    if (!state.currentGame || !App.githubManifestSearch) return;
+
+    var controller = new AbortController();
+    setGitHubSearchState({
+      status: "loading",
+      message: "Connexion à GitHub…",
+      results: ignoreCache ? [] : state.githubManifestSearch.results,
+      partial: false,
+      sourcesChecked: 0,
+      sourceSummaries: [],
+      fromCache: false,
+      missingDepots: false,
+      controller: controller
+    });
+    await renderGame(state.route);
+
+    try {
+      var payload = await App.githubManifestSearch.searchGitHubManifestsForGame(state.currentGame, {
+        ignoreCache: Boolean(ignoreCache),
+        signal: controller.signal,
+        onProgress: function onProgress(progress) {
+          setGitHubSearchState({
+            status: "loading",
+            message: progress.message || "Recherche dans les sources communautaires…",
+            results: progress.results || state.githubManifestSearch.results,
+            partial: Boolean(progress.partial),
+            sourcesChecked: progress.sources_checked || state.githubManifestSearch.sourcesChecked
+          });
+          renderGame(state.route);
+        },
+        onSourceComplete: function onSourceComplete(progress) {
+          setGitHubSearchState({
+            status: "loading",
+            message: "Filtrage des DepotID…",
+            results: progress.results || [],
+            partial: Boolean(progress.partial),
+            sourcesChecked: progress.sources_checked || 0,
+            sourceSummaries: progress.source_summaries || []
+          });
+          renderGame(state.route);
+        }
+      });
+
+      var nextStatus = "success";
+      if (payload.missing_depots || !payload.results.length) nextStatus = "empty";
+      if (payload.partial && payload.results.length) nextStatus = "partial";
+
+      setGitHubSearchState({
+        status: nextStatus,
+        message: "",
+        results: payload.results || [],
+        partial: Boolean(payload.partial),
+        sourcesChecked: payload.sources_checked || 0,
+        sourceSummaries: payload.source_summaries || [],
+        fromCache: Boolean(payload.from_cache),
+        missingDepots: Boolean(payload.missing_depots),
+        controller: null
+      });
+      await renderGame(state.route);
+    } catch (error) {
+      if (error && error.name === "AbortError") {
+        setGitHubSearchState({
+          status: "idle",
+          message: "Recherche GitHub annulée.",
+          controller: null
+        });
+      } else {
+        setGitHubSearchState({
+          status: "error",
+          message: "Recherche GitHub impossible pour le moment. Réessaie plus tard.",
+          controller: null
+        });
+      }
+      await renderGame(state.route);
+    }
+  }
+
   async function onClick(event) {
     var button = event.target.closest("[data-action]");
     if (!button) return;
@@ -825,6 +1030,18 @@
       var url = button.getAttribute("data-url");
       if (url) {
         window.open(url, "_blank", "noopener,noreferrer");
+      }
+      return;
+    }
+
+    if (action === "github-search-manifests") {
+      await runGitHubManifestSearch(button.getAttribute("data-ignore-cache") === "true");
+      return;
+    }
+
+    if (action === "github-cancel-search") {
+      if (state.githubManifestSearch.controller) {
+        state.githubManifestSearch.controller.abort();
       }
       return;
     }

@@ -16,6 +16,7 @@ const manualManifestsDir = path.join(manualRoot, "manifests");
 const manifestSnapshotsDir = path.join(dataRoot, "manifest-snapshots");
 const contributionsDir = path.join(dataRoot, "contributions");
 const pendingManifestsFile = path.join(contributionsDir, "pending-manifests.json");
+const depotToAppIndexFile = path.join(dataRoot, "depot-to-app-index.json");
 const searchIndexFile = path.join(dataRoot, "search-index.json");
 const trackedAppsFile = path.join(dataRoot, "tracked-apps.json");
 
@@ -355,6 +356,12 @@ function mergeGames(catalogGames, trackedMap, sampleDetails, generatedAt) {
         "Fiche générée automatiquement depuis la base statique Steam PatchVault.",
       last_synced_at: generatedAt,
       tags,
+      depotids: Array.from(new Set([]
+        .concat(Array.isArray(tracked.depotids) ? tracked.depotids : [])
+        .concat(Array.isArray(tracked.depotIds) ? tracked.depotIds : [])
+        .concat(Array.isArray(sample.depotids) ? sample.depotids : [])
+        .map((depotid) => String(depotid).replace(/\D/g, ""))
+        .filter(Boolean))),
       bucket: bucketFromName(name)
     };
   });
@@ -381,6 +388,7 @@ function buildSearchIndex(games, generatedAt, catalogSource) {
       header_image: game.header_image,
       description: game.description,
       tags: game.tags,
+      depotids: game.depotids || [],
       last_synced_at: game.last_synced_at,
       bucket: game.bucket
     }))
@@ -684,6 +692,12 @@ async function writeManifestSnapshot(appid, observedAt, depots) {
 async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampleManifests, generatedAt }) {
   const manualIds = await resolveManualAppIds();
   const trackedIds = Array.from(new Set([...resolveTrackedAppIds(trackedEntries), ...manualIds]));
+  const trackedByApp = new Map(trackedEntries.map((entry) => [String(entry.appid), entry]));
+  const depotIndex = {
+    updated_at: generatedAt,
+    by_appid: {},
+    depots: []
+  };
   const samplePatchesByApp = new Map();
   const sampleManifestsByApp = new Map();
 
@@ -740,8 +754,25 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
     manifests = mergeByKey(manifests, manualManifests, manifestKey).map((manifest) => ({ ...manifest, appid }));
     const depots = buildDepotHistory(appid, existingManifestFile, manifests, patches, generatedAt);
     const trackedSince = existingManifestFile.tracked_since || generatedAt;
+    const tracked = trackedByApp.get(appKey) || {};
+    const trackedDepotIds = []
+      .concat(Array.isArray(tracked.depotids) ? tracked.depotids : [])
+      .concat(Array.isArray(tracked.depotIds) ? tracked.depotIds : [])
+      .map((depotid) => String(depotid).replace(/\D/g, ""))
+      .filter(Boolean);
 
     await writeManifestSnapshot(appid, generatedAt, depots);
+
+    const knownDepotIds = Array.from(new Set(
+      depots.map((depot) => String(depot.depotid)).concat(trackedDepotIds)
+    ));
+    depotIndex.by_appid[appKey] = knownDepotIds;
+    knownDepotIds.forEach((depotid) => {
+      depotIndex.depots.push({
+        appid,
+        depotid
+      });
+    });
 
     await writeJson(path.join(patchesDir, `${appid}.json`), {
       appid,
@@ -761,6 +792,9 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
           : "Mappings issus de sources automatiques et/ou manuelles. Vérifier la validité avant usage."
     });
   }
+
+  depotIndex.depots.sort((a, b) => Number(a.appid) - Number(b.appid) || Number(a.depotid) - Number(b.depotid));
+  await writeJson(depotToAppIndexFile, depotIndex);
 }
 
 async function main() {

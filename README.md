@@ -119,6 +119,8 @@ Variables utiles:
 /data/manifests/*.json
 /data/manifest-snapshots/<appid>/<date>.json
 /data/contributions/pending-manifests.json
+/data/depot-to-app-index.json
+/data/community-manifest-index.json (optionnel)
 /data/tracked-apps.json
 /data/manual/patches/*.json
 /data/manual/manifests/*.json
@@ -278,6 +280,50 @@ Le frontend affiche:
 - bouton `Signaler manifest invalide`
 
 Les boutons ouvrent une GitHub Issue pré-remplie. Après validation, ajoutez la donnée dans `data/manual/manifests/<appid>.json`.
+
+## Recherche distante GitHub des manifests
+
+Le module [assets/js/githubManifestSearch.js](/Users/julien/Documents/projets/steam-PatchVault/assets/js/githubManifestSearch.js) permet une recherche optionnelle côté navigateur dans des index GitHub publics de fichiers `.manifest`.
+
+Priorité:
+
+1. charger `data/community-manifest-index.json` si le fichier existe
+2. sinon utiliser GitHub Trees API en fallback
+
+Sources distantes configurées:
+
+- `qwe213312/k25FCdfEOoEJ42S6`
+- `mejikuhibiniu1/k25FCdfEOoEJ42S6`
+- `Sainan/k25FCdfEOoEJ42S6`
+
+Le site ne télécharge jamais le contenu des fichiers `.manifest`. Il lit uniquement l'arborescence GitHub et parse les noms de fichiers au format:
+
+```text
+depotid_manifestid.manifest
+```
+
+Regex stricte utilisée sur le nom de fichier:
+
+```text
+^(\d+)_(\d+)\.manifest$
+```
+
+Limites:
+
+- GitHub peut retourner `truncated: true`
+- les résultats sont alors affichés comme partiels
+- les manifests restent `unverified`
+- ManifestID connu ne garantit pas que Steam permettra le téléchargement
+
+Le cache navigateur utilise:
+
+```text
+github-manifests:<appid>
+```
+
+TTL: 24h.
+
+Pour une version plus robuste, générer plus tard `data/community-manifest-index.json` via GitHub Actions afin d'éviter les appels GitHub côté visiteur.
 
 ## SEO
 
