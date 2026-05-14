@@ -1,0 +1,64 @@
+{
+  "appid": 413150,
+  "generated_at": "2026-05-14T00:55:42.996Z",
+  "source": "steam-static-db",
+  "manifests": [
+    {
+      "id": "manifest-sv-1",
+      "appid": 413150,
+      "depotid": 413151,
+      "manifestid": "7412554381023315481",
+      "buildid": "13660022",
+      "branch": "public",
+      "os": "windows",
+      "language": "all",
+      "date": "2024-03-19T17:22:00Z",
+      "patch_note_id": "patch-sv-1",
+      "confidence_score": 93,
+      "notes": "Horodatage proche de la publication officielle. Vérifier les mods côté client."
+    },
+    {
+      "id": "manifest-sv-2",
+      "appid": 413150,
+      "depotid": 413152,
+      "manifestid": "983155210229905118",
+      "buildid": "13660022",
+      "branch": "public",
+      "os": "linux",
+      "language": "all",
+      "date": "2024-03-19T17:26:00Z",
+      "patch_note_id": "patch-sv-1",
+      "confidence_score": 79,
+      "notes": "Association probable, mais patch note non spécifique au depot Linux."
+    },
+    {
+      "id": "manifest-sv-3",
+      "appid": 413150,
+      "depotid": 413151,
+      "manifestid": "1900954151077562896",
+      "buildid": "13698770",
+      "branch": "public",
+      "os": "windows",
+      "language": "all",
+      "date": "2024-04-02T09:08:00Z",
+      "patch_note_id": "patch-sv-2",
+      "confidence_score": 95,
+      "notes": "Hotfix réseau et crashs corrélé au build publié."
+    },
+    {
+      "id": "manifest-sv-4",
+      "appid": 413150,
+      "depotid": 413151,
+      "manifestid": "5589201190314338870",
+      "buildid": "12844991",
+      "branch": "public",
+      "os": "windows",
+      "language": "all",
+      "date": "2023-11-14T13:30:00Z",
+      "patch_note_id": "patch-sv-3",
+      "confidence_score": 71,
+      "notes": "Détection via fenêtre temporelle et changelog partiel."
+    }
+  ],
+  "notes": "Mappings de démonstration. Vérifier la validité avant usage."
+}

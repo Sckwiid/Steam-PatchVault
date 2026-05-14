@@ -1,0 +1,20 @@
+{
+  "bucket": "s",
+  "generated_at": "2026-05-14T00:55:42.996Z",
+  "games": [
+    {
+      "appid": 413150,
+      "name": "Stardew Valley",
+      "slug": "stardew-valley",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+      "description": "Simulation agricole indé avec mods, coop et progression longue durée.",
+      "last_synced_at": "2026-05-14T00:55:42.996Z",
+      "tags": [
+        "Indie",
+        "RPG",
+        "Modded"
+      ],
+      "bucket": "s"
+    }
+  ]
+}

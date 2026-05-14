@@ -3,37 +3,38 @@
 
   var App = global.SteamPatchArchive = global.SteamPatchArchive || {};
 
-  var FALLBACK_DATA = {
-    games: [
-      {
-        appid: 413150,
-        name: "Stardew Valley",
-        slug: "stardew-valley",
-        header_image: "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
-        description: "Simulation agricole indé avec mods, coop et progression longue durée.",
-        last_synced_at: "2026-05-10T08:14:00Z",
-        tags: ["Indie", "RPG", "Modded"]
-      },
-      {
-        appid: 294100,
-        name: "RimWorld",
-        slug: "rimworld",
-        header_image: "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg",
-        description: "Colony sim narratif orienté événements dynamiques et versions moddées.",
-        last_synced_at: "2026-05-11T06:42:00Z",
-        tags: ["Survival", "Indie", "Modded"]
-      },
-      {
-        appid: 892970,
-        name: "Valheim",
-        slug: "valheim",
-        header_image: "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
-        description: "Survival coop nordique avec biomes, crafts et progression multijoueur.",
-        last_synced_at: "2026-05-09T22:31:00Z",
-        tags: ["Survival", "Multiplayer", "Speedrun"]
-      }
-    ],
-    patches: [
+  var FALLBACK_GAMES = [
+    {
+      appid: 413150,
+      name: "Stardew Valley",
+      slug: "stardew-valley",
+      header_image: "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+      description: "Simulation agricole indé avec mods, coop et progression longue durée.",
+      last_synced_at: "2026-05-10T08:14:00Z",
+      tags: ["Indie", "RPG", "Modded"]
+    },
+    {
+      appid: 294100,
+      name: "RimWorld",
+      slug: "rimworld",
+      header_image: "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg",
+      description: "Colony sim narratif orienté événements dynamiques et versions moddées.",
+      last_synced_at: "2026-05-11T06:42:00Z",
+      tags: ["Survival", "Indie", "Modded"]
+    },
+    {
+      appid: 892970,
+      name: "Valheim",
+      slug: "valheim",
+      header_image: "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
+      description: "Survival coop nordique avec biomes, crafts et progression multijoueur.",
+      last_synced_at: "2026-05-09T22:31:00Z",
+      tags: ["Survival", "Multiplayer", "Speedrun"]
+    }
+  ];
+
+  var FALLBACK_PATCHES_BY_APP = {
+    "413150": [
       {
         id: "patch-sv-1",
         appid: 413150,
@@ -57,19 +58,9 @@
         source_url: "https://store.steampowered.com/news/app/413150",
         source_type: "steam_news",
         keywords: ["coop", "crash", "stability"]
-      },
-      {
-        id: "patch-sv-3",
-        appid: 413150,
-        title: "Patch Balance - Croissance artisanale",
-        version_detected: "1.5.7b",
-        date: "2023-11-14T13:20:00Z",
-        type: "balance",
-        content: "Ajustements de rendement pour les produits artisanaux.",
-        source_url: "https://store.steampowered.com/news/app/413150",
-        source_type: "manual",
-        keywords: ["balance", "artisan", "economy"]
-      },
+      }
+    ],
+    "294100": [
       {
         id: "patch-rw-1",
         appid: 294100,
@@ -81,31 +72,9 @@
         source_url: "https://store.steampowered.com/news/app/294100",
         source_type: "steam_news",
         keywords: ["pathfinding", "ai", "raids", "performance"]
-      },
-      {
-        id: "patch-rw-2",
-        appid: 294100,
-        title: "Hotfix - Désynchronisations mods",
-        version_detected: "1.5.4075",
-        date: "2024-04-18T10:15:00Z",
-        type: "hotfix",
-        content: "Correction de désynchronisations réseau en multijoueur.",
-        source_url: "https://store.steampowered.com/news/app/294100",
-        source_type: "steam_news",
-        keywords: ["multiplayer", "desync", "mods"]
-      },
-      {
-        id: "patch-rw-3",
-        appid: 294100,
-        title: "Patch contenu - Événements de colonie",
-        version_detected: "1.4.3901",
-        date: "2023-09-26T08:50:00Z",
-        type: "content",
-        content: "Nouveaux incidents narratifs et variantes de quêtes.",
-        source_url: "https://store.steampowered.com/news/app/294100",
-        source_type: "manual",
-        keywords: ["quests", "factions", "events"]
-      },
+      }
+    ],
+    "892970": [
       {
         id: "patch-vh-1",
         appid: 892970,
@@ -117,33 +86,12 @@
         source_url: "https://store.steampowered.com/news/app/892970",
         source_type: "steam_news",
         keywords: ["biome", "ashlands", "enemies", "balance"]
-      },
-      {
-        id: "patch-vh-2",
-        appid: 892970,
-        title: "Hotfix réseau - Serveurs dédiés",
-        version_detected: "0.218.18",
-        date: "2024-05-22T11:00:00Z",
-        type: "hotfix",
-        content: "Correction de timeouts serveurs dédiés et reprise de session.",
-        source_url: "https://store.steampowered.com/news/app/892970",
-        source_type: "steam_news",
-        keywords: ["network", "dedicated", "timeout"]
-      },
-      {
-        id: "patch-vh-3",
-        appid: 892970,
-        title: "Patch balance - Arc et stamina",
-        version_detected: "0.217.40",
-        date: "2024-02-08T14:25:00Z",
-        type: "balance",
-        content: "Ajustements de consommation de stamina et courbe de dégâts des arcs.",
-        source_url: "https://steamcommunity.com/app/892970/allnews",
-        source_type: "manual",
-        keywords: ["stamina", "bow", "damage"]
       }
-    ],
-    manifests: [
+    ]
+  };
+
+  var FALLBACK_MANIFESTS_BY_APP = {
+    "413150": [
       {
         id: "manifest-sv-1",
         appid: 413150,
@@ -157,21 +105,9 @@
         patch_note_id: "patch-sv-1",
         confidence_score: 93,
         notes: "Horodatage proche de la publication officielle."
-      },
-      {
-        id: "manifest-sv-2",
-        appid: 413150,
-        depotid: 413151,
-        manifestid: "1900954151077562896",
-        buildid: "13698770",
-        branch: "public",
-        os: "windows",
-        language: "all",
-        date: "2024-04-02T09:08:00Z",
-        patch_note_id: "patch-sv-2",
-        confidence_score: 95,
-        notes: "Hotfix réseau et crashs corrélé au build publié."
-      },
+      }
+    ],
+    "294100": [
       {
         id: "manifest-rw-1",
         appid: 294100,
@@ -185,21 +121,9 @@
         patch_note_id: "patch-rw-1",
         confidence_score: 90,
         notes: "Alignement build/notes confirmé par source Steam News."
-      },
-      {
-        id: "manifest-rw-2",
-        appid: 294100,
-        depotid: 294101,
-        manifestid: "4101599362017079550",
-        buildid: "14118832",
-        branch: "public",
-        os: "windows",
-        language: "all",
-        date: "2024-04-18T10:19:00Z",
-        patch_note_id: "patch-rw-2",
-        confidence_score: 94,
-        notes: "Hotfix cohérent avec hausse de build mineure."
-      },
+      }
+    ],
+    "892970": [
       {
         id: "manifest-vh-1",
         appid: 892970,
@@ -213,28 +137,15 @@
         patch_note_id: "patch-vh-1",
         confidence_score: 92,
         notes: "Mise à jour majeure, build principal très probable."
-      },
-      {
-        id: "manifest-vh-2",
-        appid: 892970,
-        depotid: 892971,
-        manifestid: "5553048082701490012",
-        buildid: "14555218",
-        branch: "public",
-        os: "windows",
-        language: "all",
-        date: "2024-05-22T11:04:00Z",
-        patch_note_id: "patch-vh-2",
-        confidence_score: 96,
-        notes: "Hotfix dédié au réseau, correspondance temporelle forte."
       }
     ]
   };
 
   var state = {
-    games: null,
-    patches: null,
-    manifests: null
+    searchIndex: null,
+    bucketCache: {},
+    patchByAppCache: {},
+    manifestsByAppCache: {}
   };
 
   function clone(value) {
@@ -243,6 +154,60 @@
 
   function byDateDesc(left, right) {
     return new Date(right.date).getTime() - new Date(left.date).getTime();
+  }
+
+  function normalizeBucket(name) {
+    var first = String(name || "").trim().charAt(0).toLowerCase();
+    return /[a-z]/.test(first) ? first : "0-9";
+  }
+
+  function buildFallbackSearchIndex() {
+    var games = FALLBACK_GAMES.map(function mapGame(game) {
+      var entry = Object.assign({}, game);
+      entry.bucket = normalizeBucket(game.name);
+      return entry;
+    });
+
+    var buckets = {};
+    games.forEach(function eachGame(game) {
+      buckets[game.bucket] = game.bucket;
+    });
+
+    return {
+      generated_at: "2026-05-14T00:00:00Z",
+      total_games: games.length,
+      buckets: buckets,
+      games: games
+    };
+  }
+
+  function buildFallbackGameBucket(bucket) {
+    var games = FALLBACK_GAMES.filter(function filterGame(game) {
+      return normalizeBucket(game.name) === bucket;
+    });
+    return {
+      bucket: bucket,
+      generated_at: "2026-05-14T00:00:00Z",
+      games: games
+    };
+  }
+
+  function buildFallbackPatchesFile(appid) {
+    var id = String(appid);
+    return {
+      appid: Number(appid),
+      generated_at: "2026-05-14T00:00:00Z",
+      patches: clone(FALLBACK_PATCHES_BY_APP[id] || [])
+    };
+  }
+
+  function buildFallbackManifestsFile(appid) {
+    var id = String(appid);
+    return {
+      appid: Number(appid),
+      generated_at: "2026-05-14T00:00:00Z",
+      manifests: clone(FALLBACK_MANIFESTS_BY_APP[id] || [])
+    };
   }
 
   async function loadJsonFile(path, fallbackValue) {
@@ -257,44 +222,78 @@
         if (!response.ok) continue;
         return await response.json();
       } catch (error) {
-        // Try next candidate.
+        // Continue with next candidate.
       }
     }
 
     return clone(fallbackValue);
   }
 
-  async function ensureLoaded() {
-    if (state.games && state.patches && state.manifests) {
-      return state;
+  async function ensureSearchIndexLoaded() {
+    if (state.searchIndex) return state.searchIndex;
+
+    var fallback = buildFallbackSearchIndex();
+    var loaded = await loadJsonFile("./data/search-index.json", fallback);
+
+    if (!loaded || !Array.isArray(loaded.games)) {
+      state.searchIndex = fallback;
+      return state.searchIndex;
     }
 
-    var loaded = await Promise.all([
-      loadJsonFile("./data/games.sample.json", FALLBACK_DATA.games),
-      loadJsonFile("./data/patches.sample.json", FALLBACK_DATA.patches),
-      loadJsonFile("./data/manifests.sample.json", FALLBACK_DATA.manifests)
-    ]);
+    state.searchIndex = loaded;
+    return state.searchIndex;
+  }
 
-    state.games = loaded[0];
-    state.patches = loaded[1];
-    state.manifests = loaded[2];
+  async function loadGamesBucket(bucket) {
+    var key = bucket || "0-9";
+    if (state.bucketCache[key]) return state.bucketCache[key];
 
-    return state;
+    var fallback = buildFallbackGameBucket(key);
+    var loaded = await loadJsonFile("./data/games/" + key + ".json", fallback);
+
+    var games = loaded && Array.isArray(loaded.games) ? loaded.games : fallback.games;
+    state.bucketCache[key] = games;
+    return games;
+  }
+
+  async function loadPatchesByApp(appid) {
+    var key = String(appid || "");
+    if (state.patchByAppCache[key]) return state.patchByAppCache[key];
+
+    var fallback = buildFallbackPatchesFile(appid);
+    var loaded = await loadJsonFile("./data/patches/" + key + ".json", fallback);
+
+    var patches = loaded && Array.isArray(loaded.patches) ? loaded.patches : fallback.patches;
+    state.patchByAppCache[key] = patches.sort(byDateDesc);
+    return state.patchByAppCache[key];
+  }
+
+  async function loadManifestsByApp(appid) {
+    var key = String(appid || "");
+    if (state.manifestsByAppCache[key]) return state.manifestsByAppCache[key];
+
+    var fallback = buildFallbackManifestsFile(appid);
+    var loaded = await loadJsonFile("./data/manifests/" + key + ".json", fallback);
+
+    var manifests = loaded && Array.isArray(loaded.manifests) ? loaded.manifests : fallback.manifests;
+    state.manifestsByAppCache[key] = manifests.sort(byDateDesc);
+    return state.manifestsByAppCache[key];
   }
 
   async function searchGames(query) {
-    var data = await ensureLoaded();
+    var index = await ensureSearchIndexLoaded();
+    var games = Array.isArray(index.games) ? index.games : [];
     var search = App.search;
 
     if (!query || !String(query).trim()) {
-      return data.games.slice(0, 12);
+      return games.slice(0, 24);
     }
 
     if (!search) {
-      return data.games;
+      return games;
     }
 
-    return search.searchGames(data.games, query, { limit: 24, minScore: 26 }).map(function mapEntry(entry) {
+    return search.searchGames(games, query, { limit: 24, minScore: 26 }).map(function mapEntry(entry) {
       var result = Object.assign({}, entry.game);
       result.search_score = entry.score;
       return result;
@@ -302,20 +301,31 @@
   }
 
   async function getAllGames() {
-    var data = await ensureLoaded();
-    return data.games.slice();
+    var index = await ensureSearchIndexLoaded();
+    return Array.isArray(index.games) ? index.games.slice() : [];
   }
 
   async function getGameBySlug(slug) {
-    var data = await ensureLoaded();
+    var index = await ensureSearchIndexLoaded();
     var cleanSlug = String(slug || "").trim();
-    return data.games.find(function findGame(game) {
+
+    var summary = (index.games || []).find(function findSummary(item) {
+      return item.slug === cleanSlug;
+    });
+
+    if (!summary) return null;
+
+    var bucket = summary.bucket || normalizeBucket(summary.name);
+    var bucketGames = await loadGamesBucket(bucket);
+
+    var full = bucketGames.find(function findGame(game) {
       return game.slug === cleanSlug;
-    }) || null;
+    });
+
+    return full || summary;
   }
 
   async function getPatchesByAppId(appid) {
-    var data = await ensureLoaded();
     var id = String(appid || "");
     var storage = App.storage;
 
@@ -324,42 +334,33 @@
       if (cached) return cached.slice().sort(byDateDesc);
     }
 
-    var patches = data.patches
-      .filter(function filterPatch(patch) {
-        return String(patch.appid) === id;
-      })
-      .sort(byDateDesc);
+    var patches = await loadPatchesByApp(id);
 
     if (storage) {
       storage.cachePatches(id, patches);
     }
 
-    return patches;
+    return patches.slice();
   }
 
-  async function getManifestsByPatchId(patchId) {
-    var data = await ensureLoaded();
-    return data.manifests
-      .filter(function filterManifest(manifest) {
-        return manifest.patch_note_id === patchId;
-      })
-      .sort(byDateDesc);
+  async function getManifestsByPatchId(patchId, appid) {
+    if (!appid) return [];
+    var manifests = await loadManifestsByApp(appid);
+    return manifests.filter(function filterManifest(manifest) {
+      return manifest.patch_note_id === patchId;
+    });
   }
 
   async function getManifestsByAppId(appid) {
-    var data = await ensureLoaded();
-    return data.manifests
-      .filter(function filterManifest(manifest) {
-        return String(manifest.appid) === String(appid);
-      })
-      .sort(byDateDesc);
+    var manifests = await loadManifestsByApp(appid);
+    return manifests.slice();
   }
 
   async function refreshGameFromSteam(appid) {
     return {
       ok: false,
       appid: appid,
-      message: "Placeholder MVP: branche un backend (Cloudflare Worker/Supabase) pour synchroniser Steam."
+      message: "Mode runtime API-free: les données sont régénérées par GitHub Actions en JSON statiques."
     };
   }
 
@@ -367,7 +368,7 @@
     return {
       ok: false,
       appid: appid,
-      message: "Placeholder MVP: ajouter une source Steam News officielle côté serveur."
+      message: "Mode runtime API-free: aucune requête Steam API côté visiteur."
     };
   }
 

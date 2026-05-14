@@ -1,0 +1,72 @@
+{
+  "appid": 413150,
+  "generated_at": "2026-05-14T00:55:42.996Z",
+  "source": "steam-static-db",
+  "patches": [
+    {
+      "id": "patch-sv-1",
+      "appid": 413150,
+      "title": "Mise à jour 1.6 - Festival & Qualité de vie",
+      "version_detected": "1.6.0",
+      "date": "2024-03-19T17:15:00Z",
+      "type": "major",
+      "content": "Ajout de nouveaux événements saisonniers, équilibrage des revenus en fin de partie et correction de sauvegardes incompatibles avec certains mods.",
+      "source_url": "https://store.steampowered.com/news/app/413150",
+      "source_type": "steam_news",
+      "keywords": [
+        "festival",
+        "economy",
+        "mods",
+        "save"
+      ]
+    },
+    {
+      "id": "patch-sv-2",
+      "appid": 413150,
+      "title": "Hotfix 1.6.2 - Correctifs coop",
+      "version_detected": "1.6.2",
+      "date": "2024-04-02T09:00:00Z",
+      "type": "hotfix",
+      "content": "Correction de crashs en coop locale, amélioration de la stabilité en chargement de ferme partagée.",
+      "source_url": "https://store.steampowered.com/news/app/413150",
+      "source_type": "steam_news",
+      "keywords": [
+        "coop",
+        "crash",
+        "stability"
+      ]
+    },
+    {
+      "id": "patch-sv-3",
+      "appid": 413150,
+      "title": "Patch Balance - Croissance artisanale",
+      "version_detected": "1.5.7b",
+      "date": "2023-11-14T13:20:00Z",
+      "type": "balance",
+      "content": "Ajustements de rendement pour les produits artisanaux et réduction de l'impact de certaines boucles d'optimisation économique.",
+      "source_url": "https://store.steampowered.com/news/app/413150",
+      "source_type": "manual",
+      "keywords": [
+        "balance",
+        "artisan",
+        "economy"
+      ]
+    },
+    {
+      "id": "patch-sv-4",
+      "appid": 413150,
+      "title": "Mise à jour mineure - Compatibilité modding",
+      "version_detected": "1.5.6",
+      "date": "2023-08-03T19:45:00Z",
+      "type": "minor",
+      "content": "Nettoyage API interne utilisé par les mods communautaires et corrections d'affichage d'inventaire.",
+      "source_url": "https://steamcommunity.com/app/413150/allnews",
+      "source_type": "community",
+      "keywords": [
+        "api",
+        "modding",
+        "inventory"
+      ]
+    }
+  ]
+}

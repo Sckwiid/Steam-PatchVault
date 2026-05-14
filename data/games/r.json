@@ -1,0 +1,20 @@
+{
+  "bucket": "r",
+  "generated_at": "2026-05-14T00:55:42.996Z",
+  "games": [
+    {
+      "appid": 294100,
+      "name": "RimWorld",
+      "slug": "rimworld",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg",
+      "description": "Colony sim narratif orienté événements dynamiques et versions moddées.",
+      "last_synced_at": "2026-05-14T00:55:42.996Z",
+      "tags": [
+        "Survival",
+        "Indie",
+        "Modded"
+      ],
+      "bucket": "r"
+    }
+  ]
+}

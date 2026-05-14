@@ -1,0 +1,20 @@
+{
+  "bucket": "v",
+  "generated_at": "2026-05-14T00:55:42.996Z",
+  "games": [
+    {
+      "appid": 892970,
+      "name": "Valheim",
+      "slug": "valheim",
+      "header_image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
+      "description": "Survival coop nordique avec biomes, crafts et progression multijoueur.",
+      "last_synced_at": "2026-05-14T00:55:42.996Z",
+      "tags": [
+        "Survival",
+        "Multiplayer",
+        "Speedrun"
+      ],
+      "bucket": "v"
+    }
+  ]
+}

@@ -304,7 +304,8 @@
 
   function TutorialSteps() {
     var steps = [
-      "Ouvrir Steam Console.",
+      "Ouvrir Steam Console: appuie sur Win + R, tape steam://open/console puis valide avec Entrée.",
+      "Si rien ne s'ouvre: ferme Steam puis relance-le avec l'option -console.",
       "Coller la commande download_depot.",
       "Attendre la fin du téléchargement.",
       "Trouver le dossier téléchargé par Steam.",
@@ -431,11 +432,11 @@
     });
   }
 
-  async function ensureManifestsForPatch(patchId) {
+  async function ensureManifestsForPatch(patchId, appid) {
     if (!patchId) return [];
     if (state.manifestsByPatchId[patchId]) return state.manifestsByPatchId[patchId];
 
-    var manifests = await App.api.getManifestsByPatchId(patchId);
+    var manifests = await App.api.getManifestsByPatchId(patchId, appid);
     state.manifestsByPatchId[patchId] = manifests;
     return manifests;
   }
@@ -484,7 +485,7 @@
     }) || filteredPatches[0] || null;
 
     state.selectedPatchId = selectedPatch ? selectedPatch.id : "";
-    state.currentManifests = selectedPatch ? await ensureManifestsForPatch(selectedPatch.id) : [];
+    state.currentManifests = selectedPatch ? await ensureManifestsForPatch(selectedPatch.id, game.appid) : [];
 
     var content = "" +
       '<section class="game-hero">' +
