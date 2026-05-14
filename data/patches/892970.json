@@ -1,71 +1,196 @@
 {
   "appid": 892970,
-  "generated_at": "2026-05-14T00:55:42.996Z",
+  "generated_at": "2026-05-14T01:13:18.175Z",
   "source": "steam-static-db",
   "patches": [
     {
-      "id": "patch-vh-1",
+      "id": "steam-news-892970-1832065502808130",
       "appid": 892970,
-      "title": "Mise à jour biome - Ashlands",
-      "version_detected": "0.218.15",
-      "date": "2024-05-16T16:30:00Z",
-      "type": "major",
-      "content": "Nouveau biome, nouveaux ennemis et rééquilibrage des résistances élémentaires.",
-      "source_url": "https://store.steampowered.com/news/app/892970",
-      "source_type": "steam_news",
-      "keywords": [
-        "biome",
-        "ashlands",
-        "enemies",
-        "balance"
-      ]
-    },
-    {
-      "id": "patch-vh-2",
-      "appid": 892970,
-      "title": "Hotfix réseau - Serveurs dédiés",
-      "version_detected": "0.218.18",
-      "date": "2024-05-22T11:00:00Z",
+      "title": "Patch 0.221.13 (Public Test)",
+      "version_detected": "0.221.13",
+      "date": "2026-05-06T07:45:55.000Z",
       "type": "hotfix",
-      "content": "Correction de timeouts sur serveurs dédiés et amélioration de la reprise de session.",
-      "source_url": "https://store.steampowered.com/news/app/892970",
-      "source_type": "steam_news",
-      "keywords": [
-        "network",
-        "dedicated",
-        "timeout"
-      ]
-    },
-    {
-      "id": "patch-vh-3",
-      "appid": 892970,
-      "title": "Patch balance - Arc et stamina",
-      "version_detected": "0.217.40",
-      "date": "2024-02-08T14:25:00Z",
-      "type": "balance",
-      "content": "Réduction de la consommation de stamina pour certaines armes et ajustement de la courbe de dégâts des arcs.",
-      "source_url": "https://steamcommunity.com/app/892970/allnews",
+      "content": "⚠️ Note: This update is for the Public Test branch of Valheim only, and may therefore be unstable! Prior to launching this update to the Default version of the game, we want to have a chance to discover bugs and fine-tune the balancing to ensure the best game experience. ACCESS: Right-click Valheim in your Steam library, then select ‘Properties’. In the new window, select ‘Betas’ and type in the code “yesimadebackups”. The Public Test branch should now be available for you to select. The PTB FAQ can be found here. FEEDBACK: Please leave any feedback in the “#valheim-public-test” channel in our Discord or through the form on our website. Please remember to be considerate towards players who are not participating in the Public Test, as some may prefer to avoid spoilers. As indicated by the access code, please ensure to create backups of your save files before playing. In this update we’re introducing a new save system for your Valheim worlds! The purpose of this is to make the game save faster, and to decrease the risk of corrupt save files. What the new system means in practice is that the game now saves your world in smaller chunks, and only the chunks that have been modified since the last save will be affected. Worlds will no longer be saved with a .db and a .fwl file, but will instead be saved and stored in separate folders, with the .db file broken down into smaller pieces. Backups will also have their own separate folders. Please note that if you intend to switch between the PTB and the Live branch of the game, it is not advisory to move your files around manually. If this sounds overly technical, don’t worry – unless you’re frequently moving your files around manually, you won’t notice any difference beyond faster saving times! For users who are running Valheim with mods, please note that this system has not been tested with mods. While we don’t believe there should be any issues relating to this, modding the game is always done at your own risk. Detailed Patch Notes: * Introducing a new world save system * The new save system only affects world saves, character saves remain the same. * When saving, only the chunks that have been modified are saved. * Inst...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502808130",
       "source_type": "manual",
       "keywords": [
-        "stamina",
-        "bow",
-        "damage"
+        "bug",
+        "mod"
       ]
     },
     {
-      "id": "patch-vh-4",
+      "id": "steam-news-892970-1830797770244955",
       "appid": 892970,
-      "title": "Mise à jour contenu - Artisanat avancé",
-      "version_detected": "0.216.11",
-      "date": "2023-12-07T18:10:00Z",
+      "title": "Word From the Devs: Yeah, That’s A Drawbridge",
+      "version_detected": "",
+      "date": "2026-04-28T11:11:18.000Z",
       "type": "content",
-      "content": "Ajout de recettes avancées, nouvelles stations d'artisanat et corrections d'assets en coop.",
-      "source_url": "https://store.steampowered.com/news/app/892970",
-      "source_type": "community",
+      "content": "Hello vikings! We began this month of April, as is customary, with a bit of a laugh. Most of you caught on to the fact that it was an April Fools joke, but we do want to make sure to clarify that there is not going to be an additional game mode in Valheim where you can romance all the bosses, as fun as that might have been. Who had the most charming dialogue options? Who had the most romantic ending? We shall never know. We also want to thank the team behind Val-Con for organising their event for the second time! Thank you for taking the time to bring the community together and celebrating Valheim! Our very own Robin Eyre and Jonathan Smårs featured during the event, as well as some of our friends from other companies who have helped us make the game, so make sure to check out their interviews in the VOD. But now, onto some teasers! Last month we asked if you had any guesses as to what one might be able to cook in the Deep North, and many of you guessed it: Meatballs with lingonberries, of course! They’re just one item on the menu of this biome though, because you’ll need plenty of food to sustain yourselves through adventures out in the cold: {STEAM_CLAN_IMAGE}/33695701/01f31c19e55dea1912a1019f70fd0bafdeb3f1ac.png We’ve already hinted at some build pieces that will be coming to Valheim, but now we want to reveal perhaps one of the most impressive pieces yet. You have asked for a drawbridge for quite some time, and we are happy to finally be able to offer you one. Let the building commence! {STEAM_CLAN_IMAGE}/33695701/c6f9f4c225067dd652df03e6bf81eabab8f97679.png Build of the Month Speaking of building, this month we would like to shine some light upon this swamp village by RegretfulDesire! So many nice little details! {STEAM_CLAN_IMAGE}/33695701/8fd66cd7c5fb91016228fe8e46b35ab29af7c930.png If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. Skål! /The Iron Gate team If...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770244955",
+      "source_type": "manual",
       "keywords": [
-        "craft",
-        "recipes",
-        "coop"
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1827626365768086",
+      "appid": 892970,
+      "title": "Word From the Devs: Winter Adventures",
+      "version_detected": "",
+      "date": "2026-03-25T13:08:43.000Z",
+      "type": "balance",
+      "content": "Hello Vikings! While the story of Hervor Bloodtooth has come to an end, the same cannot be said for the Deep North. We continue to work away on crafting the biome, and today we want to show you a couple of different wintery snippets of what to expect, before spring is properly upon us! First out, we want to show perhaps one of our most Swedish aspects of the biome – the lingonberries. They can be found and harvested in the woods, and used in several of the biome’s food recipes. Got any guesses as to what you might be able to cook? {STEAM_CLAN_IMAGE}/33695701/9945ae424047e96c65883b6c383356b066df5189.png When it’s cold and snowy, one thing to always watch out for is slippery ice. The Deep North will be no different, and careless vikings might easily find themselves stumbling to catch their balance: {STEAM_CLAN_IMAGE}/33695701/1ee9127153bea17b6e13fdb8236e3829b15e8930.png And in the Deep North, there will of course also be deep snow! This will need to be cleared if you want to settle down and build a base somewhere, but fortunately you can craft a shovel for this very purpose. Best put your back into it! {STEAM_CLAN_IMAGE}/33695701/cfb31e0063f21c6f575e64081160be3e03974960.png These are just a few of the things we’re working on at the moment, and we’re happy to say that the biome is shaping up to something we really think you will enjoy. Speaking of you, our brilliant community, it’s almost time for the second edition of the fan-run, online community event Val-Con! It takes place in the middle of April, and there are a whole bunch of fun activities scheduled. This year, Iron Gate is officially participating, and we’re happy to pitch in with some fun prizes for the competitions and raffles during the event. You will also see some guest appearances from the Valheim development team, so stay tuned for that! Build of the Month This month we want to shine a light on “Reed’s Hollow” by Leif. We love the creative use of the Elder altar! {STEAM_CLAN_IMAGE}/33695701/fbf4a7783395404c7b769aa46c46a3e2a2a3c11d.jpg If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to m...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365768086",
+      "source_type": "manual",
+      "keywords": [
+        "balance",
+        "ui",
+        "event"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1825727806704633",
+      "appid": 892970,
+      "title": "Word From the Devs: Looking to the Future",
+      "version_detected": "",
+      "date": "2026-02-25T12:42:13.000Z",
+      "type": "content",
+      "content": "Hello Vikings! First of all, thank you for all the kind messages during our five year anniversary earlier this month. We wouldn’t be here without all of you! You might also have noticed that we announced that Valheim is coming to Nintendo Switch 2 later this year! We’re really excited for this, and as usual we’re very thankful to have Piktiv helping us out with the port. Please note that the release will only be for Nintendo Switch 2, and not for the first Nintendo Switch console. More information about the release will come in time, but for now you can wishlist the game on the Nintendo eShop. With these two milestones behind us we also want to share with you the final part of the Voyage of Hervor Bloodtooth: Now, it must be said that Hervor’s story took place quite a long time ago, in a Deep North that’s a little bit different from the biome that you will explore yourselves, but perhaps there might still be some traces left of her for you to find… One thing that will still remain standing despite the passage of time is of course the massive structure that marks the end of Hervor’s journey. What lies beyond this gate shall remain a mystery for all but the truly worthy, however. {STEAM_CLAN_IMAGE}/33695701/0221db54b074b6e05ec35f12010223c5acc5ba67.png And while this marks the end of Hervor’s story, we will of course keep having further teasers in our Words from the Devs in the months to come, rest assured! The Deep North continues to take shape with every passing day, and we really look forward to sharing it with you all once it’s ready. Build of the Month It was particularly hard to choose a build to highlight this month, you have been busy! In the end, we want to shine the spotlight on “Eikthyr’s Pedestal” by Porter. Well done! {STEAM_CLAN_IMAGE}/33695701/05232ba5375caf27466f5763c1a63bdc3aecc109.jpg If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. Skål! /The Iron Ga...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806704633",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1825093633184197",
+      "appid": 892970,
+      "title": "Patch 0.221.12",
+      "version_detected": "0.221.12",
+      "date": "2026-02-19T08:09:28.000Z",
+      "type": "hotfix",
+      "content": "We've got a couple of fixes for you today! Please also note that playing using Vulkan might currently cause Valheim to be unstable and/or crash. If you want to continue using Vulkan, you can disable the FPS limiters in e.g. the Nvidia Control Panel for a hopefully smoother experience. Rest assured that we're working on a solution for the Vulkan issue, however, and that it should hopefully be back to normal soon! Patch Notes: * Added release-to-select in the radial menu: If you continue holding down the radial menu button/key after the radial menu appears, you can select an emote by releasing the button/key. * Reverted crouching being unintentionally changed to a press-and-hold action on gamepad. Now it’s back to being a single press again. * Fixed annoying resolution setting behavior in windowed mode when changing settings. * Fixed crash on startup on Windows that triggers under specific conditions when using Vulkan. * Fixed audio stutters in Ashlands. * Fixed sometimes not being able to apply graphics settings properly the first time after updating from an earlier version. * Fixed some minor UX issues in the graphics settings menu. For modders: * Fixed a null reference exception that started happening in 0.221.10 when mods directly or indirectly accessed preferences at startup (for example via the localization system).",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633184197",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "mod",
+        "crash"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1823191198610897",
+      "appid": 892970,
+      "title": "Patch 0.221.10 – Five Years of Valheim!",
+      "version_detected": "0.221.10",
+      "date": "2026-02-02T09:01:19.000Z",
+      "type": "hotfix",
+      "content": "Greetings vikings! Today marks the five year anniversary since Valheim was first released into Early Access – and what an incredible five years it’s been! We want to thank everyone who has been a part of our journey and our community since then, whether you started playing on day one or have just been carried by the valkyrie for the first time. We greatly appreciate every single one of you, and we’re so glad to have you walk this path with us. For this anniversary you will find a patch live right now for everyone, with some new celebratory items and emotes, along with some quality of life fixes! If you want to keep the celebration going throughout the week, you can tune in to Twitch on Thursday, where there will be a livestreamed concert by the Munich Radio Orchestra! They will be playing music from a bunch of video games, including Valheim. As you all know, we’re working on Deep North, which will be the final biome update that brings the game into 1.0. While we can’t give an update on that today, we can share that 2026 is going to be a great year for Valheim. Once again, thank you so much for being with us for five whole years! Skål!! /The Iron Gate team Abbreviated Patch Notes: * A celebratory hat! * Early Axes * Frosted Sweetbread * Added a radial menu for emotes * New emotes * New hairstyles * 2 new buildable garlands * Engine Upgrade * Multiple bug fixes and improvements Detailed Patch Notes: New Content: * New Emote: Vibe * New Emote: LoveYou * New Buildpiece: Flower Garland * New Buildpiece: Fey Lights * New Consumable: Frosted Sweetbread * New Weapon: Early Axes * New Hat: Celebratory Cap * 2 New Materials: Mysterious Axe Head, Curious Axe Head * 3 New Hairstyles (Champion, Chronicler, Sunbringer) * Added radial menu for emotes Fixes & Improvements: * Tweaks to multiple hairstyles (Castellan, Painter Curls, Pulled Back Curls, Tidy Curls) * Tweaks to berserker armour * Carapace Buckler now provides 5 adrenaline instead of 10 on perfect block, just like other shields * Updated Game Engine to Unity 6000.0.61f1 * Added localization string for tombstone container Reworked graphics settings: * Replaced “Render scale” percentage slider with “3D resolution limit...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198610897",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "content",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1823191198599674",
+      "appid": 892970,
+      "title": "Word From the Devs: It’s Freezing!",
+      "version_detected": "",
+      "date": "2026-01-28T11:55:10.000Z",
+      "type": "content",
+      "content": "Greetings, vikings! 2026 is here, and we hope you’re just as eager for this year as we are! We’ve been having quite a bit of winter weather here in our corner of the world lately, which feels apt as we’ll be sharing with you the ninth part of The Voyage of Hervor Bloodtooth today: What was it that she saw, snow and frost covering more than just the Deep North or the Mountains? Only dreams, perhaps, or visions of something yet to come… {STEAM_CLAN_IMAGE}/33695701/1e59851e4f136851ac129fbf14e734a791eadeb2.png That looks a bit cold, doesn’t it? Though in the Deep North you will learn to deal with something even colder, such as this brand new addition to your workshop: The Frost Foundry! {STEAM_CLAN_IMAGE}/33695701/779b7eba817e8c600916c35c48f56153741c450c.png Build of the Month As we had no blog post in December, we want to share two builds now instead! First out is Ashtaters with an elegant bridge portal – looking good! {STEAM_CLAN_IMAGE}/33695701/c32de89a67c40aa5beea95ca6d34312e7af90fae.jpg And then we also want to highlight this harbour base that Mardy is building, with so many details! {STEAM_CLAN_IMAGE}/33695701/b8170c9d92e3a3e9df8780762fc9e8139c8a6e4d.png Great work the both of you! If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. May your swords be sharp! /The Iron Gate team If you’d like to discuss the content of this post, please visit our Discord, or our forums on Reddit and Steam, or make a comment on social media!",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198599674",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1817483467033261",
+      "appid": 892970,
+      "title": "Word From the Devs: Through the Roof",
+      "version_detected": "",
+      "date": "2025-11-26T11:41:11.000Z",
+      "type": "content",
+      "content": "Greetings vikings! We’ve truly hit the colder part of the year now, which gives us plenty of inspiration for the Deep North landscape. And just as we continue to work on the biome, Hervor Bloodtooth is continuing her journey: Many of you have speculated for a long time, and as we now take a closer look at some of the abandoned structures in the Deep North, we want to properly confirm that the update will add the possibility to build steeper roofs! The 67° roof pieces will be 4 meters high, and available for both the thatch as well the darkwood roof styles. We’re really looking forward to seeing all the new and creative ways you will use these build pieces! {STEAM_CLAN_IMAGE}/33695701/c2ff511ef45a3fda4ed67a0a39cd35cd7f3ec4c1.png We also want to offer you a bit of a mystery this month! It’s something to do with the crafting process in the Deep North, can you guess what these things will be used for? {STEAM_CLAN_IMAGE}/33695701/a6cc442ec1607dc1a8296cc21d79400d45e6d05b.png As we’re nearing the holiday season for many, we also want to make sure to give you some tips for Valheim themed gifts! In the Grimfrost merch store, we currently have a combo deal where you can get two plushies for the price of one. It’s only valid throughout Black Week though! We have also teamed up with the talented folks at Cantrip Candles, who have made a lovely set of Valheim themed scented candles! There’s one for the black forest, one for the ocean, and one for the campfire – and they all come with labels illustrated by Mats Minnhagen. These are also discounted at the moment, so now is a great time to grab them if you want them! {STEAM_CLAN_IMAGE}/33695701/cb9f956d0d6431baaa82be325b68b3b411260e21.png Build of the Month We want to take one last look at the spooky season before we make way for winter, so this month we have chosen to highlight this richly decorated hall by Captain Crumbs! Well done! {STEAM_CLAN_IMAGE}/33695701/5b32e1735456475d5eccdf071c6d2baa94371040.jpg If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds o...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467033261",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1814309641606284",
+      "appid": 892970,
+      "title": "Word from the Devs: Picking Up the Thread",
+      "version_detected": "",
+      "date": "2025-10-28T12:36:22.000Z",
+      "type": "content",
+      "content": "Hello vikings! We want to start with mentioning a Unity security vulnerability that occurred a few weeks back. There is no evidence that the vulnerability ever reached Valheim in any way, and we hurried to patch the game with the necessary updates from Unity as soon as we could. We didn’t make any announcement about this at the time as we didn’t want to cause unnecessary alarm, but we do also want to assure you that the game is safe for you to play. We thank you for your understanding! But now to the more lighthearted stuff! The time has come to finally check back in with Hervor Bloodtooth. Without further ado: The creatures down in the winding tunnels couldn’t best her! How do you think you’ll fare once it’s your turn to square up against them? They’ve caused quite a mess above the surface, after all… {STEAM_CLAN_IMAGE}/33695701/da36a600402ae7245d501e5637b8a7e7c7810c57.png Don’t worry though, there will be plenty of opportunities for creation in the Deep North too! The development of the biome is progressing well, and lately we’ve been focusing on things such as adding some interesting elements to the snow, as well as working out some new crafting extensions, just to name a few! We want to share the extension for the Galdr table with you as a little teaser, the loom: {STEAM_CLAN_IMAGE}/33695701/c669637af1f6065c022035b2c59b2635415c1078.png Before we round off, we want to say a heartfelt thank you to everyone who stopped by our booth at Tokyo Game Show! It was wonderful to meet you all! Build of the Month This month the build we want to highlight is this very creative solution by handyhanderson. What a stunning job! {STEAM_CLAN_IMAGE}/33695701/f16575b7cce30d6ef446fdf44a8d762008424c97.png If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. May your swords be sharp! /The Iron Gate team If you’d like to discuss the content of this post, please visit our Discord, or our for...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641606284",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1811138915391372",
+      "appid": 892970,
+      "title": "Word From the Devs: We Fight On!",
+      "version_detected": "1.0",
+      "date": "2025-09-18T12:40:43.000Z",
+      "type": "content",
+      "content": "Greetings vikings! Since our last check-in we have moved the Call to Arms update from the Public Test Branch and into the Live version of the game! We want to thank everyone who tested the game during the PTB, as well as everyone who has played it since the official release. We hope you’re not too bruised from your battles! There are possibly some more tweaks coming to that update in the coming weeks and months, as we want to see how everyone experiences the new changes, beyond those who tested in the PTB. But besides that we’re now focusing the team solely on content for the Deep North and 1.0. Armour sets are being designed, dungeons are getting fleshed out, and enemies are being animated. We’re itching for you to see it all, but we also want to make sure that there’s plenty of things left for you to discover on your own! We’re holding off a bit longer still to see what became of Hervor Bloodtooth but, just like last month, we want to show you something from the Deep North regardless. This time we’re taking a peek at some new furniture pieces, made from a new type of wood found in the biome. They’re a bit chunkier than what we’ve had so far, and both the chair and the table have some decorative designs carved into them. We look forward to seeing how the talented builders out there will use them in the future! {STEAM_CLAN_IMAGE}/33695701/04e865ec299242293a7fc5f650378fe1a30fccaf.jpg Just a few days ago we also finally made the announcement that Valheim is coming to PlayStation! It’s something that we’ve been getting many requests for over the course of Valheim’s development, and we’re really excited that it’s soon to come true. You can read more about the PlayStation release, as well as watch the new trailers (yes, multiple!), in the announcement post. As you may have guessed, the upcoming PlayStation release is the reason that we’re going to Tokyo Game Show next week, and those passing by our booth will have the opportunity to be among the first to play the game on a PlayStation console. We hope to see some fans there! You will also find Valheim at the boardgame fair SPIEL ESSEN in Germany in October! Our friends at MOOD will be there to showcase the Valheim bo...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811138915391372",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "ui",
+        "quest"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1809869180193981",
+      "appid": 892970,
+      "title": "Patch 0.221.4 – Call To Arms",
+      "version_detected": "0.221.4",
+      "date": "2025-09-09T11:02:14.000Z",
+      "type": "hotfix",
+      "content": "It's time to bring Call to Arms from the PTB and into Valheim proper! As always, a huge thank you to everyone who has tested it already, and a grand welcome to all new players! This updates features plenty of ways of self-improvement – whether that be wooden weapons for sparring with your comrades, or a built structure to hone your fighting skills against. You can also find a brand new type of item in the form of trinkets, which will help you in the heat of battle. And as there are some new dangerous foes around, you might find that you very much need them… You’ll find the full patch notes below, whether you want them abbreviated or detailed. And if you didn't see it when the PTB launched, why not take a look at the update's trailer: Please note that you will need to have the latest Nvidia drivers for this update, otherwise the game risks crashing. Abbreviated Patch Notes * Forsaken Powers rebalanced * New combat mechanics & combat improvements * New equipable item type: Trinkets * 13 new trinkets * 1 new skill * 2 new creatures, with 1 additional overhauled creature * 1 new food item * 8 new crafting materials * 18 new weapons (9 wooden) * 2 new armour sets * 3 new building pieces * 3 new hairstyles * 5 new beard styles * 1 new location * Some items can now have multiple orientations on item stands * Unity engine upgraded * Various bug fixes and performance improvements Detailed Patch Notes New Content: New Mechanics: * Trinkets: Equip these items to gain adrenaline during battle, and thus unlock temporary perks. * Adrenaline: You gain adrenaline by hitting enemies, triggering a Forsaken Power, using certain magic attacks, as well as performing Perfect Blocks and Perfect Dodge Rolls. When the bar is full, you get an adrenaline surge which gives you a temporary perk designated by your equipped Trinket. Adrenaline will fade when you are not in active combat, and you will only gain adrenaline as long as you have a Trinket equipped. * Wooden Weapons: By using wooden weapons you can practice combat against your friends without hurting each other. * New skill: Perfect Dodge Roll (Dodge an attack that would have caused you damage and get a % of stamina back) Creatures...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809869180193981",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "bug",
+        "fix",
+        "balance",
+        "content",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1809869179994587",
+      "appid": 892970,
+      "title": "Patch 0.221.4 (Public Test)",
+      "version_detected": "0.221.4",
+      "date": "2025-09-03T08:35:57.000Z",
+      "type": "hotfix",
+      "content": "⚠️ Note: This update is for the Public Test branch of Valheim only, and may therefore be unstable! Prior to launching this update to the Default version of the game, we want to have a chance to discover bugs and fine-tune the balancing to ensure the best game experience. ACCESS: Right-click Valheim in your Steam library, then select ‘Properties’. In the new window, select ‘Betas’ and type in the code “yesimadebackups”. The Public Test branch should now be available for you to select. The PTB FAQ can be found here. FEEDBACK: Please leave any feedback in the “#valheim-public-test” channel in our Discord or through the form on our website. Please remember to be considerate towards players who are not participating in the Public Test, as some may prefer to avoid spoilers. As indicated by the access code, please ensure to create backups of your save files before playing. Hello vikings! We hope you've been enjoying the Call to Arms update so far! We've gotten some great feedback, so now we have a long list of tweaks and fixes that should make the update both more stable and more enjoyable. This includes some fixes to wooden weapons, as well as tweaks to adrenaline and the new creatures. Fight well! Abbreviated Patch Notes: * Battle Brother has remembered his real name: T.W.I.G. * Tweaks to adrenaline gain * Tweaks to Bear and Vile behaviour * Various bug fixes Detailed Patch Notes: Fixes & Improvements: * Battle Brother has remembered his real name: T.W.I.G. * Bottled Tar Blob now has the correct model when being thrown * Frost Blob is now weak against fire and very resistant against frost * The Frost Blob Bomb now requires a Drake trophy instead of a Stone Golem trophy * Made tweaks to make knives better for combat in slopes * Wooden Greatsword is now repairable at the workbench * Wooden weapons now have more appropriate block power * Wooden Atgeirs are now a bit more rare to find * Wooden Sword and Wooden Greatsword now sound like they’re made of wood * Using mage staffs directly after dodging no longer grants abnormal amount of adrenaline * Staff of Embers and Staff of Fracturing now only grant adrenaline on use instead of on hit * Staff of Frost projectiles now gr...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809869179994587",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod",
+        "ui"
       ]
     }
   ]
