@@ -1,9 +1,9 @@
 {
   "appid": "1000010",
   "game_name": "Crown Trick",
-  "last_scanned_at": "2026-05-14T20:43:49Z",
+  "last_scanned_at": "2026-05-15T15:15:51Z",
   "tracked_since": "2026-05-14T20:43:49Z",
-  "source": "steam_appinfo_pics",
+  "source": "hybrid_appinfo_community",
   "depots": [
     {
       "depotid": "1000011",
@@ -16,12 +16,25 @@
           "buildid": null,
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
-          "last_seen_at": "2026-05-14T20:43:49Z",
+          "last_seen_at": "2026-05-15T15:15:51Z",
           "source": "steam_appinfo_pics",
-          "status": "auto_detected_unverified",
+          "status": "community_unverified",
           "confidence_score": 60,
           "download_command": "download_depot 1000010 1000011 2155801291552894539",
           "notes": "Manifest connu, téléchargement non garanti."
+        },
+        {
+          "manifestid": "2916223256493235763",
+          "buildid": null,
+          "branch": "public",
+          "first_seen_at": "2026-05-15T15:15:51Z",
+          "last_seen_at": "2026-05-15T15:15:51Z",
+          "source": "github_tree_index",
+          "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+          "status": "community_unverified",
+          "confidence_score": 25,
+          "download_command": "download_depot 1000010 1000011 2916223256493235763",
+          "notes": "Manifest communautaire non vérifié. ManifestID connu ≠ téléchargement garanti."
         }
       ]
     },
@@ -36,15 +49,41 @@
           "buildid": null,
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
-          "last_seen_at": "2026-05-14T20:43:49Z",
+          "last_seen_at": "2026-05-15T15:15:51Z",
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
           "confidence_score": 60,
           "download_command": "download_depot 1000010 1000012 3155801291552894540",
           "notes": "Manifest connu, téléchargement non garanti."
+        },
+        {
+          "manifestid": "4846531756754527560",
+          "buildid": null,
+          "branch": "public",
+          "first_seen_at": "2026-05-15T15:15:51Z",
+          "last_seen_at": "2026-05-15T15:15:51Z",
+          "source": "github_tree_index",
+          "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+          "status": "community_unverified",
+          "confidence_score": 25,
+          "download_command": "download_depot 1000010 1000012 4846531756754527560",
+          "notes": "Manifest communautaire non vérifié. ManifestID connu ≠ téléchargement garanti."
+        },
+        {
+          "manifestid": "8581699186498387242",
+          "buildid": null,
+          "branch": "public",
+          "first_seen_at": "2026-05-15T15:15:51Z",
+          "last_seen_at": "2026-05-15T15:15:51Z",
+          "source": "github_tree_index",
+          "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+          "status": "community_unverified",
+          "confidence_score": 25,
+          "download_command": "download_depot 1000010 1000012 8581699186498387242",
+          "notes": "Manifest communautaire non vérifié. ManifestID connu ≠ téléchargement garanti."
         }
       ]
     }
   ],
-  "notes": "Manifests issus de scans appinfo/PICS et d'historique local. ManifestID connu ≠ téléchargement garanti."
+  "notes": "Manifests issus de scans appinfo/PICS et d'index communautaires. ManifestID connu ≠ téléchargement garanti."
 }

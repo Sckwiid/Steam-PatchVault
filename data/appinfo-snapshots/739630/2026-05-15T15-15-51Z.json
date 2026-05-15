@@ -1,0 +1,21 @@
+{
+  "appid": "739630",
+  "game_name": "Phasmophobia",
+  "source": "mock_appinfo",
+  "scanned_at": "2026-05-15T15:15:51Z",
+  "depots": [
+    {
+      "depotid": "739631",
+      "depot_name": "Phasmophobia Windows Content",
+      "os": "windows",
+      "language": "all",
+      "manifests": [
+        {
+          "manifestid": "2382933349983046343",
+          "branch": "public",
+          "buildid": null
+        }
+      ]
+    }
+  ]
+}
