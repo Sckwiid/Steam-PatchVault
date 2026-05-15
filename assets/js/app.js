@@ -221,6 +221,10 @@
       badges.push('<span class="manifest-badge badge-community">Confirmé communauté</span>');
     }
 
+    if (status === "community_unverified" || source.indexOf("github") > -1) {
+      badges.push('<span class="manifest-badge badge-community">Communautaire non vérifié</span>');
+    }
+
     if (status !== "confirmed" && status !== "community_confirmed") {
       badges.push('<span class="manifest-badge badge-unguaranteed">Non garanti</span>');
     }
@@ -258,6 +262,20 @@
         "- Source / preuve:",
         "- Notes:"
       ].join("\n");
+
+    return GITHUB_ISSUES_URL + "?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
+  }
+
+  function buildScanIssueUrl(game) {
+    var title = "[Demande scan appinfo/PICS] " + game.name + " (" + game.appid + ")";
+    var body = [
+      "Demande de scan appinfo/PICS",
+      "",
+      "- AppID: " + game.appid,
+      "- Jeu: " + game.name,
+      "- Raison: aucun DepotID connu ou manifests incomplets",
+      "- Contexte: Stratavault GitHub Pages"
+    ].join("\n");
 
     return GITHUB_ISSUES_URL + "?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
   }
@@ -353,11 +371,32 @@
     return Object.keys(seen);
   }
 
+  function KnownDepotsPanel(game, knownDepotIds) {
+    var depots = (game && Array.isArray(game.depots)) ? game.depots : [];
+    var hasKnown = knownDepotIds.length > 0;
+
+    var content = hasKnown
+      ? '<p class="muted">DepotID connus: <span class="mono">' + escapeHtml(knownDepotIds.join(", ")) + "</span></p>" +
+        (depots.length ? '<div class="depot-chip-row">' + depots.map(function mapDepot(depot) {
+          return '<span class="depot-chip mono">' + escapeHtml(depot.depotid) + " · " + escapeHtml(depot.depot_name || depot.name || "Depot") + "</span>";
+        }).join("") + "</div>" : "")
+      : '<p class="muted">Aucun DepotID connu pour ce jeu. Il faut scanner son appinfo/PICS.</p>';
+
+    return "" +
+      '<section class="known-depots-panel">' +
+      "<h2>Depots connus du jeu</h2>" +
+      content +
+      '<div class="known-depots-actions">' +
+      '<button class="btn btn-subtle btn-small" data-action="request-scan" data-url="' + escapeHtml(buildScanIssueUrl(game)) + '">Demander un scan</button>' +
+      "</div>" +
+      "</section>";
+  }
+
   function GitHubManifestCard(game, manifest) {
     return "" +
       '<article class="github-manifest-card">' +
       '<div class="manifest-head">' +
-      '<span class="manifest-badge badge-unguaranteed">Non vérifié</span>' +
+      '<span class="manifest-badge badge-community">Communautaire non vérifié</span>' +
       '<span class="mono">' + escapeHtml(manifest.source_repo || "GitHub") + "</span>" +
       "</div>" +
       '<p class="mono">Depot ' + escapeHtml(manifest.depotid) + " · Manifest " + escapeHtml(manifest.manifestid) + "</p>" +
@@ -776,6 +815,7 @@
       '<option value="content" ' + (state.gameFilters.type === "content" ? "selected" : "") + ">Contenu</option>" +
       "</select></label>" +
       "</section>" +
+      KnownDepotsPanel(game, knownDepotIds) +
       '<section class="game-layout">' +
       '<div class="timeline-col">' +
       '<h2>Timeline des patch notes</h2>' +
@@ -1030,6 +1070,14 @@
       var url = button.getAttribute("data-url");
       if (url) {
         window.open(url, "_blank", "noopener,noreferrer");
+      }
+      return;
+    }
+
+    if (action === "request-scan") {
+      var scanUrl = button.getAttribute("data-url");
+      if (scanUrl) {
+        window.open(scanUrl, "_blank", "noopener,noreferrer");
       }
       return;
     }

@@ -1,7 +1,30 @@
 {
-  "appid": 739630,
-  "last_scanned_at": "2026-05-15T06:43:41.159Z",
-  "tracked_since": "2026-05-14T11:38:08.041Z",
-  "depots": [],
-  "notes": "Aucun mapping manifest fiable disponible publiquement pour cet AppID."
+  "appid": "739630",
+  "game_name": "Phasmophobia",
+  "last_scanned_at": "2026-05-14T20:43:49Z",
+  "tracked_since": "2026-05-14T20:43:49Z",
+  "source": "steam_appinfo_pics",
+  "depots": [
+    {
+      "depotid": "739631",
+      "depot_name": "Phasmophobia Windows Content",
+      "os": "windows",
+      "language": "all",
+      "manifests": [
+        {
+          "manifestid": "2382933349983046343",
+          "buildid": null,
+          "branch": "public",
+          "first_seen_at": "2026-05-14T20:43:49Z",
+          "last_seen_at": "2026-05-14T20:43:49Z",
+          "source": "steam_appinfo_pics",
+          "status": "auto_detected_unverified",
+          "confidence_score": 60,
+          "download_command": "download_depot 739630 739631 2382933349983046343",
+          "notes": "Manifest connu, téléchargement non garanti."
+        }
+      ]
+    }
+  ],
+  "notes": "Manifests issus de scans appinfo/PICS et d'historique local. ManifestID connu ≠ téléchargement garanti."
 }

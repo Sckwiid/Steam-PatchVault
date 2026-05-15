@@ -143,6 +143,7 @@
 
   var state = {
     searchIndex: null,
+    appToDepotsIndex: null,
     bucketCache: {},
     patchByAppCache: {},
     manifestsByAppCache: {}
@@ -235,13 +236,48 @@
     var fallback = buildFallbackSearchIndex();
     var loaded = await loadJsonFile("./data/search-index.json", fallback);
 
-    if (!loaded || !Array.isArray(loaded.games)) {
-      state.searchIndex = fallback;
-      return state.searchIndex;
-    }
-
-    state.searchIndex = loaded;
+    state.searchIndex = loaded && Array.isArray(loaded.games) ? loaded : fallback;
+    await ensureAppToDepotsIndexLoaded();
+    state.searchIndex.games = (state.searchIndex.games || []).map(function mapGame(game) {
+      return mergeGameWithDepotIndex(game);
+    });
     return state.searchIndex;
+  }
+
+  async function ensureAppToDepotsIndexLoaded() {
+    if (state.appToDepotsIndex) return state.appToDepotsIndex;
+
+    var fallback = {
+      generated_at: "2026-05-14T00:00:00Z",
+      apps: {}
+    };
+    var loaded = await loadJsonFile("./data/app-to-depots-index.json", fallback);
+    state.appToDepotsIndex = loaded && typeof loaded === "object" ? loaded : fallback;
+    return state.appToDepotsIndex;
+  }
+
+  function getAppDepotRecord(appid) {
+    if (!state.appToDepotsIndex) return null;
+    var key = String(appid || "");
+    if (state.appToDepotsIndex[key]) return state.appToDepotsIndex[key];
+    if (state.appToDepotsIndex.apps && state.appToDepotsIndex.apps[key]) return state.appToDepotsIndex.apps[key];
+    return null;
+  }
+
+  function mergeGameWithDepotIndex(game) {
+    if (!game || !game.appid) return game;
+    var record = getAppDepotRecord(game.appid);
+    if (!record) return game;
+
+    var depots = Array.isArray(record.depots) ? record.depots : [];
+    var depotids = depots.map(function mapDepot(depot) {
+      return String(depot && depot.depotid ? depot.depotid : "").trim();
+    }).filter(Boolean);
+
+    return Object.assign({}, game, {
+      depots: depots,
+      depotids: depotids
+    });
   }
 
   async function loadGamesBucket(bucket) {
@@ -252,8 +288,11 @@
     var loaded = await loadJsonFile("./data/games/" + key + ".json", fallback);
 
     var games = loaded && Array.isArray(loaded.games) ? loaded.games : fallback.games;
-    state.bucketCache[key] = games;
-    return games;
+    await ensureAppToDepotsIndexLoaded();
+    state.bucketCache[key] = games.map(function mapGame(game) {
+      return mergeGameWithDepotIndex(game);
+    });
+    return state.bucketCache[key];
   }
 
   async function loadPatchesByApp(appid) {
@@ -374,7 +413,7 @@
       return game.slug === cleanSlug;
     });
 
-    return full || summary;
+    return mergeGameWithDepotIndex(full || summary);
   }
 
   async function getPatchesByAppId(appid) {

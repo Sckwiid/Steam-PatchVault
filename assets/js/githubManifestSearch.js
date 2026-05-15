@@ -141,6 +141,10 @@
     return loadJsonIfExists("./data/depot-to-app-index.json", options && options.signal);
   }
 
+  async function loadAppToDepotsIndex(options) {
+    return loadJsonIfExists("./data/app-to-depots-index.json", options && options.signal);
+  }
+
   function collectDepotIdsFromManifestItems(items) {
     var depotIds = Object.create(null);
 
@@ -181,21 +185,28 @@
       }
     }
 
-    var depotIndex = await loadDepotToAppIndex(options || {});
-    if (depotIndex) {
-      var appid = String(game.appid || "");
-      var pairs = Array.isArray(depotIndex) ? depotIndex : depotIndex.depots || depotIndex.items || [];
-      pairs.forEach(function eachPair(item) {
-        if (String(item && item.appid) === appid && item.depotid) {
-          depotIds.push(String(item.depotid));
-        }
-      });
-
-      if (depotIndex.by_appid && Array.isArray(depotIndex.by_appid[appid])) {
-        depotIndex.by_appid[appid].forEach(function eachDepotId(depotid) {
-          depotIds.push(String(depotid));
+    var appid = String(game.appid || "");
+    var appToDepots = await loadAppToDepotsIndex(options || {});
+    if (appToDepots) {
+      var appRecord = appToDepots[appid] || (appToDepots.apps && appToDepots.apps[appid]);
+      if (appRecord && Array.isArray(appRecord.depots)) {
+        appRecord.depots.forEach(function eachDepot(item) {
+          if (item && item.depotid) depotIds.push(String(item.depotid));
         });
       }
+    }
+
+    var depotIndex = await loadDepotToAppIndex(options || {});
+    if (depotIndex && typeof depotIndex === "object") {
+      Object.keys(depotIndex).forEach(function eachDepotId(depotid) {
+        var matches = depotIndex[depotid];
+        if (!Array.isArray(matches)) return;
+        if (matches.some(function hasApp(item) {
+          return String(item && item.appid) === appid;
+        })) {
+          depotIds.push(String(depotid));
+        }
+      });
     }
 
     return Array.from(new Set(depotIds.map(String).filter(Boolean)));

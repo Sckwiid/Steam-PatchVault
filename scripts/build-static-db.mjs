@@ -17,6 +17,7 @@ const manifestSnapshotsDir = path.join(dataRoot, "manifest-snapshots");
 const contributionsDir = path.join(dataRoot, "contributions");
 const pendingManifestsFile = path.join(contributionsDir, "pending-manifests.json");
 const depotToAppIndexFile = path.join(dataRoot, "depot-to-app-index.json");
+const appToDepotsIndexFile = path.join(dataRoot, "app-to-depots-index.json");
 const searchIndexFile = path.join(dataRoot, "search-index.json");
 const trackedAppsFile = path.join(dataRoot, "tracked-apps.json");
 
@@ -693,11 +694,8 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
   const manualIds = await resolveManualAppIds();
   const trackedIds = Array.from(new Set([...resolveTrackedAppIds(trackedEntries), ...manualIds]));
   const trackedByApp = new Map(trackedEntries.map((entry) => [String(entry.appid), entry]));
-  const depotIndex = {
-    updated_at: generatedAt,
-    by_appid: {},
-    depots: []
-  };
+  const depotToAppIndex = {};
+  const appToDepotsIndex = {};
   const samplePatchesByApp = new Map();
   const sampleManifestsByApp = new Map();
 
@@ -755,6 +753,7 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
     const depots = buildDepotHistory(appid, existingManifestFile, manifests, patches, generatedAt);
     const trackedSince = existingManifestFile.tracked_since || generatedAt;
     const tracked = trackedByApp.get(appKey) || {};
+    const gameName = tracked.name || `Steam App ${appid}`;
     const trackedDepotIds = []
       .concat(Array.isArray(tracked.depotids) ? tracked.depotids : [])
       .concat(Array.isArray(tracked.depotIds) ? tracked.depotIds : [])
@@ -766,11 +765,37 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
     const knownDepotIds = Array.from(new Set(
       depots.map((depot) => String(depot.depotid)).concat(trackedDepotIds)
     ));
-    depotIndex.by_appid[appKey] = knownDepotIds;
+    appToDepotsIndex[appKey] = {
+      appid: String(appid),
+      game_name: gameName,
+      depots: knownDepotIds.map((depotid) => {
+        const matched = depots.find((depot) => String(depot.depotid) === String(depotid)) || {};
+        return {
+          depotid: String(depotid),
+          depot_name: matched.name || `${gameName} Depot ${depotid}`,
+          os: matched.os || "all",
+          language: matched.language || "all",
+          source: "steam_static_db",
+          confidence_score: 80,
+          first_seen_at: generatedAt,
+          last_seen_at: generatedAt
+        };
+      }),
+      last_scanned_at: generatedAt,
+      source: "steam_static_db"
+    };
+
     knownDepotIds.forEach((depotid) => {
-      depotIndex.depots.push({
-        appid,
-        depotid
+      const matched = depots.find((depot) => String(depot.depotid) === String(depotid)) || {};
+      if (!depotToAppIndex[String(depotid)]) depotToAppIndex[String(depotid)] = [];
+      depotToAppIndex[String(depotid)].push({
+        appid: String(appid),
+        game_name: gameName,
+        depot_name: matched.name || `${gameName} Depot ${depotid}`,
+        source: "steam_static_db",
+        confidence_score: 80,
+        first_seen_at: generatedAt,
+        last_seen_at: generatedAt
       });
     });
 
@@ -793,8 +818,11 @@ async function buildPatchAndManifestFiles({ trackedEntries, samplePatches, sampl
     });
   }
 
-  depotIndex.depots.sort((a, b) => Number(a.appid) - Number(b.appid) || Number(a.depotid) - Number(b.depotid));
-  await writeJson(depotToAppIndexFile, depotIndex);
+  Object.keys(depotToAppIndex).forEach((depotid) => {
+    depotToAppIndex[depotid].sort((a, b) => Number(a.appid) - Number(b.appid));
+  });
+  await writeJson(depotToAppIndexFile, depotToAppIndex);
+  await writeJson(appToDepotsIndexFile, appToDepotsIndex);
 }
 
 async function main() {

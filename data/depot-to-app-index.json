@@ -1,12 +1,57 @@
 {
-  "updated_at": "2026-05-14T00:00:00.000Z",
-  "by_appid": {
-    "739630": ["739631"]
-  },
-  "depots": [
+  "739631": [
     {
-      "appid": 739630,
-      "depotid": "739631"
+      "appid": "739630",
+      "game_name": "Phasmophobia",
+      "depot_name": "Phasmophobia Windows Content",
+      "source": "steam_appinfo_pics",
+      "confidence_score": 90,
+      "first_seen_at": "2026-05-14T00:00:00Z",
+      "last_seen_at": "2026-05-14T20:43:49Z"
+    }
+  ],
+  "1000011": [
+    {
+      "appid": "1000010",
+      "game_name": "Crown Trick",
+      "depot_name": "Crown Trick Windows Content",
+      "source": "steam_appinfo_pics",
+      "confidence_score": 90,
+      "first_seen_at": "2026-05-14T20:43:49Z",
+      "last_seen_at": "2026-05-14T20:43:49Z"
+    }
+  ],
+  "1000012": [
+    {
+      "appid": "1000010",
+      "game_name": "Crown Trick",
+      "depot_name": "Crown Trick DLC Content",
+      "source": "steam_appinfo_pics",
+      "confidence_score": 90,
+      "first_seen_at": "2026-05-14T20:43:49Z",
+      "last_seen_at": "2026-05-14T20:43:49Z"
+    }
+  ],
+  "1091501": [
+    {
+      "appid": "1091500",
+      "game_name": "Cyberpunk 2077",
+      "depot_name": "Cyberpunk 2077 Windows Content",
+      "source": "steam_appinfo_pics",
+      "confidence_score": 90,
+      "first_seen_at": "2026-05-14T00:00:00Z",
+      "last_seen_at": "2026-05-14T20:43:49Z"
+    }
+  ],
+  "1091502": [
+    {
+      "appid": "1091500",
+      "game_name": "Cyberpunk 2077",
+      "depot_name": "Cyberpunk 2077 Audio",
+      "source": "steam_appinfo_pics",
+      "confidence_score": 90,
+      "first_seen_at": "2026-05-14T20:43:49Z",
+      "last_seen_at": "2026-05-14T20:43:49Z"
     }
   ]
 }

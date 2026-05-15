@@ -61,6 +61,31 @@ Secret recommandé:
 - `STEAM_WEB_API_KEY` (repository secret)
 - Permissions Actions: `Read and write permissions` pour autoriser le commit automatique des fichiers `data/*`.
 
+## Scan appinfo/PICS (mapping depotid -> appid)
+
+Workflow dédié:
+
+- [.github/workflows/scan-appinfo-pics.yml](/Users/julien/Documents/projets/steam-PatchVault/.github/workflows/scan-appinfo-pics.yml)
+
+Scripts Python:
+
+- [scripts/scan_appinfo_pics.py](/Users/julien/Documents/projets/steam-PatchVault/scripts/scan_appinfo_pics.py)
+- [scripts/build_depot_to_app_index.py](/Users/julien/Documents/projets/steam-PatchVault/scripts/build_depot_to_app_index.py)
+- [scripts/merge_github_manifests_with_depots.py](/Users/julien/Documents/projets/steam-PatchVault/scripts/merge_github_manifests_with_depots.py)
+- [scripts/scan_sensitive_data.py](/Users/julien/Documents/projets/steam-PatchVault/scripts/scan_sensitive_data.py)
+- [scripts/config.py](/Users/julien/Documents/projets/steam-PatchVault/scripts/config.py)
+- [scripts/utils.py](/Users/julien/Documents/projets/steam-PatchVault/scripts/utils.py)
+
+Flux:
+
+1. scan d'`appid` via appinfo/PICS (provider chain: `steam-pics-api` -> `steamkit` -> `steamcmd` -> `mock`)
+2. snapshot dans `/data/appinfo-snapshots/<appid>/<date>.json`
+3. génération de `/data/depot-to-app-index.json` (shared depots supportés)
+4. génération de `/data/app-to-depots-index.json`
+5. merge de `/data/community-manifest-index.json` vers `/data/manifests/<appid>.json`
+6. écriture des non mappés dans `/data/unmapped-manifests/<depotid>.json`
+7. contrôle strict des champs sensibles avant commit
+
 ## Lancer en local
 
 ### Site frontend
@@ -112,16 +137,30 @@ Variables utiles:
 /assets/js/router.js
 /assets/js/mockApi.js
 /scripts/build-static-db.mjs
+/scripts/scan_appinfo_pics.py
+/scripts/build_depot_to_app_index.py
+/scripts/merge_github_manifests_with_depots.py
+/scripts/scan_sensitive_data.py
+/scripts/config.py
+/scripts/utils.py
+/scripts/requirements.txt
 /.github/workflows/static-db-refresh.yml
+/.github/workflows/scan-appinfo-pics.yml
 /data/search-index.json
 /data/games/*.json
 /data/patches/*.json
 /data/manifests/*.json
+/data/app-to-depots-index.json
 /data/manifest-snapshots/<appid>/<date>.json
+/data/appinfo-snapshots/<appid>/<date>.json
 /data/contributions/pending-manifests.json
 /data/depot-to-app-index.json
 /data/community-manifest-index.json (optionnel)
+/data/unmapped-manifests/<depotid>.json
+/data/import-stats.json
 /data/tracked-apps.json
+/data/priority-appids.json
+/data/mock/appinfo/<appid>.json
 /data/manual/patches/*.json
 /data/manual/manifests/*.json
 /data/*.sample.json
@@ -221,6 +260,23 @@ git push
 ```
 
 Sur GitHub, le workflow quotidien fusionnera aussi automatiquement les imports manuels dans les fichiers publics.
+
+## Mode développement local appinfo/PICS
+
+Sans SteamCMD/SteamKit disponibles, placez des mocks dans:
+
+- `/data/mock/appinfo/<appid>.json`
+
+Puis exécutez:
+
+```bash
+python3 scripts/scan_appinfo_pics.py --appid 739630,1091500
+python3 scripts/build_depot_to_app_index.py
+python3 scripts/merge_github_manifests_with_depots.py
+python3 scripts/scan_sensitive_data.py
+```
+
+Cela permet de tester toute la pipeline metadata sans dépendre d'un backend Steam côté visiteur.
 
 ## Historisation des manifests
 

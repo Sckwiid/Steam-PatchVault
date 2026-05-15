@@ -1,0 +1,25 @@
+{
+  "appid": "1091500",
+  "game_name": "Cyberpunk 2077",
+  "depots": {
+    "1091501": {
+      "name": "Cyberpunk 2077 Windows Content",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": "1234567890123456789"
+      }
+    },
+    "1091502": {
+      "name": "Cyberpunk 2077 Audio",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": "2234567890123456789"
+      }
+    }
+  }
+}
+

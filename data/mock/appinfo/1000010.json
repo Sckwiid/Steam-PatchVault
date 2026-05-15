@@ -1,0 +1,25 @@
+{
+  "appid": "1000010",
+  "game_name": "Crown Trick",
+  "depots": {
+    "1000011": {
+      "name": "Crown Trick Windows Content",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": "2155801291552894539"
+      }
+    },
+    "1000012": {
+      "name": "Crown Trick DLC Content",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": "3155801291552894540"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,76 @@
+{
+  "739630": {
+    "appid": "739630",
+    "game_name": "Phasmophobia",
+    "depots": [
+      {
+        "depotid": "739631",
+        "depot_name": "Phasmophobia Windows Content",
+        "os": "windows",
+        "language": "all",
+        "source": "steam_appinfo_pics",
+        "confidence_score": 90,
+        "first_seen_at": "2026-05-14T00:00:00Z",
+        "last_seen_at": "2026-05-14T20:43:49Z"
+      }
+    ],
+    "last_scanned_at": "2026-05-14T20:43:49Z",
+    "source": "steam_appinfo_pics"
+  },
+  "1000010": {
+    "appid": "1000010",
+    "game_name": "Crown Trick",
+    "depots": [
+      {
+        "depotid": "1000011",
+        "depot_name": "Crown Trick Windows Content",
+        "os": "windows",
+        "language": "all",
+        "source": "steam_appinfo_pics",
+        "confidence_score": 90,
+        "first_seen_at": "2026-05-14T20:43:49Z",
+        "last_seen_at": "2026-05-14T20:43:49Z"
+      },
+      {
+        "depotid": "1000012",
+        "depot_name": "Crown Trick DLC Content",
+        "os": "windows",
+        "language": "all",
+        "source": "steam_appinfo_pics",
+        "confidence_score": 90,
+        "first_seen_at": "2026-05-14T20:43:49Z",
+        "last_seen_at": "2026-05-14T20:43:49Z"
+      }
+    ],
+    "last_scanned_at": "2026-05-14T20:43:49Z",
+    "source": "steam_appinfo_pics"
+  },
+  "1091500": {
+    "appid": "1091500",
+    "game_name": "Cyberpunk 2077",
+    "depots": [
+      {
+        "depotid": "1091501",
+        "depot_name": "Cyberpunk 2077 Windows Content",
+        "os": "windows",
+        "language": "all",
+        "source": "steam_appinfo_pics",
+        "confidence_score": 90,
+        "first_seen_at": "2026-05-14T00:00:00Z",
+        "last_seen_at": "2026-05-14T20:43:49Z"
+      },
+      {
+        "depotid": "1091502",
+        "depot_name": "Cyberpunk 2077 Audio",
+        "os": "windows",
+        "language": "all",
+        "source": "steam_appinfo_pics",
+        "confidence_score": 90,
+        "first_seen_at": "2026-05-14T20:43:49Z",
+        "last_seen_at": "2026-05-14T20:43:49Z"
+      }
+    ],
+    "last_scanned_at": "2026-05-14T20:43:49Z",
+    "source": "steam_appinfo_pics"
+  }
+}

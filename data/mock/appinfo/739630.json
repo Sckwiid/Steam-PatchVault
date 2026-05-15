@@ -1,0 +1,16 @@
+{
+  "appid": "739630",
+  "game_name": "Phasmophobia",
+  "depots": {
+    "739631": {
+      "name": "Phasmophobia Windows Content",
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": "2382933349983046343"
+      }
+    }
+  }
+}
+

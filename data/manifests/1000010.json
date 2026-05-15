@@ -1,18 +1,18 @@
 {
-  "appid": "1091500",
-  "game_name": "Cyberpunk 2077",
+  "appid": "1000010",
+  "game_name": "Crown Trick",
   "last_scanned_at": "2026-05-14T20:43:49Z",
   "tracked_since": "2026-05-14T20:43:49Z",
   "source": "steam_appinfo_pics",
   "depots": [
     {
-      "depotid": "1091501",
-      "depot_name": "Cyberpunk 2077 Windows Content",
+      "depotid": "1000011",
+      "depot_name": "Crown Trick Windows Content",
       "os": "windows",
       "language": "all",
       "manifests": [
         {
-          "manifestid": "1234567890123456789",
+          "manifestid": "2155801291552894539",
           "buildid": null,
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
@@ -20,19 +20,19 @@
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
           "confidence_score": 60,
-          "download_command": "download_depot 1091500 1091501 1234567890123456789",
+          "download_command": "download_depot 1000010 1000011 2155801291552894539",
           "notes": "Manifest connu, téléchargement non garanti."
         }
       ]
     },
     {
-      "depotid": "1091502",
-      "depot_name": "Cyberpunk 2077 Audio",
+      "depotid": "1000012",
+      "depot_name": "Crown Trick DLC Content",
       "os": "windows",
       "language": "all",
       "manifests": [
         {
-          "manifestid": "2234567890123456789",
+          "manifestid": "3155801291552894540",
           "buildid": null,
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
@@ -40,7 +40,7 @@
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
           "confidence_score": 60,
-          "download_command": "download_depot 1091500 1091502 2234567890123456789",
+          "download_command": "download_depot 1000010 1000012 3155801291552894540",
           "notes": "Manifest connu, téléchargement non garanti."
         }
       ]
