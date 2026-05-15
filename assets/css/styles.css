@@ -383,7 +383,7 @@ h2 {
 
 .filters {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 10px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -438,6 +438,14 @@ h2 {
   color: #b2dfba;
 }
 
+.scan-request-note.is-in_progress {
+  color: #b2dfba;
+}
+
+.scan-request-note.is-completed {
+  color: #b2dfba;
+}
+
 .scan-request-note.is-queued,
 .scan-request-note.is-already-running,
 .scan-request-note.is-cooldown {
@@ -448,6 +456,18 @@ h2 {
 .scan-request-note.is-warning,
 .scan-request-note.is-blocked {
   color: #e7aaa3;
+}
+
+.scan-progress {
+  margin-top: 8px;
+  display: grid;
+  gap: 6px;
+}
+
+.scan-run-link {
+  color: #b2dfba;
+  font-size: 0.86rem;
+  text-decoration: underline;
 }
 
 .filters label {
@@ -464,6 +484,18 @@ h2 {
   color: var(--text);
   border-radius: 10px;
   padding: 10px;
+}
+
+.filters-toggle {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+.filters-toggle input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
 }
 
 .game-layout {

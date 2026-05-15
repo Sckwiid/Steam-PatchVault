@@ -16,7 +16,8 @@
       version: "",
       date: "",
       keyword: "",
-      type: "all"
+      type: "all",
+      completeOnly: false
     },
     currentGameSlug: "",
     currentGame: null,
@@ -42,7 +43,11 @@
       appid: "",
       status: "idle",
       message: "",
-      auto: false
+      auto: false,
+      runId: null,
+      runUrl: "",
+      pollTimerId: null,
+      pollStartedAt: 0
     }
   };
 
@@ -62,6 +67,8 @@
   var AUTO_GITHUB_SEARCH_COOLDOWN_MS = 6 * 60 * 60 * 1000;
   var AUTO_STEAM_REFRESH_COOLDOWN_MS = 2 * 60 * 60 * 1000;
   var PERSIST_COMMUNITY_COOLDOWN_MS = 15 * 60 * 1000;
+  var SCAN_STATUS_POLL_INTERVAL_MS = 8000;
+  var SCAN_STATUS_MAX_POLL_MS = 10 * 60 * 1000;
   var scanInFlightByAppId = Object.create(null);
 
   function escapeHtml(value) {
@@ -308,6 +315,13 @@
     return "";
   }
 
+  function getScanStatusEndpoint(appid) {
+    var endpoint = getScanEndpoint();
+    if (!endpoint || !appid) return "";
+    var separator = endpoint.indexOf("?") > -1 ? "&" : "?";
+    return endpoint + separator + "appid=" + encodeURIComponent(String(appid));
+  }
+
   function getPersistEndpoint() {
     var config = global.STEAM_PATCHVAULT_CONFIG || {};
     if (config.persistManifestsEndpoint) return String(config.persistManifestsEndpoint);
@@ -341,6 +355,13 @@
     state.scanDispatch = Object.assign({}, state.scanDispatch, nextState || {});
   }
 
+  function clearScanStatusPolling() {
+    if (state.scanDispatch && state.scanDispatch.pollTimerId) {
+      clearTimeout(state.scanDispatch.pollTimerId);
+    }
+    setScanDispatchState({ pollTimerId: null, pollStartedAt: 0 });
+  }
+
   function formatScanStatusMessage(result, gameName) {
     var name = gameName || "ce jeu";
 
@@ -355,6 +376,13 @@
     }
     if (result.status === "blocked") return "Scan bloqué temporairement pour éviter le spam.";
     if (result.status === "error") return "Scan impossible pour le moment. Réessaie plus tard.";
+    if (result.status === "in_progress") return "Scan en cours pour " + name + " (workflow GitHub en exécution)…";
+    if (result.status === "completed") {
+      if (String(result.conclusion || "").toLowerCase() === "success") {
+        return "Scan terminé avec succès. Mise à jour des données en cours de propagation.";
+      }
+      return "Workflow terminé (" + String(result.conclusion || "inconnu") + ").";
+    }
     return "Demande de scan envoyée.";
   }
 
@@ -462,11 +490,18 @@
 
     var currentAppId = String(game && game.appid ? game.appid : "");
     var isCurrentGameScan = String(state.scanDispatch.appid || "") === currentAppId;
-    var scanLoading = isCurrentGameScan && state.scanDispatch.status === "loading";
+    var scanStatus = isCurrentGameScan ? String(state.scanDispatch.status || "idle") : "idle";
+    var scanLoading = scanStatus === "loading" || scanStatus === "queued" || scanStatus === "in_progress";
     var scanConfigured = Boolean(getScanEndpoint());
     var scanMessage = isCurrentGameScan ? state.scanDispatch.message : "";
+    var runLinkHtml = isCurrentGameScan && state.scanDispatch.runUrl
+      ? '<a class="scan-run-link" href="' + escapeHtml(state.scanDispatch.runUrl) + '" target="_blank" rel="noopener noreferrer">Voir le run GitHub</a>'
+      : "";
+    var scanLoaderHtml = scanLoading
+      ? '<div class="scan-progress"><div class="monolith-loader" aria-hidden="true"><span></span></div><div class="loader-bar"></div></div>'
+      : "";
     var scanNotice = scanMessage
-      ? '<p class="scan-request-note is-' + escapeHtml(state.scanDispatch.status || "idle") + '">' + escapeHtml(scanMessage) + "</p>"
+      ? '<p class="scan-request-note is-' + escapeHtml(scanStatus) + '">' + escapeHtml(scanMessage) + "</p>"
       : (scanConfigured ? "" : '<p class="scan-request-note is-warning">Scan live non configuré ici. Le bouton ouvrira une issue GitHub.</p>');
 
     return "" +
@@ -477,6 +512,8 @@
       '<button class="btn btn-subtle btn-small" data-action="request-scan" data-url="' + escapeHtml(buildScanIssueUrl(game)) + '" ' + (scanLoading ? "disabled" : "") + ">" + (scanLoading ? "Demande en cours…" : "Demander un scan") + "</button>" +
       "</div>" +
       scanNotice +
+      runLinkHtml +
+      scanLoaderHtml +
       "</section>";
   }
 
@@ -780,6 +817,17 @@
     restoreSearchFocus();
   }
 
+  function patchHasCompleteData(patch) {
+    if (!patch || !patch.id) return false;
+    return (state.currentAllManifests || []).some(function matchManifest(manifest) {
+      return (
+        String(manifest.patch_note_id || "") === String(patch.id) &&
+        /^\d+$/.test(String(manifest.depotid || "")) &&
+        /^\d+$/.test(String(manifest.manifestid || ""))
+      );
+    });
+  }
+
   function applyPatchFilters(patches) {
     return patches.filter(function filterPatch(patch) {
       var okVersion = !state.gameFilters.version || String(patch.version_detected || "").toLowerCase().indexOf(state.gameFilters.version.toLowerCase()) > -1;
@@ -796,8 +844,9 @@
       var keyword = String(state.gameFilters.keyword || "").trim().toLowerCase();
       var patchText = [patch.title, patch.content, (patch.keywords || []).join(" ")].join(" ").toLowerCase();
       var okKeyword = !keyword || patchText.indexOf(keyword) > -1;
+      var okComplete = !state.gameFilters.completeOnly || patchHasCompleteData(patch);
 
-      return okVersion && okDate && okType && okKeyword;
+      return okVersion && okDate && okType && okKeyword && okComplete;
     });
   }
 
@@ -814,6 +863,7 @@
     var slug = route.params.slug;
 
     if (state.currentGameSlug !== slug) {
+      clearScanStatusPolling();
       state.currentGameSlug = slug;
       state.currentGame = null;
       state.currentPatches = [];
@@ -837,14 +887,19 @@
         appid: "",
         status: "idle",
         message: "",
-        auto: false
+        auto: false,
+        runId: null,
+        runUrl: "",
+        pollTimerId: null,
+        pollStartedAt: 0
       };
       state.mobileDrawerOpen = false;
       state.gameFilters = {
         version: "",
         date: "",
         keyword: "",
-        type: "all"
+        type: "all",
+        completeOnly: false
       };
     }
 
@@ -909,6 +964,7 @@
       '<option value="balance" ' + (state.gameFilters.type === "balance" ? "selected" : "") + ">Balance</option>" +
       '<option value="content" ' + (state.gameFilters.type === "content" ? "selected" : "") + ">Contenu</option>" +
       "</select></label>" +
+      '<label class="filters-toggle"><input type="checkbox" data-filter="completeOnly" ' + (state.gameFilters.completeOnly ? "checked" : "") + ' />Patches avec données complètes</label>' +
       "</section>" +
       KnownDepotsPanel(game, knownDepotIds) +
       '<section class="game-layout">' +
@@ -971,6 +1027,10 @@
 
   async function renderRoute(route) {
     state.route = route;
+
+    if (route.name !== "game") {
+      clearScanStatusPolling();
+    }
 
     if (!state.allGames.length) {
       state.allGames = await App.api.getAllGames();
@@ -1037,6 +1097,79 @@
   function setStorageLock(key, payload, ttlMs) {
     if (!App.storage || !App.storage.setWithTTL) return;
     App.storage.setWithTTL(key, payload || {}, ttlMs);
+  }
+
+  async function fetchScanWorkflowStatus(appid) {
+    var url = getScanStatusEndpoint(appid);
+    if (!url) return null;
+    try {
+      var response = await fetch(url, { method: "GET", cache: "no-store" });
+      if (!response.ok) return null;
+      var payload = await response.json();
+      return payload && payload.ok !== false ? payload : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function scheduleScanStatusPolling(game) {
+    if (!game || !game.appid) return;
+
+    var appid = String(game.appid);
+    clearScanStatusPolling();
+    setScanDispatchState({
+      appid: appid,
+      pollStartedAt: Date.now()
+    });
+
+    var tick = async function tick() {
+      if (!state.currentGame || String(state.currentGame.appid) !== appid) {
+        clearScanStatusPolling();
+        return;
+      }
+
+      if (!state.scanDispatch || Date.now() - Number(state.scanDispatch.pollStartedAt || 0) > SCAN_STATUS_MAX_POLL_MS) {
+        setScanDispatchState({
+          status: "cooldown",
+          message: "Suivi du scan arrêté (timeout). Vérifie l’onglet Actions GitHub.",
+          pollTimerId: null
+        });
+        await renderGame(state.route);
+        return;
+      }
+
+      var run = await fetchScanWorkflowStatus(appid);
+      if (!run) {
+        var retryId = setTimeout(tick, SCAN_STATUS_POLL_INTERVAL_MS);
+        setScanDispatchState({ pollTimerId: retryId });
+        return;
+      }
+
+      var nextState = {
+        status: run.status || "queued",
+        message: formatScanStatusMessage(run, game.name),
+        runId: run.run_id || state.scanDispatch.runId || null,
+        runUrl: run.html_url || state.scanDispatch.runUrl || ""
+      };
+      setScanDispatchState(nextState);
+      await renderGame(state.route);
+
+      if (run.status === "completed") {
+        clearScanStatusPolling();
+        if (String(run.conclusion || "").toLowerCase() === "success") {
+          showToast("Workflow GitHub terminé. Les nouvelles données vont apparaître après refresh Pages.", "success");
+        } else {
+          showToast("Workflow terminé avec erreur: " + String(run.conclusion || "inconnu"), "warning");
+        }
+        return;
+      }
+
+      var timerId = setTimeout(tick, SCAN_STATUS_POLL_INTERVAL_MS);
+      setScanDispatchState({ pollTimerId: timerId });
+    };
+
+    var firstTimer = setTimeout(tick, 1500);
+    setScanDispatchState({ pollTimerId: firstTimer });
   }
 
   async function requestRemoteScan(game, options) {
@@ -1135,6 +1268,8 @@
       return {
         ok: true,
         status: payload.status || "queued",
+        run_id: payload.run_id || null,
+        html_url: payload.html_url || "",
         next_allowed_at: payload.next_allowed_at || null,
         cooldown_ms: effectiveCooldownMs,
         message: formatScanStatusMessage({
@@ -1248,11 +1383,19 @@
       appid: String(game.appid),
       status: status,
       message: message,
-      auto: Boolean(opts.auto)
+      auto: Boolean(opts.auto),
+      runId: result && result.run_id ? result.run_id : (state.scanDispatch && state.scanDispatch.runId ? state.scanDispatch.runId : null),
+      runUrl: result && result.html_url ? result.html_url : (state.scanDispatch && state.scanDispatch.runUrl ? state.scanDispatch.runUrl : "")
     });
 
     if (state.route.name === "game" && state.currentGame && String(state.currentGame.appid) === String(game.appid)) {
       await renderGame(state.route);
+    }
+
+    if (status === "queued" || status === "already-running" || status === "in_progress") {
+      scheduleScanStatusPolling(game);
+    } else if (status === "completed") {
+      clearScanStatusPolling();
     }
   }
 
@@ -1605,7 +1748,11 @@
 
     var filterKey = target.getAttribute("data-filter");
     if (filterKey && state.route.name === "game") {
-      state.gameFilters[filterKey] = target.value;
+      if (target.type === "checkbox") {
+        state.gameFilters[filterKey] = Boolean(target.checked);
+      } else {
+        state.gameFilters[filterKey] = target.value;
+      }
       renderGame(state.route);
     }
   }

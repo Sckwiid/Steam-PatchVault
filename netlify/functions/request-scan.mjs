@@ -22,7 +22,7 @@ function buildCorsHeaders() {
   return {
     "Access-Control-Allow-Origin": process.env.SCAN_CORS_ORIGIN || "*",
     "Access-Control-Allow-Headers": "Content-Type",
-    "Access-Control-Allow-Methods": "POST, OPTIONS"
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS"
   };
 }
 
@@ -174,6 +174,45 @@ function evaluateRateLimitForAppId(runs, appid, cooldownMs) {
   return null;
 }
 
+function findLatestRunForAppId(runs, appid) {
+  const sameAppRuns = runs
+    .filter((run) => parseAppIdFromRun(run) === appid)
+    .sort((left, right) => Date.parse(right?.created_at || 0) - Date.parse(left?.created_at || 0));
+  return sameAppRuns[0] || null;
+}
+
+function mapRunState(run, cooldownMs) {
+  if (!run) {
+    return {
+      ok: true,
+      status: "not-found",
+      run_id: null
+    };
+  }
+
+  const status = String(run?.status || "").toLowerCase();
+  const conclusion = run?.conclusion || null;
+  const createdAt = run?.created_at || null;
+  const updatedAt = run?.updated_at || null;
+  const htmlUrl = run?.html_url || null;
+
+  const payload = {
+    ok: true,
+    status: status || "unknown",
+    conclusion,
+    run_id: run?.id || null,
+    created_at: createdAt,
+    updated_at: updatedAt,
+    html_url: htmlUrl
+  };
+
+  if (status === "completed" && createdAt && cooldownMs > 0) {
+    payload.next_allowed_at = new Date(Date.parse(createdAt) + cooldownMs).toISOString();
+  }
+
+  return payload;
+}
+
 async function dispatchWorkflow({ owner, repo, workflowFile, token, ref, appid }) {
   const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/actions/workflows/${encodeURIComponent(workflowFile)}/dispatches`;
   const response = await githubRequest(url, token, {
@@ -202,10 +241,6 @@ export async function handler(event) {
     };
   }
 
-  if (event.httpMethod !== "POST") {
-    return json(405, { ok: false, error: "method_not_allowed" });
-  }
-
   const origin = event?.headers?.origin || event?.headers?.Origin || "";
   if (!isOriginAllowed(origin)) {
     return json(403, { ok: false, error: "origin_not_allowed" });
@@ -216,16 +251,47 @@ export async function handler(event) {
     return json(500, { ok: false, error: "missing_github_configuration" });
   }
 
-  let body = {};
-  try {
-    body = event.body ? JSON.parse(event.body) : {};
-  } catch (error) {
-    return json(400, { ok: false, error: "invalid_json_body" });
+  if (event.httpMethod !== "GET" && event.httpMethod !== "POST") {
+    return json(405, { ok: false, error: "method_not_allowed" });
   }
 
-  const appid = parseRequestedAppId(body?.appid);
+  let appid = "";
+  let body = {};
+  if (event.httpMethod === "GET") {
+    appid = parseRequestedAppId(event?.queryStringParameters?.appid);
+    if (!appid) {
+      return json(200, {
+        ok: true,
+        service: "request-scan",
+        message: "Use GET ?appid=123 to check workflow status, or POST to enqueue a scan."
+      });
+    }
+  } else {
+    try {
+      body = event.body ? JSON.parse(event.body) : {};
+    } catch (error) {
+      return json(400, { ok: false, error: "invalid_json_body" });
+    }
+    appid = parseRequestedAppId(body?.appid);
+  }
+
   if (!appid) {
     return json(400, { ok: false, error: "invalid_appid" });
+  }
+
+  if (event.httpMethod === "GET") {
+    try {
+      const runs = await getRecentWorkflowRuns(config);
+      const latest = findLatestRunForAppId(runs, appid);
+      return json(200, mapRunState(latest, config.cooldownMs));
+    } catch (error) {
+      return json(502, {
+        ok: false,
+        status: "error",
+        error: "github_status_failed",
+        details: String(error?.message || "unknown_error")
+      });
+    }
   }
 
   const ip = getClientIp(event);
@@ -262,9 +328,19 @@ export async function handler(event) {
       appid
     });
 
+    let runId = null;
+    try {
+      const latestRuns = await getRecentWorkflowRuns(config);
+      const latest = findLatestRunForAppId(latestRuns, appid);
+      runId = latest?.id || null;
+    } catch (error) {
+      runId = null;
+    }
+
     return json(202, {
       ok: true,
       status: "queued",
+      run_id: runId,
       cooldown_ms: config.cooldownMs
     });
   } catch (error) {
