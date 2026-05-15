@@ -1,50 +1,50 @@
 {
-  "appid": "1091500",
-  "game_name": "Cyberpunk 2077",
-  "last_scanned_at": "2026-05-14T20:43:49Z",
+  "appid": 1091500,
+  "last_scanned_at": "2026-05-15T13:27:11.286Z",
   "tracked_since": "2026-05-14T20:43:49Z",
-  "source": "steam_appinfo_pics",
   "depots": [
     {
-      "depotid": "1091501",
-      "depot_name": "Cyberpunk 2077 Windows Content",
+      "depotid": 1091501,
+      "name": "Depot 1091501",
       "os": "windows",
       "language": "all",
       "manifests": [
         {
           "manifestid": "1234567890123456789",
-          "buildid": null,
+          "buildid": "unknown",
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
-          "last_seen_at": "2026-05-14T20:43:49Z",
+          "last_seen_at": "2026-05-15T13:27:11.286Z",
+          "patch_note_id": "",
+          "confidence_score": 60,
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
-          "confidence_score": 60,
           "download_command": "download_depot 1091500 1091501 1234567890123456789",
           "notes": "Manifest connu, téléchargement non garanti."
         }
       ]
     },
     {
-      "depotid": "1091502",
-      "depot_name": "Cyberpunk 2077 Audio",
+      "depotid": 1091502,
+      "name": "Depot 1091502",
       "os": "windows",
       "language": "all",
       "manifests": [
         {
           "manifestid": "2234567890123456789",
-          "buildid": null,
+          "buildid": "unknown",
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
-          "last_seen_at": "2026-05-14T20:43:49Z",
+          "last_seen_at": "2026-05-15T13:27:11.286Z",
+          "patch_note_id": "",
+          "confidence_score": 60,
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
-          "confidence_score": 60,
           "download_command": "download_depot 1091500 1091502 2234567890123456789",
           "notes": "Manifest connu, téléchargement non garanti."
         }
       ]
     }
   ],
-  "notes": "Manifests issus de scans appinfo/PICS et d'historique local. ManifestID connu ≠ téléchargement garanti."
+  "notes": "Mappings issus de sources automatiques et/ou manuelles. Vérifier la validité avant usage."
 }
