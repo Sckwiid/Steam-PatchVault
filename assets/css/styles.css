@@ -428,6 +428,28 @@ h2 {
   flex-wrap: wrap;
 }
 
+.scan-request-note {
+  margin: 0;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.scan-request-note.is-loading {
+  color: #b2dfba;
+}
+
+.scan-request-note.is-queued,
+.scan-request-note.is-already-running,
+.scan-request-note.is-cooldown {
+  color: #e0b184;
+}
+
+.scan-request-note.is-error,
+.scan-request-note.is-warning,
+.scan-request-note.is-blocked {
+  color: #e7aaa3;
+}
+
 .filters label {
   display: grid;
   gap: 6px;
