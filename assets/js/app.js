@@ -55,11 +55,13 @@
   var FEATURED_APPIDS = [739630, 108600, 105600, 413150, 892970, 294100, 489830, 1091500];
   var GITHUB_ISSUES_URL = "https://github.com/Sckwiid/Steam-PatchVault/issues/new";
   var DEFAULT_SCAN_ENDPOINT = "/.netlify/functions/request-scan";
+  var DEFAULT_PERSIST_ENDPOINT = "/.netlify/functions/persist-community-manifests";
   var SCAN_REQUEST_COOLDOWN_MS = 6 * 60 * 60 * 1000;
   var SCAN_AUTO_COOLDOWN_MS = 24 * 60 * 60 * 1000;
   var SCAN_BURST_THROTTLE_MS = 45 * 1000;
   var AUTO_GITHUB_SEARCH_COOLDOWN_MS = 6 * 60 * 60 * 1000;
   var AUTO_STEAM_REFRESH_COOLDOWN_MS = 2 * 60 * 60 * 1000;
+  var PERSIST_COMMUNITY_COOLDOWN_MS = 15 * 60 * 1000;
   var scanInFlightByAppId = Object.create(null);
 
   function escapeHtml(value) {
@@ -301,6 +303,21 @@
     var host = String(global.location.hostname || "").toLowerCase();
     if (host.indexOf("netlify.app") > -1 || host === "localhost" || host === "127.0.0.1") {
       return DEFAULT_SCAN_ENDPOINT;
+    }
+
+    return "";
+  }
+
+  function getPersistEndpoint() {
+    var config = global.STEAM_PATCHVAULT_CONFIG || {};
+    if (config.persistManifestsEndpoint) return String(config.persistManifestsEndpoint);
+    if (config.scanEndpoint) {
+      return String(config.scanEndpoint).replace(/request-scan(?:\?.*)?$/i, "persist-community-manifests");
+    }
+
+    var host = String(global.location.hostname || "").toLowerCase();
+    if (host.indexOf("netlify.app") > -1 || host === "localhost" || host === "127.0.0.1") {
+      return DEFAULT_PERSIST_ENDPOINT;
     }
 
     return "";
@@ -1008,6 +1025,10 @@
     return "auto-steam-refresh:" + String(appid || "");
   }
 
+  function getPersistCommunityKey(appid) {
+    return "persist-community-manifests:" + String(appid || "");
+  }
+
   function getStorageLock(key) {
     if (!App.storage || !App.storage.getWithTTL) return null;
     return App.storage.getWithTTL(key);
@@ -1133,6 +1154,90 @@
     }
   }
 
+  function sanitizeCommunityManifestRows(game, results) {
+    var appid = String(game && game.appid ? game.appid : "");
+    return (results || [])
+      .map(function mapRow(item) {
+        var depotid = String(item && item.depotid ? item.depotid : "").trim();
+        var manifestid = String(item && item.manifestid ? item.manifestid : "").trim();
+        if (!/^\d+$/.test(depotid) || !/^\d+$/.test(manifestid)) return null;
+
+        return {
+          appid: appid,
+          game_name: String(game && game.name ? game.name : ""),
+          depotid: depotid,
+          manifestid: manifestid,
+          source_repo: String(item && item.source_repo ? item.source_repo : ""),
+          source_type: String(item && item.source_type ? item.source_type : "github_tree_index"),
+          status: String(item && item.status ? item.status : "community_unverified"),
+          confidence_score: Number(item && item.confidence_score ? item.confidence_score : 25)
+        };
+      })
+      .filter(Boolean);
+  }
+
+  async function persistCommunityManifestResults(game, payload, options) {
+    var opts = options || {};
+    if (!game || !game.appid || !payload || !Array.isArray(payload.results) || !payload.results.length) {
+      return { ok: true, status: "no_results", skipped: true };
+    }
+
+    var endpoint = getPersistEndpoint();
+    if (!endpoint) {
+      return { ok: false, status: "error", reason: "missing_endpoint" };
+    }
+
+    var appid = String(game.appid);
+    var lockKey = getPersistCommunityKey(appid);
+    if (!opts.force && getStorageLock(lockKey)) {
+      return { ok: true, status: "cooldown", skipped: true };
+    }
+
+    var rows = sanitizeCommunityManifestRows(game, payload.results);
+    if (!rows.length) {
+      return { ok: true, status: "no_valid_rows", skipped: true };
+    }
+
+    try {
+      var response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          appid: appid,
+          game_name: String(game.name || ""),
+          results: rows,
+          source_summaries: payload.source_summaries || []
+        })
+      });
+
+      var result = {};
+      try {
+        result = await response.json();
+      } catch (error) {
+        result = {};
+      }
+
+      if (!response.ok) {
+        return {
+          ok: false,
+          status: "error",
+          reason: "http_error",
+          message: result.error || ("HTTP " + response.status)
+        };
+      }
+
+      setStorageLock(lockKey, { status: result.status || "ok", updated_at: new Date().toISOString() }, PERSIST_COMMUNITY_COOLDOWN_MS);
+      return Object.assign({ ok: true }, result);
+    } catch (error) {
+      return {
+        ok: false,
+        status: "error",
+        reason: "network_error",
+        message: "Push GitHub impossible pour le moment."
+      };
+    }
+  }
+
   async function applyScanDispatchResult(game, result, options) {
     var opts = options || {};
     if (!game) return;
@@ -1217,10 +1322,10 @@
     if (getStorageLock(autoSearchKey)) return;
 
     setStorageLock(autoSearchKey, { triggered_at: new Date().toISOString() }, AUTO_GITHUB_SEARCH_COOLDOWN_MS);
-    await runGitHubManifestSearch(false);
+    await runGitHubManifestSearch(false, false);
   }
 
-  async function runGitHubManifestSearch(ignoreCache) {
+  async function runGitHubManifestSearch(ignoreCache, forceRemote) {
     if (!state.currentGame || !App.githubManifestSearch) return;
 
     var controller = new AbortController();
@@ -1240,6 +1345,7 @@
     try {
       var payload = await App.githubManifestSearch.searchGitHubManifestsForGame(state.currentGame, {
         ignoreCache: Boolean(ignoreCache),
+        forceRemote: Boolean(forceRemote),
         signal: controller.signal,
         onProgress: function onProgress(progress) {
           setGitHubSearchState({
@@ -1279,6 +1385,18 @@
         missingDepots: Boolean(payload.missing_depots),
         controller: null
       });
+
+      if (forceRemote) {
+        var persistResult = await persistCommunityManifestResults(state.currentGame, payload);
+        if (persistResult.ok && persistResult.committed) {
+          showToast("Index GitHub mis à jour (+" + String(persistResult.added || 0) + " manifests).", "success");
+        } else if (persistResult.ok && persistResult.status === "no_changes") {
+          showToast("Aucun nouveau manifest à pousser sur GitHub.", "info");
+        } else if (!persistResult.ok) {
+          showToast("Recherche OK, mais push GitHub impossible pour le moment.", "warning");
+        }
+      }
+
       await renderGame(state.route);
     } catch (error) {
       if (error && error.name === "AbortError") {
@@ -1406,7 +1524,7 @@
     }
 
     if (action === "github-search-manifests") {
-      await runGitHubManifestSearch(button.getAttribute("data-ignore-cache") === "true");
+      await runGitHubManifestSearch(button.getAttribute("data-ignore-cache") === "true", true);
       return;
     }
 

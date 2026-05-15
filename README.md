@@ -92,12 +92,14 @@ Fichiers ajoutés:
 
 - [netlify/functions/request-scan.mjs](/Users/julien/Documents/projets/steam-PatchVault/netlify/functions/request-scan.mjs)
 - [netlify/functions/resolve-steam-game.mjs](/Users/julien/Documents/projets/steam-PatchVault/netlify/functions/resolve-steam-game.mjs)
+- [netlify/functions/persist-community-manifests.mjs](/Users/julien/Documents/projets/steam-PatchVault/netlify/functions/persist-community-manifests.mjs)
 - [netlify.toml](/Users/julien/Documents/projets/steam-PatchVault/netlify.toml)
 
 But:
 
 - quand un joueur ouvre une fiche jeu avec data incomplète, le frontend peut demander un scan appinfo/PICS
 - si un slug n'existe pas encore localement, le frontend peut résoudre la fiche en live via Steam (Netlify Function), puis afficher les news/patch notes récentes
+- quand une recherche manuelle GitHub trouve des manifests, le frontend peut pousser ces résultats dans `data/community-manifest-index.json` (merge + commit GitHub)
 - la Function Netlify déclenche `scan-appinfo-pics.yml` via l’API GitHub Actions
 - anti-spam activé côté client + côté Function + côté workflow
 
@@ -118,6 +120,7 @@ Variables Netlify à configurer:
 - `GITHUB_SCAN_WORKFLOW` (optionnel, défaut: `scan-appinfo-pics.yml`)
 - `GITHUB_SCAN_REF` (optionnel, défaut: `main`)
 - `SCAN_COOLDOWN_MINUTES` (optionnel, défaut: `360`)
+- `PERSIST_MANIFEST_COOLDOWN_MINUTES` (optionnel, défaut: `15`)
 - `SCAN_CORS_ORIGIN` (optionnel, défaut: `*`)
 - `SCAN_ALLOWED_ORIGINS` (optionnel, liste CSV d’origines autorisées)
 
@@ -125,6 +128,8 @@ Si le frontend est déployé sur GitHub Pages (et la Function sur Netlify):
 
 - renseigner l’endpoint Netlify dans `index.html`:
   - `window.STEAM_PATCHVAULT_CONFIG.scanEndpoint = "https://<ton-site>.netlify.app/.netlify/functions/request-scan"`
+  - `window.STEAM_PATCHVAULT_CONFIG.persistManifestsEndpoint = "https://<ton-site>.netlify.app/.netlify/functions/persist-community-manifests"`
+  - `window.STEAM_PATCHVAULT_CONFIG.liveResolveEndpoint = "https://<ton-site>.netlify.app/.netlify/functions/resolve-steam-game"`
 
 ### Setup rapide Netlify (écran "Builds")
 
@@ -134,6 +139,8 @@ Si le frontend est déployé sur GitHub Pages (et la Function sur Netlify):
 4. Lancer un deploy
 5. Vérifier la Function sur:
    - `https://<ton-site>.netlify.app/.netlify/functions/request-scan`
+   - `https://<ton-site>.netlify.app/.netlify/functions/resolve-steam-game?slug=phasmophobia`
+   - `https://<ton-site>.netlify.app/.netlify/functions/persist-community-manifests`
 
 ## Lancer en local
 

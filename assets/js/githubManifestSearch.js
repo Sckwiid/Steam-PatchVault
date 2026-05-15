@@ -360,8 +360,9 @@
   async function searchGitHubManifestsForGame(game, options) {
     var opts = options || {};
     var cacheKeyValue = String(game && game.appid ? game.appid : "");
+    var forceRemote = Boolean(opts.forceRemote);
 
-    if (!opts.ignoreCache) {
+    if (!opts.ignoreCache && !forceRemote) {
       var cached = getCachedGitHubManifestResults(cacheKeyValue);
       if (cached) {
         return Object.assign({}, cached, { from_cache: true });
@@ -390,7 +391,7 @@
       };
     }
 
-    var localIndex = await loadLocalCommunityManifestIndex(opts);
+    var localIndex = forceRemote ? null : await loadLocalCommunityManifestIndex(opts);
     if (localIndex) {
       var localResults = filterLocalIndex(localIndex, depotIds, game);
       var localPayload = {
