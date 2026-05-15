@@ -22,6 +22,7 @@
     currentGame: null,
     currentPatches: [],
     selectedPatchId: "",
+    patchContentExpanded: false,
     manifestsByPatchId: {},
     currentManifests: [],
     currentAllManifests: [],
@@ -36,7 +37,13 @@
       missingDepots: false,
       controller: null
     },
-    mobileDrawerOpen: false
+    mobileDrawerOpen: false,
+    scanDispatch: {
+      appid: "",
+      status: "idle",
+      message: "",
+      auto: false
+    }
   };
 
   var root = document.getElementById("app");
@@ -47,6 +54,11 @@
   };
   var FEATURED_APPIDS = [739630, 108600, 105600, 413150, 892970, 294100, 489830, 1091500];
   var GITHUB_ISSUES_URL = "https://github.com/Sckwiid/Steam-PatchVault/issues/new";
+  var DEFAULT_SCAN_ENDPOINT = "/.netlify/functions/request-scan";
+  var SCAN_REQUEST_COOLDOWN_MS = 6 * 60 * 60 * 1000;
+  var SCAN_AUTO_COOLDOWN_MS = 24 * 60 * 60 * 1000;
+  var SCAN_BURST_THROTTLE_MS = 45 * 1000;
+  var scanInFlightByAppId = Object.create(null);
 
   function escapeHtml(value) {
     return String(value || "")
@@ -280,6 +292,53 @@
     return GITHUB_ISSUES_URL + "?title=" + encodeURIComponent(title) + "&body=" + encodeURIComponent(body);
   }
 
+  function getScanEndpoint() {
+    var config = global.STEAM_PATCHVAULT_CONFIG || {};
+    if (config.scanEndpoint) return String(config.scanEndpoint);
+
+    var host = String(global.location.hostname || "").toLowerCase();
+    if (host.indexOf("netlify.app") > -1 || host === "localhost" || host === "127.0.0.1") {
+      return DEFAULT_SCAN_ENDPOINT;
+    }
+
+    return "";
+  }
+
+  function getScanStorageKey(appid, bucket) {
+    return "scan-request:" + String(bucket || "manual") + ":" + String(appid || "");
+  }
+
+  function getScanLock(appid, bucket) {
+    if (!App.storage || !App.storage.getWithTTL) return null;
+    return App.storage.getWithTTL(getScanStorageKey(appid, bucket));
+  }
+
+  function setScanLock(appid, bucket, payload, ttlMs) {
+    if (!App.storage || !App.storage.setWithTTL) return;
+    App.storage.setWithTTL(getScanStorageKey(appid, bucket), payload || {}, ttlMs);
+  }
+
+  function setScanDispatchState(nextState) {
+    state.scanDispatch = Object.assign({}, state.scanDispatch, nextState || {});
+  }
+
+  function formatScanStatusMessage(result, gameName) {
+    var name = gameName || "ce jeu";
+
+    if (!result) return "État du scan inconnu.";
+    if (result.status === "queued") return "Scan demandé pour " + name + ". Le workflow GitHub est en file d'attente.";
+    if (result.status === "already-running") return "Un scan est déjà en cours pour " + name + ".";
+    if (result.status === "cooldown") {
+      if (result.next_allowed_at) {
+        return "Scan en cooldown jusqu’au " + formatDateTime(result.next_allowed_at) + ".";
+      }
+      return "Scan temporairement limité pour éviter le spam.";
+    }
+    if (result.status === "blocked") return "Scan bloqué temporairement pour éviter le spam.";
+    if (result.status === "error") return "Scan impossible pour le moment. Réessaie plus tard.";
+    return "Demande de scan envoyée.";
+  }
+
   function CopyButton(command) {
     return '<button class="btn btn-subtle" data-action="copy-command" data-command="' + escapeHtml(command) + '" aria-label="Copier la commande">Copier la commande</button>';
   }
@@ -382,13 +441,23 @@
         }).join("") + "</div>" : "")
       : '<p class="muted">Aucun DepotID connu pour ce jeu. Il faut scanner son appinfo/PICS.</p>';
 
+    var currentAppId = String(game && game.appid ? game.appid : "");
+    var isCurrentGameScan = String(state.scanDispatch.appid || "") === currentAppId;
+    var scanLoading = isCurrentGameScan && state.scanDispatch.status === "loading";
+    var scanConfigured = Boolean(getScanEndpoint());
+    var scanMessage = isCurrentGameScan ? state.scanDispatch.message : "";
+    var scanNotice = scanMessage
+      ? '<p class="scan-request-note is-' + escapeHtml(state.scanDispatch.status || "idle") + '">' + escapeHtml(scanMessage) + "</p>"
+      : (scanConfigured ? "" : '<p class="scan-request-note is-warning">Scan live non configuré ici. Le bouton ouvrira une issue GitHub.</p>');
+
     return "" +
       '<section class="known-depots-panel">' +
       "<h2>Depots connus du jeu</h2>" +
       content +
       '<div class="known-depots-actions">' +
-      '<button class="btn btn-subtle btn-small" data-action="request-scan" data-url="' + escapeHtml(buildScanIssueUrl(game)) + '">Demander un scan</button>' +
+      '<button class="btn btn-subtle btn-small" data-action="request-scan" data-url="' + escapeHtml(buildScanIssueUrl(game)) + '" ' + (scanLoading ? "disabled" : "") + ">" + (scanLoading ? "Demande en cours…" : "Demander un scan") + "</button>" +
       "</div>" +
+      scanNotice +
       "</section>";
   }
 
@@ -510,20 +579,20 @@
       '<h3>' + escapeHtml(patch.title) + "</h3>" +
       '<p class="muted">' + formatDateTime(patch.date) + " · " + escapeHtml(typeLabel(patch.type)) + " · Version " + escapeHtml(patch.version_detected || "?") + "</p>" +
       "</header>" +
-      '<p class="detail-content">' + escapeHtml(patch.content) + "</p>" +
+      '<button class="btn btn-subtle btn-small" data-action="toggle-patch-content" aria-expanded="' + (state.patchContentExpanded ? "true" : "false") + '">' + (state.patchContentExpanded ? "Masquer le patch note" : "Afficher le patch note") + "</button>" +
+      (state.patchContentExpanded
+        ? '<p class="detail-content">' + escapeHtml(patch.content) + "</p>"
+        : '<p class="muted">Patch note masqué par défaut.</p>') +
       '<p class="muted">Source: <a href="' + escapeHtml(patch.source_url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(patch.source_url) + "</a></p>" +
       '<section class="manifest-section">' +
       '<div class="manifest-section-head">' +
       '<h4>Versions téléchargeables</h4>' +
-      '<button class="btn btn-subtle btn-small" data-action="propose-manifest" data-url="' + escapeHtml(buildContributionUrl("propose", game, null)) + '">Proposer un manifest</button>' +
       "</div>" +
       '<p class="manifest-disclaimer">Manifest connu, téléchargement non garanti. Vous devez posséder le jeu sur Steam.</p>' +
       (manifests.length ? manifests.map(function mapManifest(manifest) {
         return "" +
           '<div class="manifest-card">' +
           '<div class="manifest-head">' +
-          ConfidenceBadge(manifest.confidence_score) +
-          '<span class="manifest-badges">' + ManifestStatusBadges(manifest) + "</span>" +
           '<span class="mono">' + escapeHtml((manifest.branch || "public") + " · " + (manifest.os || "all") + " · " + (manifest.language || "all")) + "</span>" +
           "</div>" +
           '<p class="manifest-dates mono">Vu: ' + escapeHtml(formatDateTime(manifest.first_seen_at || manifest.date)) + " → " + escapeHtml(formatDateTime(manifest.last_seen_at || manifest.date)) + "</p>" +
@@ -730,6 +799,7 @@
       state.currentGame = null;
       state.currentPatches = [];
       state.selectedPatchId = "";
+      state.patchContentExpanded = false;
       state.manifestsByPatchId = {};
       state.currentManifests = [];
       state.currentAllManifests = [];
@@ -743,6 +813,12 @@
         fromCache: false,
         missingDepots: false,
         controller: null
+      };
+      state.scanDispatch = {
+        appid: "",
+        status: "idle",
+        message: "",
+        auto: false
       };
       state.mobileDrawerOpen = false;
       state.gameFilters = {
@@ -781,6 +857,10 @@
       return item.id === state.selectedPatchId;
     }) || filteredPatches[0] || null;
 
+    if (selectedPatch && selectedPatch.id !== state.selectedPatchId) {
+      state.patchContentExpanded = false;
+    }
+
     state.selectedPatchId = selectedPatch ? selectedPatch.id : "";
     state.currentManifests = selectedPatch ? await ensureManifestsForPatch(selectedPatch.id, game.appid) : [];
     var knownDepotIds = getKnownDepotIds(game, state.currentAllManifests);
@@ -795,10 +875,6 @@
       '<h1>' + escapeHtml(game.name) + "</h1>" +
       '<p class="muted">' + escapeHtml(game.description || "") + "</p>" +
       '<p class="muted">Dernière synchronisation: ' + formatDateTime(game.last_synced_at) + "</p>" +
-      '<div class="hero-actions">' +
-      '<button class="btn btn-subtle" data-action="copy-appid" data-appid="' + escapeHtml(game.appid) + '">Copier AppID</button>' +
-      '<button class="btn btn-subtle" data-action="go-tutorial">Voir le tutoriel</button>' +
-      "</div>" +
       '<p class="legal-inline">Vous devez posséder le jeu sur Steam. Ce site ne fournit aucun fichier de jeu.</p>' +
       "</div>" +
       "</section>" +
@@ -829,6 +905,7 @@
       GitHubManifestSearchPanel(game, knownDepotIds);
 
     root.innerHTML = layout(content);
+    maybeAutoRequestScan(game, knownDepotIds);
   }
 
   function renderTutorial(mode) {
@@ -917,6 +994,169 @@
 
   function setGitHubSearchState(next) {
     state.githubManifestSearch = Object.assign({}, state.githubManifestSearch, next);
+  }
+
+  async function requestRemoteScan(game, options) {
+    var opts = options || {};
+    var appid = String(game && game.appid ? game.appid : "").trim();
+    if (!/^\d+$/.test(appid)) {
+      return { ok: false, status: "error", reason: "invalid_appid" };
+    }
+
+    var endpoint = getScanEndpoint();
+    if (!endpoint) {
+      return { ok: false, status: "error", reason: "missing_endpoint" };
+    }
+
+    if (scanInFlightByAppId[appid]) {
+      return {
+        ok: true,
+        status: "already-running",
+        message: formatScanStatusMessage({ status: "already-running" }, game.name)
+      };
+    }
+
+    var lockBucket = opts.auto ? "auto" : "manual";
+    var defaultCooldownMs = opts.auto ? SCAN_AUTO_COOLDOWN_MS : SCAN_REQUEST_COOLDOWN_MS;
+    var burstLock = getScanLock(appid, "burst");
+    if (burstLock && !opts.force) {
+      return {
+        ok: true,
+        status: "blocked",
+        message: formatScanStatusMessage({ status: "blocked" }, game.name)
+      };
+    }
+
+    var cooldownLock = getScanLock(appid, lockBucket);
+    if (cooldownLock && !opts.force) {
+      return {
+        ok: true,
+        status: "cooldown",
+        next_allowed_at: cooldownLock.next_allowed_at || null,
+        message: formatScanStatusMessage({ status: "cooldown", next_allowed_at: cooldownLock.next_allowed_at }, game.name)
+      };
+    }
+
+    setScanLock(appid, "burst", { requested_at: new Date().toISOString() }, SCAN_BURST_THROTTLE_MS);
+    scanInFlightByAppId[appid] = true;
+
+    setScanDispatchState({
+      appid: appid,
+      status: "loading",
+      message: opts.auto ? "Scan auto: envoi de la demande…" : "Envoi de la demande de scan…",
+      auto: Boolean(opts.auto)
+    });
+
+    if (!opts.silent && state.route.name === "game" && String(state.currentGame && state.currentGame.appid) === appid) {
+      await renderGame(state.route);
+    }
+
+    try {
+      var response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          appid: appid,
+          game_name: String(game.name || ""),
+          auto: Boolean(opts.auto),
+          source: "steam-patchvault-web"
+        })
+      });
+
+      var payload = {};
+      try {
+        payload = await response.json();
+      } catch (error) {
+        payload = {};
+      }
+
+      if (!response.ok) {
+        return {
+          ok: false,
+          status: "error",
+          reason: "http_error",
+          message: payload.error || ("HTTP " + response.status)
+        };
+      }
+
+      var returnedCooldownMs = Number(payload.cooldown_ms || 0);
+      var effectiveCooldownMs = returnedCooldownMs > 0 ? returnedCooldownMs : defaultCooldownMs;
+      if (payload.status === "queued" || payload.status === "already-running" || payload.status === "cooldown") {
+        var nextAllowedAtIso = new Date(Date.now() + effectiveCooldownMs).toISOString();
+        setScanLock(appid, lockBucket, {
+          next_allowed_at: payload.next_allowed_at || nextAllowedAtIso,
+          status: payload.status
+        }, effectiveCooldownMs);
+      }
+
+      return {
+        ok: true,
+        status: payload.status || "queued",
+        next_allowed_at: payload.next_allowed_at || null,
+        cooldown_ms: effectiveCooldownMs,
+        message: formatScanStatusMessage({
+          status: payload.status || "queued",
+          next_allowed_at: payload.next_allowed_at || null
+        }, game.name)
+      };
+    } catch (error) {
+      return {
+        ok: false,
+        status: "error",
+        reason: error && error.name === "AbortError" ? "aborted" : "network_error",
+        message: "Impossible de contacter le service de scan."
+      };
+    } finally {
+      scanInFlightByAppId[appid] = false;
+    }
+  }
+
+  async function applyScanDispatchResult(game, result, options) {
+    var opts = options || {};
+    if (!game) return;
+
+    var status = result && result.status ? result.status : "error";
+    var message = result && result.message ? result.message : formatScanStatusMessage({ status: status }, game.name);
+    setScanDispatchState({
+      appid: String(game.appid),
+      status: status,
+      message: message,
+      auto: Boolean(opts.auto)
+    });
+
+    if (state.route.name === "game" && state.currentGame && String(state.currentGame.appid) === String(game.appid)) {
+      await renderGame(state.route);
+    }
+  }
+
+  async function maybeAutoRequestScan(game, knownDepotIds) {
+    if (!game || !game.appid) return;
+    if (!getScanEndpoint()) return;
+
+    var appid = String(game.appid);
+    var hasDepots = Array.isArray(knownDepotIds) && knownDepotIds.length > 0;
+    var hasPatches = Array.isArray(state.currentPatches) && state.currentPatches.length > 0;
+    var hasManifests = Array.isArray(state.currentAllManifests) && state.currentAllManifests.length > 0;
+    var needsScan = !hasDepots || !hasPatches || !hasManifests;
+    if (!needsScan) return;
+
+    if (scanInFlightByAppId[appid]) return;
+    if (getScanLock(appid, "auto")) return;
+    if (
+      state.scanDispatch &&
+      String(state.scanDispatch.appid || "") === appid &&
+      state.scanDispatch.auto &&
+      state.scanDispatch.status !== "idle"
+    ) {
+      return;
+    }
+    if (state.scanDispatch && String(state.scanDispatch.appid) === appid && state.scanDispatch.status === "loading") return;
+
+    var result = await requestRemoteScan(game, { auto: true, silent: true });
+    if (!result.ok) {
+      setScanLock(appid, "auto", { next_allowed_at: new Date(Date.now() + 30 * 60 * 1000).toISOString(), status: "error" }, 30 * 60 * 1000);
+    }
+    await applyScanDispatchResult(game, result, { auto: true });
   }
 
   async function runGitHubManifestSearch(ignoreCache) {
@@ -1055,7 +1295,14 @@
     if (action === "select-patch") {
       var patchId = button.getAttribute("data-patch-id") || "";
       state.selectedPatchId = patchId;
+      state.patchContentExpanded = false;
       state.mobileDrawerOpen = true;
+      await renderGame(state.route);
+      return;
+    }
+
+    if (action === "toggle-patch-content") {
+      state.patchContentExpanded = !state.patchContentExpanded;
       await renderGame(state.route);
       return;
     }
@@ -1075,9 +1322,24 @@
     }
 
     if (action === "request-scan") {
-      var scanUrl = button.getAttribute("data-url");
-      if (scanUrl) {
-        window.open(scanUrl, "_blank", "noopener,noreferrer");
+      if (!state.currentGame) return;
+      var fallbackIssueUrl = button.getAttribute("data-url");
+      var scanResult = await requestRemoteScan(state.currentGame, { auto: false, silent: false });
+      await applyScanDispatchResult(state.currentGame, scanResult, { auto: false });
+
+      if (scanResult.ok) {
+        if (scanResult.status === "queued" || scanResult.status === "already-running") {
+          showToast(scanResult.message || "Demande de scan envoyée.", "success");
+        } else {
+          showToast(scanResult.message || "Scan temporairement limité.", "warning");
+        }
+      } else if (scanResult.reason === "missing_endpoint") {
+        showToast("Scan live non configuré ici. Ouverture d'une issue GitHub.", "warning");
+        if (fallbackIssueUrl) {
+          window.open(fallbackIssueUrl, "_blank", "noopener,noreferrer");
+        }
+      } else {
+        showToast(scanResult.message || "Demande de scan impossible.", "warning");
       }
       return;
     }

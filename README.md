@@ -86,6 +86,53 @@ Flux:
 6. écriture des non mappés dans `/data/unmapped-manifests/<depotid>.json`
 7. contrôle strict des champs sensibles avant commit
 
+## Déclenchement scan via Netlify Function (anti-spam)
+
+Fichiers ajoutés:
+
+- [netlify/functions/request-scan.mjs](/Users/julien/Documents/projets/steam-PatchVault/netlify/functions/request-scan.mjs)
+- [netlify.toml](/Users/julien/Documents/projets/steam-PatchVault/netlify.toml)
+
+But:
+
+- quand un joueur ouvre une fiche jeu avec data incomplète, le frontend peut demander un scan appinfo/PICS
+- la Function Netlify déclenche `scan-appinfo-pics.yml` via l’API GitHub Actions
+- anti-spam activé côté client + côté Function + côté workflow
+
+Protections anti-spam:
+
+1. cooldown local navigateur
+   - manuel: 6h
+   - auto: 24h
+2. burst guard Function (requêtes rapprochées bloquées)
+3. vérification des runs GitHub récents (queued/in_progress/cooldown)
+4. `concurrency` workflow par AppID dans `scan-appinfo-pics.yml`
+
+Variables Netlify à configurer:
+
+- `GITHUB_PAT` (token GitHub avec droits `repo` + `workflow`)
+- `GITHUB_OWNER` (ex: `Sckwiid`)
+- `GITHUB_REPO` (ex: `Steam-PatchVault`)
+- `GITHUB_SCAN_WORKFLOW` (optionnel, défaut: `scan-appinfo-pics.yml`)
+- `GITHUB_SCAN_REF` (optionnel, défaut: `main`)
+- `SCAN_COOLDOWN_MINUTES` (optionnel, défaut: `360`)
+- `SCAN_CORS_ORIGIN` (optionnel, défaut: `*`)
+- `SCAN_ALLOWED_ORIGINS` (optionnel, liste CSV d’origines autorisées)
+
+Si le frontend est déployé sur GitHub Pages (et la Function sur Netlify):
+
+- renseigner l’endpoint Netlify dans `index.html`:
+  - `window.STEAM_PATCHVAULT_CONFIG.scanEndpoint = "https://<ton-site>.netlify.app/.netlify/functions/request-scan"`
+
+### Setup rapide Netlify (écran "Builds")
+
+1. Cliquer `New project from Git`
+2. Sélectionner le repo `Steam-PatchVault`
+3. Dans `Site configuration` -> `Environment variables`, ajouter les variables ci-dessus
+4. Lancer un deploy
+5. Vérifier la Function sur:
+   - `https://<ton-site>.netlify.app/.netlify/functions/request-scan`
+
 ## Lancer en local
 
 ### Site frontend
