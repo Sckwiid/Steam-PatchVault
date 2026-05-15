@@ -1,0 +1,54 @@
+{
+  "depotid": "2108331",
+  "updated_at": "2026-05-15T13:30:09Z",
+  "manifests": [
+    {
+      "depotid": "2108331",
+      "manifestid": "2154138114214080799",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2108331",
+      "manifestid": "2287865974831616590",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2108331",
+      "manifestid": "534072299668629194",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2108331",
+      "manifestid": "6166685386210663865",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2108331",
+      "manifestid": "631415297312422186",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2108331",
+      "manifestid": "6385753828050864197",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    }
+  ]
+}

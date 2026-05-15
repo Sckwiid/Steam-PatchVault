@@ -1,0 +1,70 @@
+{
+  "depotid": "2096861",
+  "updated_at": "2026-05-15T13:30:09Z",
+  "manifests": [
+    {
+      "depotid": "2096861",
+      "manifestid": "1907534915259530723",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "2460417467889415181",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "3909470805654767712",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "4386422615353528807",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "5156949292945659628",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "5959835020819647803",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "7004803847356562910",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2096861",
+      "manifestid": "9161955626533526966",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    }
+  ]
+}

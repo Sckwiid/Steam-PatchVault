@@ -1,0 +1,22 @@
+{
+  "depotid": "2064811",
+  "updated_at": "2026-05-15T13:30:09Z",
+  "manifests": [
+    {
+      "depotid": "2064811",
+      "manifestid": "2412834153002308788",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2064811",
+      "manifestid": "2818799918104783476",
+      "source_repo": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    }
+  ]
+}

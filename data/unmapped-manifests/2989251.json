@@ -1,0 +1,22 @@
+{
+  "depotid": "2989251",
+  "updated_at": "2026-05-15T13:30:09Z",
+  "manifests": [
+    {
+      "depotid": "2989251",
+      "manifestid": "726688628210092396",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "2989251",
+      "manifestid": "934157978923195981",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    }
+  ]
+}

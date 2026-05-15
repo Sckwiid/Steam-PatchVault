@@ -1,0 +1,94 @@
+{
+  "depotid": "990080",
+  "updated_at": "2026-05-15T13:30:09Z",
+  "manifests": [
+    {
+      "depotid": "990080",
+      "manifestid": "1420958774597802703",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "4569861543528883411",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "4764577515898635534",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "6070807604292664334",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "6514677461510890633",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "6910201254447017610",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "6978066016380685964",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "7561800737909203038",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "8175917818174816605",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "8508847891893050027",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "990080",
+      "manifestid": "961457127508920287",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    }
+  ]
+}
