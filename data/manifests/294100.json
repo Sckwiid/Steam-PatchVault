@@ -1,64 +1,76 @@
 {
   "appid": 294100,
-  "generated_at": "2026-05-14T00:55:42.996Z",
-  "source": "steam-static-db",
-  "manifests": [
+  "last_scanned_at": "2026-05-15T06:43:41.159Z",
+  "tracked_since": "2026-05-15T06:43:41.159Z",
+  "depots": [
     {
-      "id": "manifest-rw-1",
-      "appid": 294100,
       "depotid": 294101,
-      "manifestid": "7090114798123405571",
-      "buildid": "14102208",
-      "branch": "public",
+      "name": "Depot 294101",
       "os": "windows",
       "language": "all",
-      "date": "2024-04-11T15:47:00Z",
-      "patch_note_id": "patch-rw-1",
-      "confidence_score": 90,
-      "notes": "Alignement build/notes confirmé par source Steam News."
+      "manifests": [
+        {
+          "manifestid": "4101599362017079550",
+          "buildid": "14118832",
+          "branch": "public",
+          "first_seen_at": "2024-04-18T10:19:00Z",
+          "last_seen_at": "2026-05-15T06:43:41.159Z",
+          "patch_note_id": "patch-rw-2",
+          "confidence_score": 94,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 294100 294101 4101599362017079550",
+          "notes": "Hotfix cohérent avec hausse de build mineure."
+        },
+        {
+          "manifestid": "7090114798123405571",
+          "buildid": "14102208",
+          "branch": "public",
+          "first_seen_at": "2024-04-11T15:47:00Z",
+          "last_seen_at": "2026-05-15T06:43:41.159Z",
+          "patch_note_id": "patch-rw-1",
+          "confidence_score": 90,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 294100 294101 7090114798123405571",
+          "notes": "Alignement build/notes confirmé par source Steam News."
+        },
+        {
+          "manifestid": "9204411158172477643",
+          "buildid": "13244714",
+          "branch": "public",
+          "first_seen_at": "2023-09-26T09:00:00Z",
+          "last_seen_at": "2026-05-15T06:43:41.159Z",
+          "patch_note_id": "patch-rw-3",
+          "confidence_score": 68,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 294100 294101 9204411158172477643",
+          "notes": "Association issue de notes manuelles et non de mapping officiel."
+        }
+      ]
     },
     {
-      "id": "manifest-rw-2",
-      "appid": 294100,
       "depotid": 294102,
-      "manifestid": "6659932300184562110",
-      "buildid": "14102208",
-      "branch": "public",
+      "name": "Depot 294102",
       "os": "macos",
       "language": "all",
-      "date": "2024-04-11T15:51:00Z",
-      "patch_note_id": "patch-rw-1",
-      "confidence_score": 76,
-      "notes": "Dépôt plateforme secondaire potentiellement décalé."
-    },
-    {
-      "id": "manifest-rw-3",
-      "appid": 294100,
-      "depotid": 294101,
-      "manifestid": "4101599362017079550",
-      "buildid": "14118832",
-      "branch": "public",
-      "os": "windows",
-      "language": "all",
-      "date": "2024-04-18T10:19:00Z",
-      "patch_note_id": "patch-rw-2",
-      "confidence_score": 94,
-      "notes": "Hotfix cohérent avec hausse de build mineure."
-    },
-    {
-      "id": "manifest-rw-4",
-      "appid": 294100,
-      "depotid": 294101,
-      "manifestid": "9204411158172477643",
-      "buildid": "13244714",
-      "branch": "public",
-      "os": "windows",
-      "language": "all",
-      "date": "2023-09-26T09:00:00Z",
-      "patch_note_id": "patch-rw-3",
-      "confidence_score": 68,
-      "notes": "Association issue de notes manuelles et non de mapping officiel."
+      "manifests": [
+        {
+          "manifestid": "6659932300184562110",
+          "buildid": "14102208",
+          "branch": "public",
+          "first_seen_at": "2024-04-11T15:51:00Z",
+          "last_seen_at": "2026-05-15T06:43:41.159Z",
+          "patch_note_id": "patch-rw-1",
+          "confidence_score": 76,
+          "source": "manual",
+          "status": "unverified",
+          "download_command": "download_depot 294100 294102 6659932300184562110",
+          "notes": "Dépôt plateforme secondaire potentiellement décalé."
+        }
+      ]
     }
   ],
-  "notes": "Mappings de démonstration. Vérifier la validité avant usage."
+  "notes": "Mappings issus de sources automatiques et/ou manuelles. Vérifier la validité avant usage."
 }
