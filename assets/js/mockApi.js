@@ -146,7 +146,9 @@
     appToDepotsIndex: null,
     bucketCache: {},
     patchByAppCache: {},
-    manifestsByAppCache: {}
+    manifestsByAppCache: {},
+    liveGameBySlugCache: {},
+    liveGameByAppIdCache: {}
   };
 
   function clone(value) {
@@ -160,6 +162,15 @@
   function normalizeBucket(name) {
     var first = String(name || "").trim().charAt(0).toLowerCase();
     return /[a-z]/.test(first) ? first : "0-9";
+  }
+
+  function slugify(input) {
+    return String(input || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "steam-app";
   }
 
   function buildFallbackSearchIndex() {
@@ -228,6 +239,129 @@
     }
 
     return clone(fallbackValue);
+  }
+
+  function getLiveResolverEndpoint() {
+    var config = global.STEAM_PATCHVAULT_CONFIG || {};
+    if (config.liveResolveEndpoint) return String(config.liveResolveEndpoint);
+    if (config.scanEndpoint) {
+      return String(config.scanEndpoint).replace(/request-scan(?:\?.*)?$/i, "resolve-steam-game");
+    }
+
+    var host = String(global.location.hostname || "").toLowerCase();
+    if (host.indexOf("netlify.app") > -1 || host === "localhost" || host === "127.0.0.1") {
+      return "/.netlify/functions/resolve-steam-game";
+    }
+
+    return "";
+  }
+
+  async function fetchLiveResolvedGame(query) {
+    var endpoint = getLiveResolverEndpoint();
+    if (!endpoint) return null;
+
+    var url;
+    try {
+      url = new URL(endpoint, global.location.href);
+    } catch (error) {
+      return null;
+    }
+
+    if (query && query.slug) {
+      url.searchParams.set("slug", String(query.slug));
+    }
+    if (query && query.appid) {
+      url.searchParams.set("appid", String(query.appid));
+    }
+
+    try {
+      var response = await fetch(url.toString(), { cache: "no-store" });
+      if (!response.ok) return null;
+      var payload = await response.json();
+      if (!payload || payload.ok !== true || !payload.game) return null;
+      return payload;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function integrateLiveGame(game, patches) {
+    if (!game || !game.appid) return null;
+
+    var normalized = Object.assign({}, game, {
+      bucket: game.bucket || normalizeBucket(game.name),
+      slug: game.slug || slugify(game.name),
+      live_source: true
+    });
+
+    if (!state.searchIndex) {
+      state.searchIndex = buildFallbackSearchIndex();
+    }
+    if (!Array.isArray(state.searchIndex.games)) {
+      state.searchIndex.games = [];
+    }
+
+    var existingIndex = state.searchIndex.games.findIndex(function findIndex(item) {
+      return String(item.appid) === String(normalized.appid);
+    });
+
+    if (existingIndex > -1) {
+      state.searchIndex.games[existingIndex] = mergeGameWithDepotIndex(Object.assign({}, state.searchIndex.games[existingIndex], normalized));
+    } else {
+      state.searchIndex.games.push(mergeGameWithDepotIndex(normalized));
+    }
+
+    var bucket = normalized.bucket || normalizeBucket(normalized.name);
+    if (!state.bucketCache[bucket]) {
+      state.bucketCache[bucket] = [];
+    }
+    var existingBucketIndex = state.bucketCache[bucket].findIndex(function findBucketIndex(item) {
+      return String(item.appid) === String(normalized.appid);
+    });
+    if (existingBucketIndex > -1) {
+      state.bucketCache[bucket][existingBucketIndex] = mergeGameWithDepotIndex(Object.assign({}, state.bucketCache[bucket][existingBucketIndex], normalized));
+    } else {
+      state.bucketCache[bucket].push(mergeGameWithDepotIndex(normalized));
+    }
+
+    if (Array.isArray(patches)) {
+      state.patchByAppCache[String(normalized.appid)] = patches.slice().sort(byDateDesc);
+      if (App.storage) {
+        App.storage.cachePatches(String(normalized.appid), patches);
+      }
+    }
+
+    return mergeGameWithDepotIndex(normalized);
+  }
+
+  async function fetchAndCacheLiveGameBySlug(slug) {
+    var key = String(slug || "").trim();
+    if (!key) return null;
+    if (state.liveGameBySlugCache[key]) return state.liveGameBySlugCache[key];
+
+    var payload = await fetchLiveResolvedGame({ slug: key });
+    if (!payload || !payload.game) return null;
+
+    var game = integrateLiveGame(payload.game, payload.patches || []);
+    if (!game) return null;
+    state.liveGameBySlugCache[key] = game;
+    state.liveGameByAppIdCache[String(game.appid)] = game;
+    return game;
+  }
+
+  async function fetchAndCacheLiveGameByAppId(appid) {
+    var key = String(appid || "").trim();
+    if (!key) return null;
+    if (state.liveGameByAppIdCache[key]) return state.liveGameByAppIdCache[key];
+
+    var payload = await fetchLiveResolvedGame({ appid: key });
+    if (!payload || !payload.game) return null;
+
+    var game = integrateLiveGame(payload.game, payload.patches || []);
+    if (!game) return null;
+    state.liveGameByAppIdCache[key] = game;
+    state.liveGameBySlugCache[String(game.slug)] = game;
+    return game;
   }
 
   async function ensureSearchIndexLoaded() {
@@ -384,6 +518,13 @@
     var expandedResults = search.searchGames(expandedGames, cleanQuery, { limit: 24, minScore: 18 });
     var finalResults = expandedResults.length ? expandedResults : primaryResults;
 
+    if (!finalResults.length && cleanQuery.length >= 3) {
+      var liveGame = await fetchAndCacheLiveGameBySlug(slugify(cleanQuery));
+      if (liveGame) {
+        return [Object.assign({}, liveGame, { search_score: 99 })];
+      }
+    }
+
     return finalResults.map(function mapEntry(entry) {
       var result = Object.assign({}, entry.game);
       result.search_score = entry.score;
@@ -404,7 +545,10 @@
       return item.slug === cleanSlug;
     });
 
-    if (!summary) return null;
+    if (!summary) {
+      await ensureAppToDepotsIndexLoaded();
+      return fetchAndCacheLiveGameBySlug(cleanSlug);
+    }
 
     var bucket = summary.bucket || normalizeBucket(summary.name);
     var bucketGames = await loadGamesBucket(bucket);
@@ -448,18 +592,38 @@
   }
 
   async function refreshGameFromSteam(appid) {
+    var liveGame = await fetchAndCacheLiveGameByAppId(appid);
+    if (!liveGame) {
+      return {
+        ok: false,
+        appid: appid,
+        message: "Aucune réponse live Steam disponible pour cet AppID."
+      };
+    }
+
     return {
-      ok: false,
+      ok: true,
       appid: appid,
-      message: "Mode runtime API-free: les données sont régénérées par GitHub Actions en JSON statiques."
+      game: liveGame,
+      message: "Fiche live rafraîchie depuis Steam."
     };
   }
 
   async function refreshNewsFromSteam(appid) {
+    var liveGame = await fetchAndCacheLiveGameByAppId(appid);
+    if (!liveGame) {
+      return {
+        ok: false,
+        appid: appid,
+        message: "News Steam live indisponibles pour cet AppID."
+      };
+    }
+
     return {
-      ok: false,
+      ok: true,
       appid: appid,
-      message: "Mode runtime API-free: aucune requête Steam API côté visiteur."
+      patches: (state.patchByAppCache[String(appid)] || []).slice(),
+      message: "News Steam live chargées."
     };
   }
 

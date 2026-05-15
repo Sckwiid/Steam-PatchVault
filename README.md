@@ -91,11 +91,13 @@ Flux:
 Fichiers ajoutés:
 
 - [netlify/functions/request-scan.mjs](/Users/julien/Documents/projets/steam-PatchVault/netlify/functions/request-scan.mjs)
+- [netlify/functions/resolve-steam-game.mjs](/Users/julien/Documents/projets/steam-PatchVault/netlify/functions/resolve-steam-game.mjs)
 - [netlify.toml](/Users/julien/Documents/projets/steam-PatchVault/netlify.toml)
 
 But:
 
 - quand un joueur ouvre une fiche jeu avec data incomplète, le frontend peut demander un scan appinfo/PICS
+- si un slug n'existe pas encore localement, le frontend peut résoudre la fiche en live via Steam (Netlify Function), puis afficher les news/patch notes récentes
 - la Function Netlify déclenche `scan-appinfo-pics.yml` via l’API GitHub Actions
 - anti-spam activé côté client + côté Function + côté workflow
 

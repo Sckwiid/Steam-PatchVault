@@ -58,6 +58,8 @@
   var SCAN_REQUEST_COOLDOWN_MS = 6 * 60 * 60 * 1000;
   var SCAN_AUTO_COOLDOWN_MS = 24 * 60 * 60 * 1000;
   var SCAN_BURST_THROTTLE_MS = 45 * 1000;
+  var AUTO_GITHUB_SEARCH_COOLDOWN_MS = 6 * 60 * 60 * 1000;
+  var AUTO_STEAM_REFRESH_COOLDOWN_MS = 2 * 60 * 60 * 1000;
   var scanInFlightByAppId = Object.create(null);
 
   function escapeHtml(value) {
@@ -905,7 +907,9 @@
       GitHubManifestSearchPanel(game, knownDepotIds);
 
     root.innerHTML = layout(content);
-    maybeAutoRequestScan(game, knownDepotIds);
+    maybeAutoRefreshFromSteam(game).catch(function noop() {});
+    maybeAutoRequestScan(game, knownDepotIds).catch(function noop() {});
+    maybeAutoRunGitHubSearch(game, knownDepotIds).catch(function noop() {});
   }
 
   function renderTutorial(mode) {
@@ -994,6 +998,24 @@
 
   function setGitHubSearchState(next) {
     state.githubManifestSearch = Object.assign({}, state.githubManifestSearch, next);
+  }
+
+  function getAutoGitHubSearchKey(appid) {
+    return "auto-github-search:" + String(appid || "");
+  }
+
+  function getAutoSteamRefreshKey(appid) {
+    return "auto-steam-refresh:" + String(appid || "");
+  }
+
+  function getStorageLock(key) {
+    if (!App.storage || !App.storage.getWithTTL) return null;
+    return App.storage.getWithTTL(key);
+  }
+
+  function setStorageLock(key, payload, ttlMs) {
+    if (!App.storage || !App.storage.setWithTTL) return;
+    App.storage.setWithTTL(key, payload || {}, ttlMs);
   }
 
   async function requestRemoteScan(game, options) {
@@ -1157,6 +1179,45 @@
       setScanLock(appid, "auto", { next_allowed_at: new Date(Date.now() + 30 * 60 * 1000).toISOString(), status: "error" }, 30 * 60 * 1000);
     }
     await applyScanDispatchResult(game, result, { auto: true });
+  }
+
+  async function maybeAutoRefreshFromSteam(game) {
+    if (!game || !game.appid || !App.api || !App.api.refreshNewsFromSteam || !App.api.refreshGameFromSteam) return;
+
+    var appid = String(game.appid);
+    var needsRefresh = !state.currentPatches.length || !state.currentAllManifests.length;
+    if (!needsRefresh) return;
+
+    var refreshLockKey = getAutoSteamRefreshKey(appid);
+    if (getStorageLock(refreshLockKey)) return;
+
+    setStorageLock(refreshLockKey, { triggered_at: new Date().toISOString() }, AUTO_STEAM_REFRESH_COOLDOWN_MS);
+
+    try {
+      await App.api.refreshGameFromSteam(appid);
+      await App.api.refreshNewsFromSteam(appid);
+      state.currentPatches = await App.api.getPatchesByAppId(appid);
+      state.currentAllManifests = await App.api.getManifestsByAppId(appid);
+
+      if (state.route.name === "game" && state.currentGame && String(state.currentGame.appid) === appid) {
+        await renderGame(state.route);
+      }
+    } catch (error) {
+      // silent: static data remains available
+    }
+  }
+
+  async function maybeAutoRunGitHubSearch(game, knownDepotIds) {
+    if (!game || !game.appid || !App.githubManifestSearch) return;
+    if (!Array.isArray(knownDepotIds) || !knownDepotIds.length) return;
+    if (state.githubManifestSearch.status !== "idle") return;
+
+    var appid = String(game.appid);
+    var autoSearchKey = getAutoGitHubSearchKey(appid);
+    if (getStorageLock(autoSearchKey)) return;
+
+    setStorageLock(autoSearchKey, { triggered_at: new Date().toISOString() }, AUTO_GITHUB_SEARCH_COOLDOWN_MS);
+    await runGitHubManifestSearch(false);
   }
 
   async function runGitHubManifestSearch(ignoreCache) {
