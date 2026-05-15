@@ -1,8 +1,23 @@
 {
   "appid": 739630,
-  "generated_at": "2026-05-15T13:27:11.286Z",
+  "generated_at": "2026-05-15T15:19:25.607Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1832700592792331",
+      "appid": 739630,
+      "title": "Phasmophobia - Hotfix v0.17.1.2",
+      "version_detected": "17.1.2",
+      "date": "2026-05-15T15:18:19.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Today we have released an additional hotfix for Phasmophobia that is available now for all platforms.Patch notes:FixesFixed an issue that was causing a crash across all platforms.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592792331",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "crash"
+      ]
+    },
     {
       "id": "steam-news-739630-1832700592787161",
       "appid": 739630,
@@ -165,21 +180,6 @@
       "keywords": [
         "fix",
         "ui",
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1827626365765976",
-      "appid": 739630,
-      "title": "Announcing - The Cursed Hollow Takes Hold",
-      "version_detected": "1.0",
-      "date": "2026-03-24T15:00:57.000Z",
-      "type": "content",
-      "content": "Welcome back, Ghost Hunters.Spring is in the air, but with it comes the call of the Cursed Hollow. Phasmophobia’s first seasonal event of the year returns on March 31st, 2026 and runs until April 21st, 2026. Keep an eye on our social channels and official Discord server for exact launch timings. The Cult of the Cursed Hollow have returned to several locations throughout Phasmophobia to honour the Forest Spirit and its Minions, leaving relics, totems, and ritual nests in their wake.It’ll be down to Ghost Hunters to work together to discover the secrets and unlock rewards over the course of the event. Each day, the Cult of the Cursed Hollow will visit a selection of maps. Throughout the event, you can expect to see a different group of locations from this list receive Cursed Hollow theming; 6 Tanglewood Drive13 Willow Street42 Edgefield Road10 Ridgeview CourtNell's DinerGrafton FarmhouseBleasdale FarmhouseCamp WoodwindMaple Lodge CampsitePoint HopeWhile we won’t spoil what each map will look like, check out the below selection of screenshots to see what’s in store.As with all of Phasmophobia’s seasonal events, Ghost Hunters will be able to unlock rewards from completing both Community and Personal Goals, including the Pathfinder ID Card & Badge set in both static and animated forms. Elsewhere, based on feedback from last year’s Cursed Hollow event, we’ve made some slight changes to the gameplay modifiers received upon encountering a Forest Minion. Look out for details on all of the above in our patch notes at the launch of the event.Following our reworked 6 Tanglewood Drive update, Cursed Hollow is the next moment in a huge year for Phasmophobia. Be sure to check out our Roadmap as we head towards Phasmophobia 1.0 and much more.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365765976",
-      "source_type": "manual",
-      "keywords": [
-        "mod",
         "event"
       ]
     }
