@@ -1,7 +1,7 @@
 {
   "appid": "739630",
   "game_name": "Phasmophobia",
-  "last_scanned_at": "2026-05-14T20:43:49Z",
+  "last_scanned_at": "2026-05-16T05:56:11Z",
   "tracked_since": "2026-05-14T20:43:49Z",
   "source": "steam_appinfo_pics",
   "depots": [
@@ -16,7 +16,7 @@
           "buildid": null,
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
-          "last_seen_at": "2026-05-14T20:43:49Z",
+          "last_seen_at": "2026-05-16T05:56:11Z",
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
           "confidence_score": 60,
