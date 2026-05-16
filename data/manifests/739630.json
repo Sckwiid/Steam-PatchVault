@@ -1,30 +1,29 @@
 {
-  "appid": "739630",
-  "game_name": "Phasmophobia",
-  "last_scanned_at": "2026-05-16T05:56:11Z",
+  "appid": 739630,
+  "last_scanned_at": "2026-05-16T06:08:47.047Z",
   "tracked_since": "2026-05-14T20:43:49Z",
-  "source": "steam_appinfo_pics",
   "depots": [
     {
-      "depotid": "739631",
-      "depot_name": "Phasmophobia Windows Content",
+      "depotid": 739631,
+      "name": "Depot 739631",
       "os": "windows",
       "language": "all",
       "manifests": [
         {
           "manifestid": "2382933349983046343",
-          "buildid": null,
+          "buildid": "unknown",
           "branch": "public",
           "first_seen_at": "2026-05-14T20:43:49Z",
-          "last_seen_at": "2026-05-16T05:56:11Z",
+          "last_seen_at": "2026-05-16T06:08:47.047Z",
+          "patch_note_id": "steam-news-739630-1832700592792331",
+          "confidence_score": 84,
           "source": "steam_appinfo_pics",
           "status": "auto_detected_unverified",
-          "confidence_score": 60,
           "download_command": "download_depot 739630 739631 2382933349983046343",
-          "notes": "Manifest connu, téléchargement non garanti."
+          "notes": "Manifest connu, téléchargement non garanti. Association patch note estimée par proximité temporelle."
         }
       ]
     }
   ],
-  "notes": "Manifests issus de scans appinfo/PICS et d'historique local. ManifestID connu ≠ téléchargement garanti."
+  "notes": "Mappings issus de sources automatiques et/ou manuelles. Vérifier la validité avant usage."
 }
