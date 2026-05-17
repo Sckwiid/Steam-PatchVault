@@ -1,8 +1,23 @@
 {
   "appid": 105600,
-  "generated_at": "2026-05-16T06:08:47.047Z",
+  "generated_at": "2026-05-17T06:31:15.080Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1832700592794921",
+      "appid": 105600,
+      "title": "Celebrating 15 Years of Terraria!",
+      "version_detected": "39.6m",
+      "date": "2026-05-16T19:02:27.000Z",
+      "type": "minor",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/663329026d95b0bf35381bea50fc6fed07eef136.png Fifteen Years?! That is a long time indeed! That's 131,400 hours - which quite a few of you have chosen to spend with our humble game. To say that reaching this milestone is equal parts insane and humbling is a massive understatement. It is really hard to put into words what your support for these many years has meant to our little studio. Simply put, you all are the engine that makes this all work. Your support allows us to keep going, keep expanding upon Terraria, without having to fall back to price increases or microtransactions. This is becoming increasingly rare in modern gaming, and we cannot thank you enough for making what we do every day possible. From the hardcore players with thousands of hours to those just discovering our \"metroidvania in a sandbox\" today... from the builders to the speedrunners... from those that we interact with regularly in our community to those that just enjoy the game in silence... from those that are regular Terraria enjoyers to those that like to shake things up with all sorts of mods on tModloader... each and every one of you are precious to us. We hope that our game has brought you some joy over the years. Terraria is a unique experience one that we like to think that we have shaped together alongside the fans into the awesomeness that it is today. This is as much your journey as it is ours! We thought that it might be fun to toss out some quick numbers to mark the occasion... Copies of Terraria sold to-date: Total: 70 Million PC: 39.6m Console: 10.7m Mobile: 19.7m tModLoader: 12.3m downloads on Steam Average Players/Day in the past year (PC) Terraria: 461k (peaked at 1.4m) tModLoader: 237k (peaked at 441k) (Steam counts Terraria and TML separately) Average Hours Played (PC): Terraria: 101 Hours, 18 Minutes tModLoader: 89 Hours, 52 Minutes How about you - how many hours have you played? When did you start? What is your favorite memory of your time with Terraria? {STEAM_CLAN_IMAGE}/3949769/3c24853f896391bff2d39309d74b489d2394da30.png So, where does the path lead from here? What does the future hold for Terraria and Re-Logic? Well, for now we are comfor...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592794921",
+      "source_type": "manual",
+      "keywords": [
+        "mod",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-105600-1831432155570207",
       "appid": 105600,
@@ -175,21 +190,6 @@
         "ui",
         "quest",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1806698490694224",
-      "appid": 105600,
-      "title": "Terraria State of the Game - July 2025",
-      "version_detected": "1.4.5",
-      "date": "2025-07-31T21:50:59.000Z",
-      "type": "content",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/fce0b0869dec8284b94c793a3ab92afc911abd3d.png Greetings Terrarians! Hot enough out there for everyone? Seems like there is nowhere that is safe from the heat wave this summer! More time to stay cool, stay indoors, and play video games, right? On our end, work on Terraria 1.4.5 continues unabated - we think this month's spoiler is a particularly fun one. Still no dates to share, which we know will be disappointing to everyone, but we are doing our very best to get to that day as quickly as possible. That said, again we hope that you enjoy what we have in store for you this month... and hopefully it will not be too much longer before we can give you that launch window. Let's dive right in and see what's in store this time! PC - RE-LOGIC ZIPPING ACROSS THE LANDSCAPE RC-STYLE​ The Re-Logic team continues to be hard at work whittling away at the pile of tickets. This month has seen quite a bit of effort focused on one of the new unique World Seeds. It is indeed a pesky one, given the odd ways it seems to interact with the worldgen. We are not quite ready to dive into the details of that one just yet, so you will have to remain in the dark for now. As to what we do have to show this month... Inspired somewhat by the Kwad Racer Drone, the team has added a brand new RC Car that you can use to zip around your Terraria worlds. It can even climb backwalls! We cannot wait to see what crazy racetracks the Terraria community might come up with to challenge even the most daredevil drivers out there. Be sure to share them with us when the time comes! https://i.imgur.com/QqtKuJN.gif Wait... it can climb walls as well?! What other goodies are in store for Terraria 1.4.5... time will tell! STEAM WORKSHOP NEWS Click the banner above to check out the Terraria Workshop! Countless Terraria texture packs and worlds await you in the Terraria Steam Workshop! You are missing out if you haven't taken the time to check out these amazing creations from the community. WHAT ELSE IS GOING ON? Trying our very best to narrow in on that elusive launch window... TMODLOADER NEWS - TML TEAM Hello everyone! On August 1st the monthly update release of tModLoader will go live. ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1806698490694224",
-      "source_type": "manual",
-      "keywords": [
-        "mod",
-        "ui"
       ]
     }
   ]
