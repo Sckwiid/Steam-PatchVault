@@ -1,8 +1,20 @@
 {
   "appid": 739630,
-  "generated_at": "2026-05-18T07:07:31.898Z",
+  "generated_at": "2026-05-19T06:58:23.078Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1832700592797840",
+      "appid": 739630,
+      "title": "Phasmophobia by Alan Wake - Twitch Drop",
+      "version_detected": "",
+      "date": "2026-05-18T10:21:06.000Z",
+      "type": "minor",
+      "content": "Be a part of the story with The Seer ID Card & Badge.Our Phasmophobia by Alan Wake Twitch Drop will be available from 12PM BST May 19th - 12PM BST May 26th.Earn the Animated variant via Kinetic Games Partner streams, and the Standard via any Phasmophobia streams during the campaign. The total watch time to earn the Drops is 2 hours.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592797840",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-739630-1832700592792331",
       "appid": 739630,
@@ -166,22 +178,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815557356",
       "source_type": "manual",
       "keywords": []
-    },
-    {
-      "id": "steam-news-739630-1828441623111971",
-      "appid": 739630,
-      "title": "Phasmophobia - Cursed Hollow v0.16.1.0",
-      "version_detected": "16.1.0",
-      "date": "2026-03-31T11:31:00.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. We’ve got an update for you. Today we’re excited to kick-off 2026’s iteration of Cursed Hollow, Phasmophobia’s annual springtime in-game event. As detailed previously, we’re tasking Ghost Hunters to once again work together to unlock rewards by taking part in event activities on the event specific maps. Full details can be found via the linked blog above and below you’ll find today’s patch notes.NewCursed Hollow: Complete contracts, objectionable objectives and more to earn points towards both Community & Personal goals. Each day, a different selection of locations will be specified on the contract board to be a part of the event. For more details, read here.Double XP & Rewards: For the first week of the event (31st March - 7th April), players will receive double XP and rewards from their contracts. Cursed Hollow Rewards: On completing the goals, players will be rewarded with event-specific rewards such as the Pathfinder ID Card & Badge, in both static and animated versions. As part of the Cursed Hollow rewards, players will notice that we are offering cosmetic rewards for the first time. Going forward, this will be the case for every seasonal event.For this year’s Cursed Hollow only, while the challenge can be completed during the event, the rewards themselves will only be available at the launch of our Player Character Update, due for release soon. Players that successfully complete the Cursed Hollow Cosmetics personal goal will be able to view and equip these items as soon as the update is available. To that end, we wanted to provide a preview of the rewards themselves so Ghost Hunters know what they are working towards. ChangesWhen revealing a ‘lucky’ Forest Minion, the ghost speed will decrease by 10%. This is stackable.When revealing an ‘unlucky’ Forest Minion, the ghost speed will increase by 10%. This is stackable.Fixes The Cursed Hollow Altar in the warehouse will now transform correctly upon certain goals being achieved by the community and player.Fixed an issue on 6 Tanglewood Drive that caused rain during Blood Moon weather to not have any audio.Fixed an issue that caused fingerprints on 6 Tanglewood Drive to display at t...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623111971",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "ui",
-        "event"
-      ]
     }
   ]
 }
