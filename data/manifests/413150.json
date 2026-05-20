@@ -1,6 +1,6 @@
 {
   "appid": 413150,
-  "last_scanned_at": "2026-05-19T06:58:23.078Z",
+  "last_scanned_at": "2026-05-20T06:58:16.862Z",
   "tracked_since": "2026-05-16T06:08:47.047Z",
   "depots": [
     {
@@ -14,7 +14,7 @@
           "buildid": "13698770",
           "branch": "public",
           "first_seen_at": "2024-04-02T09:08:00Z",
-          "last_seen_at": "2026-05-19T06:58:23.078Z",
+          "last_seen_at": "2026-05-20T06:58:16.862Z",
           "patch_note_id": "patch-sv-2",
           "confidence_score": 95,
           "source": "manual",
@@ -27,7 +27,7 @@
           "buildid": "13660022",
           "branch": "public",
           "first_seen_at": "2024-03-19T17:22:00Z",
-          "last_seen_at": "2026-05-19T06:58:23.078Z",
+          "last_seen_at": "2026-05-20T06:58:16.862Z",
           "patch_note_id": "patch-sv-1",
           "confidence_score": 93,
           "source": "manual",
@@ -40,7 +40,7 @@
           "buildid": "12844991",
           "branch": "public",
           "first_seen_at": "2023-11-14T13:30:00Z",
-          "last_seen_at": "2026-05-19T06:58:23.078Z",
+          "last_seen_at": "2026-05-20T06:58:16.862Z",
           "patch_note_id": "patch-sv-3",
           "confidence_score": 71,
           "source": "manual",
@@ -61,7 +61,7 @@
           "buildid": "13660022",
           "branch": "public",
           "first_seen_at": "2024-03-19T17:26:00Z",
-          "last_seen_at": "2026-05-19T06:58:23.078Z",
+          "last_seen_at": "2026-05-20T06:58:16.862Z",
           "patch_note_id": "patch-sv-1",
           "confidence_score": 79,
           "source": "manual",

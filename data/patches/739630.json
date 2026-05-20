@@ -1,8 +1,24 @@
 {
   "appid": 739630,
-  "generated_at": "2026-05-19T06:58:23.078Z",
+  "generated_at": "2026-05-20T06:58:16.862Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1832700592800634",
+      "appid": 739630,
+      "title": "Phasmophobia - Hotfix v0.17.1.3",
+      "version_detected": "17.1.3",
+      "date": "2026-05-19T10:58:55.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters. Today we have released an additional hotfix for Phasmophobia that is available now for all platforms.FixesFixed an issue that was causing a crash for players loading in to event maps.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592800634",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "event",
+        "crash"
+      ]
+    },
     {
       "id": "steam-news-739630-1832700592797840",
       "appid": 739630,
@@ -166,18 +182,6 @@
       "keywords": [
         "event"
       ]
-    },
-    {
-      "id": "steam-news-739630-1828894815557356",
-      "appid": 739630,
-      "title": "Phasmophobia X Galaxies Showcase",
-      "version_detected": "",
-      "date": "2026-04-02T13:07:05.000Z",
-      "type": "minor",
-      "content": "Ghost Hunters, time to tune in.Phasmophobia will be a part of the Galaxies Spring Showcase on Twitch taking place 16th April, 2026 at 8PM BST. Watch the show to also earn the exclusive Astronomer ID Card & Badge Twitch Drop.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815557356",
-      "source_type": "manual",
-      "keywords": []
     }
   ]
 }
