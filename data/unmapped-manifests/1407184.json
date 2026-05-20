@@ -1,6 +1,6 @@
 {
   "depotid": "1407184",
-  "updated_at": "2026-05-19T06:50:31Z",
+  "updated_at": "2026-05-20T06:50:32Z",
   "manifests": [
     {
       "depotid": "1407184",
@@ -2093,6 +2093,38 @@
     {
       "depotid": "1407184",
       "manifestid": "226517292999076389",
+      "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "1407184",
+      "manifestid": "1237832376538189432",
+      "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "1407184",
+      "manifestid": "2459861305363927417",
+      "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "1407184",
+      "manifestid": "483130262819853479",
+      "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "1407184",
+      "manifestid": "5245813056887946106",
       "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
       "source_type": "github_tree_index",
       "status": "unverified",

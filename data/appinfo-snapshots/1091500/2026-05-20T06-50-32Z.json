@@ -1,0 +1,34 @@
+{
+  "appid": "1091500",
+  "game_name": "Cyberpunk 2077",
+  "source": "mock_appinfo",
+  "scanned_at": "2026-05-20T06:50:32Z",
+  "depots": [
+    {
+      "depotid": "1091501",
+      "depot_name": "Cyberpunk 2077 Windows Content",
+      "os": "windows",
+      "language": "all",
+      "manifests": [
+        {
+          "manifestid": "1234567890123456789",
+          "branch": "public",
+          "buildid": null
+        }
+      ]
+    },
+    {
+      "depotid": "1091502",
+      "depot_name": "Cyberpunk 2077 Audio",
+      "os": "windows",
+      "language": "all",
+      "manifests": [
+        {
+          "manifestid": "2234567890123456789",
+          "branch": "public",
+          "buildid": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-19T06:51:39Z",
+  "generated_at": "2026-05-20T06:51:08Z",
   "apps_scanned": 3,
   "depots_indexed": 5,
-  "github_manifests_imported": 87171,
+  "github_manifests_imported": 87237,
   "github_manifests_mapped": 30,
-  "github_manifests_unmapped": 87141,
+  "github_manifests_unmapped": 87207,
   "apps_with_manifests": 3,
   "apps_with_depots": 3
 }
