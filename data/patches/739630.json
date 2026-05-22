@@ -1,8 +1,20 @@
 {
   "appid": 739630,
-  "generated_at": "2026-05-21T07:02:56.262Z",
+  "generated_at": "2026-05-22T06:58:39.461Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1833334318568929",
+      "appid": 739630,
+      "title": "Phasmophobia - Double XP & Rewards",
+      "version_detected": "",
+      "date": "2026-05-21T13:29:46.000Z",
+      "type": "minor",
+      "content": "Ghost Hunters, Between May 22nd, 2026 and May 25th, 2026 you will receive double XP and rewards for any contracts you complete in Phasmophobia. We hope you enjoy.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318568929",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-739630-1832700592800634",
       "appid": 739630,
@@ -167,20 +179,6 @@
       "source_type": "manual",
       "keywords": [
         "fix"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1829528821304491",
-      "appid": 739630,
-      "title": "Phasmophobia X YouTooz",
-      "version_detected": "",
-      "date": "2026-04-08T14:40:17.000Z",
-      "type": "content",
-      "content": "Ghost Hunters,We're excited to reveal our collaboration with YouTooz - a vinyl figure of the Forest Spirit from the Cursed Hollow event, currently taking place in Phasmophobia until April 21st. The Forest Spirit vinyl figure is available to purchase now for a limited time only, you have until May 5th at 12PM PT.Order yours here: https://youtooz.com/products/forest-spirit",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821304491",
-      "source_type": "manual",
-      "keywords": [
-        "event"
       ]
     }
   ]
