@@ -1,8 +1,24 @@
 {
   "appid": 105600,
-  "generated_at": "2026-05-28T07:04:25.854Z",
+  "generated_at": "2026-05-29T07:05:39.568Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1833968530889388",
+      "appid": 105600,
+      "title": "Terraria State of the Game - May 2026",
+      "version_detected": "1.4.5",
+      "date": "2026-05-28T20:36:37.000Z",
+      "type": "balance",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/1e98b5c18c13a38557e2dda5d1ce71d9e6d2ac41.png Greetings Terrarians! We are back once again with the latest and greatest Terraria news. It was another eventful month - Terraria turned 15(!), we saw the teaser reveals of both the Collector's Edition and the Design Works retrospective book, and a ton of progress took place on 1.4.5.7 as well. That one is shaping up nicely, we think, and thank you for giving us the time needed to try and get it as right as possible on the first go - a big challenge with any balance-based task. All that said, we hope you will enjoy what we have to share this month and are as excited as we are for what is to come in the weeks and months ahead! Let's see what is in store this month, shall we... {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png PC - RE-LOGIC TERRARIA 1.4.5.7 - GETTING OUTSIDE THE BOX Sometimes, addressing balance means rethinking some core aspects around how things function - or expanding upon what is already there in new ways. Our pair of spoilers this month are a nice representation of this dynamic. They are also again indicative of the scope of changes being made around the balancing goals - this is not just about adjusting a few numbers here and there. Of course, when the time comes and you all have these changes in your hands, we will be all ears to hear your feedback. Too much? Not enough? Just right? We can't wait to see what you make of it all! Alongside that work, we have been having some nice discussions around how best to roll out Crossplay (likely in phases, as shared previously) in a way that brings the functionality as quickly as possible to everyone without causing any confusion. We will share more on that as those plans coalesce, but suffice to say for now that we are trying to plan ahead for what's next! As for this month's PC spoiler, well... {STEAM_CLAN_IMAGE}/3949769/dcab2223831846f90ae315aa2fd123e8b630775c.gif Where does he get those wonderful toys... Keep your thoughts and feedback rolling in, it is always helpful for us to take into account. Hopefully, we will have 1.4.5.7 wrapped up soon! {STEAM_CLAN_IMAGE}/3949769/3c24853f896391bff2d39309d74b489d23...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530889388",
+      "source_type": "manual",
+      "keywords": [
+        "balance",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-105600-1832700592794921",
       "appid": 105600,
@@ -170,25 +186,6 @@
         "fix",
         "content",
         "ui",
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1809235871598007",
-      "appid": 105600,
-      "title": "Terraria State of the Game - August 2025",
-      "version_detected": "1.4.5",
-      "date": "2025-08-28T21:13:10.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/07bf0f78a39319613a7eb1d7c1a4787c09260a1a.png Greetings Terrarians! August was quite an eventful month for Team Terraria. We are well into the final push for Terraria 1.4.5 (for real, more on that below), and tickets are flying through the system. Several members of the team were also able to get together in person this month for the first time in many years - and for the first time ever with some folks. We have also been able to take care of a lot of planning for \"what comes next\" that will hopefully make for more consistency down the line. More on that in the future. With that said, we are all back home and ready to push this over the line. Let's get right into it, shall we? PC - RE-LOGIC TERRARIA 1.4.5 - WE ARE IN THE ENDGAME NOW​ The Re-Logic team sat down this past month for one last parsing of the list of items remaining. Some things were deferred and others prioritized - all in an effort to arrive at something we have been looking forward to for quite a while: an internal launch window. Up until this point, the timing has been somewhat fluid based on additional content needs and unexpected bugs and such. We are not quite ready to share that timeline publicly just yet, but we have informed all of our internal partners (DR Studios, etc) of the plan so that we can work together to make this happen. More than ever before with 1.4.5, this is truly the final push. Speaking of the release of Terraria 1.4.5, we are hoping for and planning on this being a global launch. What that means is that we are aiming to release on all platforms at or around the same time. That includes PC, Consoles, Mobile, China Mobile, etc. We are considering this somewhat of a \"dry run\" for the post-Crossplay world - which is something we hope to bring to fruition in very short order once 1.4.5 is out and all hotfixes are done. This requires a lot of coordination and planning for things like localization and submissions. As mentioned above, that process is well underway. Happy to answer questions from anyone as we can, but things are really coming into focus now... As for spoilers this month, the team thought it might be fun to look at some of the unsung work th...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809235871598007",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "content",
-        "ui",
-        "quest",
         "event"
       ]
     }

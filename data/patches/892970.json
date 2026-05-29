@@ -1,8 +1,24 @@
 {
   "appid": 892970,
-  "generated_at": "2026-05-28T07:04:25.854Z",
+  "generated_at": "2026-05-29T07:05:39.568Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1833968530887840",
+      "appid": 892970,
+      "title": "Word From the Devs: Summoning Our Champions!",
+      "version_detected": "1.0",
+      "date": "2026-05-28T11:31:06.000Z",
+      "type": "hotfix",
+      "content": "Hello vikings! We would like to start off on a slightly different note this month, where instead of us sharing something with you, we want to ask you to share something with us. We are entering the final stages of development for the Deep North, and for Valheim 1.0, and for that launch to be the best it possibly can be we are in need of your help! There is currently a patch out on the PTB that features a rework of the save system, and we would be eternally grateful if you wanted to switch over to the PTB and test it out. What we would ask you to be particularly attentive to is any issues with your savedata or with the network functionality – if you find any issues pertaining to this (or any other bugs, of course) please report them in our official form. Thank you most kindly! On the topic of sharing, we also want to hear about your experiences of Valheim as a whole! Over the years we have received so many stories about people finding friends, community and love through the game, and we want to highlight these tales of kinship and joy. If you would like to tell us about what Valheim has meant to you, we encourage you to record a short video and submit it via this form. It doesn’t have to look professional by any means, just follow the specifications listed in the form. Most importantly, tell us your story! Of course we’re not only asking things of you this month, we also have some things to share on our end! First of all we want to let you all know to tune in to the PC Gaming Show on 7 June, as there might be something pretty interesting happening there from a Valheim point of view. You won’t want to miss it! Another thing we want to share with you is the proper first look at some of the achievements that will be featured with Valheim at the 1.0 release! You’ve been asking for achievements for a long time, and we’re happy to say that there will be over 50 of them. We won’t tell you what you need to do to acquire them just quite yet, but perhaps you can make a guess or two? {STEAM_CLAN_IMAGE}/33695701/1b19de932d591bcf4aa5a47917e63b4dff11b1e7.png Build of the Month This month we’re setting our sights on this sprawling Hall of the Mountain King, built by Archimedes....",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530887840",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "network",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-892970-1832065502808130",
       "appid": 892970,
@@ -173,23 +189,6 @@
         "fix",
         "balance",
         "content",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1809869179994587",
-      "appid": 892970,
-      "title": "Patch 0.221.4 (Public Test)",
-      "version_detected": "0.221.4",
-      "date": "2025-09-03T08:35:57.000Z",
-      "type": "hotfix",
-      "content": "⚠️ Note: This update is for the Public Test branch of Valheim only, and may therefore be unstable! Prior to launching this update to the Default version of the game, we want to have a chance to discover bugs and fine-tune the balancing to ensure the best game experience. ACCESS: Right-click Valheim in your Steam library, then select ‘Properties’. In the new window, select ‘Betas’ and type in the code “yesimadebackups”. The Public Test branch should now be available for you to select. The PTB FAQ can be found here. FEEDBACK: Please leave any feedback in the “#valheim-public-test” channel in our Discord or through the form on our website. Please remember to be considerate towards players who are not participating in the Public Test, as some may prefer to avoid spoilers. As indicated by the access code, please ensure to create backups of your save files before playing. Hello vikings! We hope you've been enjoying the Call to Arms update so far! We've gotten some great feedback, so now we have a long list of tweaks and fixes that should make the update both more stable and more enjoyable. This includes some fixes to wooden weapons, as well as tweaks to adrenaline and the new creatures. Fight well! Abbreviated Patch Notes: * Battle Brother has remembered his real name: T.W.I.G. * Tweaks to adrenaline gain * Tweaks to Bear and Vile behaviour * Various bug fixes Detailed Patch Notes: Fixes & Improvements: * Battle Brother has remembered his real name: T.W.I.G. * Bottled Tar Blob now has the correct model when being thrown * Frost Blob is now weak against fire and very resistant against frost * The Frost Blob Bomb now requires a Drake trophy instead of a Stone Golem trophy * Made tweaks to make knives better for combat in slopes * Wooden Greatsword is now repairable at the workbench * Wooden weapons now have more appropriate block power * Wooden Atgeirs are now a bit more rare to find * Wooden Sword and Wooden Greatsword now sound like they’re made of wood * Using mage staffs directly after dodging no longer grants abnormal amount of adrenaline * Staff of Embers and Staff of Fracturing now only grant adrenaline on use instead of on hit * Staff of Frost projectiles now gr...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809869179994587",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "mod",
         "ui"
       ]
     }
