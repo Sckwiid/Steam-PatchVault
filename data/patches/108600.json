@@ -1,8 +1,24 @@
 {
   "appid": 108600,
-  "generated_at": "2026-05-29T07:05:39.568Z",
+  "generated_at": "2026-05-30T06:31:56.296Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1833968530890581",
+      "appid": 108600,
+      "title": "REINFORCING THE BARRICADES",
+      "version_detected": "42.19",
+      "date": "2026-05-29T10:09:23.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/4460946/63746381a78ca3f6108bc4fc54c8de1897abe0f2.jpg Hello, Survivors! Today we are bringing you some news related to our localization process, along with a quick preview of the upcoming 42.19 Update! So throw some beef jerky into your fanny pack, fill up your canteen with whiskey, and let’s take a look: LOCALIZATION: A PIVOT Previously, TIS announced that Project Zomboid would be moving to external localization for Build 42 and beyond. However, after trying this process out and then mixing in many separate changes and recent improvements to our workflow, we believe that the extended future of both the game and community would be better served by returning to the community translation model that we had been so proud of up to and through Build 41. To explain our reasoning: In hindsight, one reason we initially put a halt on community translation is simply because our pipeline was too unwieldy and our processes weren’t good enough backstage to manage the data flow. Now, with coders experienced in this field who have worked with a very similar set-up on the Minecraft Java Edition, which provides support for 100 languages, we can supply a far more engaging, interactive and collaborative set-up to benefit the languages we intend to support – and those who were going to miss out on participating. In switching to an external localization team we realized that we were putting a decade’s worth of known and loved phrases, titles and terminology (including some that even the PZ team themselves were ignorant of) at a degree of risk. Through the full gamut of the game, modding, and localization the new PZ team leaders view community as vital and something we want to dive deeper into on all fronts - and not ignoring its history and how things have formerly come to be is a big part of this. Looking forward, the community translation model is a smoother and more organic way of supporting our style of development in terms of the way we run an Unstable beta, feature integration, and patching. For those working on the game, too, it’s less stop/start, allows for a constant dripfeed of edits, fixes and improvements in every update we make, and brings more flexibil...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530890581",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "mod",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-108600-1832065502820909",
       "appid": 108600,
@@ -188,25 +204,6 @@
         "multiplayer",
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1827626365750608",
-      "appid": 108600,
-      "title": "[Updated 2026-03-20] Important Security Updates",
-      "version_detected": "41.78.18",
-      "date": "2026-03-18T15:30:10.000Z",
-      "type": "hotfix",
-      "content": "- We have pushed additional hotfixes to fix rare crash bugs for both the stable and unstable branches. The version numbers below have been updated to reflect the current versions. On the 3rd of March we were made aware of a significant security vulnerability in the game thanks to a member of our modding community, copiumsawsed, who responsibly reported the issue to us. We immediately investigated the vulnerability, and were fortunately able to patch it on the main stable branch, and on the unstable branch that same day. We were however unable to patch every legacy version in that time frame, and rather than leave the vulnerability in place until we were able to patch every version, we opted to temporarily remove all of the legacy versions from circulation. Over the following days we patched the legacy versions, and eventually brought them back. Shortly after that incident we received another report from a member of our amazing modding community, Albion, while at the same time we were conducting our own internal security audit. We immediately began investigating the reported issue, and confirmed it, as well as some additional issues that our internal audit identified. These new vulnerabilities were more complex to resolve, however our team has been working diligently since the report to patch the issues, and today we have released patches to a number of our branches. Legacy versions that could not yet be patched have again been removed from official circulation to ensure user safety. The current available versions are: Default Public Version -> 41.78.18 unstable -> 42.15.3 outdatedunstable -> 42.15.2 (this will lag 1 minor version behind unstable going forward) Like the vulnerability reported on the 3rd of March, these new vulnerabilities only affected mods, and we have received no reports of anyone being affected in a malicious way due to these issues, nor have we seen anybody being exploited in the wild. Nevertheless, we have both a legal and an ethical responsibility to ensure that our users are protected, and so some difficult decisions had to be made. Unfortunately, due the extensive work required to patch these vulnerabilities, legacy versions will remain u...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365750608",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "mod",
-        "ui",
-        "event",
-        "crash"
       ]
     }
   ]
