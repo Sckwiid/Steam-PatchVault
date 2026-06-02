@@ -1,6 +1,6 @@
 {
   "depotid": "1372003",
-  "updated_at": "2026-06-01T08:36:29Z",
+  "updated_at": "2026-06-02T07:25:53Z",
   "manifests": [
     {
       "depotid": "1372003",
@@ -221,6 +221,14 @@
     {
       "depotid": "1372003",
       "manifestid": "9114235560311317930",
+      "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "1372003",
+      "manifestid": "906669222383485788",
       "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
       "source_type": "github_tree_index",
       "status": "unverified",
