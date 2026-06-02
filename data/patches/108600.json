@@ -1,8 +1,27 @@
 {
   "appid": 108600,
-  "generated_at": "2026-06-01T08:46:46.936Z",
+  "generated_at": "2026-06-02T08:08:26.160Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1833968530897275",
+      "appid": 108600,
+      "title": "Build 42.19.0 Unstable Released",
+      "version_detected": "42.19.0",
+      "date": "2026-06-01T11:19:01.000Z",
+      "type": "hotfix",
+      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". NEW Added Controller Re-Mapping Added extended idle animations when seated on the floor UI/CONTROLLER Added new Gamepad Customization UI Controller Input Fixes Added the ability to press the X button to clear text entries Fixed controller issues in MapSpawnSelect Fixed controller issues in LoadGameScreen Fixed GrabCorpse binding not also dropping corpses Fixed the A button not toggling the ingredient inputs panel in the Build window Fixed the X button not clearing the text in ISTextEntryBox in some cases Fixed the controller focus not being set correctly after editing server settings causing Lua files to be reloaded Fixed controllers not being able to smash windows from the Button Prompt with the default B / Circle button Fixed being unable to interact with some crafting stations on controller Fixed controllers not working in WorldMap Fixed players toggling sprint after vaulting a fence if sprint is rebound to B button Fixed navigating the add note menu on controller creating errors and locking the player Fixed aiming left or right on controller also aiming slightly downwards Fixed \"Show the survival guide on startup\" setting preventing players from performing several actions on controller Added vertical scrollbar to survival-guide text Reworked the User List window UI Removed the obsolete \"Choose Mods\" button from the server-settings Mods panel Fixed some icons overflowing in the animal tracks info window Fixed Feeding Trough Info UI widening indefinitely after being pinned Fixed survival-guide text rendering outside the panel Fix tooltips for the Animal Breeding Season and Animal Info Fixed Blood Decals dropdown menu in options showing two percentage signs Fixed the foraging info button not linking to the Survival Guide Fixed equipped walkie-talkie RMC menu not having device options BALANCE Upd...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530897275",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "balance",
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-108600-1833968530890581",
       "appid": 108600,
@@ -186,24 +205,6 @@
         "mod",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1828441623110846",
-      "appid": 108600,
-      "title": "Balancing Time",
-      "version_detected": "42.16",
-      "date": "2026-03-30T23:15:50.000Z",
-      "type": "hotfix",
-      "content": "Greetings Survivors, we hope this update finds you bite-free! This week, we plan on releasing Build 42.16 Unstable, and we wanted to let you know ahead of time some of the changes coming with it. Along with continuing stabilization in Multiplayer and general bug-stomping, this update has a strong focus on balancing! Full update notes will be included in the release, of course, but here is a preview and some important information. So pop some beta-blockers and let’s dive right in: OCCUPATIONS & TRAITS The biggest balance changes you are going to see in this update primarily focus on Occupations and Traits. All existing Occupations are still available (some with refreshed names), but starting skills and costs have been reworked, with an aim to give players the feeling of being professionals rather than apprentices. Just a few examples include: Carpenter having higher starting Carpentry than you can learn from a TV show, Construction Worker now having Blunt skills split between Long and Short to reflect broader tool knowledge, and Nurse starting with higher First Aid and the Night Owl Trait to reflect their background in medical shift work. There are also two new Traits, Tinkerer and Target Shooter, so you can get a bump to your Maintenance and Aiming respectively. Several existing Traits have also had their costs adjusted to better reflect their value in relation to current gameplay features, and Veterans no longer notice Discomfort via an updated Desensitized Trait, as they are very used to being uncomfortable. AND MORE BALANCE Along with the Occupations updates, there are a broad set of additional changes, including UI and menu polishing, tweaks to firearm attachments (with new 3D art!), Stress no longer being caused by Zeds banging fences, and a reworked Tailoring recipe layout aimed at rewarding crafting new items over grinding. Game Modes have also received some minor changes based on feedback and player observations. These include a slight reduction of firearm spawns, more fresh food in canon modes, and a general reduction in world erosion speeds. Extinction Mode now contains day Sprinters, so sunlight is no longer a respite to your rapidly impending demise....",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623110846",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "balance",
-        "multiplayer",
-        "mod",
-        "ui"
       ]
     }
   ]
