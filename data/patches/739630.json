@@ -1,8 +1,25 @@
 {
   "appid": 739630,
-  "generated_at": "2026-06-02T08:08:26.160Z",
+  "generated_at": "2026-06-03T08:30:20.140Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1833968530900091",
+      "appid": 739630,
+      "title": "Phasmophobia v0.17.1.4 - Patch Notes",
+      "version_detected": "17.1.4",
+      "date": "2026-06-02T11:05:32.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Today we have released our latest update for Phasmophobia, addressing several known issues in the game.We are aware of the current ongoing issues in-game and are currently implementing fixes and improvements in future updates for Phasmophobia. We’ll be sharing our plans for the rest of 2026 later this month with you all, including a timeline for fixes and updates related to both the Player Character Update and game in general. In the meantime, please continue to provide feedback and bug reports so that our team can investigate as much as possible. You can submit any and all issues via our Support Centre.NewThe VR belt has been reimplemented following player feedback. Players will now also be able to switch between having their Journal and Walkie Talkie on the belt or their shoulder. The VR belt will only be visible locally, players who are looking at a VR player will see the equipment on their body instead.ChangesThe line of sight ghost speed accelerations implemented in the Player Character Update have been reverted to their original state.FixesFixed an issue that caused players to become softlocked when using the Spirit Box before interacting with the Truck’s CCTV.Fixed an issue that allowed the Kormos to kill players through floors.Fixed an issue that allowed the Kormos to kill players outside.Fixed an issue that caused the Tier 3 Firelight to not work correctly if placed while lit.Fixed an issue where player jackets would appear incorrectly when loading into a Multiplayer lobby.Fixed an issue where pressing ‘Join’ in Multiplayer without having a code entered would cause issues creating lobbies, and remove audio from the game.Fixed an issue where VR players were unable to use Text Input for the Spirit Box, Monkey Paw and Ouija Board.Known IssuesPlayers across all platforms are experiencing issues with voice recognition/voice chat. A fix is being investigated.Please note: Following this update, players on Windows 7/8 or other out-of-date Windows installs may need to run Windows Update (and restart) for voice chat to connect. This is due to a recent security certificate update on our voice servers. More info can be found here.As you ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530900091",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "multiplayer",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-739630-1833334318568929",
       "appid": 739630,
@@ -165,20 +182,6 @@
       "source_type": "manual",
       "keywords": [
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1829528821315286",
-      "appid": 739630,
-      "title": "Phasmophobia - Cursed Hollow v0.16.1.2",
-      "version_detected": "16.1.2",
-      "date": "2026-04-13T12:08:16.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. We've got an update for you.Today we've released a minor update for Phasmophobia that addresses several issues following on from our Cursed Hollow update earlier this month. The patch notes can be found below.Thank you to everyone who provided information on these issues.FixesFixed several issues on the below maps that caused issues with ghost traversal and bone spawn locations: Camp Woodwind Maple Lodge Campsite Brownstone Highschool Grafton Farmhouse Sunny Meadows 10 Ridgeview Court 13 Willow Street",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821315286",
-      "source_type": "manual",
-      "keywords": [
-        "fix"
       ]
     }
   ]
