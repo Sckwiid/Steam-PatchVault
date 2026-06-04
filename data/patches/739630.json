@@ -1,8 +1,22 @@
 {
   "appid": 739630,
-  "generated_at": "2026-06-03T08:30:20.140Z",
+  "generated_at": "2026-06-04T08:02:02.339Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1834602721184795",
+      "appid": 739630,
+      "title": "Phasmophobia - Hotfix v0.17.1.5",
+      "version_detected": "17.1.5",
+      "date": "2026-06-03T13:12:36.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Today we have released a hotfix for Phasmophobia, addressing two issues raised by the community this week. The update is now available across all platforms.Patch notes:Fixed an issue that caused players to become softlocked when using the Spirit Box while using a controller. Fixed an issue for Steam players that caused Voice Recognition to not work. If you are encountering issues with Voice Recognition on the \"Voice\" setting on PC, please ensure that the default microphone assigned on your PC is the microphone specified in your windows settings.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721184795",
+      "source_type": "manual",
+      "keywords": [
+        "fix"
+      ]
+    },
     {
       "id": "steam-news-739630-1833968530900091",
       "appid": 739630,
@@ -165,20 +179,6 @@
       "type": "content",
       "content": "Ghost Hunters, The Dark Place envelops Phasmophobia when Phasmophobia by Alan Wake, a limited time in-game event created in partnership with Remedy Games, comes to the game on May 12th, 2026.We're so excited to be collaborating directly with Remedy on this one time event, and can't wait for you to experience what's in store. We'll share more details on the event closer to launch, but until then, stay in the light.",
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047258480",
-      "source_type": "manual",
-      "keywords": [
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1829528821318107",
-      "appid": 739630,
-      "title": "Don't Miss! Galaxies Showcase Exclusive Twitch Drop",
-      "version_detected": "",
-      "date": "2026-04-14T15:19:51.000Z",
-      "type": "content",
-      "content": "Welcome back, Ghost Hunters. Today we're excited to detail our partnership with the imminent Galaxies Showcase taking place on April 16th, 2026 at 8PM GMT.You'll be able to tune in to the showcase via Galaxies' official website.During the showcase, Phasmophobia players will be able to earn the above Astronomer ID Card & Badge as a special event Twitch Drop for watching a total of 30 minutes of the show itself. To make sure your account is eligible to earn Twitch Drops, please make sure you've connected your account to your game. Creators that are co-streaming the event and have Drops enabled on their channel will also be eligible to distribute the Twitch Drop reward to their community. Galaxies are offering Twitch creators the opportunity to co-stream by filling out the form on their website.We're so excited to be a part of Galaxies once again following our participation in the first-ever Galaxies show in 2025. Enjoy the show!",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821318107",
       "source_type": "manual",
       "keywords": [
         "event"
