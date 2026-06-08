@@ -1,8 +1,22 @@
 {
   "appid": 892970,
-  "generated_at": "2026-06-07T07:15:03.554Z",
+  "generated_at": "2026-06-08T08:23:55.296Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1834602721196984",
+      "appid": 892970,
+      "title": "Valheim Has A Release Date!",
+      "version_detected": "1.0",
+      "date": "2026-06-07T20:36:49.000Z",
+      "type": "content",
+      "content": "Vikings! For a long time you have asked when we will see the release of the Deep North, and at last we have a date to offer you! Valheim 1.0 will arrive on 9 September, with new enemies to kill, bases to build and weapons to craft. The release will hit PC, Linux, Mac, Xbox One and Xbox Series X|S as per usual, and now we’re also adding PlayStation 5 and Nintendo Switch 2 to the roster. Of course there will be full crossplay between all the platforms, so that you can play with your friends. Thank you for being with us on this journey thus far, and stay tuned for more information as we get closer to the release! For now, please enjoy the release date reveal trailer: Skål! /The Iron Gate team",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721196984",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-892970-1833968530887840",
       "appid": 892970,
@@ -171,25 +185,6 @@
         "content",
         "ui",
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1809869180193981",
-      "appid": 892970,
-      "title": "Patch 0.221.4 – Call To Arms",
-      "version_detected": "0.221.4",
-      "date": "2025-09-09T11:02:14.000Z",
-      "type": "hotfix",
-      "content": "It's time to bring Call to Arms from the PTB and into Valheim proper! As always, a huge thank you to everyone who has tested it already, and a grand welcome to all new players! This updates features plenty of ways of self-improvement – whether that be wooden weapons for sparring with your comrades, or a built structure to hone your fighting skills against. You can also find a brand new type of item in the form of trinkets, which will help you in the heat of battle. And as there are some new dangerous foes around, you might find that you very much need them… You’ll find the full patch notes below, whether you want them abbreviated or detailed. And if you didn't see it when the PTB launched, why not take a look at the update's trailer: Please note that you will need to have the latest Nvidia drivers for this update, otherwise the game risks crashing. Abbreviated Patch Notes * Forsaken Powers rebalanced * New combat mechanics & combat improvements * New equipable item type: Trinkets * 13 new trinkets * 1 new skill * 2 new creatures, with 1 additional overhauled creature * 1 new food item * 8 new crafting materials * 18 new weapons (9 wooden) * 2 new armour sets * 3 new building pieces * 3 new hairstyles * 5 new beard styles * 1 new location * Some items can now have multiple orientations on item stands * Unity engine upgraded * Various bug fixes and performance improvements Detailed Patch Notes New Content: New Mechanics: * Trinkets: Equip these items to gain adrenaline during battle, and thus unlock temporary perks. * Adrenaline: You gain adrenaline by hitting enemies, triggering a Forsaken Power, using certain magic attacks, as well as performing Perfect Blocks and Perfect Dodge Rolls. When the bar is full, you get an adrenaline surge which gives you a temporary perk designated by your equipped Trinket. Adrenaline will fade when you are not in active combat, and you will only gain adrenaline as long as you have a Trinket equipped. * Wooden Weapons: By using wooden weapons you can practice combat against your friends without hurting each other. * New skill: Perfect Dodge Roll (Dodge an attack that would have caused you damage and get a % of stamina back) Creatures...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809869180193981",
-      "source_type": "manual",
-      "keywords": [
-        "performance",
-        "bug",
-        "fix",
-        "balance",
-        "content",
-        "ui"
       ]
     }
   ]
