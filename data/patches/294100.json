@@ -1,8 +1,27 @@
 {
   "appid": 294100,
-  "generated_at": "2026-06-08T08:23:55.296Z",
+  "generated_at": "2026-06-09T06:59:18.520Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1834602721199984",
+      "appid": 294100,
+      "title": "Update 1.6.4850 released",
+      "version_detected": "1.6.4850",
+      "date": "2026-06-08T19:12:10.000Z",
+      "type": "hotfix",
+      "content": "Hey everyone, we’re back with a small update for RimWorld and the expansions today. Check out the changelog below. This update should be compatible with all savegames and mods. Have a bug to report? You can share it with us on the official RimWorld development Discord. Cheers! Tia Website | X | BlueSky | Reddit | Facebook Changelog Heavy bridges are now immune to explosion damage. Embryos are now forbiddable. Added ancient bridges and ancient heavy bridges which have a market value of 0. This prevents large wealth spikes when landing on maps that generate ruins over water. Updated Royalty preview images. Updated player creative content. Fixes Fix: Some ancient danger enemies were active before they were unfogged. Fix: \"Cloudwatching\" sometimes appears when in space instead of \"stargazing\". Fix: Pawns can infinitely desire a looks-change if their ideoligion and genes clash. Fix: Deliver resources jobs issue causing pawns to not take any job. Fix: Error with grow zones in pocket maps. Fix: Incorrect parameters being used in AncientPodContents. Fix: Creepjoiner body types. Fix: Pawns passing friendly and enemy blockers. Fix: Glower dialog can't be configured not to force a color value. Fix: Construct cache not respecting forced orders. Fix: Gravship jumps interrupt deathrest. Fix: Holding platforms minified by infestations would delete their contents. Fix: Cultists would get stuck after their ritual was interrupted. Fix: macOS installations on non-Apple filesystems would try and load the generated ._ prefixed XML files. Fix: Bloodrage hediff increasing/decreasing too slowly on pawns ticking at a lower rate. Fix: Cube interest/withdrawal not behaving correctly on pawns ticking at a lower rate. Fix: Mechanoids repairing too fast when ticking at a lower rate. Fix: Wastepack atomizer west and east sprites were flipped. Fix: Butcher yield storyteller setting affecting \"make any stone blocks\" bill yield. Fix: Cancelling a wall blueprint that was replacing another wall would delete any wall attachments. Fix: Volcanic debris lava can no longer spread to deep water. Fix: Ghouls can no longer go on caravans alone. Fix: Lodgers that are arrested and released are no longer rec...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721199984",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "content",
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-294100-1828441623105411",
       "appid": 294100,
@@ -181,21 +200,6 @@
       "type": "content",
       "content": "Hello everyone. Odyssey launches in a couple of days on July 11, 2025! We’ve had a lot of fun sharing the previews with you guys. So many great comments, fanart, videos, analyses, and theories. Your 1.6 feedback has also been awesome during the unstable beta. Today’s final preview is a bit of a grab bag. We’re covering quests, the mechhive endgame, new drone traps, unique weapons, miscellaneous stuff, and languages. https://store.steampowered.com/app/3022790/RimWorld__Odyssey/ Reminder to please wishlist Odyssey so that Steam tells you the minute it’s out. Let’s go! New quests: rumors, ruins, and orbital adventures Odyssey adds new quests that take you across the planet - and into orbit. Some quests start with a rumor. A visiting trader tells of ancient mercenaries recently awoken from cryptosleep, holed up in a dilapidated bunker. Their warlord carries a one-of-a-kind weapon. Take them down, and it’s yours. {STEAM_CLAN_IMAGE}/25160263/1b0e4c9c9be3b6f801c43b03840712a69be95835.jpgOther quests can be discovered from reading old planetary maps. They point to forgotten places like insect-infested settlements, or derelict launch sites hidden in the jungle. These locations offer tech, treasure, or rare materials - if you can get past what’s guarding them. {STEAM_CLAN_IMAGE}/25160263/9fcade9d87d191b92d4372e276c11601e806d022.jpg Some quests lead to space. With a gravship or shuttle, you can reach asteroid mining sites rich with leftover plasteel or uranium. You may go to abandoned space stations still defended by ancient security systems - or already claimed by hostile salvagers. These places have loot, but you’ll have to fight for it. You might also be hired to hunt down an orbital fugitive hiding deep within a space wreck, but reaching them won’t be easy. {STEAM_CLAN_IMAGE}/25160263/e0aada8b04f2b00575a79912c0eb7629286a1bcc.jpg The mechhive Somewhere above the planet drifts the mechhive - the nexus of mechanoid production and direction that drives the machines on their endless quest to wipe out human life. You can stop it. But first, you’ll need to collect gravcore technology from around the planet and nearby orbital ruins to pinpoint the mechhive’s location. You’ll al...",
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891932554",
-      "source_type": "manual",
-      "keywords": [
-        "ui",
-        "quest"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1803527891773495",
-      "appid": 294100,
-      "title": "Odyssey preview #3: Animals, training, and fishing",
-      "version_detected": "",
-      "date": "2025-07-04T16:00:30.000Z",
-      "type": "content",
-      "content": "Hello! We’re only one week away from Odyssey’s release! The new expansion launches on July 11, 2025. Please wishlist so you’re notified when it’s out. https://store.steampowered.com/app/3022790/RimWorld__Odyssey/ Today’s blog post looks at the creatures of Odyssey - over 40 new animals, additional ways to train pets, and quests built around legendary beasts. Plus, we’ll talk about fishing as a new way to feed your colony. New animals Odyssey adds over 40 new animals to the world - creatures you can tame, train to work, trade for silver, bring in caravans, or raise into a loyal pack of bodyguards. Let’s look at a few favourites. Crows, flamingos, herons, macaws, quails: Birds - that fly! Murders of manhunter crows may descend on your colony. Pink flamingos wade through warm waters. Colorful macaws flap through the jungle canopy. And chubby quails make a great snack for your colonists. (Fun fact: Our artist painstakingly drew 24 frames per flier - that’s nearly 400 unique frames of flying.) {STEAM_CLAN_IMAGE}/25160263/815cc2055899cc852774278e85f004d2a835c5b0.jpg Porcupines: Cute and prickly, but try fighting one and your colonist will end up with a face full of quills. {STEAM_CLAN_IMAGE}/25160263/8aa06b88ebe1e7196f8fc8c80ba5325ca74cb630.jpg Bog hounds: These tough pups descend from domesticated dogs, but they’ve adapted to harsh, toxic conditions and are no longer accustomed to human company. They’re scavengers that travel in packs, so attacking one means you’re attacking them all. {STEAM_CLAN_IMAGE}/25160263/8258ef19d4f9865d86ff1ba7b8131a7a9a04aedc.jpg Colossus toads, bullfrogs: The first frogs in RimWorld - chunky, swamp-dwelling amphibians. {STEAM_CLAN_IMAGE}/25160263/7ef6ac9d6f46cd85a9cb379cc5047b27df8268f7.jpg Otters, walruses, sea turtles, sea lions, seals: These aquatic friends are found along ocean coastlines. They tend to stick close to the water and not bother anyone, but hunters target them often due to their gentle, unsuspecting nature. {STEAM_CLAN_IMAGE}/25160263/a01ba807e278dc5d5858e2ec490354155be55b28.jpg Mastodons, scimitar cats, greatwolves: Prehistoric megafauna that roam the glacial plains. These massive beasts make excellent companions, but the...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891773495",
       "source_type": "manual",
       "keywords": [
         "ui",
