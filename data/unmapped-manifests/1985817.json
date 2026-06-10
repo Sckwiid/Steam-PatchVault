@@ -1,10 +1,18 @@
 {
   "depotid": "1985817",
-  "updated_at": "2026-06-09T06:51:40Z",
+  "updated_at": "2026-06-10T07:10:56Z",
   "manifests": [
     {
       "depotid": "1985817",
       "manifestid": "7727499990995739389",
+      "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "1985817",
+      "manifestid": "7325338326556425731",
       "source_repo": "qwe213312/k25FCdfEOoEJ42S6",
       "source_type": "github_tree_index",
       "status": "unverified",
