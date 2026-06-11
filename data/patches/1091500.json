@@ -1,8 +1,20 @@
 {
   "appid": 1091500,
-  "generated_at": "2026-06-10T07:18:54.641Z",
+  "generated_at": "2026-06-11T08:17:17.274Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-1091500-1835236783557599",
+      "appid": 1091500,
+      "title": "It’s All About You! — A Crew to Remember",
+      "version_detected": "",
+      "date": "2026-06-10T13:44:13.000Z",
+      "type": "content",
+      "content": "To survive in Night City, you need someone to watch your back. On the way to the major leagues, V managed to gather a remarkable crew. You could even say, a crew to remember!From trusted allies to unforgettable personalities, these are the people who helped shape V’s journey through the City of Dreams. This episode of It’s All About You is dedicated to the legendary crew that stood by V through every high and low. Thank you for staying with us and expressing your love for Cyberpunk 2077 in the most creative ways possible. Don’t forget to check out our gallery to see more works, and, of course, share your creations with us: http://cdpred.ly/AAY See you in the next episode!",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783557599",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-1091500-1819386365089430",
       "appid": 1091500,
@@ -161,22 +173,6 @@
       "source_type": "manual",
       "keywords": [
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-1091500-6212244583172587040",
-      "appid": 1091500,
-      "title": "Blocktober 3 — Andrzej Giełzak",
-      "version_detected": "",
-      "date": "2024-10-16T15:33:29.000Z",
-      "type": "content",
-      "content": "This month we're participating in Blocktober, highlighting the work of our talented Level Designers. This time around, Andrzej Giełzak shares a behind-the-scenes look at the Minor Quest “No Easy Way Out”. This location was initially planned out and drafted as a Main Quest location, but we ended up adapting to the smaller location scope of a Minor Quest. Working closely with Jakub Skoneczny, our quest designer, we attempted to get the most of existing layout, allowing the experience to play out in a single open space, without compromising footprint of existing location and it's role in the district. The first image shows the Main Hall Entrance, which was designed to create the feeling of progression through the galleries. Establishing an open space in the middle with a landmark — a giant robot statue — was crucial to providing the player with a strong reference point, as the act of going in a spiral around the gallery could easily have led to spatial confusion. It was important to design the gallery with a layout that would be logical in the “original” state of the building, while its derelict state of the building as well as the damage and modifications done by Scavs allowed us to break the open plan and create obstacles and challenges for the player to overcome. Senior Environment Artist Albertus Januardy did a great job of extending the few accents from the blockout into a full-fledged, disgusting Scavenger Hideout. {STEAM_CLAN_IMAGE}/35210272/a6546ac0624dbe9de7bdecf7992fb1956472dfbe.png The paths for different playstyles were designed to convey that same upwards progression. In combat, enemies retreat upwards as their numbers dwindle, pulling you upwards in pursuit. For those using the netrunner path, the cameras were sequentially arranged by floors and always included a glimpse of the landmark as you hopped between them. For players focused on agility, we designed the location to feature opportunities to continue upwards using double or charged jumps. The second blockout features the ripperdoc’s office, which was blocked out in comparatively low detail as its layout was dictated later by the needs of the Cinematics team. From the perspective of tying the loc...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6212244583172587040",
-      "source_type": "manual",
-      "keywords": [
-        "mod",
-        "ui",
-        "quest"
       ]
     }
   ]

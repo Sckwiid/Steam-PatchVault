@@ -1,8 +1,22 @@
 {
   "appid": 105600,
-  "generated_at": "2026-06-10T07:18:54.641Z",
+  "generated_at": "2026-06-11T08:17:17.274Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1835236783558078",
+      "appid": 105600,
+      "title": "Terraria 15th Anniversary Collector's Edition - Preorders are now open!",
+      "version_detected": "",
+      "date": "2026-06-10T16:13:50.000Z",
+      "type": "content",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/4fb7256abf386d0b442240450d42d5a3548af554.png Greetings, Terrarians! As we mentioned in our 15th Anniversary post a few weeks ago, we are beyond excited to roll out a brand new Terraria Collector's Edition. We think this is a nice handful of really cool collectables that the fans will enjoy. Anyway, let's jump right in to the details, shall we? Check out a quick video preview of the Terraria 15th Anniversary Collector's Edition! So, what all is included? TERRARIAN HERO FIGURINE Recreating Terraria’s iconic box art, this stunning figurine diorama stands just over 6 inches tall. This proud Terrarian hero strides forth into the depths in search of adventure, fortune, and certain death! --- LIFE CRYSTAL Ahh, the hours spent digging around for these little beauties. Permanently level up your life with your very own Life Crystal! Suspended on a removable stand, this hefty heart is the perfect keepsake for any desk or shelf. --- LENTICULAR PIXEL ART CARD SET Exquisite pixel art collectible cards with lenticular animation. --- RE-GAME CARTRIDGE “And now for something completely different.” Immortalise your own copy of Terraria with this awesome retro replica. This replica game cartridge houses a beautifully detailed Terraria game token, upon which a Steam key for Terraria will be engraved. The ultimate collectible and display piece for your favourite game. --- LETTER FROM RED To cap things off, we have a lovely little letter from Terraria’s legendary creator, Andrew Spinks, a.k.a. Redigit. The letter is adorned with gold foil edges and a Terraria logo seal. Yours to cherish. --- Of course, no Terraria Collector's Edition would be complete without the Bunny Pet, so that will be included as well. We have really enjoyed working on this project with the fine folks over at GLO (the terraria.shop people) and we hope that you find the final package to be as cool as we do. If you want to learn more or place your preorder, simply click the link below or the banner image at the top of this post. TERRARIA 15TH ANNIVERSARY COLLECTOR'S EDITION Thanks for an amazing 15 years!!!​",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783558078",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-105600-1833968530889388",
       "appid": 105600,
@@ -169,24 +183,6 @@
         "fix",
         "content",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1811772772254307",
-      "appid": 105600,
-      "title": "Terraria State of the Game - September 2025",
-      "version_detected": "1.4.5",
-      "date": "2025-09-25T20:05:17.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/bb6d68a64847c88e1763944db649c76d196ecea9.png Greetings Terrarians! We have one foot already into the Fall season - our favorite season of the year! - and we are drawing ever closer to the release of Terraria 1.4.5. More on that below. We are also getting really close to the release of the Terraria Board Game in November. The end of the year is setting up to be quite eventful indeed! We are also already setting the stage for what lies ahead in 2026 - Terraria's 15th Anniversary year. We hope we can bring some more cool stuff your way as a result of those plans, but that will have to wait for another day. For now, let's dive in to the latest and greatest news in the world of Terraria! What's in store this time... PC - RE-LOGIC TERRARIA 1.4.5 - THE FIX IS IN (PROGRESS)​ The team has been hard at work this month, aiming to reach the \"content complete\" (also known as the Release Candidate) stage within the next couple of weeks. What does that mean, exactly? Well, that means that - at that point - we will have officially added all of the new content/features/etc. that will make it into Terraria 1.4.5. After that, all that is left to do is testing, tweaking, and bug fixing. Of course, that testing/fixing process takes a good amount of time and is somewhat unpredictable (we had some pretty nasty tickets emerge just this past week, for example). Once we reach \"content complete\" and we have a bit of time to focus on fixing, we should have a much better sense of precisely when Terraria 1.4.5 will reach completion. We are working as closely as possible with our partners in parallel to try and shorten the time needed on the backend for first party submissions, localization, etc. - as, again, our goal for 1.4.5 is a global synchronized launch. All that said, reaching content complete is a major milestone and we are truly at the final stages now. We know this update has taken far too long to get out to you all, and we are sorry for that. We do hope that you enjoy it once it is out - and that you are excited for what else is in store for the future of Terraria. More on that in the months ahead. For now, we are all in on the push to get this update out...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772254307",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "content",
-        "ui",
-        "event"
       ]
     }
   ]

@@ -1,8 +1,20 @@
 {
   "appid": 892970,
-  "generated_at": "2026-06-10T07:18:54.641Z",
+  "generated_at": "2026-06-11T08:17:17.274Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1835236783557552",
+      "appid": 892970,
+      "title": "Tell Us Your Valheim Story!",
+      "version_detected": "1.0",
+      "date": "2026-06-10T13:25:49.000Z",
+      "type": "content",
+      "content": "Vikings! As Valheim nears its 1.0 release, we are looking to feature stories of our community members and fans who have played the game. Over the years we’ve heard many stories about players finding new friends, a welcoming community and even love through the game, and we’d love to highlight these tales of kinship and comraderie. Whether you played when the game initially released or you’re playing every week to this day, whether you’ve reunited with your friends through Valheim or found your future spouse in the Tenth Realm, we’d love to hear from you! If you’d like to share your personal Valheim Journey, we encourage you to record a video in which you describe your experience and submit it for a potential feature in an upcoming video piece that we’re putting together. You can do so below - don’t worry, it doesn't need to be a professionally shot video! Submit your video here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783557552",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-892970-1834602721196984",
       "appid": 892970,
@@ -169,22 +181,6 @@
       "keywords": [
         "content",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1811138915391372",
-      "appid": 892970,
-      "title": "Word From the Devs: We Fight On!",
-      "version_detected": "1.0",
-      "date": "2025-09-18T12:40:43.000Z",
-      "type": "content",
-      "content": "Greetings vikings! Since our last check-in we have moved the Call to Arms update from the Public Test Branch and into the Live version of the game! We want to thank everyone who tested the game during the PTB, as well as everyone who has played it since the official release. We hope you’re not too bruised from your battles! There are possibly some more tweaks coming to that update in the coming weeks and months, as we want to see how everyone experiences the new changes, beyond those who tested in the PTB. But besides that we’re now focusing the team solely on content for the Deep North and 1.0. Armour sets are being designed, dungeons are getting fleshed out, and enemies are being animated. We’re itching for you to see it all, but we also want to make sure that there’s plenty of things left for you to discover on your own! We’re holding off a bit longer still to see what became of Hervor Bloodtooth but, just like last month, we want to show you something from the Deep North regardless. This time we’re taking a peek at some new furniture pieces, made from a new type of wood found in the biome. They’re a bit chunkier than what we’ve had so far, and both the chair and the table have some decorative designs carved into them. We look forward to seeing how the talented builders out there will use them in the future! {STEAM_CLAN_IMAGE}/33695701/04e865ec299242293a7fc5f650378fe1a30fccaf.jpg Just a few days ago we also finally made the announcement that Valheim is coming to PlayStation! It’s something that we’ve been getting many requests for over the course of Valheim’s development, and we’re really excited that it’s soon to come true. You can read more about the PlayStation release, as well as watch the new trailers (yes, multiple!), in the announcement post. As you may have guessed, the upcoming PlayStation release is the reason that we’re going to Tokyo Game Show next week, and those passing by our booth will have the opportunity to be among the first to play the game on a PlayStation console. We hope to see some fans there! You will also find Valheim at the boardgame fair SPIEL ESSEN in Germany in October! Our friends at MOOD will be there to showcase the Valheim bo...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811138915391372",
-      "source_type": "manual",
-      "keywords": [
-        "content",
-        "ui",
-        "quest"
       ]
     }
   ]
