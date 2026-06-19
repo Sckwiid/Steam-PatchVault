@@ -1,8 +1,24 @@
 {
   "appid": 105600,
-  "generated_at": "2026-06-18T08:21:06.203Z",
+  "generated_at": "2026-06-19T08:41:54.514Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1835871199305203",
+      "appid": 105600,
+      "title": "Terraria: Design Works - Preorder yours today!",
+      "version_detected": "",
+      "date": "2026-06-18T18:39:17.000Z",
+      "type": "content",
+      "content": "TERRARIA: DESIGN WORKS {STEAM_CLAN_IMAGE}/3949769/a976cf93cd75c042c57fa321a461b61cb024aa44.jpg This premium book will chart the design and development of Terraria from its inception back in 2011 through to today, written by Christian Donlan. Now you can dig into the game’s development itself with Terraria: Design Works. Based on in-depth interviews with Andrew Spinks, the singular individual who created Terraria, along with the fascinating team who have worked with him to keep the game thriving for the last fifteen years, this is the story of a game developed with passion, ingenuity, imagination and generosity. It’s easy to lose yourself in Terraria when playing, and now you’ll discover the challenges of charting a development course through such a rich, sprawling, and surprising game. You’ll meet the people who have worked with Spinks to evolve his original design, and you’ll come to understand where many of Terraria’s legendary elements come from, whether that’s a biome, an end-game monster or just a really cool sword! Packed with behind the scene insights, developer interviews and never seen before content, the book is available standalone or as part of a Deluxe Edition complete with a treasure trove of Terraria goodies. Pre-order now via the link below or by clicking the banner above! Terraria: Design Works — Lost In Cult {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png DELUXE EDITION {STEAM_CLAN_IMAGE}/3949769/b4bb87d92169d7a01a4a02156af3cc3f2b7612a0.jpg Dig deeper into the world of Terraria with our Deluxe edition of Terraria: Design Works! Alongside the luxurious slipcase, you’ll discover a treasure trove of collectible items to unearth, all housed in a premium deluxe presentation box, perfect for keeping your treasures safe from prying eyes (or eye, for that matter…) Bestiary Blitz card game: this quick play card game is designed around the enemies and bosses found in the world of Terraria! Each card in Bestiary Blitz features a Terraria enemy or boss, a bestiary entry description, and includes key performance categories with assigned values. Compare statistics of Terraria monsters to determine a winner for each round, with the ult...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199305203",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "content",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-105600-1835236783558078",
       "appid": 105600,
@@ -166,23 +182,6 @@
       "keywords": [
         "bug",
         "fix"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1815034432880429",
-      "appid": 105600,
-      "title": "Terraria State of the Game - October 2025",
-      "version_detected": "1.4.5",
-      "date": "2025-10-30T19:30:14.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/ff7b33242be724784fcb2c93d6459e5eb1dcd6e5.png Greetings Terrarians! Happy Halloween from all of us to all of you! Halloween has always been one of our favorite times of the year - especially when we get to see all of the crazy costumes, creepy decorations, and creative pumpkins that Terrarians put together each year. So, whether you entered the annual Halloween Contest or not... please be sure to share your spookiest creations with us! On the development side of things, we do have some more clarity on timing to share this month. There are still a lot of moving parts involved that could adjust things, but it is starting to feel like we know the general boundaries. More on that in a bit. For now, let's get set to dive into another month of Terraria news... Trick or treat! PC - RE-LOGIC TERRARIA 1.4.5 - TESTING AND LOCALIZATION AND SUBMISSION PLANNING, OH MY!​ Hello again, everyone. Last month, we shared that we were quite close to the content complete/Release Candidate stage. Things are still looking pretty decent in that regard, enough so that parallel beta testing is underway on most platforms so that we can go ahead and capture and fix bugs as they arrive rather than a strictly sequential process. Additional work has been underway this month focused on localization - not only for the new content, but also weaving in three new languages and the localization community review conducted over the past year or so. This should ulimately yield better translations for existing content that more accurately take game context into account. We are also thrilled to at long last be able to provide Terraria in Korean, Japanese, and Traditional Chinese. This area of game development is often more complex than it seems, so we are very glad that it is NEARLY done! That leads us to the third topic - one that we all know and love - planning for things like first party submissions and any additional work needed by our global partners in order to enable a global sync launch. To put it mildly and not to bore anyone with the details, there are a LOT of moving parts and interdependencies that we have to manage in this process. It is also not a very quick system...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034432880429",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "content",
-        "ui"
       ]
     }
   ]
