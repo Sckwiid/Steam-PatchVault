@@ -1,8 +1,26 @@
 {
   "appid": 739630,
-  "generated_at": "2026-06-24T06:58:03.294Z",
+  "generated_at": "2026-06-25T06:57:31.273Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1836506165546119",
+      "appid": 739630,
+      "title": "Phasmophobia 2026 and Beyond",
+      "version_detected": "1.0",
+      "date": "2026-06-24T14:10:45.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters. Over the last month and a half, we’ve been reading the discussions about Phasmophobia across so many different channels and taking note of the biggest issues, points of concern, questions and more. We are sorry it’s taken a while to respond, but we wanted to make sure that when we did, we had something of substance for you. Hopefully today, with our updated Roadmap and information on what’s to come to Phasmophobia, we can start to build back your trust and have meaningful conversations around the game we all care so deeply about.We’ll go in to more detail on everything in this blog, but for those of you that would rather just have the headlines, here we go:The rework of 13 Willow Street will launch July 21st, 2026 alongside a Quality of Life update.A further Quality of Life update will launch in August 2026.Our upgrade to Unity 6 will take place in October 2026.An additional Player Character update will launch in November, bringing with it improved animations, character models, UI, more clothing and customisation options.Phasmophobia 1.0, as well as our next new map, will now launch in 2027. A New RoadmapOver the last month, we’ve taken a look at our plans for 2026 and made important decisions and changes to make sure we get things right. Phasmophobia’s new Roadmap, which can be seen below, focuses on bringing the game back in-line with our vision and one that we hope reignites your passion for it. With a focus on quality of life over new content, our various updates will bring with them hundreds of fixes - starting with our first update in July - as well as bringing the game up- to-date with Unity 6. Our second Player Character update will improve and redo areas such as the animations, character models, UI and introduce a host of new customisation options.Alongside these various updates, you can expect to see more regular Development Previews that’ll take you deeper into what they’ll contain and the improvements they’ll bring to Phasmophobia.You may notice that a few things have been removed from the Roadmap for 2026, such as Phasmophobia 1.0 and our new map. While we’ll talk more about the 1.0 delay further down in this blog, we wa...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165546119",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "content",
+        "mod",
+        "ui",
+        "quest"
+      ]
+    },
     {
       "id": "steam-news-739630-1834602721184795",
       "appid": 739630,
@@ -168,20 +186,6 @@
       "source_type": "manual",
       "keywords": [
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1830163047258480",
-      "appid": 739630,
-      "title": "Phasmophobia by Alan Wake, coming May 12th 2026",
-      "version_detected": "",
-      "date": "2026-04-16T20:02:08.000Z",
-      "type": "content",
-      "content": "Ghost Hunters, The Dark Place envelops Phasmophobia when Phasmophobia by Alan Wake, a limited time in-game event created in partnership with Remedy Games, comes to the game on May 12th, 2026.We're so excited to be collaborating directly with Remedy on this one time event, and can't wait for you to experience what's in store. We'll share more details on the event closer to launch, but until then, stay in the light.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047258480",
-      "source_type": "manual",
-      "keywords": [
-        "event"
       ]
     }
   ]

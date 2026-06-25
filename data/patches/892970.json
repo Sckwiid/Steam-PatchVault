@@ -1,8 +1,24 @@
 {
   "appid": 892970,
-  "generated_at": "2026-06-24T06:58:03.294Z",
+  "generated_at": "2026-06-25T06:57:31.273Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1836506165545761",
+      "appid": 892970,
+      "title": "Word From the Devs: See You Soon!",
+      "version_detected": "1.0",
+      "date": "2026-06-24T12:13:07.000Z",
+      "type": "content",
+      "content": "Hello vikings! What a month June has been! We were finally able to reveal our 1.0 release date at the PC Gaming Show earlier this month, and we’re delighted that so many of you seem excited for the launch! At last it is official that Valheim 1.0, with Deep North and all, releases on the 9th of September this year, with full crossplay between platforms. If you missed it, or if you just can’t get enough of it, you can watch the trailer right here: We’re very excited for you to be able to experience what we’ve been working on, and we really hope that you’ll have a great time! Leading up to the launch, we can also reveal that we will have a booth at the Gamescom showfloor in August. If you’ll be at the event in Cologne, make sure to come find us for a chance to chat to some of the devs, and to experience Valheim in a more immersive way than ever before. We look forward to seeing you there, it’s gonna be big! Another thing we want to make sure you don’t miss is our current Makehip campaign. Just like with the Rocky plushie last year, you have a limited time to get your hands on three brand new and unique Valheim plushies; the Valkyrie, the Serpent and the Jumbo Troll. They won’t be available after the campaign, so now’s your chance! {STEAM_CLAN_IMAGE}/33695701/43bbf50f0ec39463e30e8b80616c75ff48f15c22.jpg Build of the Month This month we want to highlight the Snowspire Citadel, by xiaoming. Impressive! {STEAM_CLAN_IMAGE}/33695701/35c12b2f3ac098f26737e64df784c2413a971ab0.png If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. Skål! /The Iron Gate team If you’d like to discuss the content of this post, please visit our Discord, or our forums on Reddit and Steam, or make a comment on social media!",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165545761",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-892970-1835236783557552",
       "appid": 892970,
@@ -165,21 +181,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467033261",
       "source_type": "manual",
       "keywords": [
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1814309641606284",
-      "appid": 892970,
-      "title": "Word from the Devs: Picking Up the Thread",
-      "version_detected": "",
-      "date": "2025-10-28T12:36:22.000Z",
-      "type": "content",
-      "content": "Hello vikings! We want to start with mentioning a Unity security vulnerability that occurred a few weeks back. There is no evidence that the vulnerability ever reached Valheim in any way, and we hurried to patch the game with the necessary updates from Unity as soon as we could. We didn’t make any announcement about this at the time as we didn’t want to cause unnecessary alarm, but we do also want to assure you that the game is safe for you to play. We thank you for your understanding! But now to the more lighthearted stuff! The time has come to finally check back in with Hervor Bloodtooth. Without further ado: The creatures down in the winding tunnels couldn’t best her! How do you think you’ll fare once it’s your turn to square up against them? They’ve caused quite a mess above the surface, after all… {STEAM_CLAN_IMAGE}/33695701/da36a600402ae7245d501e5637b8a7e7c7810c57.png Don’t worry though, there will be plenty of opportunities for creation in the Deep North too! The development of the biome is progressing well, and lately we’ve been focusing on things such as adding some interesting elements to the snow, as well as working out some new crafting extensions, just to name a few! We want to share the extension for the Galdr table with you as a little teaser, the loom: {STEAM_CLAN_IMAGE}/33695701/c669637af1f6065c022035b2c59b2635415c1078.png Before we round off, we want to say a heartfelt thank you to everyone who stopped by our booth at Tokyo Game Show! It was wonderful to meet you all! Build of the Month This month the build we want to highlight is this very creative solution by handyhanderson. What a stunning job! {STEAM_CLAN_IMAGE}/33695701/f16575b7cce30d6ef446fdf44a8d762008424c97.png If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. May your swords be sharp! /The Iron Gate team If you’d like to discuss the content of this post, please visit our Discord, or our for...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641606284",
-      "source_type": "manual",
-      "keywords": [
-        "content",
         "ui"
       ]
     }
