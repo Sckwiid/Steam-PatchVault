@@ -1,8 +1,24 @@
 {
   "appid": 105600,
-  "generated_at": "2026-06-25T06:57:31.273Z",
+  "generated_at": "2026-06-26T07:04:53.969Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1836506165552129",
+      "appid": 105600,
+      "title": "Terraria State of the Game - June 2026",
+      "version_detected": "1.4.5",
+      "date": "2026-06-25T23:31:37.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/2f6e99310e5a140132376f7f33963677ab2917c9.jpg Greetings Terrarians! Another month in the books! It has been a hectic one indeed, between work on 1.4.5.7, doing some interviews for the Design Works book, getting ready for some upcoming events in the fall, and more. We are very ready to get what we hope will be the last (or darn close to it) hotfix update for Bigger and Boulder into your hands and then to get rolling on what comes next. Crossplay and beyond, the future is going to be a fun one. Before then, we are getting ever closer to wrapping up what has to be the largest \"hotfix\" type update in Terraria's history. We do think the time taken will be well worth it, as we are trying to tackle a number of outstanding topics at once. Of course, we will see what you make of it and cannot wait to hear that feedback. All that said, let's see what lies in wait for this months State of the Game... {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png PC - RE-LOGIC TERRARIA 1.4.5.7 - THROWING LINES... WITH STYLE The balance train continues unabated yet again this month. We have spent a lot of time this go-round looking into entire classes of weapons - making sure things feel fun, relevant, and worthwhile. All of this has taken place alongside some backend/system work that should improve the overall experience. The rollout plan for Crossplay (post 1.4.5.7) is in place as well. Beyond that, we are setting up some important planning sessions with our friends at DR Studios so that we can lay out the internal roadmap for what comes next. If all goes to plan, what we come up with there should flow seamlessly into development work right after Crossplay. As for what the plan might entail? Well, you will have to wait and see there. As for this month's spoiler... a little while back, our good friend Chippy pointed out that yo-yo's might have been left behind a touch through the years. We've seen this feedback before and have decided to go ahead and finally take action on it. We're looking into making some yo-yo's more interesting / unique. it. {STEAM_CLAN_IMAGE}/3949769/b8304716355d9eb75105de875e6db2d38d18c6a2.gif Cascade's got a little ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165552129",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "balance",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-105600-1835871199305203",
       "appid": 105600,
@@ -167,21 +183,6 @@
       "keywords": [
         "fix",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1817483467040273",
-      "appid": 105600,
-      "title": "Terraria State of the Game - November 2025",
-      "version_detected": "1.4.5",
-      "date": "2025-11-28T19:04:59.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/4aa065aae1a38c9f88758dcd85bcbfcda4d34838.png Greetings Terrarians! A very Happy Thanksgiving to each and every one of you! Our teams are taking a small break today and tomorrow to spend time with friends and family (and generous helpings of turkey, dressing, and more). Of course, Christmas and the busy shopping season lurks right around the corner as well - so much going on all at once! It goes without saying that we are beyond thankful for the support you all show us each and every day. Even on the most difficult of days, it is that support that makes it all worthwhile. You make all of this possible, and we never forget that. We also know it has been overlong with the Terraria 1.4.5 dev cycle, but we are getting closer and closer each and every day. Thank you for your patience there. Let's settle in and see what this month's State of the Game feast has in store... PC - RE-LOGIC TERRARIA 1.4.5 - RACING THE CLOCK TOWARDS SUBMISSIONS Greetings, Terrarians! Another month has flown by and the team has made some great strides towards the completion of Terraria 1.4.5. Localization work (at least in regards to the PC side of things) has pretty much been completed at this point - outside of a few stragglers that we may just take care of within a post-release hotfix. Outside of that, the team has been hard at work testing and fixing bugs as well as coordinating with all of our various global partners to try and get everyone as far advanced as possible in parallel. We have not yet reached the point of making first party submissions, but we should hopefully be there soon. We will try to let everyone know once those submissions are in, at which point things will be mostly out of our control. We do have guesstimates about how long that will take based on past rounds, but we have seen it go way faster and way slower before so you never know. Timing-wise, the launch window remains the same - though January is more likely at this point unless we get lucky with faster-than-expected submissions. We will try our very best to continue to narrow that window down as we know more. We should know a LOT more once we get the first round of submissions out of th...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467040273",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix"
       ]
     }
   ]

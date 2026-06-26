@@ -1,8 +1,23 @@
 {
   "appid": 489830,
-  "generated_at": "2026-06-25T06:57:31.273Z",
+  "generated_at": "2026-06-26T07:04:53.969Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-489830-1836506165550216",
+      "appid": 489830,
+      "title": "New realms, new companions, and new powers, all in these Skyrim Creations.",
+      "version_detected": "",
+      "date": "2026-06-25T16:55:24.000Z",
+      "type": "content",
+      "content": "Heart of the MountainBy DarthVitrialExplore the mysteries of the Void in a large new land with professionally voiced characters, exciting new music, and new art for a special follower, land, gear, and foes!Venture into the Old Lands, a vast new world that hosts multiple new biomes, including a scorching desert, mist-shrouded swamp, and a haunted forest, in this story-focused, fully-voiced creation! Explore over 40 new full-size dungeons, including Ayleid Ruins, dro-m’Athra temples, Argonian xanmeers, and more!Team up with Audrey, a mysterious living doll, as you unravel the mysteries of the Void and learn the truth of the Old Lands. Take on almost 70 unique quests and 20 Radiant quests as you explore the Old Lands, and gain new weapons and gear sets, including the new Voskrona armor! In this new land, you will encounter new enemies and summonable creatures from the depths of the Void, such as Harrowing Reapers and Voidmothers, ancient Argonian foes such as Voriplasms and Voskrona, and many more...Sigil of the FallenBy Kinggath CreationsRumors of strange sightings northeast of Markarth have reached your ears, calling you to the Sigil Geode -- where through fate or folly, spirits will be unleashed across Skyrim, leaving you to return them and uncover the mystery of the Soul Sanctum.Mystery of the Soul Sanctum - Begin a new questline revealing the fate of three powerful heroes, and a girl with an unfortunate gift. Featuring multiple huge dungeons with challenging encounters, puzzles, secrets, and boss fights.4-in-1 Upgradeable Spirit Companion - A ghost follower that can channel the form, abilities, memories, and voice of powerful heroes. Shift her between classes on demand and unlock new powers and abilities over time.3 Powerful New Relics - A shield with a massive slam ability, a mace that can close the distance, and a staff that can summon explosive orbs. Each of these items comes with unique functionality and will be upgraded as you go deeper into their former owner's stories.Hunt Spirits - Spirits unleashed on Skyrim possess items, furniture, doors, and even enemies. Seek them out to gain the material needed to upgrade your companion, or take jobs from the Pri...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165550216",
+      "source_type": "manual",
+      "keywords": [
+        "ui",
+        "quest"
+      ]
+    },
     {
       "id": "steam-news-489830-1826362059922471",
       "appid": 489830,
@@ -180,20 +195,6 @@
         "bug",
         "fix",
         "content",
-        "mod"
-      ]
-    },
-    {
-      "id": "steam-news-489830-2175660043461256697",
-      "appid": 489830,
-      "title": "Skyrim Special Edition's Survival Mode",
-      "version_detected": "",
-      "date": "2017-09-27T15:08:44.000Z",
-      "type": "content",
-      "content": "http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/clans/25333721/0a04a5ab743ba2af256b0940cd933407da12cf96.png EDIT: This is now live. Thank you for your continued feedback. Feel free to post here, discussion, our on our official forums. Thanks again! Skyrim Creation Club’s all-new Survival Mode, is now available on Steam beta. You can be one of the first to check it out by simply opting-into the beta. Survival Mode adds new gameplay features and challenges to transform Skyrim into a land of unrelenting cold and harsh wilderness. Instructions for how to opt-in to the beta are provided below. Before you do that, there are a few important details to note. We welcome your feedback and thoughts on what you’d like to see and any issues you run into. You are encouraged to let us know here on Steam or in our Official Beta Forums. Please Note: Once you opt-in to the Skyrim Creation Club beta, Survival Mode will no longer work if you back out. Additionally, we cannot accept any feedback or aid in any issues experienced if you opt-in to the beta with mods installed. Last but not least, please be sure to back up your saves before opting in to the beta. For more information on Survival Mode, please see our post on Bethesda.net. Instructions on how to access the beta: Log into Steam. Right Click on The Elder Scrolls V: Skyrim Special Edition in your Library. Select Properties. Select Betas. A drop down menu will appear. Select the available beta option Select OK. Wait for the game to update.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2175660043461256697",
-      "source_type": "manual",
-      "keywords": [
         "mod"
       ]
     }
