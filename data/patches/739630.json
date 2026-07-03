@@ -1,8 +1,24 @@
 {
   "appid": 739630,
-  "generated_at": "2026-07-02T06:51:44.530Z",
+  "generated_at": "2026-07-03T06:44:04.577Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1836506165568121",
+      "appid": 739630,
+      "title": "Phasmophobia Quality of Life Update Preview",
+      "version_detected": "",
+      "date": "2026-07-02T14:09:07.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Today we’re going to give you more detail on the upcoming Quality of Life update launching alongside the 13 Willow Street rework on July 21st, 2026.As mentioned in our recent blogpost, the Quality of Life update itself has been split into two due to the sheer number of fixes & improvements we’ll be implementing. This first update is the bigger of the two, but you can expect the second part in late August.The below list focuses on changes and fixes coming with this month’s update while the next update will contain further improvements.While there’s a lot in the below list, it’s not everything that’ll be launching for Phasmophobia on July 21st, with the update bringing with it new keybinds, including PC players being able to use 1, 2, 3 and 4 for changing inventory slots, a couple of improvements for evidence collection and of course, the reworked 13 Willow Street. We’ll detail all of these in a blog the week before launch.ChangesThe character hand animations for grabbing, dropping, moving doors and hovering over interactable or grabbable objects have been removed to speed up gameplay.The item drop animation will still play for others in the session, but will not be visible by the Player.Cosmetics that are no longer able to be earned will not be visible.The camera zoom in the Customisation shop will now focus on the selected part of the character.On Sunny Meadows, the Ghost will now only lock the doors to a wing if both it and a player are inside that wing.Eye Adaptation will now adjust the lighting quicker when opening and closing the Journal.Console players will now have the ability to enable/disable Eye Adaptation.The Obake’s shapeshift will now count towards the Ghost video objective.You can now capture any Media for the Apocalypse challenge, instead of only a photo.Recording the Ghost Orbs in the Tutorial is now required, instead of only getting it inside the video camera’s screen.Improved the lighting around the player, allowing for better visibility in darker areas.Added an icon to the Player ID Card to show if that player is speaking.Adjusted the visuals on the PSVR2 player list popupEvent board map leaflets are now spread over ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165568121",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-739630-1836506165546119",
       "appid": 739630,
@@ -172,20 +188,6 @@
         "mod",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1830797770245532",
-      "appid": 739630,
-      "title": "Player Character Update, coming May 5th, 2026.",
-      "version_detected": "1.0",
-      "date": "2026-04-28T14:01:48.000Z",
-      "type": "content",
-      "content": "Welcome back, Ghost Hunters. We have some much-anticipated news for you.Today we’re excited to announce that Phasmophobia’s Player Character Update will be launching across all platforms on May 5th, 2026. Stay tuned to our social channels and official Discord server for exact release timings. While we won’t go into too many details before the release, we did want to lift the curtain ever so slightly on some of what you can expect to see in the update. A full rundown of changes, additions and more will be available when the update is released.Of course, at the heart of this update is the ability to customise your player character in-game. After a long wait, the Customisation shop in the lobby is finally open for business. Here you’ll be able to choose from one of 12 characters and be able to change their clothing, hair colour and much more. While the shop is full of options at launch, you can look forward to more items being added in future updates and Twitch Drops - such as the below High Priestess T-shirt drop that'll be starting with the launch of the update.This Twitch Drop will be available for all Phasmophobia creators to distribute to their communities from May 5th until May 11th.To earn Twitch Drops, make sure you've connected your Twitch account to Phasmophobia.Customisation plays a huge role in this update, but it’s not the only change. With the Player Character Update, we’ll be introducing new character animations as well as some changes to the overall gameplay experience such as the removal of the death room and the way you interact with both the environment and your chosen equipment during an investigation.Check out a few screenshots below to get a taste of what’s to come on May 5th. There is plenty to explore and experience once the update launches and we can’t wait to hear your thoughts on the changes to the game. Of course, this is a huge update to the game we’ve all known and loved for many years so we’ll be looking out for feedback after release so that we can continue to iterate and improve Phasmophobia as we head towards 1.0 later this year.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770245532",
-      "source_type": "manual",
-      "keywords": [
-        "ui"
       ]
     }
   ]
