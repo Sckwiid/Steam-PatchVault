@@ -1,8 +1,25 @@
 {
   "appid": 108600,
-  "generated_at": "2026-07-09T07:02:23.827Z",
+  "generated_at": "2026-07-10T06:56:37.239Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1836506165584147",
+      "appid": 108600,
+      "title": "NEXT STEPS",
+      "version_detected": "42.20",
+      "date": "2026-07-09T17:23:28.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/4460946/9a177cd005d428d8ec51728a0dd1ad079cb89ba1.jpg Hello Survivors! It’s July 9th, something of a key date in PZ lore, so we felt it was a great time to check in with you to lay out our overall plans for the rest of the year. So pack up the car, fuel up the generator, and let’s get ready for a loot run! 42.20 Unstable Build 42.20 is in the testing phase, and it’s a big one, with a few yet-to-be-revealed surprises a big portion of the team has been designing and creating. We’ll announce the specifics once the update is complete, and are targeting a release later this summer. Additionally, Unstable players will want to be aware that we have also been addressing issues around the following: Character Spawns Controllers Meat yield from Butcher Hooks Vehicle Towing Zombie culling in MP Map chunk loading when driving in MP And loads more.. Due to a large content update, unfortunately 42.19 save games will not be transferable to 42.20. However, you have at least a few weeks before the release from this point to play out your games – and 42.19 will still be available on the ‘outdatedunstable’ branch if you choose. THE ROAD TO 42 STABLE AND BEYOND At this point we have identified 42.20 as the build candidate that will move to the Stable branch, and barring unforeseen circumstances, when it launches it will do so as the default launch option on Steam. The move to Stable marks an important milestone for Unstable beta players who have been dealing with save breakages from multiple updates, and likewise for mod authors to have a far less changeable platform to build upon. Of course, this will also introduce Build 42 to the broader community that doesn’t choose to opt-in to Unstable builds – and allow us to gather feedback from those players as well as from more uninterrupted longer-term playthroughs. Once all PZ players are on the Stable version, our current plans are as follows: After any necessary hot fixes are identified and released, we will begin working on a patch consisting of tweaks and adjustments based on player feedback – primarily aimed at the late game. After we hit Stable, once hot fixing and such is over, we will be releasing both our late...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165584147",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "content",
+        "mod",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-108600-1833968530897275",
       "appid": 108600,
@@ -186,25 +203,6 @@
         "bug",
         "fix",
         "mod"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1828441623111900",
-      "appid": 108600,
-      "title": "Build 42.16.0 Unstable Released",
-      "version_detected": "42.16.0",
-      "date": "2026-03-31T11:00:30.000Z",
-      "type": "hotfix",
-      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". IMPORTANT: B42.15 and earlier saves will not be compatible with B42.16+ builds. If you wish to continue a 42.15 savegame, please select the \"outdatedunstable\" Steam beta and make a local backup of your game. UI UPDATES - Added new Game Mode UI menu - Updated loading screen tips - Campfires, BBQ's, Fireplaces now supported in revamped RMC system - New highlight added when mouse-over container with same highlight as moused-over \"on ground\" item in loot UI menu - Changed default size of the various main screen UIs - Anchor permanent Oven/Campfire/etc options to the lower-right of the loot UI to prevent conflicts with loot options - Improved context-menu handling of window frames without windows - Vehicle Lightbar Control UI Panel can now be repositioned - Transfer liquid UI will default to maximum transfer amounts instead of 'none' when appropriate - Disabled Welcome Text Box BALANCE - Occupation Balance Pass -- Overall: Generalized increase in skill points added for core profession competency -- Rebalanced Occupation cost and adjusted included skills affecting most Occupations -- Occ Affected: Police Officer, Park Ranger, Construction Worker, Security Guard, Carpenter, Chef, Rancher, Farmer, Electrician, Fishing Guide, Doctor, Nurse, Welder, Blacksmith, Mechanic -- Renamed Fire Officer to Firefighter -- Renamed Angler to Fishing Guide - Trait Balance Pass -- New Traits Added: Tinkerer: +1 Maintenance, Target Shooter: +1 Aiming -- Renamed Wilderness Knowledge to Bushcrafter -- Increased cost for Cat's Eyes and Wakeful -- Decreased cost for First Aider and Iron Gut -- Increased bonus for Illiterate and Reluctant Fighter -- Decreased bonus for Weak Stomach -- 'Start fire speed with Bow Drill' bonus removed from Outdoorsey and added to Bushcrafter and Former Scout -- Desensitized trait now also provide...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828441623111900",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "balance",
-        "mod",
-        "ui",
-        "event"
       ]
     }
   ]
