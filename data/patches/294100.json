@@ -1,8 +1,20 @@
 {
   "appid": 294100,
-  "generated_at": "2026-07-13T06:32:09.528Z",
+  "generated_at": "2026-07-14T05:41:41.425Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1837955055364275",
+      "appid": 294100,
+      "title": "RimWorld x Abiotic Factor bundle out now",
+      "version_detected": "",
+      "date": "2026-07-13T19:22:48.000Z",
+      "type": "content",
+      "content": "Hey all, our scientists just finished researching a new bundle: RimWorld x Abiotic Factor! It's Abiotic Factor's birthday and they've released their Anniversary update to celebrate. 🎉 It even features a fashionable Randy Random hairdo and RimWorld sheriff badge to show off. You can grab the bundle for 20% off or 20% off the game you don't already own right now: https://store.steampowered.com/bundle/79834/RimWorld_x_Abiotic_Factor/ Abiotic Factor Abiotic Factor is a survival crafting experience for 1-6 players set in the depths of an underground research facility. Caught between paranormal containment failure, a military crusade, and chaos from a dozen realms, the world’s greatest minds must survive against the universe’s biggest threats. RimWorld A sci-fi colony sim driven by an intelligent AI storyteller. Generates stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes, diplomacy, interpersonal relationships, art, medicine, trade, and more. {STEAM_CLAN_IMAGE}/25160263/aeaed5fc69e65acfdd5830a17c465203d219180a.png Get out there and do some science. - Tia Website | X | BlueSky | Reddit | Facebook",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1837955055364275",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-294100-1834602721199984",
       "appid": 294100,
@@ -187,21 +199,6 @@
       "keywords": [
         "performance",
         "mod",
-        "ui",
-        "quest"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1803527891932554",
-      "appid": 294100,
-      "title": "Odyssey preview #4: Quests, the mechhive endgame, drones, and more",
-      "version_detected": "1.6",
-      "date": "2025-07-09T16:00:00.000Z",
-      "type": "content",
-      "content": "Hello everyone. Odyssey launches in a couple of days on July 11, 2025! We’ve had a lot of fun sharing the previews with you guys. So many great comments, fanart, videos, analyses, and theories. Your 1.6 feedback has also been awesome during the unstable beta. Today’s final preview is a bit of a grab bag. We’re covering quests, the mechhive endgame, new drone traps, unique weapons, miscellaneous stuff, and languages. https://store.steampowered.com/app/3022790/RimWorld__Odyssey/ Reminder to please wishlist Odyssey so that Steam tells you the minute it’s out. Let’s go! New quests: rumors, ruins, and orbital adventures Odyssey adds new quests that take you across the planet - and into orbit. Some quests start with a rumor. A visiting trader tells of ancient mercenaries recently awoken from cryptosleep, holed up in a dilapidated bunker. Their warlord carries a one-of-a-kind weapon. Take them down, and it’s yours. {STEAM_CLAN_IMAGE}/25160263/1b0e4c9c9be3b6f801c43b03840712a69be95835.jpgOther quests can be discovered from reading old planetary maps. They point to forgotten places like insect-infested settlements, or derelict launch sites hidden in the jungle. These locations offer tech, treasure, or rare materials - if you can get past what’s guarding them. {STEAM_CLAN_IMAGE}/25160263/9fcade9d87d191b92d4372e276c11601e806d022.jpg Some quests lead to space. With a gravship or shuttle, you can reach asteroid mining sites rich with leftover plasteel or uranium. You may go to abandoned space stations still defended by ancient security systems - or already claimed by hostile salvagers. These places have loot, but you’ll have to fight for it. You might also be hired to hunt down an orbital fugitive hiding deep within a space wreck, but reaching them won’t be easy. {STEAM_CLAN_IMAGE}/25160263/e0aada8b04f2b00575a79912c0eb7629286a1bcc.jpg The mechhive Somewhere above the planet drifts the mechhive - the nexus of mechanoid production and direction that drives the machines on their endless quest to wipe out human life. You can stop it. But first, you’ll need to collect gravcore technology from around the planet and nearby orbital ruins to pinpoint the mechhive’s location. You’ll al...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1803527891932554",
-      "source_type": "manual",
-      "keywords": [
         "ui",
         "quest"
       ]
