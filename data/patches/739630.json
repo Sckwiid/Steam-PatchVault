@@ -1,8 +1,23 @@
 {
   "appid": 739630,
-  "generated_at": "2026-07-14T05:41:41.425Z",
+  "generated_at": "2026-07-15T05:42:53.205Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1837955055366422",
+      "appid": 739630,
+      "title": "Phasmophobia Quality of Life Preview #2",
+      "version_detected": "",
+      "date": "2026-07-14T15:09:01.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Following on from our recent preview of the Quality of Life update launching on July 21st, we wanted to share some further details including the newer features - including another look at the reworked 13 Willow Street.The NewAs part of the Quality of Life update, we’re introducing a handful of new gameplay features that aim to improve the overall experience of playing Phasmophobia. Read the below for some details on these additions.Adding keybinds for Equipment slots. PC players will be able to switch Equipment with the 1, 2, 3 and 4 keys. These keys can be rebound. This addition will only be available for PC players.Adding a keybind to be able to inspect the Watch at any time. This will be defaulted to Left DPAD on a controller and H on keyboard. Players can rebind this via Options > Controls.A separate Photo can now be taken capturing an EMF Level 5 reading. Photo Cameras will now feature the same highlight frame as Video Cameras. On screen indicator only on Tier 2 and 3 Photo Cameras, while Tier 1 will have the light change colour.When capturing Media, if multiple are present, the evidence that provides the biggest reward or is Unique will be prioritised.New Ghost: the ██████████ Players will have a higher chance of getting this Ghost in their contracts for the first few weeks following release.Added new walking animations and turning animations to fix several issues: Character legs will no longer use procedural IK and will instead use animations.The character body will no longer animate with the walking animations which caused held items to move while walking.Improvements to the overall VR character: New character animations.Improvements to the belt to improve usability.The character will now turn instantly depending on where you are looking instead of at set angles. The next quality of life update will bring a completely new VR character rig with further improvements:Further improvements to the belt's usability.Improvements to crouching.Improved character animations.Held items will no longer sway when walking.The character's position will accurately represent your real life body position.13 Willow StreetAs with all our reworked m...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1837955055366422",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-739630-1836506165568121",
       "appid": 739630,
@@ -172,22 +187,6 @@
         "multiplayer",
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1831432155580393",
-      "appid": 739630,
-      "title": "Phasmophobia - Player Character Update 0.17.0.0",
-      "version_detected": "0.17.0",
-      "date": "2026-05-05T15:16:50.000Z",
-      "type": "content",
-      "content": "Welcome back, Ghost Hunters. Today we’ve released the Player Character Update for Phasmophobia. The update is out now on all platforms where Phasmophobia is available.Patch notes are available below.NewCharacters: 12 new, higher quality character models (6 male, 6 female) with character bios, adjustable hair colour and more.Cosmetics: A wide array of available cosmetic items to equip your chosen character with; coats, shirts and trousers, all with multiple colour options. Unique shirts for prestige and event specific achievements. Accessories such as piercings, hats and glasses are also available. Note: All cosmetics are either unlockable in-game or purchased with in-game currency. Animations: Alongside the new character models, interactions with equipment, objects and the environment will now feature character animations. Upon dying, a new death animation will also be seen.PC VR Players can enable/disable new first-person death animations with the ‘immersive animations’ toggle in the options menu, as seen below. If disabled, which is the default, the new death animation will be seen in third-person.Player Watch: A watch has been added to the character models that can be used during contracts to monitor player sanity levels and keep track of time elapsed during the contract. To view the watch in full, players can hold the Use button when their left hand is empty or by opening their Journal. The watch will not display Sanity if the Sanity Monitor is disabled, nor will it count as a piece of electronic equipment for Ghost abilities.For VR Players, the watch will always be visible and can be viewed by simply raising their left hand up.Cursed Hollow Cosmetics: The Cursed Hollow cosmetic rewards are now available for all players. The Cursed Hollow Mask, T-Shirt and Necklace can be equipped from within the customisation Shop.ChangesID Cards: ID Cards and Badges are now equipped and swapped within the customisation Shop menu, rather than the main menu.Death Room: The room a player will enter after being killed by the Ghost has been removed, with the player now seamlessly transitioning to the Dead state. Player’s Journal: The Journal will now appear in game when being u...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155580393",
-      "source_type": "manual",
-      "keywords": [
-        "mod",
-        "ui",
-        "event"
       ]
     }
   ]
