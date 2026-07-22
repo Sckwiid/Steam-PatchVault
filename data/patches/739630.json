@@ -1,8 +1,23 @@
 {
   "appid": 739630,
-  "generated_at": "2026-07-21T06:07:51.722Z",
+  "generated_at": "2026-07-22T06:06:16.987Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1838407329268874",
+      "appid": 739630,
+      "title": "Phasmophobia v0.18.0.0 - 13 Willow Street Rework & Quality of Life #1",
+      "version_detected": "18.0.0",
+      "date": "2026-07-21T12:30:07.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters. Today we have released Phasmophobia v0.18.0.0, our latest update that brings our reworked 13 Willow Street map as well as our first Quality of Life update for 2026. Patch notes can be found below. New13 Willow Street Rework: The map has received a full visual overhaul, with new assets, props and more available to discover during your contracts. The original layout remains, however some rooms have been repurposed and the flow of several rooms has been edited to improve gameplay.Adding keybinds for Equipment slots. PC players will be able to switch Equipment with the 1, 2, 3 and 4 keys. These keys can be rebound.This addition will only be available for PC players.Adding a keybind to be able to inspect the Watch at any time.This will be defaulted to Left DPAD on a controller and H on keyboard. Players can rebind this via Options > Controls.A separate Photo can now be taken capturing a EMF Level 5 reading.Photo Cameras will now feature the same highlight frame as Video Cameras. On screen indicator only on Tier 2 and 3 Photo Cameras, while Tier 1 will have the light change colour from red to green.When capturing Media, if multiple are present, the evidence that provides the biggest reward or is Unique will be prioritised.New Ghost: the Deildegast Players will have a higher chance of getting this Ghost in their contracts for the first few weeks following release.Added new walking animations and turning animations to fix several issues:Character legs will no longer use procedural IK and will instead use animations.The character body will no longer animate with the walking animations which caused held items to move while walking.Improvements to the overall VR character:New character animations.Improvements to the belt to improve usability.The character will now turn instantly depending on where you are looking instead of at set angles. ChangesThe character hand animations for grabbing, dropping, moving doors and hovering over interactable or grabbable objects have been removed to speed up gameplay.The item drop animation will still play for others in the session, but will not be visible by the Player.Cosmetics that are no longer able to be e...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329268874",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-739630-1837955055366422",
       "appid": 739630,
@@ -170,23 +185,6 @@
         "mod",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1832065502821307",
-      "appid": 739630,
-      "title": "Phasmophobia v0.17.1.0 - Patch Notes",
-      "version_detected": "17.1.0",
-      "date": "2026-05-11T13:24:56.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. We want to start today by apologising for our Player Character Update that launched last week. It’s clear we missed the mark on this, and didn’t deliver on our promises to you. Your feedback and your reviews were justified. Our team has grown significantly over the last year, and with that comes a higher standard that, in this case, we failed to meet. Tomorrow, May 12th, our next update for Phasmophobia will bring with it many fixes, iterations and changes to the game that bring things in-line with our vision for this update. While we know improvements can still be made, we believe this will provide a much better experience for everyone playing Phasmophobia. Over the past week, we’ve read feedback from across the entire community. The frustration and disappointment has been clear. Below is a look at the patch notes, with changes and fixes built on that feedback, that will go live with tomorrow’s update. NewAdded a 5 second delay after you die to allow you to select a ghost in the journal Changes Salt will now get instantly placed at the start of the animation instead of the end.Most equipment hold poses have been changed to fix several visual issues including wrists, elbows, arms and the equipment's position on the screen.The T3 Sanity Medication animation will no longer play in MultiplayerThe Tier 1 Igniter is now open so you can see how many matches are leftRemoved the inventory swapping animation to allow for instant swapping of held equipmentPrestige cosmetics are now free after they are unlocked based on your prestige level Fixes Character Model FixesFixed an issue that caused the heads of character models to look incorrect when the player looks up and down.Fixed an issue that caused problems with the character rig upon being revived while crouched.Fixed an issue that caused character models to fall down incorrectly upon death.Fixed an issue that caused Non-VR player character’s feet to clip below the ground when standing still.The player characters feet will no longer float in some areasFixed the characters walking animation when below 50% player speedFixed an issue that caused character model mouths to be open when the player ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502821307",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "multiplayer",
-        "mod",
-        "ui"
       ]
     }
   ]
