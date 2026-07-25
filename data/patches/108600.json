@@ -1,8 +1,25 @@
 {
   "appid": 108600,
-  "generated_at": "2026-07-24T06:05:48.822Z",
+  "generated_at": "2026-07-25T05:58:10.574Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1839041357029453",
+      "appid": 108600,
+      "title": "BUILD 42 STABLE PLANS",
+      "version_detected": "42.20",
+      "date": "2026-07-24T12:38:50.000Z",
+      "type": "hotfix",
+      "content": "Project Zomboid version 42.20 will be coming direct to the stable public branch Wednesday, the 29th of July. Details on what this will entail will follow after, by way of celebration, the unveiling of our new Build 42 Steam Store trailer! This has been lovingly crafted by our Art Director Ayrton, captured by Amz, been blessed with 3D renders by Werlias, and received much sound love from Matteo and the team from Arrival. Our thanks too to our voice talent Michael Billington, Gemma Acosta, Jane Perry and Stefan Ashton - all of whom knocked it out of the park. So, onto some further important details on next week's excitement. THOSE WANTING TO STAY ON 41 Build 41 savegames clearly will not be compatible with Build 42. If you are a Build 41 player who wants to minimise disruption on the 42 launch, or a server owner / online player who wants to continue on Build 41, then there is already a beta channel for you (and your players) to move over to before the event. To do so: Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Versions & Betas\" select \"legacy41\". {STEAM_CLAN_IMAGE}/4460946/c1cb9282f98915e6d57f248b3e9edd1698fd368a.gif FOR THOSE WANTING TO FINISH AN UNSTABLE 42.19 GAME Due to additional content being added, existing saves on Unstable 42.19 will not be compatible with 42.20. To continue your Unstable game you can opt-in to the new “42.19” beta. To do so: Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Versions & Betas\" select \"42.19\". 42.20 CONTENT We will be running a blog early next week to go over some of the new aspects that are being added into 42.20, which will be accompanied by an interview with our Art Director that MrAtomicDuck has recorded - in the same vein as the one he did with our Design Director Christian Allen. As mentioned previously, repeated here as not everyone reads every blog, the patch also addresses issues with: Character Spawns Controllers Meat yield from Butcher Hooks Vehicle Towing Zombie culling in MP GOING FORWARD Again, this is repeated information from our last blog - so apologies for any deja-vu - but it's important that everyone knows the plan. After any necessary hot fixes are identi...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357029453",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "content",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-108600-1836506165584147",
       "appid": 108600,
@@ -187,22 +204,6 @@
       "keywords": [
         "fix",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1828894815557868",
-      "appid": 108600,
-      "title": "42.16.1 UNSTABLE Hotfix Released",
-      "version_detected": "42.16.1",
-      "date": "2026-04-02T15:49:33.000Z",
-      "type": "hotfix",
-      "content": "Just a heads-up: thanks for reporting the controller issues and bugs in the latest patch! We’ve logged them all and while we couldn't squeeze every fix in before the Easter holidays, they are already cooking and will be released as soon as possible! FIXES - (Server Browser) IP Addresses now hidden by default. Toggle check-box to reveal - Fixed GameClientConcurrentModification Exception when remote players time out - Fixed Park Ranger's herbalist trait being a trait point exploit - (MP Exploit) Creating a new character causes errors and the dead character reappears after reconnecting",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1828894815557868",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "mod"
       ]
     }
   ]
