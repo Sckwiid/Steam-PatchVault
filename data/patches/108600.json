@@ -1,8 +1,23 @@
 {
   "appid": 108600,
-  "generated_at": "2026-07-27T06:44:27.033Z",
+  "generated_at": "2026-07-28T06:05:05.645Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1839041357036410",
+      "appid": 108600,
+      "title": "42.20: The Big Glow Up",
+      "version_detected": "42.20",
+      "date": "2026-07-27T17:53:25.000Z",
+      "type": "content",
+      "content": "Hi everyone, as previously mentioned Build 42.20 will be coming to the public stable branch this Wednesday, July 29th! For full details on this please check out this announcement blog. A big new part of this is a HUGE new upgrade to the Knox Event Exclusion Zone – that goes way beyond what you have already played during the Unstable beta. Our aim? To create a heavily evolved Knox Country that expands and overhauls the game’s Kentucky setting with new and reworked areas, that feel more lived-in, more natural, and more believable as places that existed long before everything went wrong. So what’s got us to this point? Let’s hand over to Art Director Ayrton Orio to explain: “Since Build 41 the Art Department has been hard at work on expanding the map westward, establishing an ambitious target quality, and revamping many of the existing towns in-game – while also hiring and restructuring.” “Overall Build 42 in the Knox Event Art Department saw four new map artists added to the team (Erika, Melo, Dylan and Alokin), one departure (Xeonyx), two ascensions to wider game management positions (Mash and Binky), and my own promotion to Art Director.“ “The first improvements made to the map itself are those that Build 42 Unstable players have already experienced. Myself and Jamie (Xeonyx) made a first leg of improvement that covered a whole new area furnishing the extreme West of the map with three new towns: Brandenburg, a new location on the banks of the Ohio river river; Ekron, a small agricultural town full of Southern charm; and Irvington, in the South West of the map, with its famous race track.” \"While we were working on the above, however, the South of Muldraugh became our proving ground to experiment on a much more detailed style of world building. If reception was positive, we thought, then this could eventually become the expected standard for the rest of the map.“ “As it turned out, the reaction from players when B42 hit Unstable was so overwhelmingly positive that it triggered the hiring of the new enlarged team mentioned above – which would then go on to achieve that vision we’re announcing today.” A snowy night in Muldraugh WHAT'S NEWFollowing on from Ayrton’s...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357036410",
+      "source_type": "manual",
+      "keywords": [
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-108600-1839041357029453",
       "appid": 108600,
@@ -189,21 +204,6 @@
       "source_type": "manual",
       "keywords": [
         "fix"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1829528821303710",
-      "appid": 108600,
-      "title": "42.16.2 UNSTABLE Hotfix Released",
-      "version_detected": "42.16.2",
-      "date": "2026-04-08T09:48:50.000Z",
-      "type": "hotfix",
-      "content": "GAMEPADS AND CONTROLS - Right-click no longer toggles forceAim conflicting with RMC menu. Now waits slightly longer before engaging, so that RMC menu doesn't pop up. - Gamepad interactions with UI and Vehicles. -- Controller users can now move or perform actions while the inventory is open -- Vehicle radial menu isn't being interrupted by the player aim anymore -- Switching seats no longer makes the player exit the vehicle -- Squeezing right-trigger for gas pedal no longer activates aim while driving (requires both right-stick and trigger to aim in vehicles) - ToggleToAim no longer breaks for melee/unarmed. - Fixed characters getting stuck at rotating character at the start of the tutorial on controller As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821303710",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "ui"
       ]
     }
   ]
