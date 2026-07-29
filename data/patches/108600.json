@@ -1,8 +1,25 @@
 {
   "appid": 108600,
-  "generated_at": "2026-07-28T06:05:05.645Z",
+  "generated_at": "2026-07-29T06:09:21.018Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1839041357038237",
+      "appid": 108600,
+      "title": "B42 CHECKLIST",
+      "version_detected": "42.19",
+      "date": "2026-07-28T12:58:13.000Z",
+      "type": "balance",
+      "content": "Tomorrow, Wednesday 29th July, we will be releasing Build 42 of Project Zomboid!This is a quick post to ensure that those who want to continue playing Build 41 are aware of how they can do so with minimal disruption, and indeed to tick off a few other items to be aware of.Apologies for the overall boring post! Hopefully yesterday’s map overhaul excitement counterbalances it a little.THOSE WANTING TO STAY ON 41Build 41 savegames clearly will not be compatible with Build 42.If you are a Build 41 player who wants to minimise disruption on the 42 launch, or a server owner / online player who wants to continue on Build 41, then there is already a beta channel for you (and your players) to move over to before the event.To reiterate: you can safely swap to the Build 41 beta now.To do so:Right-click PZ in your Steam library.Select “Properties”.Under “Game Versions & Betas” select “legacy41”.THOSE WANTING TO FINISH AN UNSTABLE 42.19 GAMEDue to additional map content being added, existing saves on Unstable 42.19 will not be compatible with 42.20.To continue your Unstable game you can opt-in to the new “42.19” beta now also, again to minimise your disruption tomorrow. To do so:Right-click PZ in your Steam library.Select “Properties”.Under “Game Versions & Betas” select “42.19”.STREAMERS AND YOUTUBERSStreamers and YouTubers who have been given slightly early access to the map overhaul in Build 42.20, and are being allowed to post and broadcast their content from 10AM BST / 5AM EDT / 11AM CEST / 12PM EEST on Wednesday for a few hours preceding the official launch.So if you fancy spoiling it all for yourself, please keep watching relevant channels on YouTube, Twitch and wherever else you get your content creators from!PRICE RISEAs with the launch of Build 41, there will be a rise in price for Project Zomboid alongside the release of Build 42 – although not one that many would consider a huge one.The game will continue to be what we consider to be reasonably priced and good value for the gameplay available. This change will apply across storefronts and regions once 42.20 launches to Stable; if you want to pick up the game at the current price (or for a friend), act now.LOCALIZ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357038237",
+      "source_type": "manual",
+      "keywords": [
+        "balance",
+        "content",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-108600-1839041357036410",
       "appid": 108600,
@@ -190,20 +207,6 @@
       "keywords": [
         "mod",
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1829528821304362",
-      "appid": 108600,
-      "title": "Stable(41.78.19) + UNSTABLE(42.16.3) Hotfixes Released",
-      "version_detected": "41.78.19",
-      "date": "2026-04-08T13:49:00.000Z",
-      "type": "hotfix",
-      "content": "STABLE (41.78.19) - Security Vulnerability Update UNSTABLE (42.16.3) - Fixed an exception in Server Browser - Security Vulnerability Update As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821304362",
-      "source_type": "manual",
-      "keywords": [
-        "fix"
       ]
     }
   ]
