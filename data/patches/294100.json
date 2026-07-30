@@ -1,8 +1,22 @@
 {
   "appid": 294100,
-  "generated_at": "2026-07-29T06:09:21.018Z",
+  "generated_at": "2026-07-30T06:01:07.201Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1839676055883540",
+      "appid": 294100,
+      "title": "Get the RimWorld x Project Zomboid bundle",
+      "version_detected": "",
+      "date": "2026-07-29T20:54:05.000Z",
+      "type": "content",
+      "content": "Hey everyone, I'd like you to meet the survivors of Knox Country! Project Zomboid just dropped their huge B42 update, and we put together this bundle with them to celebrate the moment. If you've ever wanted to try out your zombie survival skills, now is a great time. You can grab the bundle for 20% off or 20% off the game you don't already own right now: https://store.steampowered.com/bundle/80341/RimWorld_x_Project_Zomboid/ Project Zomboid Project Zomboid is the ultimate in zombie survival. Alone or in MP: you loot, build, craft, fight, farm and fish in a struggle to survive. A hardcore RPG skillset, a vast map, massively customisable sandbox and a cute tutorial raccoon await the unwary. So how will you die? All it takes is a bite.. RimWorld A sci-fi colony sim driven by an intelligent AI storyteller. Generates stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes, diplomacy, interpersonal relationships, art, medicine, trade, and more. {STEAM_CLAN_IMAGE}/25160263/8a972d08682b4b505f7a6c89d14954d167f8f06b.jpg Now I better get back to working on my carpentry skill. - Tia Website | X | BlueSky | Reddit | Facebook",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055883540",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-294100-1837955055364275",
       "appid": 294100,
@@ -184,23 +198,6 @@
         "mod",
         "quest",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1804977324449403",
-      "appid": 294100,
-      "title": "Odyssey expansion and update 1.6 out now!",
-      "version_detected": "1.6",
-      "date": "2025-07-11T13:57:03.000Z",
-      "type": "content",
-      "content": "The RimWorld - Odyssey expansion is out now! https://store.steampowered.com/app/3022790/RimWorld__Odyssey/ We’re celebrating Odyssey’s release with a sale on all past RimWorld products. Get 20% off RimWorld, 15% off Royalty and Ideology, and 10% off Biotech and Anomaly! Update 1.6 RimWorld’s free update 1.6 is out now - you don’t need to own Odyssey to get it. This update brings massive performance improvements, reworked map generation, flying animals, and quality-of-life changes across caravans, plans, building, UI, and more. Read more about it here or check out the changelog here. Compatibility FAQ Unmodded savegames from 1.5 will load in 1.6. If you want to keep playing on version 1.5, use Steam beta branch \"version-1.5\". To do this, right-click RimWorld in the Steam library, go to properties, open the betas tab, and select the version from the dropdown. Many mods have already been updated to version 1.6 - thank you to our modders! However, some mods have not yet been updated, and they will not work in 1.6. Odyssey original soundtrack You can also grab the RimWorld - Odyssey soundtrack on Steam. Created by RimWorld composer Alistair Lindsay, it features 10 thrilling, spacey tracks to accompany you during your orbital expeditions. Odyssey merch collection We’ve just launched our new, limited-edition Odyssey collection on our official merch site: https://rimworld.store/ {STEAM_CLAN_IMAGE}/25160263/24992d5002a77de516a820d20dda1154f2ffad01.jpg The collection includes: RimWorld bomber jacket and patches: A stylish colonist jacket with iron-on patches so you can proudly display your favorite expansions. Centipede plush: For such a heavily-armored murder machine, it’s very plump. Odyssey T-shirt: This gravship tee is perfect for launching into the stars, digging through ruins, or fighting off pirates. Hive queen plush: All the terror of the insectoid matriarch, bloated with cuteness instead of larvae. Odyssey Odyssey enriches the world and expands your adventure beyond a single map. Build a gravship - your flying home - to travel across the planet. Settle in new biomes filled with diverse landforms and exotic wildlife. Go on quests to hunt the alpha thrumbo or raid ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1804977324449403",
-      "source_type": "manual",
-      "keywords": [
-        "performance",
-        "mod",
-        "ui",
-        "quest"
       ]
     }
   ]
