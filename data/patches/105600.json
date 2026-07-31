@@ -1,8 +1,22 @@
 {
   "appid": 105600,
-  "generated_at": "2026-07-30T06:01:07.201Z",
+  "generated_at": "2026-07-31T06:25:39.987Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1839676055886308",
+      "appid": 105600,
+      "title": "Terraria State of the Game - July 2026",
+      "version_detected": "1.4.5",
+      "date": "2026-07-30T20:08:49.000Z",
+      "type": "balance",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/82b1363c400bdeb3a62293e007e5ef8c5bd71192.png Greetings Terrarians! Hot enough for you out there? The way we figure it, there is no better way to dodge these insane heatwaves than getting some game time. Of course, we remain hard at work on the latest update (1.4.5.7) as well as laying the groundwork for what is to come soon thereafter. Parts of the team are also gearing up for some upcoming travel. It is an exciting time for Terraria and our team, and we cannot wait to share that journey with all of you in the coming months. For now, we will just leave the details as a mystery! Let's dive right into the latest Terraria news... {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png PC - RE-LOGIC TERRARIA 1.4.5.7 - THE FINAL PUSH Terraria 1.4.5.7 is nearing completion at last! We expect to have development work wrapped up shortly, and then we just have to do a localization pass (getting the various translations and adding them in) and the latest Terraria update will be ready for submissions. Once it clears submissions (as with 1.4.5, we are aiming for a sync launch across PC/Console/Mobile), you will finally have access to all of the new goodies and balance tweaks. Of course, we expect that there will be more feedback in regards to the balance changes (it is impossible to ever get it perfectly right in one go) - the plan is to roll any additional tweaks from that feedback into the next update (currently expected to be Crossplay Phase One). This one has taken a good while, but we are excited for what is to come your way very soon. In August, we will be getting together in person with our good friends at DR Studios for some planning and roadmap work - setting the path in place for future Terraria updates. We will share some pics and details from those sessions in a future State of the Game. All that said, shall we check out a little spoiler? {STEAM_CLAN_IMAGE}/3949769/51cf21547a2998e834c44181ac910e1048a20123.gif The Chlorophyte Claymore - when you need to clear a room fast, accept no substitute... Keep your thoughts and feedback rolling in - Terraria 1.4.5.7 will be with you soon! {STEAM_CLAN_IMAGE}/3949769/3c24853f896391b...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055886308",
+      "source_type": "manual",
+      "keywords": [
+        "balance"
+      ]
+    },
     {
       "id": "steam-news-105600-1836506165552129",
       "appid": 105600,
@@ -169,21 +183,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821922921811448",
       "source_type": "manual",
       "keywords": []
-    },
-    {
-      "id": "steam-news-105600-1819386365109655",
-      "appid": 105600,
-      "title": "Terraria State of the Game - December 2025",
-      "version_detected": "1.4.5",
-      "date": "2025-12-26T19:43:58.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/06fa955c714aa98f0c0b202eae31a25e2d78b52e.png Greetings Terrarians! Here we are once again at the end of another year. One filled with ups and downs, highs and lows, but through it all we remain so thankful for all of you Terrarians - and even more excited for what lies ahead. We will get into the short term details of that below, but we will leave you wondering and speculating about what is in store for 2026 and beyond. After we get through 1.4.5, we will dive into that with everyone. For now, expect a very abbreviated State of the Game this month. Given the timing of the last Thursday of December this year, pretty much all of our partners (and, indeed our team) has stepped away for the holidays. However, we didn't want to leave you without at least a brief update on a few things. So, with that said, let's get to checking out what lies beneath the Terraria Tree this year! DEVELOPMENT UPDATESTERRARIA 1.4.5 - THE FIRST SUBMISSION IS AWAY! Let's lead off with the main news of the month - while December wound up being impossible - we can share that the first console submissions are indeed in and being reviewed by first parties. In addition, our global partners in Korea/Japan/China have been given the release submission builds so that they can work on any tweaks and additions needed on their end. Taken all together, these are precisely what we needed to accomplish to ensure that January is looking good for the launch of Terraria 1.4.5. We do not know exactly when in January that Terraria 1.4.5 will release just yet. Once the results of the first submission are in, we will have a MUCH better sense of timing. As soon as we know, you will know. Why didn't December happen? To give you a short summary, it just was not possible to get every platform and global partner together in time to rush out a December release that would arrive early enough in the month that we would be able to ensure all hands on deck for any hotfixes and the like. Submissions take time - and even if we had gotten lucky and everything went perfectly the first time (highly unlikely), that would have meant a launch right into the Christmas week, and we just do not feel right ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365109655",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "ui"
-      ]
     }
   ]
 }
