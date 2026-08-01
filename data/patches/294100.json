@@ -1,8 +1,22 @@
 {
   "appid": 294100,
-  "generated_at": "2026-07-31T06:25:39.987Z",
+  "generated_at": "2026-08-01T06:10:30.268Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1839676055889403",
+      "appid": 294100,
+      "title": "The Jugust merch caravan has arrived!",
+      "version_detected": "",
+      "date": "2026-07-31T21:28:40.000Z",
+      "type": "content",
+      "content": "Howdy, the traders are here! They've brought a summer-y RimWorld merch collection with them. The caravan closes up shop on August 24, so get yours now. The new collection includes a plush warg to watch your back, a notebook for your travels, and colony-issued gear to bring along on your adventures. Wherever the road takes you this summer, travel in good company and style! You can browse the goods on the official RimWorld merch store: https://rimworld.store/ {STEAM_CLAN_IMAGE}/25160263/f8100e0b658906088b66b0ee28ff9825f76de3d5.jpg ☀️ RimWorld Summer Collection Warg plush: A ruthless predator... made huggable! Man in black t-shirt: The legend himself, now on a rugged tee. Gunslinger tote bag: For hauling your supplies just like a colonist. Colony-issued research notebook: Work on your projects here, no research bench required! Golden cube keychain: A perfect, wonderful cube in solid metal, ready to go with you everywhere. Worship the cube. brb showing off the glorious cube to everyone I know - Tia Website | X | BlueSky | Reddit | Facebook",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055889403",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-294100-1839676055883540",
       "appid": 294100,
@@ -177,25 +191,6 @@
         "fix",
         "mod",
         "ui",
-        "quest",
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1805431065502024",
-      "appid": 294100,
-      "title": "Update 1.6.4528 released",
-      "version_detected": "1.6.4528",
-      "date": "2025-07-22T16:00:28.000Z",
-      "type": "hotfix",
-      "content": "Hello! It’s been almost 2 weeks since Odyssey came out, and we’ve been hard at work fixing bugs and incorporating your feedback. If you’d like to help us by reporting a bug, please join the official RimWorld development Discord. Today’s update has improvements and fixes for RimWorld, Odyssey, and the other expansions. This includes things like removing the -3 soaking wet thought when swimming for recreation and reducing memory usage overall. This update should be compatible with all savegames and mods. P.S. Send us your gravships on X or BlueSky by mentioning the @LudeonStudios account! - Tia Website | X | BlueSky | Reddit | Facebook Changelog When consumed, psilocaps now correctly have a small chance to inspire colonists or induce a catatonic state, matching their in-game description. Vultures are more resistant to rot stink and other environmental toxins. Reduced cover effectiveness of passenger shuttle Animals specialist now increases fishing speed and fishing yield. \"Fungus preferred\" precept is now compatible with the darkness meme, allowing more options in glowforest. In the glowforest, reduced caravan movement difficulty and disease occurrence. Removed HP from gravcores to prevent them from being accidentally destroyed. Hermit crabs now hide in their shell when not moving. Disabled gravship landing on worshipful village. No longer possible to open the world map during the gravship cutscene. Clarified the basic gravtech description. Clarified how gravship substructure is removed. Added “remove foundation” to the floor architect category. Updated some player names per request. Performance Performance improvements in the glowforest. Improved load times on Mac. Add debug checks to strip out several heavy profilerblocks. Improvements to world pawn GC algorithm, and debug tools for logging world pawn information. Fix: Significant performance drop when the world map is open. Fix: Higher-than-necessary memory usage during texture atlas baking (causing memory issues with lots of mods). Fix: Bad performance in royal title quest when throne room isn't enclosed. Fix: Significant performance drop when the terrain tab on the world map is open. Fixes Fix: Gaining soakin...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1805431065502024",
-      "source_type": "manual",
-      "keywords": [
-        "performance",
-        "bug",
-        "fix",
-        "mod",
         "quest",
         "event"
       ]
