@@ -1,8 +1,44 @@
 {
   "appid": 108600,
-  "generated_at": "2026-08-05T06:02:56.974Z",
+  "generated_at": "2026-08-06T06:06:44.913Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1840310314339441",
+      "appid": 108600,
+      "title": "42.20.2 STABLE Hotfix Released",
+      "version_detected": "42.20.2",
+      "date": "2026-08-05T15:05:38.000Z",
+      "type": "hotfix",
+      "content": "While this update should not break saves, if you encounter any bugs please ensure you can replicate them on a fresh save with no mods installed before reporting them to our team here. TECHNICAL/DEBUG Fixed percent symbol handling in files Mods should use %% to display % characters A temporary workaround was implemented to allow both methods of processing, however mod makers should update their mods to use %% to display % characters going forward as this workaround will be removed in a future unstable update Error logs will be populated highlighting the error so mod makers can see what needs to be updated going forward Fixed quick tips displaying % as %% Added memory debug-information when showing fps debug info As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314339441",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod",
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-108600-1840310314338766",
+      "appid": 108600,
+      "title": "42.20.1 STABLE Hotfix Released",
+      "version_detected": "42.20.1",
+      "date": "2026-08-05T10:07:30.000Z",
+      "type": "hotfix",
+      "content": "While this update should not break saves, if you encounter any bugs please ensure you can replicate them on a fresh save with no mods installed before reporting them to our team here. MP Improved Lua checksum validation for multiplayer anti-cheat Fixed an issue that caused significant performance problems with chunk unloading on multiplayer servers This should fix most of the bugs players were getting on high-pop servers due to server lag Fixed errors and crashes that could occur when selecting Multiplayer while certain languages were selected Fixed an issue where vehicles could temporarily disappear for players after another player disconnected Fixed an issue that would allow broken B41 worlds to be hosted on B42 servers Fixed an issue where players switching from b41 to B42 could be met with a missing menu FIXES Improved memory usage by reusing discarded world data Fixed a memory leak that could lead to performance degradation and crashes over time If you continue to encounter an out of memory error in a new save, please submit a bug report with your logs and profiler video from debug so the team can investigate Fixed a rare exception that could occur during exploration TECHNICAL/DEBUG Added the ability for mods to write .json files Fixed percent symbol handling in translation files Mod translations should use %% to display % characters As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314338766",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "bug",
+        "fix",
+        "multiplayer",
+        "mod",
+        "crash"
+      ]
+    },
     {
       "id": "steam-news-108600-1839676055882259",
       "appid": 108600,
@@ -174,39 +210,6 @@
         "balance",
         "content",
         "mod",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1830163047261202",
-      "appid": 108600,
-      "title": "Location, Location",
-      "version_detected": "42.17",
-      "date": "2026-04-17T19:11:01.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/4460946/9973551bd1653b253e986b8e16450df165a35eb9.png Hello Survivors, we hope your shelter is keeping you dry and warm! Shortly we plan on releasing Build 42.17 Unstable, which contains some new sandbox options, balancing changes, and (as usual), tons of bug fixes and Multiplayer stability improvements. A lot of this content was based on your feedback, so please keep it coming! While 42.16 saves should convert to 42.17, there are always potential issues with converting saves between Unstable builds, so as always we recommend starting a fresh save with each update, and backing up any existing ones before updating. So turn off Life and Living and let’s jump right in: NEW SANDBOX LOCATION OPTIONS For Sandbox players, there is now an option to choose from each of the “Exclusion Zone” towns to start in when creating a new Sandbox game. This gives players more options when setting up custom gameplay scenarios. When choosing this option, please keep in mind that Occupational Spawns are not supported outside of the four ‘canon’ starting towns, and your spawn location will be much more static when using non-canon starts. BALANCE TWEAKING While less broad than the 42.16 Occupation Revamp, 42.17 does bring some important fixes and tweaks to Occupations and Traits. Chefs now properly use blades instead of blunts to do their cooking, Farmers receive a Strength boost reflecting their heavy workload, and DIY Experts now receive the Inventive trait to represent their ability to…DIY. Several Occupations have also had their point costs reduced based on observed usage impact. On the Trait side of things, Smoker and High Thirst will get a small Trait point boost, reflecting overall B42 game system changes affecting their impact on gameplay. Nutritionist will also be a bit more palatable cost wise as it primarily provides information. Additionally, one big new option for Multiplayer servers is the ability to enable Sprinters if desired! This should still be considered a prototype, and we are actively on the lookout for edge cases that may come up under heavy server loads. LOOT ADJUSTMENTS One set of items that players will be able to find in the world is an entire...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047261202",
-      "source_type": "manual",
-      "keywords": [
-        "stability",
-        "bug",
-        "fix",
-        "balance",
-        "content",
-        "multiplayer"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1829528821318104",
-      "appid": 108600,
-      "title": "Charity Merch Update",
-      "version_detected": "",
-      "date": "2026-04-14T15:18:00.000Z",
-      "type": "major",
-      "content": "{STEAM_CLAN_IMAGE}/4460946/195b23eb99e439fce0dd605644edb6d3b7905950.png Hey all! This is just a quick and happy update for those who had been following our recent \"Brawler Spiffo\" merch drop in support of Médecins Sans Frontières. Thanks to the amazing support of the Project Zomboid community, we were able to raise more than $180,000 (USD) to support the amazing and important work of MSF! In addition to this, our merch partner Makeship contributed a further 5% of all proceeds! A big thank you to everyone who contributed or shared, and we hope you're enjoying your PZ merch, whether it be a badass plush Spiffo or a cozy hoodie. More merch will be coming later in the year! As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1829528821318104",
-      "source_type": "manual",
-      "keywords": [
         "ui"
       ]
     }
