@@ -1,8 +1,20 @@
 {
   "appid": 108600,
-  "generated_at": "2026-08-06T06:06:44.913Z",
+  "generated_at": "2026-08-07T05:04:39.901Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1840310314341636",
+      "appid": 108600,
+      "title": "Show your Spiffo’s pride, and help us fundraise",
+      "version_detected": "",
+      "date": "2026-08-06T12:06:57.000Z",
+      "type": "minor",
+      "content": "\"Welcome to Spiffo’s, how can we serve you today?\"Today we're launching our latest collaboration with the wonderful humans at Makeship. Here’s what’s on the menu:A Chef Spiffo plushie, with that cheeky raccoon looking as happy as can be in his adorable chef’s outfit!Our Spiffo's Restaurant Pin Collection, featuring:A Spiffo’s logo pin ( © Spiffo’s Corporation, 1993) created with a special “layered” effectA ‘Happy Birthday Spiffo’ pinA ‘Spiffo gets his burger on’ pinAnd last but not least, an official keychain with a delightful plushie version of the, uh, Spiffo part of Spiffo’s logo, seen here with all these other exciting official items!Be the envy of your friends! Represent your corporate allegiance with pride! All hail Spiffo!FUNDRAISINGOnce again (and thanks to the generous accountants at the Spiffo’s Corporation), all of our proceeds from this campaign will be donated to Mary’s Meals, a charity dedicated to providing nutritious meals to hungry schoolchildren all around the world.When we last launch, we raised more than $180,000 (USD) to support the amazing and important work of Médecins Sans Frontières with ‘Brawler Spiffo’. Can Chef Spiffo take us even higher? We hope so!Don’t delay! Shop Spiffo’s today!Visit Makeship for Spiffo's merch",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314341636",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-108600-1840310314339441",
       "appid": 108600,
@@ -190,25 +202,6 @@
         "fix",
         "balance",
         "multiplayer",
-        "mod",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1830163047266254",
-      "appid": 108600,
-      "title": "Build 42.17.0 Unstable Released",
-      "version_detected": "42.17.0",
-      "date": "2026-04-20T14:52:42.000Z",
-      "type": "hotfix",
-      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". NEW The Survival Guide has been updated with new content Added additional static spawn points to Sandbox Mode Brandenburg Echo Creek Ekron Fallas Lake Irvington March Ridge Valley Station Added new Skill VHS tapes Aiming Animal Care Blacksmithing Electrical First Aid Knapping Pottery Tailoring Welding Fluid container empty rates now depend type of container Added book \"The Moments of Darius\" by Ignas Updated Pet Name list in memoriam UI/CONTROLLER Additional WIP controller changes have been implemented. (Please keep providing feedback. It has been extremely valuable.) The ability to customise controls in-game still requires additional work, and will be included in a future update. Added dedicated Credits Screen In-Game UI improvements Clamp XUI to screen size Rearranged and compacted Crafting window craft control box Reduced size of input item boxes Rearranged and compacted recipe filter box Compacted Building window input panel Reduced size of output item boxes Fixed Crafting window input and output panels Reduced preferred width of handcraft window Reduced preferred width of build window Compacted craft inventory panel Improved scale of Admin Powers window Host loading bar width has been resized BALANCE Game Mode Defaults Updated Apocalypse Chance for vehicles to spawn with gas increased from \"Low\" to \"Normal\" Increased \"Other\" loot spawn rate from 0.6 to 0.8 Increased \"Wound Infection Damage Factor\" from 0.0 to 1.0 Extinction Increased \"Wound Infection Damage Factor\" from 0.5 to 1.0 Outbreak Increased \"Other\" loot spawn rate from 0.6 to 0.8 Increased \"Wound Infection Damage Factor\" from 0.0 to 1.0 Rising Increased \"Other\" loot spawn rate from 0.6 to 1.0 Increased \"Wound Infection Damage Factor\" from 0.0 to 1.0 Sandbox Vehicle \"Chance Has Gas\" setting value of \"Normal\" reduced from 70 to 45 Occ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830163047266254",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "balance",
-        "content",
         "mod",
         "ui"
       ]
