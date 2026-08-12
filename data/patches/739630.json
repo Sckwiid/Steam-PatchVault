@@ -1,8 +1,23 @@
 {
   "appid": 739630,
-  "generated_at": "2026-08-11T04:42:41.519Z",
+  "generated_at": "2026-08-12T05:06:40.371Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1840310314354216",
+      "appid": 739630,
+      "title": "Phasmophobia Quality of Life Part 2 Preview",
+      "version_detected": "",
+      "date": "2026-08-11T14:06:06.000Z",
+      "type": "content",
+      "content": "Welcome back, Ghost Hunters.Thank you to everyone for the warm reception to our first Quality of Life update last month, and we’re glad to see many of you enjoying Phasmophobia once more.Today as promised, we’re sharing details on the upcoming second Quality of Life update for Phasmophobia. We’ll be releasing this update across all platforms on 25th August, 2026. Exact release times are still to be confirmed, so keep an eye on our channels for official confirmation of when the update is live. Let’s break down a couple of the features we’re excited about before sharing the full list: New Restricted OptionsFor a long while, we have seen folks requesting smaller versions of our larger maps in the vein of Sunny Meadows Restricted. With this update we’re excited to introduce Restricted versions for Prison, Brownstone High School and Point Hope.As with Sunny Meadows, these map variants are designed for quicker games in locations that we know players enjoy but sometimes don’t want to be investigating the larger area. In the case of Point Hope Restricted, which will be classed as small, Ghost Hunters will be able to access up to the Dining Room while Prison and Brownstone High School will have multiple variants - classed as Small and Medium respectively - which will be randomly assigned upon loading into a contract. Brownstone High School in particular will have a total of 4 map variants following the update. With such a big map, we believed it was appropriate to give a variety of variations, giving Ghost Hunters a sense of mystery when loading up. Outside each Restricted version of the map, a small piece of environmental decor will signify which variant of the map you’re on. Journal & Evidence ChangesWe made a handful of changes and improvements to Evidence collection with the first Quality of Life update, and we’re doing the same with the second. As with all of our updates, we’ll be looking for and reading through player feedback on these changes so please do let us know your thoughts once you’ve spent some time with them. Since our Chronicle update last year, we’ve been working on finessing the Unique/Duplicate system. A change we’re introducing with this next update...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314354216",
+      "source_type": "manual",
+      "keywords": [
+        "ui",
+        "quest"
+      ]
+    },
     {
       "id": "steam-news-739630-1839041357038727",
       "appid": 739630,
@@ -168,21 +183,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592797840",
       "source_type": "manual",
       "keywords": []
-    },
-    {
-      "id": "steam-news-739630-1832700592792331",
-      "appid": 739630,
-      "title": "Phasmophobia - Hotfix v0.17.1.2",
-      "version_detected": "17.1.2",
-      "date": "2026-05-15T15:18:19.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters.Today we have released an additional hotfix for Phasmophobia that is available now for all platforms.Patch notes:FixesFixed an issue that was causing a crash across all platforms.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592792331",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "crash"
-      ]
     }
   ]
 }
