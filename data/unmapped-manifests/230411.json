@@ -1,6 +1,6 @@
 {
   "depotid": "230411",
-  "updated_at": "2026-08-15T03:39:54Z",
+  "updated_at": "2026-08-16T03:49:24Z",
   "manifests": [
     {
       "depotid": "230411",
@@ -1221,6 +1221,14 @@
     {
       "depotid": "230411",
       "manifestid": "7152156997008129783",
+      "source_repo": "Sainan/k25FCdfEOoEJ42S6",
+      "source_type": "github_tree_index",
+      "status": "unverified",
+      "confidence_score": 25
+    },
+    {
+      "depotid": "230411",
+      "manifestid": "4895911296145320793",
       "source_repo": "Sainan/k25FCdfEOoEJ42S6",
       "source_type": "github_tree_index",
       "status": "unverified",
