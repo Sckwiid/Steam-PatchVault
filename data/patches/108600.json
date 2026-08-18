@@ -1,8 +1,27 @@
 {
   "appid": 108600,
-  "generated_at": "2026-08-17T04:05:41.745Z",
+  "generated_at": "2026-08-18T04:00:33.861Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1840944183785895",
+      "appid": 108600,
+      "title": "42.20.3 STABLE Hotfix Released",
+      "version_detected": "42.20.3",
+      "date": "2026-08-17T12:18:24.000Z",
+      "type": "hotfix",
+      "content": "While this update should not break saves, if you encounter any bugs please ensure you can replicate them on a fresh save with no mods installed before reporting them to our team here. MP Improved server player limit handling, including support for up to 254 players and administrator access when servers are full Fixed an issue that would cause the client to hang on \"Loading Map\" forever FIXES Addressed multiple causes of a memory leak that could lead to performance degradation and crashes over time If you continue to encounter an out of memory error in a new save, please submit a bug report with your logs and profiler video from debug so the team can investigate Implemented several memory optimisations Reduced instances of black and gray boxes appearing when travelling quickly through the world Additional causes of this issue are still being investigated and will be addressed in a future update Fixed issues that could cause errors during lighting updates. As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183785895",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "bug",
+        "fix",
+        "mod",
+        "ui",
+        "crash"
+      ]
+    },
     {
       "id": "steam-news-108600-1840310314341636",
       "appid": 108600,
@@ -185,25 +204,6 @@
         "mod",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1832065502816211",
-      "appid": 108600,
-      "title": "SPRING IS HERE",
-      "version_detected": "42.18",
-      "date": "2026-05-08T20:18:06.000Z",
-      "type": "hotfix",
-      "content": "Happy May, Survivors! Glad to see you made it through the winter. {STEAM_CLAN_IMAGE}/4460946/38f462d03fe96f02cb08217ed825ac57f92bde27.png Build 42.18 Unstable will be releasing soon, so here is a quick preview of what to expect. This update primarily focuses on modding improvements and bug fixing across both Single and Multiplayer, with some light balance changes. As always, we strongly recommend starting a fresh save with each update and backing up any existing ones before updating. So put down that zombie corpse you’ve been dragging and let’s take a sneak peek at what’s coming: MODDING AND MULTIPLAYER POLISH The team has been working hard on modding support, including backend support for some multiplayer mods that were affected by recent security updates, new exposed functions for modders, and fixes for several issues with the potential to cause errors related to mods. This is an ongoing effort, so modders can expect more polish in upcoming releases. More Multiplayer polish and bug fixes are coming with this update, including improved sound propagation for distant events to players, fixes for muscle strain being applied improperly to some clients, and a wide swath of issues and optimization related to vehicles hitting players. Be sure to check out the update notes for the full (long) list of MP fixes and optimizations when it is released. BALANCE AND OCCUPATION TWEAKS While relatively light in this update, there will be some balance tweaking. On the Occupation front, we have some minor adjustments: Rancher now receives a bump in Fitness rather than Agriculture, as this is more fitting with their athletic job. Park Ranger now receives Carving in place of Tracking, reflecting their broad forestry skillset and ability to maintain wood-handled tools. Along with some related bug fixes, Improvised Gas Mask Filters are getting a rework for the folks who wade through piles of zombie corpses. This change bridges the gap between standard Gas Masks and simple Bandanas while providing a renewable source of early-to-mid game protection. And remember, while Gas Masks provide some protection against generator fumes indoors, that won’t last long and definitely violates the ma...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502816211",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "balance",
-        "multiplayer",
-        "mod",
-        "ui"
       ]
     }
   ]
