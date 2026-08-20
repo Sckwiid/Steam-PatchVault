@@ -1,8 +1,26 @@
 {
   "appid": 105600,
-  "generated_at": "2026-08-19T04:02:09.594Z",
+  "generated_at": "2026-08-20T04:01:46.744Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1841579228663704",
+      "appid": 105600,
+      "title": "Terraria 1.4.5.7 - Out Now for PC! (Console/Mobile Soon)",
+      "version_detected": "1.4.5",
+      "date": "2026-08-19T20:45:37.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/d8e64fccf4c6a6ba668db850bbb0e6be7de5d0ac.png Greetings Terrarians! At long last, we are pleased to announce that Terraria 1.4.5.7 is out now for PC! Terraria 1.4.5.7 is the latest and last (barring any critical fixes needed) hotfix for the Bigger and Boulder update. It has a heavy focus on balance, including stat and functionality changes to existing items and even some brand new items that we are sure you will all enjoy. Of course, while we were at it, we dealt with some outstanding bugs and more. We decided to post this update separately vs with all of the other hotfixes given its scope. We had originally planned to sync this release across PC-Mobile-Console, but with Gamescom coming up next week (more on that below), we had to make the call to get PC out now and then get Console and Mobile into submissions immediately. This allows us to have the update out, time for any critical fixes, and then the submissions can run their course in parallel. Mobile and Console will release just as soon as those submissions clear. What's next? Again, barring any critical fixes that would necessitate a 1.4.5.8, next up should be the long-awaited Crossplay Phase One update (1.4.6)! We will have more on what all that entails in the near future, though you can check previous State of the Game posts for some advance hints and how Phase One and Phase Two will roll out. In addition, the Re-Logic and DR Studios teams will be holding joint planning sessions next week at Gamescom in order to lay out the path forward for future Terraria updates. We will share the results of those meetings at a later time. All that said, let's dive into the what's new and the changelog, shall we? TERRARIA DEDICATED SERVER - 1.4.5.7 {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png {STEAM_CLAN_IMAGE}/3949769/faf9b06e0f48a651389b7c8b077f1b576c6b896f.png TERRARIA 1.4.5.7 CHANGELOG​ I. Content Changes & Additions ​ A. Items - Added Daybloom Staff. - Added Glacier Fang. - Added Mystic Bloom. - Added Lightning Strike. - Added Clay Bud Staff. - Added Ruinous Staff. - Added Arc Surge. - Added Silver Bracer. - Added Snake Band. - Added Mobius Strip. - Added Wicked...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228663704",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "balance",
+        "content",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-105600-1839676055886308",
       "appid": 105600,
@@ -171,18 +189,6 @@
         "content",
         "ui"
       ]
-    },
-    {
-      "id": "steam-news-105600-1821922921811448",
-      "appid": 105600,
-      "title": "Terraria 1.4.5 - the Launch Date Revealed at Last!",
-      "version_detected": "1.4.5",
-      "date": "2026-01-14T20:18:36.000Z",
-      "type": "major",
-      "content": "Greetings, Terrarians! As we mentioned in last month's State of the Game, things were looking up for a January 2026 release. We did have to resubmit a few things, which pushed us back a bit further than expected. However, and to keep this short and sweet, we are happy to share that... TERRARIA 1.4.5 WILL RELEASE ON JANUARY 27TH! We have a few more things to get done between now and then (a couple of approvals still pending as well), but start the countdown because Terraria 1.4.5 will be in your hands in 13 short days! See you then!​",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1821922921811448",
-      "source_type": "manual",
-      "keywords": []
     }
   ]
 }
