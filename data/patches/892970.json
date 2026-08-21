@@ -1,8 +1,27 @@
 {
   "appid": 892970,
-  "generated_at": "2026-08-20T04:01:46.744Z",
+  "generated_at": "2026-08-21T04:04:09.797Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1841579228664600",
+      "appid": 892970,
+      "title": "Word from the Devs: Almost there…",
+      "version_detected": "1.0",
+      "date": "2026-08-20T07:03:31.000Z",
+      "type": "hotfix",
+      "content": "Greetings vikings! We hope you’re having a wonderful summer! We’re currently gearing up for the 1.0 release in September, fixing some final bugs and getting everything ready for you to experience in just a few weeks. We hope you’re as excited as we are! In the meantime, please do make sure you check out our 1.0 FAQ, which covers many of the questions we have been asked about the release. As always, we recommend that you start a new playthrough to get the best possible Valheim experience, but we also understand that many of you will want to visit the Deep North as soon as you can, and we have tried to answer any questions relating to that! And one last time in case you missed it, the 1.0 announcement trailer: As you know, next week we will be at Gamescom in Cologne, and we really hope to see some of you there. If you’re visiting, make sure to stop by our booth in hall 10 and say hello! And regardless if you’re there or not, make sure to keep an eye out for a brand new trailer that will be premiering during the event. We will be seeing some familiar faces… {STEAM_CLAN_IMAGE}/33695701/69290aebe219a4a96e89f7de6496d525f450c5db.jpg And with that, we’ll see you on the other side of 1.0! Build of the Month For many years now, we have been sharing your wonderful and creative buildings under this headline. With the Early Access journey coming to an end, we will also be wrapping up this particular segment – though we will of course still be curious to see what it is you’re building in the game. Keep an eye out on our social channels, because you can be certain that we will be asking you to share what you’ve made! To round off, we will highlight two builds this time. First out is The Bridge by myboyklaus. Look at all those creative solutions! {STEAM_CLAN_IMAGE}/33695701/c9b7cd4ab4d100fc54e0b99601e92bc9cd51df01.png And last, but not least, we want to direct your attention to the Cathedral of the All-Father, built by Ayriv. Since we’ll be going to Cologne it feels only fitting, after all! {STEAM_CLAN_IMAGE}/33695701/ab5222af43cc594b19f3d0f215bba5012e4ac73f.jpg Sharpen your axes and raise your shields! /The Iron Gate team If you’d like to discuss the content of this post, plea...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228664600",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "content",
+        "ui",
+        "quest",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-892970-1836506165545761",
       "appid": 892970,
@@ -167,20 +186,6 @@
       "source_type": "manual",
       "keywords": [
         "content",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1817483467033261",
-      "appid": 892970,
-      "title": "Word From the Devs: Through the Roof",
-      "version_detected": "",
-      "date": "2025-11-26T11:41:11.000Z",
-      "type": "content",
-      "content": "Greetings vikings! We’ve truly hit the colder part of the year now, which gives us plenty of inspiration for the Deep North landscape. And just as we continue to work on the biome, Hervor Bloodtooth is continuing her journey: Many of you have speculated for a long time, and as we now take a closer look at some of the abandoned structures in the Deep North, we want to properly confirm that the update will add the possibility to build steeper roofs! The 67° roof pieces will be 4 meters high, and available for both the thatch as well the darkwood roof styles. We’re really looking forward to seeing all the new and creative ways you will use these build pieces! {STEAM_CLAN_IMAGE}/33695701/c2ff511ef45a3fda4ed67a0a39cd35cd7f3ec4c1.png We also want to offer you a bit of a mystery this month! It’s something to do with the crafting process in the Deep North, can you guess what these things will be used for? {STEAM_CLAN_IMAGE}/33695701/a6cc442ec1607dc1a8296cc21d79400d45e6d05b.png As we’re nearing the holiday season for many, we also want to make sure to give you some tips for Valheim themed gifts! In the Grimfrost merch store, we currently have a combo deal where you can get two plushies for the price of one. It’s only valid throughout Black Week though! We have also teamed up with the talented folks at Cantrip Candles, who have made a lovely set of Valheim themed scented candles! There’s one for the black forest, one for the ocean, and one for the campfire – and they all come with labels illustrated by Mats Minnhagen. These are also discounted at the moment, so now is a great time to grab them if you want them! {STEAM_CLAN_IMAGE}/33695701/cb9f956d0d6431baaa82be325b68b3b411260e21.png Build of the Month We want to take one last look at the spooky season before we make way for winter, so this month we have chosen to highlight this richly decorated hall by Captain Crumbs! Well done! {STEAM_CLAN_IMAGE}/33695701/5b32e1735456475d5eccdf071c6d2baa94371040.jpg If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds o...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1817483467033261",
-      "source_type": "manual",
-      "keywords": [
         "ui"
       ]
     }
