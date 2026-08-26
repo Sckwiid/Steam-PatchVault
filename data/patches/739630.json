@@ -1,8 +1,24 @@
 {
   "appid": 739630,
-  "generated_at": "2026-08-25T04:02:50.815Z",
+  "generated_at": "2026-08-26T04:05:33.694Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1841579228678571",
+      "appid": 739630,
+      "title": "Phasmophobia v0.19.0.0 - Quality of Life Part 2",
+      "version_detected": "19.0.0",
+      "date": "2026-08-25T15:02:48.000Z",
+      "type": "content",
+      "content": "Welcome back, Ghost Hunters.Today we have released Phasmophobia v0.19.0.0, our latest update that brings with it the second part of our Quality of Life update. Full patch notes can be found below, and in-depth details on what’s new can be found in this blog.NewAdded new Restricted variants of the below maps.PrisonBrownstone High SchoolPoint HopeVideo Cameras, Photo Cameras and Sound Recorders will now indicate Duplicate evidence.Tier 1 Photo Cameras will display a yellow LED light.Tier 2 & 3 Photo Cameras and all Tiers of Video Cameras will display faded text rather than the usual bold white text.Tier 1 Sound Recorder will lower the brightness of the Volume indicators.Tier 2 & 3 Sound Recorders will display faded sound waves.The Journal will now display other player selections of Evidence and Ghost Type.The Keys section in the Journal has been replaced with Items We’ve Found, this new section will show keys, the bone and seasonal event collectables.Added the ability to select the Ghost Type in a Custom Difficulty which will set the multiplier to 0.Added a new Legacy Badge section to the Customisation shop to allow you to edit your badge at any time.Players without a Legacy Badge will not see this option.Added a ‘Hold Use’ sticky note on the Training whiteboards.Dead players and dead player bodies will now look dead.Added unique video evidence text for shower and fuse box interactions.Added an icon to show whether a ghost name is male or female.The Evidence page will now highlight the required Ghost evidence when the player selects a Ghost type.ChangesPhoto and Video Camera screens will now disable when clipping through a wallWhen speaking, the speaker icon on ID cards will now function for all players, including local playerImprovements have been made to the VR character rig, allowing for more accurate and responsive movement.Players can now interact with a Spirit Box when not grabbed using Text Voice Recognition ModeCustom Difficulties with a 0 multiplier will no longer contribute towards any progress, such as achievements and leaflets.Pressing use while holding a lit T1 firelight will now use another, without having to wait for the animation to finish.When a p...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228678571",
+      "source_type": "manual",
+      "keywords": [
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-739630-1840310314354216",
       "appid": 739630,
@@ -171,18 +187,6 @@
         "event",
         "crash"
       ]
-    },
-    {
-      "id": "steam-news-739630-1832700592797840",
-      "appid": 739630,
-      "title": "Phasmophobia by Alan Wake - Twitch Drop",
-      "version_detected": "",
-      "date": "2026-05-18T10:21:06.000Z",
-      "type": "minor",
-      "content": "Be a part of the story with The Seer ID Card & Badge.Our Phasmophobia by Alan Wake Twitch Drop will be available from 12PM BST May 19th - 12PM BST May 26th.Earn the Animated variant via Kinetic Games Partner streams, and the Standard via any Phasmophobia streams during the campaign. The total watch time to earn the Drops is 2 hours.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592797840",
-      "source_type": "manual",
-      "keywords": []
     }
   ]
 }
