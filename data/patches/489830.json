@@ -1,22 +1,24 @@
 {
   "appid": 489830,
-  "generated_at": "2026-08-26T04:05:33.694Z",
+  "generated_at": "2026-08-27T14:17:33.887Z",
   "source": "steam-static-db",
   "patches": [
     {
       "id": "steam-news-489830-1841579228665884",
       "appid": 489830,
-      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.7.99",
+      "title": "The Elder Scrolls V: Skyrim Anniversary Edition - Update 1.7.99 (Updated Aug 27)",
       "version_detected": "1.7.99",
       "date": "2026-08-20T14:55:37.000Z",
       "type": "hotfix",
-      "content": "Today's update to The Elder Scrolls V: Skyrim Special Edition increases console mod storage limits and brings more Creations improvements and fixes.Added and Updated FeaturesGameIncreased mod storage to 15 GB for both PlayStation 5 and Xbox.Due to differences in platform storage systems, PlayStation 4 Creation storage is changed in the following ways: Creations storage expanded to approximately 16 GB, but download size may not match space used because of technical details of the PlayStation 4 console hardware; This may cause download size vs. installed size discrepancies. Storage usage may appear larger than expected when managing Creations; Due to the storage system partitions, PS4 users may experience a practical limit on the number of large Creations installed at once.Added localized strings fixes for UI and platform terminology.A Creation’s Details page now includes instructions on how to report abusive or problematic mods.Added bundling of Creations in the Skyrim Creations Menu to bring it to parity with Fallout and Starfield.Changed storefront UI to support Creations box art at 3640 x 900 and 900 x 506 to be consistent with Starfield and Fallout 4. Older image sizes will still be supported and do not require immediate resubmission.Added support to sort Creation categories by \"Most Popular\".Creations flagged as WIP can now be viewed when bookmarked.Creation KitAdded Localization export support.Updated \"Search and Replace\" to align with Starfield, adding buttons for \"Select Form in Object Window\" and \"Open Form Editor\".Creation Kit will now allow multiple master loads by default. This can be configured as normal.Skyrim Creations released through the Verified Creators program will have the option to be Achievement-Friendly (Xbox) and Trophy-Friendly (PlayStation). This means that certain Creations will no longer block achievements, but it requires starting a new game for this functionality to work on updated Creations.Bink files can now be added to Creation uploads via an Extra Files browser.Expanding beyond scripts, archives are now supported on PlayStation. New file types are available (.nif, .dds, .bink, .wav, and .fuz (with embedded .wav)) for PlayStation...",
+      "content": "Additional Hotfix — August 27CrashesFixed a crash when opening the on-screen keyboard and submitting text on the game main menu on PlayStation.Fixed a crash when opening the map multiple times on Xbox.Bug FixesInstalling the game in certain regions no longer shows the 14 out of 15 GB Creations storage space is used on PlayStation.Today's update to The Elder Scrolls V: Skyrim Special Edition increases console mod storage limits and brings more Creations improvements and fixes.Added and Updated FeaturesGameIncreased mod storage to 15 GB for both PlayStation 5 and Xbox.Due to differences in platform storage systems, PlayStation 4 Creation storage is changed in the following ways: Creations storage expanded to approximately 16 GB, but download size may not match space used because of technical details of the PlayStation 4 console hardware; This may cause download size vs. installed size discrepancies. Storage usage may appear larger than expected when managing Creations; Due to the storage system partitions, PS4 users may experience a practical limit on the number of large Creations installed at once.Added localized strings fixes for UI and platform terminology.A Creation’s Details page now includes instructions on how to report abusive or problematic mods.Added bundling of Creations in the Skyrim Creations Menu to bring it to parity with Fallout and Starfield.Changed storefront UI to support Creations box art at 3640 x 900 and 900 x 506 to be consistent with Starfield and Fallout 4. Older image sizes will still be supported and do not require immediate resubmission.Added support to sort Creation categories by \"Most Popular\".Creations flagged as WIP can now be viewed when bookmarked.Creation KitAdded Localization export support.Updated \"Search and Replace\" to align with Starfield, adding buttons for \"Select Form in Object Window\" and \"Open Form Editor\".Creation Kit will now allow multiple master loads by default. This can be configured as normal.Skyrim Creations released through the Verified Creators program will have the option to be Achievement-Friendly (Xbox) and Trophy-Friendly (PlayStation). This means that certain Creations will no longer block achievements, b...",
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228665884",
       "source_type": "manual",
       "keywords": [
+        "bug",
         "fix",
         "mod",
-        "ui"
+        "ui",
+        "crash"
       ]
     },
     {

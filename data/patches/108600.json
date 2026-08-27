@@ -1,8 +1,24 @@
 {
   "appid": 108600,
-  "generated_at": "2026-08-26T04:05:33.694Z",
+  "generated_at": "2026-08-27T14:17:33.887Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1842212951296601",
+      "appid": 108600,
+      "title": "42.20.4 STABLE & 42.19.2 UNSTABLE & 41.78.21 LEGACY Hotfixes Released",
+      "version_detected": "42.20.4",
+      "date": "2026-08-26T11:12:26.000Z",
+      "type": "hotfix",
+      "content": "While this update should not break saves, if you encounter any bugs please ensure you can replicate them on a fresh save with no mods installed before reporting them to our team here. FIXES Fixed security vulnerabilities. Mod makers should be aware that as part of this fix, the loadstring and loadstream methods have been removed. If your mods used these methods you will need to update your mods. If you were using these methods to execute code sent from the server, then you will need to create the necessary methods and call them by sending the appropriate commands. If you are unable to replace these methods in your case, please report the issue in the #mod_portal channel of The Official Project Zomboid Discord server, explaining how you were using them As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951296601",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod"
+      ]
+    },
     {
       "id": "steam-news-108600-1840944183785895",
       "appid": 108600,
@@ -185,25 +201,6 @@
         "fix",
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1832065502820909",
-      "appid": 108600,
-      "title": "Build 42.18.0 Unstable Released",
-      "version_detected": "42.18.0",
-      "date": "2026-05-11T11:08:10.000Z",
-      "type": "hotfix",
-      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". NEW Added new Weapon Reload animations for lever action rifles and shotguns Added Option to Accessibility section to automatically pause the game when reading maps. If enabled the game will unpause when a map is closed. Important: this setting is known to freeze the map screen on controllers. A fix will be included in an upcoming patch, but it's recommended that controller users disable this feature for the time being. Added keybind for \"Sit on Ground\" action Updated assets for propane tanks to reflect US standards Added some new garbage bins to Spiffos and PizzaWhirled BALANCE Park Ranger occupation now has +1 Carving, and no longer has +1 Tracking Rancher occupation now has +1 Fitness, and no longer has +1 Agriculture Improvised Gas Mask has been rebalanced Clean rags can be used as Rag Filters in Improvised Gas Masks Not as powerful as commercial gas masks / respirators, but more powerful than wearing a bandana Rag Filters with 20L base.Canteen, base.CanteenMilitary - 500ml -> 900mL base.CanteenCowboy - 1L -> 1.8L base.HydrationBackpack - 1L -> 2L base.HydrationBackpack_Camo - 1L -> 3L base.BeerEmpty - 1L -> 300mL MODDING Non-base Module Recipes now work in MP Fixed \"Game Crash with Missing Recipe Items\" Improved Craft History (added cleanup) Added \"getModTags()\", \"setTags()\" for CraftRecipe. Added \"getItems()\" for InputScript Fixed File writers bug. Now it return null, when initialized incorrectly. Returned Tag \"FITS_CLOTHING_RACK\" for items for clothing rack. Added Event \"SyncFactionServer(factionName, isRemove)). It triggers on any change in faction. Added Texture field for Trait Script. Now you can set path to texture for Trait. Fixed Mod Foraging Icon bug. Now it possible to collect mod items by Foraging. Added public methods for zombie: \"doCrawlerSpeed(zombieSpeed)\", \"doSprinter()\", \"doF...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832065502820909",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "balance",
-        "mod",
-        "ui",
-        "event"
       ]
     }
   ]
