@@ -1,8 +1,20 @@
 {
   "appid": 105600,
-  "generated_at": "2026-08-30T09:18:40.257Z",
+  "generated_at": "2026-08-31T09:51:11.560Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1842212951308398",
+      "appid": 105600,
+      "title": "Terraria State of the Game - August 2026",
+      "version_detected": "1.4.5",
+      "date": "2026-08-30T20:05:25.000Z",
+      "type": "major",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/87b096d573c175653a3b7b3c2342b9e60fa63c4f.png Greetings Terrarians! ​ So, 1.4.5.7 is out for PC, coming very soon for Console and Mobile - how exciting! We hope you all enjoy what is on offer with this latest Terraria update. The next few steps in our journey are pretty exciting, and we cannot wait to share all of that with you in the months ahead. For now, we have left a few hints in this month's developer update sections. We are currently on the road at Gamescom with the majority of Team Terraria and that has been equal parts productive and ridiculously fun. We will share more about our travels later on. All that said, let's cover what has been going on over the past month and a tease for what lies ahead, shall we? On with the show! {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png PC - RE-LOGIC TERRARIA 1.4.5.7 - RELEASED LAST WEEK FOR PC We hope that everyone has been enjoying what Terraria 1.4.5.7 has to offer over the past week or so. As we mentioned previously, we will be watching feedback closely to see what tweaks might need to be made in addition to a few other tidbits that we still want to address in future updates. In case you missed it for some reason, the link to the changelog thread is below. TERRARIA 1.4.5.7 CHANGELOG {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png CROSSPLAY IS ON DECK! Once 1.4.5.7 is out for Console and Mobile and we have a few days to ensure all is well and stable, we will be pushing directly into Terraria 1.4.6, which will be Phase One of Crossplay! There may be some other minor things within that update as well, but Crossplay is the name of the game. In case you need a refresher about how Terraria Crossplay will roll out - namely, in two distinct phases - we have included a link to that summary from DR Studios below: CROSSPLAY ROLLOUT PLAN - FROM FEBRUARY 2026 STATE OF THE GAME We cannot wait for Terraria to enter the Crossplay era at long last! Stay tuned for updates on that journey soon. {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png WHAT COMES NEXT? PLANNING THE PATH AHEAD AT GAMESCOM The Re-Logic and DR Studios teams met this...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1842212951308398",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-105600-1841579228663704",
       "appid": 105600,
@@ -172,22 +184,6 @@
       "keywords": [
         "bug",
         "fix"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1822556746169234",
-      "appid": 105600,
-      "title": "Terraria 1.4.5: Bigger & Boulder - Available Now!",
-      "version_detected": "1.4.5",
-      "date": "2026-01-27T15:16:37.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/408100cde4d99544383aa1a3938cd3234d104577.png Happy launch day, Terrarians! At long last, today is the day: Terraria 1.4.5 is here! What better way to kick off the year of Terraria's 15th Anniversary, right? We know the wait has been a long one, but we hope that everyone enjoys what this latest update has in store. As always, we will be posting any hotfixes or important information regarding Terraria 1.4.5 here in this launch post thread, so you will want to keep an eye on this one for sure. Focusing on the goal of a global, synchronized launch across all platforms and regions, we will be rolling out today on PC, Console, and Mobile everywhere except for the bespoke China Mobile version. A combination of factors led to this. The Chinese mobile edition offers online features based on official servers, which will require additional server migration work upon receiving the complete 1.4.5 content code, followed by a formal review process for the new materials. The completion and release of version 1.4.5 is also very close to the Chinese New Year, and that after the work of porting and localization review, there remains an essential phase of internal testing, which we consider crucial to ensuring a polished gameplay experience. Re-Logic, 505 Games, and XD believe that taking the time to ensure quality is more meaningful than rushing the update before it is ready. Therefore, after discussions with our partner team, it has been jointly determined that the release timing for the Chinese region will differ from that of other versions. 我们原本希望 1.4.5 版本能够在所有平台、所有地区同步上线，目前 PC、主机和大部分地区的移动端已经顺利完成更新；但由于一些客观原因，中国移动端版本需要延后一段时间发布更新。 这是由多方面因素共同导致的。首先中国移动版基于官方服务器提供在线功能，因此在收到完整的1.4.5版本内容代码后，需要进行额外的服务器迁移工作，随后对新内容进行正式审核。 其次考虑到 1.4.5 版本的完成与发布时间临近中国春节假期，且在完成移植和本地化审核之后，我们仍希望预留一个必要的内部测试阶段——这对于保证游戏体验的完善至关重要。 综上Re-Logic、505 Games 与XD三方一致认为，投入时间确保版本质量，远比仓促推出未完善的更新更有意义。经与合作团队共同商讨，我们决定中国区版本的发布时间将与其他地区版本有所差异。 These things can happen when you have so many moving parts. We are working with XD to try and improve the process in the future so that things are truly aligned from now on. That said, expect China Mobile to update to 1.4.5 just as soon as possible! 在涉及多方协作的复杂项目中，此...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1822556746169234",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "content",
-        "ui"
       ]
     }
   ]
