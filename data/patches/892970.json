@@ -1,8 +1,27 @@
 {
   "appid": 892970,
-  "generated_at": "2026-09-09T08:13:30.269Z",
+  "generated_at": "2026-09-10T08:12:25.899Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1843481262688942",
+      "appid": 892970,
+      "title": "Valheim 1.0 Has Arrived!",
+      "version_detected": "1.0",
+      "date": "2026-09-09T12:55:35.000Z",
+      "type": "hotfix",
+      "content": "The time has come to finally venture into the Deep North and Valheim 1.0. We know you’re most likely just itching to jump into the game, so we will not keep you with needless talk! If you have questions about mods and world saves, please do make sure to check out our 1.0 FAQ, otherwise we would like to show you our brand new launch trailer, and invite you read our patch notes below! Patch Notes – Valheim 1.0 Abbreviated Patch Notes: New Content: * New Biome – Deep North * 40+ New weapons * New bombs and ammunition * 4 New armour sets * 2 New capes * 2 New trinkets * New tools * 10+ New creatures * 80+ New buildable pieces * 5 New crafting related build pieces * 30+ New crafting materials * 20+ New food items * New locations * New music * New events * New mechanics * Upgradeable pockets * Achievements Fixes & Improvements: * New graphic setting for draw distance * Menu overhaul for hammer and serving tray * Magica cloth system added * Overhauled descriptions * Rebalanced enemy spawn chance in Ashlands * All hair and beard styles now available from start * Unity engine upgrade * Various fixes and improvements Detailed Patch Notes: New Mechanics: * The snow has fallen thick and deep; best clear it away before you can build! * On frozen seas and pond alike you had better watch your step * The Jotun have begun their invasion of Valheim – set out into the world to halt their advance * Traverse across heights easier with a grappling hook! * Travel to the outer edges of Valheim for a chance to discover alternate versions of earlier biomes * Find mysterious idols scattered throughout the world and bring them to a hidden forge for the possibility of upgrading your items further * Unlock new cinematics as you progress through the game * Visit Haldor to find upgrades to your inventory * Show off with achievements! Crafting: * Material: Bloodgold * Material: Crown Jewel * Material: Dead Pulp * Material: Elaking Hair Bundle * Material: Embers * Material: Frostcore * Material: Frostfire Essence * Material: Frozen Branch * Material: Hook * Material: Ice * Material: Leather Straps * Material: Liquid Frost * Material: Long Claws * Material: Moose Hide * Material: Moose Meat * Mat...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262688942",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "balance",
+        "content",
+        "mod",
+        "ui",
+        "quest"
+      ]
+    },
     {
       "id": "steam-news-892970-1841579228664600",
       "appid": 892970,
@@ -170,21 +189,6 @@
       "keywords": [
         "bug",
         "fix",
-        "content",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1823191198599674",
-      "appid": 892970,
-      "title": "Word From the Devs: It’s Freezing!",
-      "version_detected": "",
-      "date": "2026-01-28T11:55:10.000Z",
-      "type": "content",
-      "content": "Greetings, vikings! 2026 is here, and we hope you’re just as eager for this year as we are! We’ve been having quite a bit of winter weather here in our corner of the world lately, which feels apt as we’ll be sharing with you the ninth part of The Voyage of Hervor Bloodtooth today: What was it that she saw, snow and frost covering more than just the Deep North or the Mountains? Only dreams, perhaps, or visions of something yet to come… {STEAM_CLAN_IMAGE}/33695701/1e59851e4f136851ac129fbf14e734a791eadeb2.png That looks a bit cold, doesn’t it? Though in the Deep North you will learn to deal with something even colder, such as this brand new addition to your workshop: The Frost Foundry! {STEAM_CLAN_IMAGE}/33695701/779b7eba817e8c600916c35c48f56153741c450c.png Build of the Month As we had no blog post in December, we want to share two builds now instead! First out is Ashtaters with an elegant bridge portal – looking good! {STEAM_CLAN_IMAGE}/33695701/c32de89a67c40aa5beea95ca6d34312e7af90fae.jpg And then we also want to highlight this harbour base that Mardy is building, with so many details! {STEAM_CLAN_IMAGE}/33695701/b8170c9d92e3a3e9df8780762fc9e8139c8a6e4d.png Great work the both of you! If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. May your swords be sharp! /The Iron Gate team If you’d like to discuss the content of this post, please visit our Discord, or our forums on Reddit and Steam, or make a comment on social media!",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198599674",
-      "source_type": "manual",
-      "keywords": [
         "content",
         "ui"
       ]
