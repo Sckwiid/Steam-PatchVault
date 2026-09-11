@@ -1,8 +1,25 @@
 {
   "appid": 739630,
-  "generated_at": "2026-09-10T08:12:25.899Z",
+  "generated_at": "2026-09-11T08:07:42.795Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1843481262691864",
+      "appid": 739630,
+      "title": "Phasmophobia v0.19.0.1 - Patch Notes",
+      "version_detected": "19.0.1",
+      "date": "2026-09-10T11:04:16.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters. We’ve got an update for you.Today, we have released an update for Phasmophobia to address several issues that were raised following our latest Quality of Life update. Thank you to everyone who has helped with information and feedback to help us identify and fix these bugs. Our next update following this will be our transition to Unity 6. This will be releasing in November, which is just a little shift from our original aim of October. We’ll be talking in more detail about this update as well as our cosmetics update in an upcoming Development Preview. Rest assured, our Crimson Eye event is still scheduled for October. More on that at a later date too.Full patch notes for today’s release can be found below:NewAdded a VR Belt Offset option to adjust the height to be either lower or higher. Added more props and fingerprint interactions to Prison Entrance to assist with Ghost identification.ChangeAdjusted the position of the VR player’s hand to be a more comfortable position for the following equipment:Tier 1 D.O.T.S Projector.All Tiers of Flashlights.All Tiers of Photo Cameras.All Tiers of Video Cameras.More equipment will be improved with future updates.FixesFixed an issue that caused several cosmetic items to cover the Watch.Note: The Female Hooded Denim jacket will still overlap the Watch slightly. This will be addressed in a future update.Fixed an issue that prevented several achievements completing and being awarded despite the player being on a custom difficulty with a multiplier of 0.Fixed an issue that caused correct Evidence to be crossed out after using the ‘I Wish For Knowledge’ wish with the Monkey Paw.Fixed an issue that caused various Ouija Board animations and interactions to break if the player opened the Journal during an answer.Fixed an issue that prevented the Video Camera from being picked up off a Tripod by other players if another player had placed the Tripod.Fixed an issue that prevented the Nell’s Diner safe from opening despite the correct code being entered.Fixed an issue that caused Hiding Spots on Prison Restricted being unblocked despite No Hiding Spots being set.Fixed an issue that caused a Video Camera’s sc...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262691864",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-739630-1841579228678571",
       "appid": 739630,
@@ -171,22 +188,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318568929",
       "source_type": "manual",
       "keywords": []
-    },
-    {
-      "id": "steam-news-739630-1832700592800634",
-      "appid": 739630,
-      "title": "Phasmophobia - Hotfix v0.17.1.3",
-      "version_detected": "17.1.3",
-      "date": "2026-05-19T10:58:55.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. Today we have released an additional hotfix for Phasmophobia that is available now for all platforms.FixesFixed an issue that was causing a crash for players loading in to event maps.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1832700592800634",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "event",
-        "crash"
-      ]
     }
   ]
 }
