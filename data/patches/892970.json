@@ -1,8 +1,23 @@
 {
   "appid": 892970,
-  "generated_at": "2026-09-11T08:07:42.795Z",
+  "generated_at": "2026-09-12T07:59:02.360Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1843481262695240",
+      "appid": 892970,
+      "title": "Hotfix 1.0.10 & 1.0.12",
+      "version_detected": "1.0.10",
+      "date": "2026-09-11T13:09:02.000Z",
+      "type": "hotfix",
+      "content": "Hello vikings! We’ve got some hotfixes ready for you today, to facilitate your adventures in the tenth world. This includes a bunch of new sounds for the Deep North, and that you can now actually repair your endgame heavy armour. Phew! We do also have some Steam specific fixes, which will arrive to all other platforms shortly as well. But not to worry – even though the fixes are Steam specific, crossplay between all platforms is still fully supported. The fixes include a function to let you opt into using achievements even though you have been blocked from doing so because of previous usage of devcommands. We will leave it to your own judgement whether or not to activate this function – Oden will surely know if you use it dishonourably. May your axes stay sharp! Update: Due to an unforeseen issue, the patch was unable to be uploaded to Switch 2. Unfortunately this means crossplay is not currently supported between Switch 2 and other platforms. We are hoping to solve this as soon as possible and thank you for your patience. The good news is that you can still play cross-play with the Switch 2 and Steam versions (including dedicated server) using the following workaround:1. Right click on the Valheim or Valheim Dedicated Server in your steam library and select \"Properties..\"2. Go to the \"Game Versions & Betas\" on the side tabs.3. Choose \"default_old\" from the list on the right and close the window.4. Wait for the game to update.Sadly there is no work-around for playing crossplay between the Playstation 5 & XBox and Switch 2 at this moment.Please note that you will be playing without the fixes mentioned above, so be aware of certain bugs may still be present.Patch 1.0.10 – All Platforms* The heavy armour in Deep North can now be repaired * Greydwarf Shamans in Deep North now deal appropriate amounts of damage and healing * Punching no longer removes snow * Landing on snow without directly walking now removes the snow * Various sound effects updated for several creatures and the snow in Deep North Patch 1.0.12 – Steam OnlyThe following fixes are fully crossplay compatible and will be extended to all platforms in an upcoming hotfix, which we're pushing out as soon as...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1843481262695240",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix"
+      ]
+    },
     {
       "id": "steam-news-892970-1843481262688942",
       "appid": 892970,
@@ -174,23 +189,6 @@
         "fix",
         "mod",
         "crash"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1823191198610897",
-      "appid": 892970,
-      "title": "Patch 0.221.10 – Five Years of Valheim!",
-      "version_detected": "0.221.10",
-      "date": "2026-02-02T09:01:19.000Z",
-      "type": "hotfix",
-      "content": "Greetings vikings! Today marks the five year anniversary since Valheim was first released into Early Access – and what an incredible five years it’s been! We want to thank everyone who has been a part of our journey and our community since then, whether you started playing on day one or have just been carried by the valkyrie for the first time. We greatly appreciate every single one of you, and we’re so glad to have you walk this path with us. For this anniversary you will find a patch live right now for everyone, with some new celebratory items and emotes, along with some quality of life fixes! If you want to keep the celebration going throughout the week, you can tune in to Twitch on Thursday, where there will be a livestreamed concert by the Munich Radio Orchestra! They will be playing music from a bunch of video games, including Valheim. As you all know, we’re working on Deep North, which will be the final biome update that brings the game into 1.0. While we can’t give an update on that today, we can share that 2026 is going to be a great year for Valheim. Once again, thank you so much for being with us for five whole years! Skål!! /The Iron Gate team Abbreviated Patch Notes: * A celebratory hat! * Early Axes * Frosted Sweetbread * Added a radial menu for emotes * New emotes * New hairstyles * 2 new buildable garlands * Engine Upgrade * Multiple bug fixes and improvements Detailed Patch Notes: New Content: * New Emote: Vibe * New Emote: LoveYou * New Buildpiece: Flower Garland * New Buildpiece: Fey Lights * New Consumable: Frosted Sweetbread * New Weapon: Early Axes * New Hat: Celebratory Cap * 2 New Materials: Mysterious Axe Head, Curious Axe Head * 3 New Hairstyles (Champion, Chronicler, Sunbringer) * Added radial menu for emotes Fixes & Improvements: * Tweaks to multiple hairstyles (Castellan, Painter Curls, Pulled Back Curls, Tidy Curls) * Tweaks to berserker armour * Carapace Buckler now provides 5 adrenaline instead of 10 on perfect block, just like other shields * Updated Game Engine to Unity 6000.0.61f1 * Added localization string for tombstone container Reworked graphics settings: * Replaced “Render scale” percentage slider with “3D resolution limit...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198610897",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "content",
-        "ui"
       ]
     }
   ]
