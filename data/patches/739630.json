@@ -1,8 +1,24 @@
 {
   "appid": 739630,
-  "generated_at": "2026-09-16T08:40:02.083Z",
+  "generated_at": "2026-09-17T08:43:29.815Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1844115010489571",
+      "appid": 739630,
+      "title": "Phasmophobia v0.19.0.2 - Patch Notes",
+      "version_detected": "19.0.2",
+      "date": "2026-09-16T16:05:27.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters. We’ve got an update for you.Today, we have released an update for Phasmophobia to address two issues that have been raised by the community since the release of our last update.FixesFixed an issue which prevented certain PlayStation 5 and XBOX Series X/S users from entering rooms for Singleplayer and Multiplayer.Fixed an issue that caused player audio to be muffled in Multiplayer if another player dropped the Parabolic Microphone immediately after turning it on.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010489571",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "multiplayer",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-739630-1843481262691864",
       "appid": 739630,
@@ -176,18 +192,6 @@
         "multiplayer",
         "ui"
       ]
-    },
-    {
-      "id": "steam-news-739630-1833334318568929",
-      "appid": 739630,
-      "title": "Phasmophobia - Double XP & Rewards",
-      "version_detected": "",
-      "date": "2026-05-21T13:29:46.000Z",
-      "type": "minor",
-      "content": "Ghost Hunters, Between May 22nd, 2026 and May 25th, 2026 you will receive double XP and rewards for any contracts you complete in Phasmophobia. We hope you enjoy.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833334318568929",
-      "source_type": "manual",
-      "keywords": []
     }
   ]
 }
