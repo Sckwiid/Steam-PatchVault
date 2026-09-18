@@ -1,8 +1,26 @@
 {
   "appid": 892970,
-  "generated_at": "2026-09-17T08:43:29.815Z",
+  "generated_at": "2026-09-18T08:19:39.218Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1844115010491701",
+      "appid": 892970,
+      "title": "Patch 1.0.14",
+      "version_detected": "1.0.14",
+      "date": "2026-09-17T11:12:10.000Z",
+      "type": "hotfix",
+      "content": "We've got more hotfixes and improvements for you today! This patch touches upon a little bit of everything, from keybindings to music. We hope you're having fun in the tenth world, vikings! Due to some internal restrictions, the patch will require a few days to get uploaded to all platforms. Despite this, however, crossplay will still remain functional, so you can keep playing with your friends regardless of what platform you’re on. Patch Notes: Quality of Life: * Added several new keybinding options to the keyboard (Alternate dodge key, hotbar rebinding (on top of 1-8), support for rebinding radial wheel, support for removing keybinds) * Added accessibility setting to be able to toggle blocking * Add toggle to Gameplay settings to skip the intro cinematic on startup * When attacking, the player’s rotation now also snaps towards the intended attack direction when the “attack towards look direction” option is enabled, not just when it’s disabled. * Swapped Motion Sensor and Sheath keybinds on gamepad, returning Sheath to its original keybind. Motion Sensor can now be activated with the alt-key + Sheath button instead. Optimizations: * Improved GPU performance when tessellation is disabled by eliminating unnecessary GPU overhead in this case. * Heightmap shadows are now calculated more accurately and at a lower performance cost. * Optimized particle systems in the main menu to reduce overdraw. * Multiple GPU performance improvements on Switch 2. Bugs & Issues: * PlayerBase effect on some build pieces has been increased to block enemies more * Fixed inaccuracies in stick input pre-processing that made it heavily weighted towards axis-aligned movement and 30% too slow diagonally. * Jotun puffs and Magecaps no longer respawn. * Fix for player characters sometimes mistakenly being marked as temporary cheaters, leading to items dropped by monsters they kill being incorrectly marked as having a cheated origin. * Cheated stackable items no longer stack with regular items, preventing uncheated stacks from being “corrupted” into a cheated state. * Persistent Events devcommand (“pevents”) is now actually behind the devcommands toggle and not available in the console by defa...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010491701",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "bug",
+        "fix",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-892970-1843481262695240",
       "appid": 892970,
@@ -173,22 +191,6 @@
       "source_type": "manual",
       "keywords": [
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1825093633184197",
-      "appid": 892970,
-      "title": "Patch 0.221.12",
-      "version_detected": "0.221.12",
-      "date": "2026-02-19T08:09:28.000Z",
-      "type": "hotfix",
-      "content": "We've got a couple of fixes for you today! Please also note that playing using Vulkan might currently cause Valheim to be unstable and/or crash. If you want to continue using Vulkan, you can disable the FPS limiters in e.g. the Nvidia Control Panel for a hopefully smoother experience. Rest assured that we're working on a solution for the Vulkan issue, however, and that it should hopefully be back to normal soon! Patch Notes: * Added release-to-select in the radial menu: If you continue holding down the radial menu button/key after the radial menu appears, you can select an emote by releasing the button/key. * Reverted crouching being unintentionally changed to a press-and-hold action on gamepad. Now it’s back to being a single press again. * Fixed annoying resolution setting behavior in windowed mode when changing settings. * Fixed crash on startup on Windows that triggers under specific conditions when using Vulkan. * Fixed audio stutters in Ashlands. * Fixed sometimes not being able to apply graphics settings properly the first time after updating from an earlier version. * Fixed some minor UX issues in the graphics settings menu. For modders: * Fixed a null reference exception that started happening in 0.221.10 when mods directly or indirectly accessed preferences at startup (for example via the localization system).",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825093633184197",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "mod",
-        "crash"
       ]
     }
   ]
