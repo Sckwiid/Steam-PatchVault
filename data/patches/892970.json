@@ -1,8 +1,23 @@
 {
   "appid": 892970,
-  "generated_at": "2026-09-18T08:19:39.218Z",
+  "generated_at": "2026-09-19T08:07:43.322Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1844115010494664",
+      "appid": 892970,
+      "title": "Patch 1.0.15",
+      "version_detected": "1.0.15",
+      "date": "2026-09-18T12:43:25.000Z",
+      "type": "hotfix",
+      "content": "We have a small patch today that fixes an issue which has caused some players to have duplicated terrains and decreased performance. If you have been affected by this there is a possibility that you will have some visual seams in your terrain. Simply deform the terrain along these seams, or walk in the snow there to make the seams disappear. Previously, these seams would re-appear after reloading the area, but now they will persist correctly. For those of you who have run into the issue of incorrectly having items marked as cheated: We have a planned fix for this, but as it’s a fix that has to be released simultaneously on all platforms as to not break crossplay, it will come in an upcoming patch. We just want to let you know that you can continue to play normally with these items and they will be fixed soon! Regarding lost levels on items: An important message regarding the previous fix to where items on item stands or armour stands would lose their levels and variants. This was due to the updated save format introduced in 1.0, and sadly this data is lost in the conversion and the issue was not found during our testing of this update. This was fixed in Patch 1.0.12, so any world converted from now on will convert correctly. The good news is that there is a workaround if you are affected by this, either: * Revert your world from the backup which was made when you first loaded the new save format. Note: All world progress & changes you have made in the world will be lost with this method. * Or, make a copy of your backup, and enter into the backuped world, then put all your affected on to your character, and go back to your main world and replace the broken items. If you need help with this please feel free to reach out to us in the support channel on Discord. Patch Notes: * Fixed an issue that could cause terrain duplications which resulted in a loss of performance * Increased drop chance for Deep North Armor moulds by making both Jotun Warrior types drop both medium and heavy armor moulds * Writhan spawn rate and areas increased * Items affected by dev commands will no longer be marked for characters which have enabled the dev bypass command and naming has been...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844115010494664",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "fix"
+      ]
+    },
     {
       "id": "steam-news-892970-1844115010491701",
       "appid": 892970,
@@ -177,20 +192,6 @@
         "balance",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1825727806704633",
-      "appid": 892970,
-      "title": "Word From the Devs: Looking to the Future",
-      "version_detected": "",
-      "date": "2026-02-25T12:42:13.000Z",
-      "type": "content",
-      "content": "Hello Vikings! First of all, thank you for all the kind messages during our five year anniversary earlier this month. We wouldn’t be here without all of you! You might also have noticed that we announced that Valheim is coming to Nintendo Switch 2 later this year! We’re really excited for this, and as usual we’re very thankful to have Piktiv helping us out with the port. Please note that the release will only be for Nintendo Switch 2, and not for the first Nintendo Switch console. More information about the release will come in time, but for now you can wishlist the game on the Nintendo eShop. With these two milestones behind us we also want to share with you the final part of the Voyage of Hervor Bloodtooth: Now, it must be said that Hervor’s story took place quite a long time ago, in a Deep North that’s a little bit different from the biome that you will explore yourselves, but perhaps there might still be some traces left of her for you to find… One thing that will still remain standing despite the passage of time is of course the massive structure that marks the end of Hervor’s journey. What lies beyond this gate shall remain a mystery for all but the truly worthy, however. {STEAM_CLAN_IMAGE}/33695701/0221db54b074b6e05ec35f12010223c5acc5ba67.png And while this marks the end of Hervor’s story, we will of course keep having further teasers in our Words from the Devs in the months to come, rest assured! The Deep North continues to take shape with every passing day, and we really look forward to sharing it with you all once it’s ready. Build of the Month It was particularly hard to choose a build to highlight this month, you have been busy! In the end, we want to shine the spotlight on “Eikthyr’s Pedestal” by Porter. Well done! {STEAM_CLAN_IMAGE}/33695701/05232ba5375caf27466f5763c1a63bdc3aecc109.jpg If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. Skål! /The Iron Ga...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806704633",
-      "source_type": "manual",
-      "keywords": [
-        "ui"
       ]
     }
   ]
