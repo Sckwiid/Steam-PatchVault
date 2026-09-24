@@ -1,8 +1,23 @@
 {
   "appid": 108600,
-  "generated_at": "2026-09-23T08:39:46.897Z",
+  "generated_at": "2026-09-24T08:32:35.402Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1844751498218925",
+      "appid": 108600,
+      "title": "Re-population of the Dead: Build 42.21 Unstable Released",
+      "version_detected": "42.21",
+      "date": "2026-09-23T16:08:16.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/4460946/3ab5ae515b648cc78730233a9d4d103ccae889a8.png Hello Survivors! We’re back, and we have a new update, which is now available to play and test on the Unstable branch on Steam. As our first incremental update post-Build 42, this update contains fixes and updates for a whole bunch of things, and we’d love your feedback on them. How to update your Project Zomboid game client to access Unstable 1. Right-click Project Zomboid in your Steam Library. 2. Select “Properties”. 3. Under “Game Versions & Betas” select “Unstable”. {STEAM_CLAN_IMAGE}/4460946/f6e3f5b10e52b75e8fb54e02536be214f579cc74.jpg Existing savegames on Build 42.20.4 should not be affected by this update, however, if you want to test 42.21 with an existing save, we highly recommend manually backing up your save before attempting to play it on the Unstable branch. If you do discover issues with an existing savegame, please let us know via the forums. What’s in this update? 42.21 is an incremental update and has a lot of fixes, but also a few gameplay improvements. These are relatively minor, but hopefully will improve your “quality of survival” in your personal zombie apocalypse. Below are some highlights; for a complete set of changes and fixes, check out the full update notes on our forums. Big Ticket Items Fix: As many will know, we had an issue in which zombies would disappear after a player left and re-entered a “chunk” of the game world; this was particularly obvious in larger zombie population games and as such impacted a lot of our hardcore players. This has now been fixed in both SP and MP. It was a tricky fix for us to pin down and remedy at its root, but is now ready to face the hordes via the Unstable branch. Fix: Issues of zombie duplication in MP have also been tackled, and we’d ask you to be on the look out for any other instances you spot once Unstable is live. Updated: A common piece of feedback since the launch of B42 Stable has been the new ‘XXL trees’ occasionally getting in the way of the player – especially when driving. 42.21 contains changes to the XXL tree cutaway behaviour: they now cutaway better for players in vehicles, they no longer hide houses and furn...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498218925",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-108600-1842212951296601",
       "appid": 108600,
@@ -185,22 +200,6 @@
         "mod",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1833968530890581",
-      "appid": 108600,
-      "title": "REINFORCING THE BARRICADES",
-      "version_detected": "42.19",
-      "date": "2026-05-29T10:09:23.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/4460946/63746381a78ca3f6108bc4fc54c8de1897abe0f2.jpg Hello, Survivors! Today we are bringing you some news related to our localization process, along with a quick preview of the upcoming 42.19 Update! So throw some beef jerky into your fanny pack, fill up your canteen with whiskey, and let’s take a look: LOCALIZATION: A PIVOT Previously, TIS announced that Project Zomboid would be moving to external localization for Build 42 and beyond. However, after trying this process out and then mixing in many separate changes and recent improvements to our workflow, we believe that the extended future of both the game and community would be better served by returning to the community translation model that we had been so proud of up to and through Build 41. To explain our reasoning: In hindsight, one reason we initially put a halt on community translation is simply because our pipeline was too unwieldy and our processes weren’t good enough backstage to manage the data flow. Now, with coders experienced in this field who have worked with a very similar set-up on the Minecraft Java Edition, which provides support for 100 languages, we can supply a far more engaging, interactive and collaborative set-up to benefit the languages we intend to support – and those who were going to miss out on participating. In switching to an external localization team we realized that we were putting a decade’s worth of known and loved phrases, titles and terminology (including some that even the PZ team themselves were ignorant of) at a degree of risk. Through the full gamut of the game, modding, and localization the new PZ team leaders view community as vital and something we want to dive deeper into on all fronts - and not ignoring its history and how things have formerly come to be is a big part of this. Looking forward, the community translation model is a smoother and more organic way of supporting our style of development in terms of the way we run an Unstable beta, feature integration, and patching. For those working on the game, too, it’s less stop/start, allows for a constant dripfeed of edits, fixes and improvements in every update we make, and brings more flexibil...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530890581",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "mod",
-        "ui"
       ]
     }
   ]
