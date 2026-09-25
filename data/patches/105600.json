@@ -1,8 +1,23 @@
 {
   "appid": 105600,
-  "generated_at": "2026-09-24T08:32:35.402Z",
+  "generated_at": "2026-09-25T08:54:17.683Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1844751498222763",
+      "appid": 105600,
+      "title": "Terraria State of the Game - September 2026",
+      "version_detected": "1.4.5",
+      "date": "2026-09-24T21:47:01.000Z",
+      "type": "hotfix",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/231d5745969f6eeb3abae9b0e66c41ced0ca382a.png Greetings Terrarians! Wow, what a month it has been for our little team! A few of us went on a multi-week international odyssey (more on that below) that started with Gamescom and ended up in China! The rest of the team has been hard at work putting the finishing touches on Crossplay Phase One alongside a handful of lingering fixes that remain from 1.4.5.8. We have a strong plan moving forward, and we cannot wait to share it all with you! For now, enjoy some pics from the road alongside the latest and greatest Terraria news. Crossplay - Phase One should be in your hands in the near future! On with the show! {STEAM_CLAN_IMAGE}/3949769/75a1f28fc9bb078f7324af777545b8968e590daa.png DEVELOPMENT NEWS - RE-LOGIC & DR STUDIOS TERRARIA 1.4.6 - PULLING IT ALL TOGETHER With Crossplay in the imminent future, it makes sense to combine the Developer Update sections of State of the Game into one moving forward. If there are any major things that only apply to one platform or another, we will call those out in this section. That said, what a time to be a Terrarian, right? Remember when Console and Mobile were months (or years) behind PC? We are so glad that is no longer the case. The finishing touches are being put on Crossplay Phase One as we speak - we expect that submission to be ready in the near future (of course, we will share the moment this occurs!). The plan is to try and get Phase Two in as soon as possible behind Phase One - but we just might have a little something for everyone in between the two. Stay tuned for what that might be! {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png CONNECTING WITH TERRARIANS IN CHINA! Right after Gamescom, a few members of the Re-Logic team had the chance to participate in the TapTap Game Fest 2026 in Shanghai. Believe it or not, this was actually the first formal fan event that our team has been a part of since way back in 2011 when Red was doing a handful of press interviews solo alongside the launch of Terraria. To say that we were overwhelmed with the sheer number, passion, and positivity of the fans in China would be the understatement ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498222763",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-105600-1842212951308398",
       "appid": 105600,
@@ -168,21 +183,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365750839",
       "source_type": "manual",
       "keywords": [
-        "fix"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1825727806708235",
-      "appid": 105600,
-      "title": "Terraria State of the Game - February 2026",
-      "version_detected": "1.4.5",
-      "date": "2026-02-26T16:51:04.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/32d48ba5ac6ec95d206d7f2ba238a1157064b820.png Greetings Terrarians! After a brief hiatus - because the State of the Game last month should have been pretty obvious haha - we are back again with the usual monthly update across the world of Terraria. What a time it has been since our last SOTG - Terraria 1.4.5 released and has seen several rounds of fixes already (with more to come), a handful of new merch products released (details on that below), and planning is well underway for \"what comes next\". We will be hitting on all of those topics alongside our usual community pieces this month. Before we launch into all of that, we wanted to thank everyone for the overwhelming response to Terraria 1.4.5 and for your diligent reporting, feedback, and more as we go through our usual post-launch fixes and tweaks. You have once again proven that the Terraria fans are the best fans across all of gaming. What a great start to the year - shall we take a peek at what's to come? {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png PC - RE-LOGIC TERRARIA 1.4.5 - KICKING OFF 2026 IN STYLE! Well, we certainly kicked off 2026 with a bang, didn't we? Terraria 1.4.5: Bigger & Boulder released on January 27 across the globe and across all platforms and received a truly outstanding reception. We saw one of the largest player spikes in the history of the game (nearly twice the size of Labor of Love), peaking out at almost 230,000 concurrent players. To say that we are blown away once again by how you support our game and our team is the understatement of all time. Thank you a million times over! Of course, no update has been or ever will be perfect on launch. No matter how much we test things (and we do), releasing an update out to millions of players will bring forth bugs and issues that the team did not find or anticipate. Such was the case with 1.4.5 - but also as usual, you all have been amazing with your detailed bug reports and feedback rounds. This allowed us to release several hotfix rounds (five as of this writing), and we still have some more things we want to address before we will feel comfortable calling 1.4.5 done. If you missed...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806708235",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
         "fix"
       ]
     }
