@@ -1,8 +1,26 @@
 {
   "appid": 892970,
-  "generated_at": "2026-09-25T08:54:17.683Z",
+  "generated_at": "2026-09-26T08:40:38.664Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1844751498224366",
+      "appid": 892970,
+      "title": "Patch 1.0.16",
+      "version_detected": "1.0.16",
+      "date": "2026-09-25T12:18:42.000Z",
+      "type": "hotfix",
+      "content": "Further tweaks for you today, vikings! This one includes fixes for both terrain modification and for some achievements, so we hope this makes playing smoother for you all! Due to some internal restrictions, the patch will require a few days to get uploaded to all platforms. Despite this, however, crossplay will still remain functional, so you can keep playing with your friends regardless of what platform you’re on. Patch Notes: * Fixed a bug that caused terrain modifications to revert in Deep North after unloading the area in some cases. Our apologies that this one went back and forth for a while! You may need to manually fix terrain seams by pickaxing, using the hoe, or walking over snow however. * Fixed a bug that could cause way too many enemies to spawn, especially during raids * Fixed Child of Odin achievement not unlocking correctly * Fixed a case where Comfort is King achievement was not unlocking correctly * Excluded unobtainable Blue Mushroom from The Gourmet achievement * Fixed a bug where smoke from fires could push some enemies in unintended ways * Fixed a bug where snow deposits from trees could cause the terrain to be raised around it * Fixed a bug where certain spawns during the Deep North boss fight could spawn outside the boss area * Fixed a bug where item variants were not applied visually to items on item/armour stands (e.g. shields) * Updated localization * Placeable rocks and boulders no longer take rain damage * Tessellation is now disabled in the “low” graphics preset * Tree logs in Deep North now move more consistently when rolling over snow * Fixed a bug where certain spawns during the Deep North boss fight could render incorrectly when standing in certain places * Fixed an error / potential crash in the online session Player List * Fixed a bug where rolling snowballs far away from the player could result in terrain seams and in some cases, crashes * Switch 2 / PlayStation®5: Fixed a bug where motion controls activation was inconsistent * Switch 2: Fixed a bug where banding artifacts could appear on textures of objects very close to the camera * Mac App Store: Fixed a bug where backups could not be restored via Manage Saves menu",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498224366",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod",
+        "ui",
+        "crash"
+      ]
+    },
     {
       "id": "steam-news-892970-1844115010494664",
       "appid": 892970,
@@ -174,22 +192,6 @@
       "source_type": "manual",
       "keywords": [
         "mod",
-        "ui",
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1827626365768086",
-      "appid": 892970,
-      "title": "Word From the Devs: Winter Adventures",
-      "version_detected": "",
-      "date": "2026-03-25T13:08:43.000Z",
-      "type": "balance",
-      "content": "Hello Vikings! While the story of Hervor Bloodtooth has come to an end, the same cannot be said for the Deep North. We continue to work away on crafting the biome, and today we want to show you a couple of different wintery snippets of what to expect, before spring is properly upon us! First out, we want to show perhaps one of our most Swedish aspects of the biome – the lingonberries. They can be found and harvested in the woods, and used in several of the biome’s food recipes. Got any guesses as to what you might be able to cook? {STEAM_CLAN_IMAGE}/33695701/9945ae424047e96c65883b6c383356b066df5189.png When it’s cold and snowy, one thing to always watch out for is slippery ice. The Deep North will be no different, and careless vikings might easily find themselves stumbling to catch their balance: {STEAM_CLAN_IMAGE}/33695701/1ee9127153bea17b6e13fdb8236e3829b15e8930.png And in the Deep North, there will of course also be deep snow! This will need to be cleared if you want to settle down and build a base somewhere, but fortunately you can craft a shovel for this very purpose. Best put your back into it! {STEAM_CLAN_IMAGE}/33695701/cfb31e0063f21c6f575e64081160be3e03974960.png These are just a few of the things we’re working on at the moment, and we’re happy to say that the biome is shaping up to something we really think you will enjoy. Speaking of you, our brilliant community, it’s almost time for the second edition of the fan-run, online community event Val-Con! It takes place in the middle of April, and there are a whole bunch of fun activities scheduled. This year, Iron Gate is officially participating, and we’re happy to pitch in with some fun prizes for the competitions and raffles during the event. You will also see some guest appearances from the Valheim development team, so stay tuned for that! Build of the Month This month we want to shine a light on “Reed’s Hollow” by Leif. We love the creative use of the Elder altar! {STEAM_CLAN_IMAGE}/33695701/fbf4a7783395404c7b769aa46c46a3e2a2a3c11d.jpg If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to m...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365768086",
-      "source_type": "manual",
-      "keywords": [
-        "balance",
         "ui",
         "event"
       ]
