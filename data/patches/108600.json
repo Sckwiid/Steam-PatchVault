@@ -1,8 +1,25 @@
 {
   "appid": 108600,
-  "generated_at": "2026-09-28T09:54:05.199Z",
+  "generated_at": "2026-09-29T09:55:25.275Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1844751498231307",
+      "appid": 108600,
+      "title": "Build 42.21 Stable Released",
+      "version_detected": "42.21",
+      "date": "2026-09-28T12:07:08.000Z",
+      "type": "hotfix",
+      "content": "We released 42.21 into our Unstable beta last Wednesday, and extend our thanks to the community for checking it over and kicking the tires! If you’ve just seen your game updating and want to know what’s new, then read on below. Full patchnotes however can be found here. Going forward, this should be the standard procedure for all releases; a new update goes to Unstable, it’s tested by you, we potentially make more changes, and ultimately the release goes to Stable. In this instance the community did not report any major issues, so the ‘Go’ button is being pressed… today. Main Stuff • We have tackled the worst offending bugs when it came to issues of zombie duplication in MP, and issues in which zombies would disappear after a player left and re-entered a “chunk” of the game world in both SP and MP. These issues were particularly obvious in larger zombie population games and as such impacted a lot of our hardcore players. You should find your game much improved on this count, although there are still some instances of this which we have on our radar and will be fixed in our next update. • A common piece of feedback since the launch of B42 Stable has been the new ‘XXL trees’ occasionally getting in the way of the player - especially when driving. 42.21 contains changes to the XXL tree cutaway behaviour: they now cutaway better for players in vehicles, they no longer hide houses and furniture they overhang, and their overall transparency has been adjusted for better overall visibility. The work in 42.21 will make your life easier, but is a work in progress and will receive more love in future. • In 42.20.4 the “loadstring” and “loadstream” lua methods were disabled to help address security vulnerabilities. After investigating further into the security issue, we’ve decided to re-enable those commands. Sorry for the disruption, modders/server admins! Plus, clearly, much more. As mentioned, the full changelist can be found here on the Indie Stone forums. Big Thanks While we have your attention we also wanted to extend our thanks to Scribl (Boris) and Rasmus Moorats (nnsee) for their aid in flagging security vulnerabilities that were fixed in 42.20.4. We are endlessly ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498231307",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-108600-1844751498218925",
       "appid": 108600,
@@ -181,25 +198,6 @@
         "content",
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1833968530897275",
-      "appid": 108600,
-      "title": "Build 42.19.0 Unstable Released",
-      "version_detected": "42.19.0",
-      "date": "2026-06-01T11:19:01.000Z",
-      "type": "hotfix",
-      "content": "As always it is recommended that you create a new save with no mods after updates. Updates fix bugs and introduce new changes that may not be compatible with any older saves, especially ones older than the last patch. How do I subscribe to the Unstable beta branch? Right-click PZ in your Steam library. Select \"Properties\". Under \"Game Version & Betas\" select \"Unstable\". NEW Added Controller Re-Mapping Added extended idle animations when seated on the floor UI/CONTROLLER Added new Gamepad Customization UI Controller Input Fixes Added the ability to press the X button to clear text entries Fixed controller issues in MapSpawnSelect Fixed controller issues in LoadGameScreen Fixed GrabCorpse binding not also dropping corpses Fixed the A button not toggling the ingredient inputs panel in the Build window Fixed the X button not clearing the text in ISTextEntryBox in some cases Fixed the controller focus not being set correctly after editing server settings causing Lua files to be reloaded Fixed controllers not being able to smash windows from the Button Prompt with the default B / Circle button Fixed being unable to interact with some crafting stations on controller Fixed controllers not working in WorldMap Fixed players toggling sprint after vaulting a fence if sprint is rebound to B button Fixed navigating the add note menu on controller creating errors and locking the player Fixed aiming left or right on controller also aiming slightly downwards Fixed \"Show the survival guide on startup\" setting preventing players from performing several actions on controller Added vertical scrollbar to survival-guide text Reworked the User List window UI Removed the obsolete \"Choose Mods\" button from the server-settings Mods panel Fixed some icons overflowing in the animal tracks info window Fixed Feeding Trough Info UI widening indefinitely after being pinned Fixed survival-guide text rendering outside the panel Fix tooltips for the Animal Breeding Season and Animal Info Fixed Blood Decals dropdown menu in options showing two percentage signs Fixed the foraging info button not linking to the Survival Guide Fixed equipped walkie-talkie RMC menu not having device options BALANCE Upd...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530897275",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "balance",
-        "mod",
-        "ui",
-        "event"
       ]
     }
   ]
