@@ -1,8 +1,24 @@
 {
   "appid": 892970,
-  "generated_at": "2026-09-30T09:47:33.044Z",
+  "generated_at": "2026-10-01T10:14:16.651Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1845383656377310",
+      "appid": 892970,
+      "title": "Word from the Devs: What a Month!",
+      "version_detected": "1.0",
+      "date": "2026-09-30T11:58:31.000Z",
+      "type": "hotfix",
+      "content": "Greetings Vikings! We can’t believe it’s only been a scant few weeks since we released 1.0. We’re so happy to see so many new and returning players alike, and we’re grateful for all the love you’ve shown us so far. Without you, we wouldn’t be here, so thank you! We’re thrilled to say that we have even been nominated in as many as three categories for this year’s Golden Joystick Awards! You can vote for Valheim for Best Multiplayer Game, Best Indie Game and PC Game of the Year, and voting is open until October 23! As you might have noticed, we’ve been putting out a bunch of bug fixing patches over the past weeks, and we will continue to do so, looking over both bugs and balancing tweaks. We thank you for your patience as we iron out all of the wrinkles, and if you do encounter a bug, please make a report and we will take a look as soon as we are able. In the wake of 1.0 we’ve also been dropping a bunch of other announcements on our social channels. In case you have missed one or some of them, we thought we’d sum them up for you in this post. On the merch front, we’ve launched another Kickstarter with Heroic Replicas, where you can get your hands on cool new items like the Valkyrie blanket, or get a new chance to get a shield replica. We also have a new batch of scented candles with Cantrip Candles, with the Meadows, Mistlands and Deep North joining the roster. Finally, we have announced a limited edition hoodie together with Makeship, perfect as the weather is getting colder. {STEAM_CLAN_IMAGE}/33695701/1bf4aeb53150d8f349fdb72e0c00bb8ac89cdbd6.png We’ve also teased that Valheim is getting its own concert – one in Stockholm and one in Paris – next year. Tickets, as well as more cities, will be available soon, so if you’re interested you should sign up to that mailing list. Another thing on the horizon for next year is that Valheim is entering the world of comic books! We have an absolutely incredible team working on bringing the tenth realm to the page, and we really hope you’ll like what they’re cooking up. On our website you will find some sneak peeks, as well as a link to sign up for more information. {STEAM_CLAN_IMAGE}/33695701/5c116d4dcd13b5c70487b590aa4e4274...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656377310",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "multiplayer"
+      ]
+    },
     {
       "id": "steam-news-892970-1844751498224366",
       "appid": 892970,
@@ -178,22 +194,6 @@
       "keywords": [
         "bug",
         "mod"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1830797770244955",
-      "appid": 892970,
-      "title": "Word From the Devs: Yeah, That’s A Drawbridge",
-      "version_detected": "",
-      "date": "2026-04-28T11:11:18.000Z",
-      "type": "content",
-      "content": "Hello vikings! We began this month of April, as is customary, with a bit of a laugh. Most of you caught on to the fact that it was an April Fools joke, but we do want to make sure to clarify that there is not going to be an additional game mode in Valheim where you can romance all the bosses, as fun as that might have been. Who had the most charming dialogue options? Who had the most romantic ending? We shall never know. We also want to thank the team behind Val-Con for organising their event for the second time! Thank you for taking the time to bring the community together and celebrating Valheim! Our very own Robin Eyre and Jonathan Smårs featured during the event, as well as some of our friends from other companies who have helped us make the game, so make sure to check out their interviews in the VOD. But now, onto some teasers! Last month we asked if you had any guesses as to what one might be able to cook in the Deep North, and many of you guessed it: Meatballs with lingonberries, of course! They’re just one item on the menu of this biome though, because you’ll need plenty of food to sustain yourselves through adventures out in the cold: {STEAM_CLAN_IMAGE}/33695701/01f31c19e55dea1912a1019f70fd0bafdeb3f1ac.png We’ve already hinted at some build pieces that will be coming to Valheim, but now we want to reveal perhaps one of the most impressive pieces yet. You have asked for a drawbridge for quite some time, and we are happy to finally be able to offer you one. Let the building commence! {STEAM_CLAN_IMAGE}/33695701/c6f9f4c225067dd652df03e6bf81eabab8f97679.png Build of the Month Speaking of building, this month we would like to shine some light upon this swamp village by RegretfulDesire! So many nice little details! {STEAM_CLAN_IMAGE}/33695701/8fd66cd7c5fb91016228fe8e46b35ab29af7c930.png If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. Skål! /The Iron Gate team If...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1830797770244955",
-      "source_type": "manual",
-      "keywords": [
-        "mod",
-        "ui",
-        "event"
       ]
     }
   ]
