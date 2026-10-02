@@ -1,8 +1,22 @@
 {
   "appid": 739630,
-  "generated_at": "2026-10-01T10:14:16.651Z",
+  "generated_at": "2026-10-02T09:52:02.589Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1845383656381482",
+      "appid": 739630,
+      "title": "The Crimson Eye Approaches Once More",
+      "version_detected": "",
+      "date": "2026-10-01T14:10:09.000Z",
+      "type": "balance",
+      "content": "Once more, Ghost Hunters, we pay homage to the Blood Moon. Our dear Crimson Eye.Today, we’re excited to reveal that this year’s Crimson Eye event will begin on October 8th, 2026, and run until November 1st, 2026. An update containing the event will be deployed on October 6th.As with previous years’ events, the Crimson Eye will cast its presence across several locations in Phasmophobia. Playing on these locations will grant each player event points, working towards unlocking the Community and Personal rewards, details of which are below.The following list of locations will be featured throughout the event:6 Tanglewood Drive42 Edgefield RoadGrafton Farmhouse13 Willow StreetBleasdale FarmhousePoint Hope (Standard only, Point Hope Restricted will not be included)Camp WoodwindNell’s DinerFor those of you who have taken part in previous Crimson Eye events, you’ll know what to expect, but you’ll also get to see how Nell’s Diner and the reworked 6 Tanglewood Drive & 13 Willow Street look dressed in red. For newer Ghost Hunters, you’ll be tasked with hunting down Blood Moon totems and completing investigations and optional objectives to earn points, all while under the threat of Blood Moon weather, increasing the challenge you’ll face from ghosts.Players will have several different unlockable rewards during the event: a seasonal event tee, the Beholder ID Card & Badge set and the Blood Moon charm.Alongside these will be the upgradeable trophy. If you have previously unlocked this, you’ll continue to earn points and upgrades to your existing Trophy, rather than a new one.During the event, we have a few different plans in place, so please do read on to learn what’s in store throughout October.Twitch DropDuring the first week of Crimson Eye, a Twitch Drop campaign will be running for all Phasmophobia streamers. After watching a total of two hours of Phasmophobia streams, you’ll earn the Crimson Eye tee. The campaign will be live from the moment the event begins until 11:59 PM BST on October 15th, 2026.Double XP & RewardsAs is becoming tradition with Phasmophobia’s seasonal events, we’ll be running a Double XP & Rewards event during Crimson Eye. This will be taking place bet...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1845383656381482",
+      "source_type": "manual",
+      "keywords": [
+        "event"
+      ]
+    },
     {
       "id": "steam-news-739630-1844115010495294",
       "appid": 739630,
@@ -172,20 +186,6 @@
         "mod",
         "ui",
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1834602721184795",
-      "appid": 739630,
-      "title": "Phasmophobia - Hotfix v0.17.1.5",
-      "version_detected": "17.1.5",
-      "date": "2026-06-03T13:12:36.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters.Today we have released a hotfix for Phasmophobia, addressing two issues raised by the community this week. The update is now available across all platforms.Patch notes:Fixed an issue that caused players to become softlocked when using the Spirit Box while using a controller. Fixed an issue for Steam players that caused Voice Recognition to not work. If you are encountering issues with Voice Recognition on the \"Voice\" setting on PC, please ensure that the default microphone assigned on your PC is the microphone specified in your windows settings.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721184795",
-      "source_type": "manual",
-      "keywords": [
-        "fix"
       ]
     }
   ]
