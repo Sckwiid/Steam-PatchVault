@@ -1,6 +1,6 @@
 {
   "appid": 739630,
-  "generated_at": "2026-10-07T10:21:27.179Z",
+  "generated_at": "2026-10-08T10:41:43.062Z",
   "source": "steam-static-db",
   "patches": [
     {
@@ -10,7 +10,7 @@
       "version_detected": "19.1.0",
       "date": "2026-10-07T09:01:54.000Z",
       "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. We have an update for you.Today’s small update is in preparation for Crimson Eye, launching 8th October 2026, with the focus on getting the game ready for the start of the event. Our next major update, our move to Unity 6 is scheduled for November and will feature a host of bug fixes and improvements, all of which we’ll detail in an upcoming Development Preview.New Crimson Eye - The Crimson Eye is upon us, Ghost Hunters. Once more, various locations across Phasmophobia will be bathed in the red glow of the Blood Moon, offering any willing Ghost Hunter rewards in return for completing investigations, optional objectives and more. For more information on this year’s iteration of the event, please read our latest blogpost \\. Seasonal Event toggle - As a new feature for Crimson Eye and future seasonal events, we have implemented a toggle that allows players to turn on/off the event maps for their session. FixesFixed an issue that caused the white light upon being revived to flash rather than slowly fade in and out.Fixed an issue where an Easter Egg reward may not unlock, despite a 0x multiplier being active and the reward pop up being displayed. Known IssuesThe lampposts outside of 6 Tanglewood Drive may glow when viewed by the player.The Fusebox location will not be hidden on the Truck map when playing on a custom difficulty.",
+      "content": "Welcome back, Ghost Hunters. We have an update for you.Today’s small update is in preparation for Crimson Eye, launching 8th October 2026, with the focus on getting the game ready for the start of the event. Our next major update, our move to Unity 6 is scheduled for November and will feature a host of bug fixes and improvements, all of which we’ll detail in an upcoming Development Preview.New Crimson Eye - The Crimson Eye is upon us, Ghost Hunters. Once more, various locations across Phasmophobia will be bathed in the red glow of the Blood Moon, offering any willing Ghost Hunter rewards in return for completing investigations, optional objectives and more. For more information on this year’s iteration of the event, please read our latest blogpost. Seasonal Event toggle - As a new feature for Crimson Eye and future seasonal events, we have implemented a toggle that allows players to turn on/off the event maps for their session. FixesFixed an issue that caused the white light upon being revived to flash rather than slowly fade in and out.Fixed an issue where an Easter Egg reward may not unlock, despite a 0x multiplier being active and the reward pop up being displayed. Known IssuesThe lampposts outside of 6 Tanglewood Drive may glow when viewed by the player.The Fusebox location will not be hidden on the Truck map when playing on a custom difficulty.",
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067925452",
       "source_type": "manual",
       "keywords": [
