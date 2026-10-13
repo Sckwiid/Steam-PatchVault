@@ -1,8 +1,24 @@
 {
   "appid": 294100,
-  "generated_at": "2026-10-12T10:59:17.168Z",
+  "generated_at": "2026-10-13T10:43:12.139Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1846018067941786",
+      "appid": 294100,
+      "title": "Announcing the Waylith Engine and Update 1.7",
+      "version_detected": "1.7",
+      "date": "2026-10-12T17:17:45.000Z",
+      "type": "content",
+      "content": "Hey everyone, big news today! We’re announcing update 1.7, which moves RimWorld from Unity to the Waylith Engine, our own in-house engine built by Ludeon Studios. The game looks and plays exactly the same, but in our tests performance is improved by 2-4x. You can try 1.7 right now on the unstable beta branch - see “Testing update 1.7” at the bottom of this page for details. Performance improvements Compared to 1.6, 1.7 on the Waylith engine has faster startup time, game load time with big mod lists, map generation, world generation, general ticks-per-second, and just about everything else. Your colony of 40 colonists, 200 ducks, and 100+ mods will run much smoother. We stress-tested a late game colony and saw 2.2x better performance on 1.7 compared to 1.6. A modpack with 1500 mods (!) went from 14 minutes to 6 minutes to load. (These are just our results; individual performance improvements may vary due to your specific PC or mods.) Savegames, mods, and compatibility You don’t need to do anything when switching to 1.7. Savegames: Your 1.6 savegames will load on 1.7, and 1.7 saves also work if you go back to 1.6. Mods: The vast majority of mods work on 1.7 without any changes from the authors. Some may show up in yellow as “potentially unsupported” - this is only because the version number changed. Older PCs: If your PC is more than 10 years old, 1.7 may not run on it. If this happens, please let us know on the official RimWorld development Discord - we may be able to make some changes to help. For modders Your mods shouldn’t need any changes to work on 1.7. However, once you’ve tested your mod, please publish a version marked as 1.7-compatible so the yellow warning goes away for players. If something doesn’t work the same way it did in 1.6, you can reach out for help on the development Discord. Waylith also gives modders more to work with: You can use the latest C# language features. It’s easier to write complex mods without negatively impacting the game’s performance. Big visual changes and complex custom effects are more accessible. Also, a big thank you to the over two dozen modders who helped prep RimWorld for Waylith’s debut by testing and sharing their fee...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846018067941786",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "mod",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-294100-1839676055889403",
       "appid": 294100,
@@ -174,25 +190,6 @@
         "content",
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1806064758753874",
-      "appid": 294100,
-      "title": "Update 1.6.4535 released",
-      "version_detected": "1.6.4535",
-      "date": "2025-07-29T00:04:01.000Z",
-      "type": "hotfix",
-      "content": "Hello, we’re back with another update for RimWorld! If you need to report a bug, or you’re having a problem while playing, please join us on the official RimWorld development Discord. Today’s update fixes several issues people were experiencing with Odyssey. This includes multiple corner problems where buildings through corners affected room roles, beds could become prisoner beds through corners, and enemies could set fire to your stuff through corners. It also fixes diagonal walls leaking room vacuum under certain circumstances, issues with player shuttles being lost to water, as well as gravship launches causing your electrical connections to scramble. We’re also aware of a bug where quest shuttles incorrectly try to land on water, potentially causing them to warp into your buildings. We’re working on a solution - a fix for it is currently available on the Steam unstable beta branch! This update should be compatible with all savegames and mods. And if you’re enjoying Odyssey, consider leaving a review on Steam! Expansions don’t get a ton of reviews, and every one helps us out a lot. https://store.steampowered.com/app/3022790/RimWorld__Odyssey/ Have a great week, - Tia Website | X | BlueSky | Reddit | Facebook Changelog Made crater descriptions more generic. Clarified the orbital scanner description. Clarified the gravcore description. Made ritual text more generic to fit more situations. Added flooring to subroom prefabs on orbital platforms. Reduced the chance of the gravship landing spot being over deep water. Gravcores are no longer asked for in trade request quests. Reduced psilocap catatonic breakdown chance from 4% to 1% and psilocap creative inspiration chance from 6% to 2%. Made the breathless gene suppress the normal vacuum resistant gene, removing its metabolic impact. Prevented hospitality quests from being acceptable in space due to it causing various bugs. Removed unnecessary PawnRenderNode_Apparel cast in Apparel dynamic setup for modders Prevented traps spawning next to exterior doors. Prevented outfit stands from being uninstalled because they destroy their inventory if deconstructed while minified. Updated some player names per request. Fixes ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1806064758753874",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "mod",
-        "ui",
-        "quest",
-        "event"
       ]
     }
   ]
