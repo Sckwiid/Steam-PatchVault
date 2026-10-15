@@ -1,8 +1,20 @@
 {
   "appid": 739630,
-  "generated_at": "2026-10-14T08:48:30.891Z",
+  "generated_at": "2026-10-15T08:23:28.348Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1846651706674273",
+      "appid": 739630,
+      "title": "Crimson Eye - Double XP & Rewards",
+      "version_detected": "",
+      "date": "2026-10-14T13:22:59.000Z",
+      "type": "minor",
+      "content": "Journals at the ready, Ghost Hunters. Double XP & Rewards in #Phasmophobia will be active for a week beginning 15th October. The Crimson Eye continues to provide for all.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706674273",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-739630-1846018067925452",
       "appid": 739630,
@@ -168,22 +180,6 @@
       "keywords": [
         "fix",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1836506165568121",
-      "appid": 739630,
-      "title": "Phasmophobia Quality of Life Update Preview",
-      "version_detected": "",
-      "date": "2026-07-02T14:09:07.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters.Today we’re going to give you more detail on the upcoming Quality of Life update launching alongside the 13 Willow Street rework on July 21st, 2026.As mentioned in our recent blogpost, the Quality of Life update itself has been split into two due to the sheer number of fixes & improvements we’ll be implementing. This first update is the bigger of the two, but you can expect the second part in late August.The below list focuses on changes and fixes coming with this month’s update while the next update will contain further improvements.While there’s a lot in the below list, it’s not everything that’ll be launching for Phasmophobia on July 21st, with the update bringing with it new keybinds, including PC players being able to use 1, 2, 3 and 4 for changing inventory slots, a couple of improvements for evidence collection and of course, the reworked 13 Willow Street. We’ll detail all of these in a blog the week before launch.ChangesThe character hand animations for grabbing, dropping, moving doors and hovering over interactable or grabbable objects have been removed to speed up gameplay.The item drop animation will still play for others in the session, but will not be visible by the Player.Cosmetics that are no longer able to be earned will not be visible.The camera zoom in the Customisation shop will now focus on the selected part of the character.On Sunny Meadows, the Ghost will now only lock the doors to a wing if both it and a player are inside that wing.Eye Adaptation will now adjust the lighting quicker when opening and closing the Journal.Console players will now have the ability to enable/disable Eye Adaptation.The Obake’s shapeshift will now count towards the Ghost video objective.You can now capture any Media for the Apocalypse challenge, instead of only a photo.Recording the Ghost Orbs in the Tutorial is now required, instead of only getting it inside the video camera’s screen.Improved the lighting around the player, allowing for better visibility in darker areas.Added an icon to the Player ID Card to show if that player is speaking.Adjusted the visuals on the PSVR2 player list popupEvent board map leaflets are now spread over ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165568121",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "ui",
-        "event"
       ]
     }
   ]
