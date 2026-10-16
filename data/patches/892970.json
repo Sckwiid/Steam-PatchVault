@@ -1,8 +1,24 @@
 {
   "appid": 892970,
-  "generated_at": "2026-10-15T08:23:28.348Z",
+  "generated_at": "2026-10-16T08:16:09.621Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1846651706676865",
+      "appid": 892970,
+      "title": "Patch 1.0.20",
+      "version_detected": "1.0.20",
+      "date": "2026-10-15T08:58:17.000Z",
+      "type": "hotfix",
+      "content": "We've heard a lot of you pointing out that you haven't been getting as many trophies as you should from your kills, and this patch should finally fix that. We hope you're ready to craft those bear rugs! Please Note: There is a small delay with Mac App Store for this patch, which means that crossplay will not work between Mac App Store players and players on other platforms until it has caught up. As soon as the patch is out on that platform, crossplay should work for everyone again. Patch Notes: * Trophy drop chance is now increased by star level of monsters * Pseudo-random drop logic will no longer be reset between player sessions to give a more fair distribution for rare drops * Fixed a possible exploit to Forge of Potential * Reset the cheated flag on all items and build pieces from previous versions, to undo the damage done by a bug in the initial 1.0 release that marked some validly obtained items as cheated. * Fixed bug that caused Cheat Sword and Cheat Sledge to not be considered cheated in specific cases * Fixed dedicated server running at uncapped frame rate if v-sync was enabled in client on the same computer, wasting massive amounts of CPU time * Adjusted attachment points for sheathed weapons * Xbox One/Xbox Series S|X: Fixed settings failing to save between sessions for some users",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706676865",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-892970-1845383656396226",
       "appid": 892970,
@@ -178,22 +194,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721196984",
       "source_type": "manual",
       "keywords": [
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1833968530887840",
-      "appid": 892970,
-      "title": "Word From the Devs: Summoning Our Champions!",
-      "version_detected": "1.0",
-      "date": "2026-05-28T11:31:06.000Z",
-      "type": "hotfix",
-      "content": "Hello vikings! We would like to start off on a slightly different note this month, where instead of us sharing something with you, we want to ask you to share something with us. We are entering the final stages of development for the Deep North, and for Valheim 1.0, and for that launch to be the best it possibly can be we are in need of your help! There is currently a patch out on the PTB that features a rework of the save system, and we would be eternally grateful if you wanted to switch over to the PTB and test it out. What we would ask you to be particularly attentive to is any issues with your savedata or with the network functionality – if you find any issues pertaining to this (or any other bugs, of course) please report them in our official form. Thank you most kindly! On the topic of sharing, we also want to hear about your experiences of Valheim as a whole! Over the years we have received so many stories about people finding friends, community and love through the game, and we want to highlight these tales of kinship and joy. If you would like to tell us about what Valheim has meant to you, we encourage you to record a short video and submit it via this form. It doesn’t have to look professional by any means, just follow the specifications listed in the form. Most importantly, tell us your story! Of course we’re not only asking things of you this month, we also have some things to share on our end! First of all we want to let you all know to tune in to the PC Gaming Show on 7 June, as there might be something pretty interesting happening there from a Valheim point of view. You won’t want to miss it! Another thing we want to share with you is the proper first look at some of the achievements that will be featured with Valheim at the 1.0 release! You’ve been asking for achievements for a long time, and we’re happy to say that there will be over 50 of them. We won’t tell you what you need to do to acquire them just quite yet, but perhaps you can make a guess or two? {STEAM_CLAN_IMAGE}/33695701/1b19de932d591bcf4aa5a47917e63b4dff11b1e7.png Build of the Month This month we’re setting our sights on this sprawling Hall of the Mountain King, built by Archimedes....",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1833968530887840",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "network",
         "ui"
       ]
     }
