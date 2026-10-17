@@ -1,8 +1,22 @@
 {
   "appid": 739630,
-  "generated_at": "2026-10-16T08:16:09.621Z",
+  "generated_at": "2026-10-17T07:52:48.649Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1846651706681382",
+      "appid": 739630,
+      "title": "Ghost Hunts For Hearts Returns",
+      "version_detected": "",
+      "date": "2026-10-16T13:00:52.000Z",
+      "type": "content",
+      "content": "Welcome back, Ghost Hunters. Today we’re excited to announce the return of Ghost Hunts for Hearts in collaboration with our good friends at American Heart Association Liive.Last year, the Phasmophobia community raised over $100,000 for the Heart Association's amazing cause and we’re hoping to go bigger and better this year by inviting the entire Phasmophobia community to join us.We’re excited to share that we’re introducing a Twitch Drop as part of the campaign. From the get-go, any participating fundraising streamer will be able to distribute the event-exclusive Advocate ID Card & Badge throughout the week via any Phasmophobia stream.We’re inviting any streamer that would like to take part in Ghost Hunts for Hearts via this link. Once registered, the Heart Liive team will be in contact to make sure you have everything you need to host your streams during the week of October 26th - November 2nd.As an added bonus, if we reach our secret fundraising goal (which will be unveiled on the 26th), we’ll unlock the Animated version of this set for all players. Stay tuned for more details on the Drop as we get closer to event week!You can find out more about American Heart Association Liive and the work they do by joining their Discord here.We’re looking forward to seeing plenty of Ghost Hunts for Hearts at the end of the month!",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706681382",
+      "source_type": "manual",
+      "keywords": [
+        "event"
+      ]
+    },
     {
       "id": "steam-news-739630-1846651706674273",
       "appid": 739630,
@@ -161,21 +175,6 @@
       "type": "hotfix",
       "content": "Welcome back, Ghost Hunters. Today we have released Phasmophobia v0.18.0.0, our latest update that brings our reworked 13 Willow Street map as well as our first Quality of Life update for 2026. Patch notes can be found below. New13 Willow Street Rework: The map has received a full visual overhaul, with new assets, props and more available to discover during your contracts. The original layout remains, however some rooms have been repurposed and the flow of several rooms has been edited to improve gameplay.Adding keybinds for Equipment slots. PC players will be able to switch Equipment with the 1, 2, 3 and 4 keys. These keys can be rebound.This addition will only be available for PC players.Adding a keybind to be able to inspect the Watch at any time.This will be defaulted to Left DPAD on a controller and H on keyboard. Players can rebind this via Options > Controls.A separate Photo can now be taken capturing a EMF Level 5 reading.Photo Cameras will now feature the same highlight frame as Video Cameras. On screen indicator only on Tier 2 and 3 Photo Cameras, while Tier 1 will have the light change colour from red to green.When capturing Media, if multiple are present, the evidence that provides the biggest reward or is Unique will be prioritised.New Ghost: the Deildegast Players will have a higher chance of getting this Ghost in their contracts for the first few weeks following release.Added new walking animations and turning animations to fix several issues:Character legs will no longer use procedural IK and will instead use animations.The character body will no longer animate with the walking animations which caused held items to move while walking.Improvements to the overall VR character:New character animations.Improvements to the belt to improve usability.The character will now turn instantly depending on where you are looking instead of at set angles. ChangesThe character hand animations for grabbing, dropping, moving doors and hovering over interactable or grabbable objects have been removed to speed up gameplay.The item drop animation will still play for others in the session, but will not be visible by the Player.Cosmetics that are no longer able to be e...",
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329268874",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1837955055366422",
-      "appid": 739630,
-      "title": "Phasmophobia Quality of Life Preview #2",
-      "version_detected": "",
-      "date": "2026-07-14T15:09:01.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters.Following on from our recent preview of the Quality of Life update launching on July 21st, we wanted to share some further details including the newer features - including another look at the reworked 13 Willow Street.The NewAs part of the Quality of Life update, we’re introducing a handful of new gameplay features that aim to improve the overall experience of playing Phasmophobia. Read the below for some details on these additions.Adding keybinds for Equipment slots. PC players will be able to switch Equipment with the 1, 2, 3 and 4 keys. These keys can be rebound. This addition will only be available for PC players.Adding a keybind to be able to inspect the Watch at any time. This will be defaulted to Left DPAD on a controller and H on keyboard. Players can rebind this via Options > Controls.A separate Photo can now be taken capturing an EMF Level 5 reading. Photo Cameras will now feature the same highlight frame as Video Cameras. On screen indicator only on Tier 2 and 3 Photo Cameras, while Tier 1 will have the light change colour.When capturing Media, if multiple are present, the evidence that provides the biggest reward or is Unique will be prioritised.New Ghost: the ██████████ Players will have a higher chance of getting this Ghost in their contracts for the first few weeks following release.Added new walking animations and turning animations to fix several issues: Character legs will no longer use procedural IK and will instead use animations.The character body will no longer animate with the walking animations which caused held items to move while walking.Improvements to the overall VR character: New character animations.Improvements to the belt to improve usability.The character will now turn instantly depending on where you are looking instead of at set angles. The next quality of life update will bring a completely new VR character rig with further improvements:Further improvements to the belt's usability.Improvements to crouching.Improved character animations.Held items will no longer sway when walking.The character's position will accurately represent your real life body position.13 Willow StreetAs with all our reworked m...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1837955055366422",
       "source_type": "manual",
       "keywords": [
         "fix",
