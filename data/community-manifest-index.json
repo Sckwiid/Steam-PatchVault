@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-10-20T08:15:29.643Z",
+  "generated_at": "2026-10-21T08:20:20.145Z",
   "source": "github_tree_index",
   "partial": true,
   "sources": [
     {
       "source": "qwe213312/k25FCdfEOoEJ42S6",
-      "truncated": true,
-      "manifests_found": 75050
+      "truncated": false,
+      "manifests_found": 0,
+      "error": "HTTP 500 for https://api.github.com/repos/qwe213312/k25FCdfEOoEJ42S6/git/trees/main?recursive=1"
     },
     {
       "source": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
-      "truncated": true,
-      "manifests_found": 75072
+      "truncated": false,
+      "manifests_found": 0,
+      "error": "HTTP 500 for https://api.github.com/repos/mejikuhibiniu1/k25FCdfEOoEJ42S6/git/trees/main?recursive=1"
     },
     {
       "source": "Sainan/k25FCdfEOoEJ42S6",
