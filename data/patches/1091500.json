@@ -1,8 +1,22 @@
 {
   "appid": 1091500,
-  "generated_at": "2026-10-20T08:38:39.101Z",
+  "generated_at": "2026-10-21T08:39:38.707Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-1091500-1846651706694551",
+      "appid": 1091500,
+      "title": "REDstreams — Cyberpunk 2077: Edgerunners 2 Update (2.5) is coming!",
+      "version_detected": "2.5",
+      "date": "2026-10-20T10:00:33.000Z",
+      "type": "content",
+      "content": "Chrome up, chooms! A new, free update for Cyberpunk 2077 is coming on October 22nd. And it sounds like a perfect time for another REDstreams.Join us this Wednesday, October 21st at 5 PM CEST for a closer look at Edgerunners 2 Update (2.5) and some of its new features. We're talking cyberware customization, a new dual-wielding playstyle, and more!Tune in on Twitch, YouTube or Steam:A huge thank you to Taisei Uchida (Original Art), Yukiko Kakita (Ink & Paint Check), and Yuichiro Tozawa (Special Effects) for their contributions to the Cyberpunk 2077 Edgerunners 2 Update (2.5) official illustration.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706694551",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-1091500-1835236783557599",
       "appid": 1091500,
@@ -159,20 +173,6 @@
       "source_type": "manual",
       "keywords": [
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-1091500-6212245217911793092",
-      "appid": 1091500,
-      "title": "Blocktober 4 — Sebastian McBride",
-      "version_detected": "",
-      "date": "2024-10-23T15:59:18.000Z",
-      "type": "minor",
-      "content": "This month we’re participating in Blocktober, highlighting the work of our talented Level Designers. Now up: Sebastian McBride sharing a behind-the-scenes look at the “Dicky Twister Club” location. ​​This blockout was done relatively quickly around the middle of the project. I wanted a location where the player could lean into a non-hostile experience that they could walk around in before switching up to more traditional stealth gameplay. The goal was to embrace the tone and vibes of stealth game staples but done the Cyberpunk 2077 way. The idea of the main office overlooking the whole club was something I leaned into early on. The moment you enter the club, the objective is right in front of you: you see your goal and now you have to figure out how to get there. The club owner overlooking the location with the stage “'extending” out in front of him was absolutely intentional innuendo. I guess he had a bit of a complex. {STEAM_CLAN_IMAGE}/35210272/757989ed9e21f1be04646d7de0aa2dcf99ce4dd6.png {STEAM_CLAN_IMAGE}/35210272/43eda7e9baf03030e42d7cea671ab62cdf0e2068.png Sebastian McBride: https://x.com/darthsebious",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6212245217911793092",
-      "source_type": "manual",
-      "keywords": [
-        "ui"
       ]
     }
   ]
