@@ -1,8 +1,25 @@
 {
   "appid": 1091500,
-  "generated_at": "2026-10-21T08:39:38.707Z",
+  "generated_at": "2026-10-22T08:42:19.898Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-1091500-1847286114029307",
+      "appid": 1091500,
+      "title": "Check out what's coming to Cyberpunk 2077 in the Edgerunners 2 Update!",
+      "version_detected": "2.5",
+      "date": "2026-10-21T15:45:15.000Z",
+      "type": "content",
+      "content": "Thought you were done with Night City? Well, Night City's not quite done with you!Patch notes for Cyberpunk 2077's Edgerunners 2 Update (2.5) are now available for your early perusal before the update hits the streets on October 22nd. Watch the Features Overview video to see some of the new features in action:And if you want to know even more, read through the list of most important changes below:Edgerunners ContentAdded a new side quest, Clampdown, set before the events of Cyberpunk: Edgerunners 2. To unlock it, complete The Heist and two gigs for Wakako, then wait for a message from her.Added a new 5-piece gear set based on the character King, which can be obtained during the Clampdown side quest.Added a new radio station, HKGN 102.0 FM, featuring a selection of tracks from the Cyberpunk: Edgerunners series.Show OffA brand-new clothing collection has arrived in Night City! 5 new outfit sets can now be purchased from certain clothing vendors:Maxiwear: available in Heywood, Arroyo, Little ChinaJinguji: available in City CenterNetWatch: available in Kabuki, JapantownIconAmerica: available in Pacifica, Badlands, NorthsideAnd one more set that will hit Night City shelves just a little later...The NUS Infiltrator clothing set can be now purchased from clothing vendors in Kabuki and Japantown.4 new TWINTONE skins for Quadra Turbo-R V-Tech are now available via Twitch Drops.Some of the hairstyles that were previously exclusive to NPCs are now available for V. Please note that some hairstyles are available only to feminine or masculine body types.Show off your chrome! You can now customize your hand cyberware. Equip your Mantis Blades, Gorilla Arms, Monowire or Projectile Launch System, and visit one of 5 Glamdocs (marked with a spray paint icon on the map) to give your implants a fresh, new look. Each Glamdoc is located in a unique shop, along with their own intro scene with voiceover and animations, and offers a unique catalog of cyberware skins with customizable colors.Sometimes one gun just isn't enough. The new Double Trouble perk in the Cool tree (along with four auxiliary perks) introduces an entirely new playstyle, allowing you to dual-wield Pistols and Revolve...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029307",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "ui",
+        "quest",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-1091500-1846651706694551",
       "appid": 1091500,
@@ -160,20 +177,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785321795740007",
       "source_type": "manual",
       "keywords": []
-    },
-    {
-      "id": "steam-news-1091500-6146943657173866984",
-      "appid": 1091500,
-      "title": "Blocktober 5 — Sebastian McBride and Mariusz Kubów",
-      "version_detected": "",
-      "date": "2024-10-30T13:15:57.000Z",
-      "type": "content",
-      "content": "This month we’re participating in Blocktober, highlighting the work of our talented Level Designers. For our last post, Sebastian McBride and Mariusz Kubów share a behind-the-scenes look at the main quest “The Killing Moon”. As with most of the Space Port, the Maglev station went through heavy iteration — I think I made about 5 radically different versions of it. Knowing that this would be one of the last locations in Phantom Liberty that the player would engage in heavy combat, I pushed for a more circular approach when considering movement. The location had to have a very nice flow to it and interesting, yet simple traversal loops were top priority. All of that is focused around the control booth which I knew would be both a focal point in the space but also integral to the quest flow. — Sebastian McBride {STEAM_CLAN_IMAGE}/35210272/a14c2298ba7efc29e58444c6f557f1931cbc35a1.png The Viewing Gallery offers a unique gameplay experience of moving through a location while under suppressing fire from a helicopter flying nearby. It serves as an example of how sometimes we keep on iterating on the location's fundamental elements — like its layout — deep into the production cycle and way past the blockout stage. In this case, I wanted to have more player engagement during the beat and a bit of Kishōtenketsu-type structure (initially the chopper pinning us down with gunfire was the only obstacle there), so the level flow had to be adjusted to incorporate that. There's also the Rule of Cool in play here, as the rocket hanging under the ceiling was added late during the development to add more dynamic elements to the environment, totally-not-just because I've prototyped a big, swinging object and I thought it would be cool for the turrets (or even V) to shoot it down accidentally. — Mariusz Kubów {STEAM_CLAN_IMAGE}/35210272/e5a0ef9b4c33977af47f27653af1bd0c27ca3d1e.png Sebastian McBride: https://x.com/darthsebious Mariusz Kubów: https://www.linkedin.com/in/mariusz-kubow/",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6146943657173866984",
-      "source_type": "manual",
-      "keywords": [
-        "quest"
-      ]
     }
   ]
 }

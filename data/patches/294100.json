@@ -1,8 +1,22 @@
 {
   "appid": 294100,
-  "generated_at": "2026-10-21T08:39:38.707Z",
+  "generated_at": "2026-10-22T08:42:19.898Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1847286114029498",
+      "appid": 294100,
+      "title": "Pick your storyteller!",
+      "version_detected": "1.8",
+      "date": "2026-10-21T16:19:21.000Z",
+      "type": "content",
+      "content": "Hey all, there's a new merch drop from the folks at Fangamer. The three storytellers are now available as glittery hard-enamel pins as part of Fangamer's permanent RimWorld collection. Grab your favorite, or get all three for a discount on Fangamer's worldwide store and EU store. {STEAM_CLAN_IMAGE}/25160263/2dd0037d062e5adc0643c077a1c365dbbcfe6aaa.jpg The Storyteller Pins Cassandra Classic Pin: Two raids, a cold snap, and gut worms? That's our Cassandra! 1.8\" tall. Randy Random Pin: Randy giveth. And Randy taketh. 1.9\" tall. Phoebe Chillax Pin: Let's take it easy! But things are quiet. Too quiet... 1.8\" tall. It was a hard choice, but I've got Randy on my bag, Cassandra on my hat, and Phoebe on my jacket. - Tia Website | X | BlueSky | Reddit | Facebook",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114029498",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-294100-1846018067941786",
       "appid": 294100,
@@ -171,25 +185,6 @@
         "mod",
         "ui",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1807332909521747",
-      "appid": 294100,
-      "title": "Update 1.6.4543 released",
-      "version_detected": "1.6.4543",
-      "date": "2025-08-06T01:21:33.000Z",
-      "type": "hotfix",
-      "content": "Hi everyone, we just released a small update for RimWorld. Have you reached Odyssey’s ending? There’s now a new epic song that plays! We also fixed an issue where quest shuttles attempted to land on water, which caused them to teleport into your buildings. This update should be compatible with all savegames and mods. If you need to report a bug, or you’re having a problem while playing, please join us on the official RimWorld development Discord. Bye for now, - Tia Website | X | BlueSky | Reddit | Facebook Changelog Changed Odyssey’s end credits music to use the correct track. Changed music track “Impermanent Waves” to be a non-combat song on the planet and in-orbit. Quest shuttles no longer attempt to land on water, which was causing issues where they would warp into your base and destroy your buildings. Allowed the trader's guild faction to generate more variety in their ideoligion. Pawns now move more rapidly when pathing to water in order to go swimming. Archean trees no longer terraform ice. Dormant mechs no longer block pawn paths. Gravship facilities on invalid substructure are no longer considered connected. The game will now attempt to clean up invalid scenario parts when loading a save. Improve translatability of orbital trader names. Updated the French language worker. Fixes Fix: Royalty shuttles were able to land on unsuitable terrain, potentially losing their contents. Fix: Psychic drones/soothes not affecting space maps. Fix: Sounds in mods failing to load on Linux if there's a space in the file path. Fix: Inability to search for items on corpses. Fix: Certain wardening workgivers (take to bed, execute, interrogate, etc.) couldn't be prioritized when the prisoner/slave was already reserved. Fix: \"Can't accept this quest in orbit\" preventing accepting joiner from ideology ritual done on planet surface, if there is an orbit map. Fix: Vacuum resistance stat not being cached, causing significant performance issues with lots of blueprints on the map. Fix: Gravship wreckage quest not being allowed to generate after archonexus if using gravship scenario. Fix: Error when launching with mech cluster building on ship. Fix: Torrential rain flooding through br...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1807332909521747",
-      "source_type": "manual",
-      "keywords": [
-        "performance",
-        "bug",
-        "fix",
-        "content",
-        "mod",
-        "ui"
       ]
     }
   ]
