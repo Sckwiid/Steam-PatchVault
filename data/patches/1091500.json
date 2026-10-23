@@ -1,8 +1,22 @@
 {
   "appid": 1091500,
-  "generated_at": "2026-10-22T08:42:19.898Z",
+  "generated_at": "2026-10-23T08:38:08.353Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-1091500-1847286114032016",
+      "appid": 1091500,
+      "title": "Cyberpunk 2077's Edgerunners 2 Update (2.5) is out now!",
+      "version_detected": "2.5",
+      "date": "2026-10-22T10:06:54.000Z",
+      "type": "content",
+      "content": "In the City of (Broken) Dreams, it’s not about how you flatline. What matters most is the impact you make with the time you’re given. So how will you seize the new opportunities awaiting for you in Night City? Check out the launch trailer celebrating both the second installment in the Cyberpunk: Edgerunners anime series, available now on Netflix, as well as Cyberpunk 2077 and its newly released update, featuring content inspired by the show.Learn more about the new content and features the Edgerunners 2 Update (2.5) introduces to the game in the official patch notes:",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114032016",
+      "source_type": "manual",
+      "keywords": [
+        "content"
+      ]
+    },
     {
       "id": "steam-news-1091500-1847286114029307",
       "appid": 1091500,
@@ -165,18 +179,6 @@
         "mod",
         "quest"
       ]
-    },
-    {
-      "id": "steam-news-1091500-1785321795740007",
-      "appid": 1091500,
-      "title": "REDstreams — Update 2.2 is coming!",
-      "version_detected": "2.2",
-      "date": "2024-12-09T17:14:47.000Z",
-      "type": "content",
-      "content": "📢 REDstreams alert 📢 Join us for a new episode of #REDstreams, where we'll dive deep into the new features Coming Soon TM for Cyberpunk 2077 in Update 2.2! See you tomorrow at 5 PM CET on our Twitch and, for the first time ever, simultaneously on our YouTube channel. https://www.twitch.tv/cdprojektred https://www.youtube.com/@CyberpunkGame Get ready, chooms! It's gonna be 🔥",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785321795740007",
-      "source_type": "manual",
-      "keywords": []
     }
   ]
 }
