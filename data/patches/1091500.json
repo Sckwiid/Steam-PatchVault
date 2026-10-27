@@ -1,8 +1,20 @@
 {
   "appid": 1091500,
-  "generated_at": "2026-10-26T09:03:19.423Z",
+  "generated_at": "2026-10-27T09:06:28.771Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-1091500-1847286114045127",
+      "appid": 1091500,
+      "title": "REDstreams – Cyberpunk: Edgerunners 2",
+      "version_detected": "",
+      "date": "2026-10-26T14:39:00.000Z",
+      "type": "minor",
+      "content": "Finished watching Cyberpunk: Edgerunners 2? Good. We need to talk.Join us for a special Edgerunners edition of REDstreams as we look back at Cyberpunk: Edgerunners 2 with Bartosz Sztybor and Saya Elder.📅 Tuesday, October 27th, 5 PM CETWe will be live on Twitch, YouTube and Steam!See you in chat, chooms 🤘",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114045127",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-1091500-1847286114032016",
       "appid": 1091500,
@@ -160,22 +172,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785774543496368",
       "source_type": "manual",
       "keywords": [
-        "mod",
-        "quest"
-      ]
-    },
-    {
-      "id": "steam-news-1091500-1785321795772422",
-      "appid": 1091500,
-      "title": "Update 2.2 is live!",
-      "version_detected": "2.2",
-      "date": "2024-12-10T17:01:18.000Z",
-      "type": "hotfix",
-      "content": "With this patch you’ll be able to express yourself like never before — it includes over 100 new customization options for V, adds CrystalCoat™ compatibility for select vehicle brands, introduces a brand-new TWINTONE™ color scheme feature for CrystalCoat™-compatible vehicles, and more! Photo Mode also received a major overhaul with new camera options, aspect ratios, light sources and posable NPCs, just to name a few things! Read about all changes in the patch notes below. New Features Rayfield's CrystalCoat™ technology, initially designed for Rayfield vehicles only, has now been adopted by other car manufacturers. You can now change the paint jobs on Herrera, Mizutani, Quadra and Villefort vehicles. Pro tip: Use CrystalCoat™ to fool the cops and lower your NCPD wanted level! Kiroshi presents TWINTONE™! As CrystalCoat™ continues to in gain popularity, TWINTONE™ takes your paint jobs to the next level. Simply scan a car with your Kiroshi optics, switch to the TWINTONE™ tab, then save the vehicle's color scheme for a small fee. You'll then be able to select the scheme in the TWINTONE™ database under the CrystalCoat™ menu. There, you'll also find generic color schemes for all CrystalCoat™-compatible vehicles as well as unique color schemes exclusive to the vehicle model from which they were copied. Please note that color scheme cloning is not authorized on vehicles that are linked to quests, belong to the NCPD or that are incompatible with CrystalCoat™ tech. {STEAM_CLAN_IMAGE}/35210272/fdebe757a2d84a897913a96320b66bf68a986bf9.gif All vehicles compatible with CrystalCoat™ and TWINTONE™ are marked with a spray can icon on Autofixer. The ten most requested vehicles from the streets of Night City are now available for purchase on Autofixer: Mizutani Shion MZ1 Mizutani Shion Targa MZT Thorton Galena GA32t Thorton Colby CST40 Archer Quartz EC-L r275 Quadra Type-66 640 TS Quadra Type-66 680 TS Mahir Supron FS3-T Villefort Deleon V410-S Coupe (Phantom Liberty only) Mizutani Hozuki MH2 (Phantom Liberty only) Following Act 1, Johnny will now sometimes appear in the passenger seat while V is driving to comment on and react to what's happening. {STEAM_CLAN_IMAGE}/35210272/be86a4...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785321795772422",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
         "mod",
         "quest"
       ]

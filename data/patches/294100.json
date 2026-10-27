@@ -1,8 +1,25 @@
 {
   "appid": 294100,
-  "generated_at": "2026-10-26T09:03:19.423Z",
+  "generated_at": "2026-10-27T09:06:28.771Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1847286114046348",
+      "appid": 294100,
+      "title": "It's RimWorld's birthday!",
+      "version_detected": "",
+      "date": "2026-10-26T18:49:58.000Z",
+      "type": "content",
+      "content": "Happy birthday, RimWorld! 🎂 Can you believe it? November 4, 2026 marks RimWorld's 13th birthday. That's 13 years of colonies, raids, mods, updates, fanart, videos, stories, and more. (It's also our final growth moment, let's hope we get a good trait.) To celebrate, we’re running another community event. Send us all your RimWorld creations to participate: fanart, stories of your favorite colonists and colonies, videos of edits and gameplay, screenshots of the bases you’re most proud of (and the ones that didn’t quite make it), and whatever else you can come up with. Thank you for another year of RimWorld. Here's to many more! {STEAM_CLAN_IMAGE}/25160263/690e5806b6e42e003fa89bcab73d14f4bde68d29.png RimWorld Birthday Community Event 🎂 Participate in this year's event to be entered into a random giveaway to get a set of Fangamer's storyteller pins. Please read all of the rules and giveaway details below before participating. {STEAM_CLAN_IMAGE}/25160263/9b75259fe523ac8c30b9934ace439ff4a94c3243.jpg Event Rules 1 entry per person. To participate, share your RimWorld creations with us! It can be RimWorld fanart, in-game screenshots, gameplay videos (vanilla/non-modded content only), writing, and other creative media. Share it with us by replying to the X @LudeonStudios birthday post or share a link on the Reddit birthday megathread. All submissions must be human-made works, no AI-generated content permitted. Participation closes on Nov 6, 11:59PM Pacific. Giveaway recipients will be announced the following week on the X birthday post and Reddit thread by @LudeonStudios. Those selected for the giveaway will be contacted on X/Reddit by the LudeonStudios account (and no one else, be careful if someone other than the official account reaches out). You must respond before November 30, or someone else will receive the giveaway. Note: Fangamer may be unable to ship their merchandise to certain countries, please check yours before participating: https://www.fangamer.com/pages/help Want to take part but don't know where to start? Here are some ideas, but you're not limited to them. Birthday themes: Cakes, decorations, presents, celebrations. Screenshots: Your colonies, gravships...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114046348",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "mod",
+        "ui",
+        "event"
+      ]
+    },
     {
       "id": "steam-news-294100-1847286114029498",
       "appid": 294100,
@@ -166,25 +183,6 @@
       "source_type": "manual",
       "keywords": [
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1809235871595783",
-      "appid": 294100,
-      "title": "Update 1.6.4566 improves gravships, shuttles, and more",
-      "version_detected": "1.6.4566",
-      "date": "2025-08-28T19:32:41.000Z",
-      "type": "hotfix",
-      "content": "Hello everyone, we’ve got a content update for RimWorld today! Gravships have received some quality-of-life changes. The new gravship launch interface lets you get your colony's animals and mechanoids onboard, and kicks visitors out. This makes takeoffs feel better and prevents accidental kidnappings. The pilot console now has a \"view range\" tool that shows your gravship's range without going through the whole launch process. {STEAM_CLAN_IMAGE}/25160263/e46e7a4442776d86d82b2454e88d33ffb810324f.jpg Shuttles can now safely land on items, and they no longer obliterate a ton of roof when landing inside buildings - only the necessary roof. When you’re in orbit, colonists won't automatically take off their life-saving, vacuum-resistant apparel if they're in a dangerous vacuum. Mechanitors can summon the mechanoid bosses… in spaaaace! We added a new vacskin gland prosthetic from the Empire that protects your colonists against vacuum. (This cross-expansion content only appears for those with Odyssey and Royalty). We rebalanced the starjack xenotype to make them more useful in space - they have a new low gravity adapted gene which makes them faster and better workers while in orbit. Other improvements include a new category for fishing in the work tab, tree sowing research allows you to grow timbershrooms in the glowforest, and the sentience catalyst now stops farm animals from roaming away. And just in time for the colder seasons, there are new snowy visuals for trees and some plants! {STEAM_CLAN_IMAGE}/25160263/c8cb57e745211ad1a3a60f8da02a5ff32e55725f.jpg We’ve also made several technical improvements to the game. We reduced the generation and loading times for worlds with 100% coverage, as well as added some tools to help our modders. This update should be compatible with all savegames and mods. The full changelog is below to browse. If you need to report a bug, or you’re having a problem while playing, please join us on the official RimWorld development Discord. Have fun out there! - Tia Website | X | BlueSky | Reddit | Facebook Changelog Added new options to the gravship launch window to easily get colony animals and mechanoids onboard before launching, as well as t...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1809235871595783",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "balance",
-        "content",
-        "mod",
-        "ui",
-        "event"
       ]
     }
   ]
