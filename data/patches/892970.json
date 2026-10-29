@@ -1,8 +1,24 @@
 {
   "appid": 892970,
-  "generated_at": "2026-10-28T09:47:05.832Z",
+  "generated_at": "2026-10-29T10:05:25.002Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1847920302230913",
+      "appid": 892970,
+      "title": "Patch 1.0.21",
+      "version_detected": "1.0.21",
+      "date": "2026-10-28T13:11:25.000Z",
+      "type": "hotfix",
+      "content": "A long list of tweaks and bug fixes incoming today! It touches on a little bit of everything, and we hope this patch will serve to give you all a smoother experience adventuring in Valheim. Due to some internal restrictions, the patch will require a few days to get uploaded to all platforms. Despite this, however, crossplay will still remain functional, so you can keep playing with your friends regardless of what platform you’re on. Patch Notes: Bugs: * Added a fix for being yeeted at high velocity when jumping on top of some enemies * Snow storms in Deep North / Mountains and Ash storms in Ashlands no longer blow inside of your house * Tree stumps in Deep North no longer sway in the wind * Fixed vendor GUI not opening after having watched cinematic in the current session * Fixed a bug where UI fields for names (World and Character) allowed non-name characters (e.g. ‘>’, ‘",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302230913",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-892970-1846651706676865",
       "appid": 892970,
@@ -182,20 +198,6 @@
       "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783557552",
       "source_type": "manual",
       "keywords": []
-    },
-    {
-      "id": "steam-news-892970-1834602721196984",
-      "appid": 892970,
-      "title": "Valheim Has A Release Date!",
-      "version_detected": "1.0",
-      "date": "2026-06-07T20:36:49.000Z",
-      "type": "content",
-      "content": "Vikings! For a long time you have asked when we will see the release of the Deep North, and at last we have a date to offer you! Valheim 1.0 will arrive on 9 September, with new enemies to kill, bases to build and weapons to craft. The release will hit PC, Linux, Mac, Xbox One and Xbox Series X|S as per usual, and now we’re also adding PlayStation 5 and Nintendo Switch 2 to the roster. Of course there will be full crossplay between all the platforms, so that you can play with your friends. Thank you for being with us on this journey thus far, and stay tuned for more information as we get closer to the release! For now, please enjoy the release date reveal trailer: Skål! /The Iron Gate team",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721196984",
-      "source_type": "manual",
-      "keywords": [
-        "ui"
-      ]
     }
   ]
 }
