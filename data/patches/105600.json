@@ -1,8 +1,22 @@
 {
   "appid": 105600,
-  "generated_at": "2026-10-29T10:05:25.002Z",
+  "generated_at": "2026-10-30T10:08:36.814Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1847920302235929",
+      "appid": 105600,
+      "title": "Terraria State of the Game - October 2026",
+      "version_detected": "1.4.6",
+      "date": "2026-10-29T18:10:41.000Z",
+      "type": "content",
+      "content": "{STEAM_CLAN_IMAGE}/3949769/98759babb408b021bfc21c9eb4524da9297be2fc.png Greetings Terrarians! It's spooky season once again - one of our favorite times of the year! We didn't quite get anything together in regards to a Halloween Contest this year, but we have a few contest ideas that might be coming your way soon - courtesy of our brand new Community Manager! More on that in a bit. On the development front, we have been putting the finishing touches on Crossplay Phase One. The Crossplay era of Terraria is drawing very close, and we will share some details on progress and timing in the development news section below. Beyond that, we are getting ready for the last few months of the year and setting plans in place for Crossplay Phase Two as well as what is to come after that. As always, you will want to stay tuned to State of the Game and all of our socials for all of the details as they arrive. With all of that said... let's see what lies in wait on this year's trick or treat for Terraria news... {STEAM_CLAN_IMAGE}/3949769/75a1f28fc9bb078f7324af777545b8968e590daa.png DEVELOPMENT NEWS - RE-LOGIC & DR STUDIOS TERRARIA 1.4.6 - FINAL TESTING AND SUBMISSION We put all of the finishing touches on Crossplay Phase One earlier this month and then dropped it into extensive testing. Given the scope of this update in regards to being a new feature that cuts across multiple platforms, we expect Terraria 1.4.6 will get tighter scrutiny during the submissions process. We had hoped to have the update in submission across all platforms earlier this week, but our latest round of tests uncovered a few things that will need to be addressed before we can do so. We do not expect this will take very long to address, but we do not have it ready as of the writing of this State of the Game. Most likely - and if all goes well - we should be back on track by next week. Once in submission, we have no way to fully predict when it will be signed off by all of our first party partners. Once we have full signoff, we will push the big launch button and Terraria 1.4.6 - Crossplay Phase One will be in your hands at last! {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png INTRODU...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235929",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-105600-1844751498222763",
       "appid": 105600,
@@ -170,20 +184,6 @@
         "fix",
         "balance",
         "event"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1827626365750839",
-      "appid": 105600,
-      "title": "Wave 2 of Terraria Chibichans - Preorders open until April 17",
-      "version_detected": "1.4.5",
-      "date": "2026-03-18T16:49:37.000Z",
-      "type": "hotfix",
-      "content": "Just before the end of 2025, we started taking preorders for the second series of Terraria Chibichans. We wanted to share that the preorder window will be closing on April 17th, 2026. Series Two features the Jungle Biome, with appearances by the Zoologist, Witch Doctor, Bee Armor, and more. If you order yours during the preorder phase, you will also receive an exclusive Doctor Bones Chibichan absolutely free! While Series Two figures will remain available on Terraria.shop past the preorder phase, this will be your only chance to pick up the exclusive Doctor Bones Chibichan for free. Of course, Series One remains available - in case you missed out on those thus far. {STEAM_CLAN_IMAGE}/3949769/913c8300b2c1c98c6b4bd529e7fd0301de0cf5ea.png Click on the banner image above to pick yours up today and be sure to check out the entire Terraria Collection over at Terraria.shop! We will be back soon with the latest State of the Game (and we have more fixes and tweaks coming your way for Terraria 1.4.5 as well!)...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365750839",
-      "source_type": "manual",
-      "keywords": [
-        "fix"
       ]
     }
   ]
