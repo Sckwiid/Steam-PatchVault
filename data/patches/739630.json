@@ -1,8 +1,23 @@
 {
   "appid": 739630,
-  "generated_at": "2026-11-02T11:19:29.651Z",
+  "generated_at": "2026-11-03T10:58:38.313Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1847920302247862",
+      "appid": 739630,
+      "title": "Phasmophobia - Development Preview #22",
+      "version_detected": "1.0",
+      "date": "2026-11-02T11:48:09.000Z",
+      "type": "content",
+      "content": "Welcome back, Ghost Hunters.We want to start this Development Preview, which contains a lot of exciting news for the rest of the year, with a heartfelt thank you to those that have continued to support us throughout this year. The feedback you’ve provided us has helped us shape Phasmophobia in the last few months and in what’s to come. After our Roadmap shift earlier in the year, we committed to a more transparent style of communication with you and we intend to stick with that. You can expect to hear much more from us as we work towards Phasmophobia 1.0 in late 2027.With that said, let's get into the details. With this Development Preview, we’re going to be talking to the following topics:The upcoming Content Update.Phasmophobia’s move to Unity 6.New in-game warnings.Phasmophobia on XBOX Play Anywhere.Player Character Visual Update42 Edgefield Road Rework.There’s a lot of information to dig into, so we highly recommend getting settled in with a warm cup of \\ and a couple of biscuits.Firstly;Introducing the Resonance UpdateWhile we’ve been working on multiple updates over the Summer, one thing became clear - shipping these at different times was looking unreasonable, both for us and you. So instead, we’ve packaged together the Unity 6 update and our Content Update into one. We’re calling this Resonance, and it’ll be launching in late November. We’ll dive into more detail on the move to Unity 6 shortly, but let’s talk about some new features coming to Phasmophobia as part of Resonance first.Up first, the Dowsing Rods.Icons on the Sensor’s map will reflect the type of sound - a looping sound will stick around for a while whereas a single sound will ping once and disappear. Only sounds on the same floor will be identified by the Sound Sensor. You’ll also be able to use the Sound Sensor’s map as a way of determining a Ghost type based on the speed of movement, which will be especially useful during a Hunt.As part of this update, we’ll also be introducing a new aspect of Voice Recognition, giving you the chance to instruct the Ghost to interact with nearby objects such as doors and switches and take action such as throwing objects or give a sign of their presence. Th...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302247862",
+      "source_type": "manual",
+      "keywords": [
+        "content",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-739630-1846651706681382",
       "appid": 739630,
@@ -163,21 +178,6 @@
       "keywords": [
         "fix",
         "multiplayer",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1838407329268874",
-      "appid": 739630,
-      "title": "Phasmophobia v0.18.0.0 - 13 Willow Street Rework & Quality of Life #1",
-      "version_detected": "18.0.0",
-      "date": "2026-07-21T12:30:07.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. Today we have released Phasmophobia v0.18.0.0, our latest update that brings our reworked 13 Willow Street map as well as our first Quality of Life update for 2026. Patch notes can be found below. New13 Willow Street Rework: The map has received a full visual overhaul, with new assets, props and more available to discover during your contracts. The original layout remains, however some rooms have been repurposed and the flow of several rooms has been edited to improve gameplay.Adding keybinds for Equipment slots. PC players will be able to switch Equipment with the 1, 2, 3 and 4 keys. These keys can be rebound.This addition will only be available for PC players.Adding a keybind to be able to inspect the Watch at any time.This will be defaulted to Left DPAD on a controller and H on keyboard. Players can rebind this via Options > Controls.A separate Photo can now be taken capturing a EMF Level 5 reading.Photo Cameras will now feature the same highlight frame as Video Cameras. On screen indicator only on Tier 2 and 3 Photo Cameras, while Tier 1 will have the light change colour from red to green.When capturing Media, if multiple are present, the evidence that provides the biggest reward or is Unique will be prioritised.New Ghost: the Deildegast Players will have a higher chance of getting this Ghost in their contracts for the first few weeks following release.Added new walking animations and turning animations to fix several issues:Character legs will no longer use procedural IK and will instead use animations.The character body will no longer animate with the walking animations which caused held items to move while walking.Improvements to the overall VR character:New character animations.Improvements to the belt to improve usability.The character will now turn instantly depending on where you are looking instead of at set angles. ChangesThe character hand animations for grabbing, dropping, moving doors and hovering over interactable or grabbable objects have been removed to speed up gameplay.The item drop animation will still play for others in the session, but will not be visible by the Player.Cosmetics that are no longer able to be e...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329268874",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
         "ui"
       ]
     }
