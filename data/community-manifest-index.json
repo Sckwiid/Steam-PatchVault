@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:31:13.597Z",
+  "generated_at": "2026-11-05T10:27:19.498Z",
   "source": "github_tree_index",
   "partial": true,
   "sources": [
@@ -11,9 +11,8 @@
     },
     {
       "source": "mejikuhibiniu1/k25FCdfEOoEJ42S6",
-      "truncated": false,
-      "manifests_found": 0,
-      "error": "HTTP 500 for https://api.github.com/repos/mejikuhibiniu1/k25FCdfEOoEJ42S6/git/trees/main?recursive=1"
+      "truncated": true,
+      "manifests_found": 75072
     },
     {
       "source": "Sainan/k25FCdfEOoEJ42S6",
