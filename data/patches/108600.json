@@ -1,8 +1,24 @@
 {
   "appid": 108600,
-  "generated_at": "2026-11-03T10:58:38.313Z",
+  "generated_at": "2026-11-05T11:03:42.116Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-108600-1848557880478544",
+      "appid": 108600,
+      "title": "42.22.1 Pre-Release Hotfix Released",
+      "version_detected": "42.22.1",
+      "date": "2026-11-04T10:07:37.000Z",
+      "type": "hotfix",
+      "content": "While this update should not break saves, if you encounter any bugs please ensure you can replicate them on a fresh save with no mods installed before reporting them to our team here. TECHNICAL/DEBUG Fixed a vulnerability related to eMudhra digital certificate validation Added JRE integrity checks to detect modifications to the Java Runtime Environment. Detected alterations will be indicated in the version watermark Updated third-party software licence acknowledgements in the credits and licence documentation As always, discussions regarding this update can be found pinned to the Project Zomboid Discussions Forums here.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880478544",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "mod"
+      ]
+    },
     {
       "id": "steam-news-108600-1847286114049399",
       "appid": 108600,
@@ -181,21 +197,6 @@
       "keywords": [
         "balance",
         "content",
-        "ui",
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-108600-1839041357036410",
-      "appid": 108600,
-      "title": "42.20: The Big Glow Up",
-      "version_detected": "42.20",
-      "date": "2026-07-27T17:53:25.000Z",
-      "type": "content",
-      "content": "Hi everyone, as previously mentioned Build 42.20 will be coming to the public stable branch this Wednesday, July 29th! For full details on this please check out this announcement blog. A big new part of this is a HUGE new upgrade to the Knox Event Exclusion Zone – that goes way beyond what you have already played during the Unstable beta. Our aim? To create a heavily evolved Knox Country that expands and overhauls the game’s Kentucky setting with new and reworked areas, that feel more lived-in, more natural, and more believable as places that existed long before everything went wrong. So what’s got us to this point? Let’s hand over to Art Director Ayrton Orio to explain: “Since Build 41 the Art Department has been hard at work on expanding the map westward, establishing an ambitious target quality, and revamping many of the existing towns in-game – while also hiring and restructuring.” “Overall Build 42 in the Knox Event Art Department saw four new map artists added to the team (Erika, Melo, Dylan and Alokin), one departure (Xeonyx), two ascensions to wider game management positions (Mash and Binky), and my own promotion to Art Director.“ “The first improvements made to the map itself are those that Build 42 Unstable players have already experienced. Myself and Jamie (Xeonyx) made a first leg of improvement that covered a whole new area furnishing the extreme West of the map with three new towns: Brandenburg, a new location on the banks of the Ohio river river; Ekron, a small agricultural town full of Southern charm; and Irvington, in the South West of the map, with its famous race track.” \"While we were working on the above, however, the South of Muldraugh became our proving ground to experiment on a much more detailed style of world building. If reception was positive, we thought, then this could eventually become the expected standard for the rest of the map.“ “As it turned out, the reaction from players when B42 hit Unstable was so overwhelmingly positive that it triggered the hiring of the new enlarged team mentioned above – which would then go on to achieve that vision we’re announcing today.” A snowy night in Muldraugh WHAT'S NEWFollowing on from Ayrton’s...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357036410",
-      "source_type": "manual",
-      "keywords": [
         "ui",
         "event"
       ]

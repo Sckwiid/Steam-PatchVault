@@ -1,8 +1,20 @@
 {
   "appid": 489830,
-  "generated_at": "2026-11-03T10:58:38.313Z",
+  "generated_at": "2026-11-05T11:03:42.116Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-489830-1847920302252394",
+      "appid": 489830,
+      "title": "The Elder Scrolls VI: Official Name Reveal",
+      "version_detected": "",
+      "date": "2026-11-03T15:14:16.000Z",
+      "type": "minor",
+      "content": "“The scroll offered only a shimmer, a veil thinly lifted to my eyes. A future lost. A victory undone. Sands of time scattered by fate.” - Yazar, Moth Priest to High Queen Iradne of Hammerfell (4E 206)Your next journey to Tamriel will be in The Elder Scrolls VI: Sentinel. For more information about The Elder Scrolls, please visit https://www.elderscrolls.com.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302252394",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-489830-1841579228665884",
       "appid": 489830,
@@ -180,23 +192,6 @@
         "mod",
         "ui",
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-489830-2140760316608552508",
-      "appid": 489830,
-      "title": "Skyrim Special Edition 1.5.16 Update",
-      "version_detected": "1.5.16",
-      "date": "2017-11-07T17:05:45.000Z",
-      "type": "hotfix",
-      "content": "A new update is now available for Skyrim Special Edition (v.1.5.16). If you run into any issues or have any feedback, please let us know here or on our official support forums: https://bethesda.net/community/category/89/pc-se For a full list of fixes and changes, please see the list below. Bug Fixes Fixed issue with rate of critters respawning in world Fixed issues with screenshots displaying incorrectly in Creation Club/Mods Message of the Day heading revised Changed logic for how Creation Club content is initialized Minor bug fixes to Bethesda.net",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/2140760316608552508",
-      "source_type": "manual",
-      "keywords": [
-        "bug",
-        "fix",
-        "content",
-        "mod"
       ]
     }
   ]
