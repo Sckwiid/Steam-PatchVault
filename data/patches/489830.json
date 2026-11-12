@@ -1,8 +1,23 @@
 {
   "appid": 489830,
-  "generated_at": "2026-11-11T11:06:20.601Z",
+  "generated_at": "2026-11-12T11:25:09.674Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-489830-1849192144180604",
+      "appid": 489830,
+      "title": "Celebrate 15 Years of Skyrim with the Anniversary Creation Bundle",
+      "version_detected": "",
+      "date": "2026-11-11T22:16:14.000Z",
+      "type": "content",
+      "content": "Everyone has a Skyrim story. The dragon that showed up at exactly the wrong moment. The cave you only found because you wandered off the road. The follower who knew just when you needed her to carry your burdens the most. Fifteen years later, Skyrim is still more than just a game to finish. It’s a world to come back to. Every time you return, there’s a new path to follow, a new role to play and another story only Skyrim can tell. That’s thanks in large part to the talented and dedicated community of Creators who have put their mark on the world. To celebrate this momentous anniversary, the Skyrim Anniversary Bundle gathers five Creations from our Verified Creators, each offering a new reason to return. From finding a cause worth fighting for and meeting a new companion to exploring forgotten depths, wielding powerful weapons and discovering a new place to call home. All Creations in this bundle are available on Xbox, PC and PlayStation. Grab the Anniversary Bundle before it leaves the Creation Menu on December 12. See memories from the past 40 years of Bethesda Game Studios through the lens of the developers. ANNIVERSARY BUNDLE For the Dragonborn Looking for a Cause “Legacy of Orsinium” by Veelpot From the creators of “Lordbound” comes a professionally voiced faction storyline with multiple endings. Prove yourself to the Agra Crun as Orsinium’s forces descend on a humble stronghold. Explore the expanded mines of Mor Khazgun, inspired by The Elder Scrolls Online: Orsinium, and uncover the secrets of a forgotten Orcish tomb. Take on new side quests for the Orc strongholds of Narzulbur, Dushnikh Yal and Largashbur. Along the way, discover unique armor and artifacts, also inspired by the ESO Orsinium DLC, plus epic dungeons from veteran modder RokMod. For the Dragonborn Who Wants Company “Kaitryn Fair-Shadows” by anbeegod Even a road you’ve walked a million times can feel brand new when you’ve got someone new beside you. Kaitryn Fair-Shadows is an upbeat young lorekeeper of the Reach who specializes in magic and healing. Save her from the Forsworn and help her experience the world’s stories for herself, and she might just write an epic about you. Voiced by Ch...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180604",
+      "source_type": "manual",
+      "keywords": [
+        "mod",
+        "quest"
+      ]
+    },
     {
       "id": "steam-news-489830-1847920302252394",
       "appid": 489830,
@@ -175,23 +190,6 @@
         "balance",
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-489830-4186653626163607755",
-      "appid": 489830,
-      "title": "A LOOK AT SKYRIM’S UPCOMING ANNIVERSARY EDITION",
-      "version_detected": "",
-      "date": "2021-11-10T22:13:38.000Z",
-      "type": "content",
-      "content": "In celebration of The Elder Scrolls V: Skyrim’s tenth anniversary, we’re excited to dive deeper into the Skyrim Anniversary Edition, the most comprehensive edition of the game released to date, and new Creation Club content – both coming this November. ENHANCE YOUR EXPERIENCE WITH FOUR FREE CREATIONS 10 years of Skyrim is a big occasion, so we’re giving away not one, but four creations away to owners of Skyrim Special Edition, adding additional quests to uncover, gear to equip and yes, fish to catch: Saints & Seducers Originally released in 2019, this creation introduces an additional storyline across two quests (complete with side quests) for players to delve into. With additional armor sets, weapons, enemies and much more to discover, Saints & Seducers features some of the largest amounts of content we’ve ever packed into a single creation! Rare Curios Included as part of Saints & Seducers, the Rare Curios creation brings additional goods imported from all over Tamriel to Skyrim’s Khajiit Caravans. So long as you have coin, these merchants can supply you with all sorts of useful wares, including ingredients to concoct special potions, arrows and poisons! Survival Mode Looking to immerse yourself in Skyrim’s untamed wilderness like never before? Previously released in 2017, the Survival Mode creation has your Dragonborn contend with the very elements of Skyrim itself to survive! Players must wear warm gear and seek shelter in cold climates to keep from freezing to death, as well as mind their hunger and exhaustion on top of the usual threats like pesky bandits and ambushing dragons. Thankfully, Skyrim is rich in food to harvest (or scavenge), weather-appropriate armor and even taverns to rest your weary head. If you’re looking for a different way to experience Skyrim, we highly recommend you check Survival Mode out! Fishing On the topic of obtaining your own food, Skyrim’s all-new Fishing mode creation lets you angle over 20 unique aquatic species across the area’s many bodies of water. Cook your catch for a meal, display it as trophy in your den or even keep it inside your own home aquarium – the choice is yours! With many of Skyrim’s fishing spots located in ...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/4186653626163607755",
-      "source_type": "manual",
-      "keywords": [
-        "content",
-        "mod",
-        "ui",
-        "quest"
       ]
     }
   ]
