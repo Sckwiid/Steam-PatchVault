@@ -1,8 +1,23 @@
 {
   "appid": 739630,
-  "generated_at": "2026-11-17T11:59:39.404Z",
+  "generated_at": "2026-11-18T11:51:45.271Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1849458702694051",
+      "appid": 739630,
+      "title": "Announcing - Phasmophobia's Resonance Update Releases November 24th, 2026",
+      "version_detected": "",
+      "date": "2026-11-17T15:00:10.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Today, we are excited to announce that Resonance, our next major update for Phasmophobia, releases November 24th, 2026 across all platforms.Along with our transition to Unity 6, Resonance brings with it the new Dowsing Rods, new Voice Recognition features, improved lighting across the game as well as a host of bug fixes. For a look at what's instore, read our latest Development Preview.Full patch notes for Resonance will be released at launch.",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849458702694051",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix"
+      ]
+    },
     {
       "id": "steam-news-739630-1847920302247862",
       "appid": 739630,
@@ -162,22 +177,6 @@
       "source_type": "manual",
       "keywords": [
         "fix",
-        "ui"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1839041357037983",
-      "appid": 739630,
-      "title": "Phasmophobia v0.18.0.1 - Patch Notes",
-      "version_detected": "18.0.1",
-      "date": "2026-07-28T11:05:15.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. Today we have deployed an update for Phasmophobia that addresses several issues that were raised following last week’s update. Thank you to everyone who provided feedback and helped us identify these issues.Full patch notes below. FixesFixed an issue that caused Photo Cameras to interfere with other player animations.Fixed an issue that caused the Photo Camera’s Use animation to not play in Multiplayer.Fixed an issue that caused the Photo Camera to take an extra photo when dropped while taking a photo.Fixed an issue that caused the Photo Camera to take a photo if picked up by another player after being dropped while being used by the original player.Fixed an issue that caused Twitch Drop reward ID Card & Badge cosmetics to be missing.Fixed an issue that would cause items to get stuck or fall through the floor when dropped in Multiplayer.Fixed an issue that caused videos of a Hunting Ghost to not count towards the Apocalypse challenge.Fixed an issue that allowed Ghosts to be able to enter several hiding spots in 13 Willow Street.This also fixes similar issues in 6 Tanglewood Drive, 42 Edgefield Road and 10 Ridgeview Court.Fixed an issue that caused the Incense to not appear as Used if the animation was cancelled by opening the Journal.VR - Fixed an issue that caused unstable FPS whilst in the Truck.VR - Fixed an issue that caused players to become stuck while loading in to a Multiplayer game on Bleasdale Farmhouse.Known IssuesIf a Flashlight is not picked up, hotkeys are assigned in this order: 2, 3, 1. If a Flashlight is picked up, it will default to 1. A following patch will address this issue, with Equipment being assigned in the order they are picked up. Igniters will however always default to 4.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357037983",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "multiplayer",
         "ui"
       ]
     }
