@@ -1,8 +1,22 @@
 {
   "appid": 413150,
-  "generated_at": "2026-11-20T11:49:35.548Z",
+  "generated_at": "2026-11-21T11:15:52.234Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-413150-1849827110433709",
+      "appid": 413150,
+      "title": "Stardew Valley Merchandise Spotlight",
+      "version_detected": "1.7",
+      "date": "2026-11-20T21:02:25.000Z",
+      "type": "content",
+      "content": "Hi everyone, I hope you are all doing well. My team and I are hard at work on the 1.7 update, and I am also making good progress on Haunted Chocolatier. I think you will be very happy with the results, when they are both ready!In the meantime, I hope you are continuing to have a great time playing Stardew Valley. Now, with the Feast of the Winter Star coming soon, I wanted to share some cool new and returning merchandise items from Fangamer. In order of appearance: -Feast of The Winter Star Ornament -Stardew Valley Post-It Note Set -Mysterium Shirt (featuring Krobus) -Junimo Slippers -Grandpa's Evaluation Floating Pen -Stardew Valley Guidebook -Stardew Valley Stamp Set -Stardew Valley Soundtrack Vinyl Collection From now until December 1, all in-stock items in Fangamer's Stardew Valley collection will ship for free within the US and at a discounted international rate, in addition to building up store credit for future orders. If you're in Europe and the UK, you can also get free shipping from Fangamer Europe These are just a small selection of the entire Stardew Valley collection. You can check out the whole collection here! Please check them out. Fangamer has been a long-time merchandise partner of Stardew Valley and has always made excellent, thoughtful items that I really love. As always, thank you for playing Stardew Valley and happy Thanksgiving!-Ape ːstardropː",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110433709",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-413150-1825727806709248",
       "appid": 413150,
@@ -176,24 +190,6 @@
         "mod",
         "event",
         "crash"
-      ]
-    },
-    {
-      "id": "steam-news-413150-6146943657174036265",
-      "appid": 413150,
-      "title": "1.6.9 Update Now Available",
-      "version_detected": "1.6.9",
-      "date": "2024-11-04T17:57:56.000Z",
-      "type": "hotfix",
-      "content": "Hello everyone, Here is the latest Stardew Valley update for you. I hope you have been enjoying everything new in 1.6. Thanks for playing Stardew Valley! -Ape ːstardropː 1.6.9 Changelog: ### New content & features * If you lost an item that can't be found again, a new friend appears in the secret woods who can get it back (for a price). * You can now put legendary fish in fish ponds. These are limited to one per pond and produce legendary fish roe. Each fish has a unique water color. * You can now place beds and sleep inside any constructed buildings that allow furniture. * Items dropped in water now float for a short time, so you can collect them if you're quick or have a magnet ring. * Sam and Shane now have work portraits while working at JojaMart. * Slightly tweaked some dialogues. * Added new Easter eggs. * Added hidden cheat commands ### Balance changes * Blue grass no longer grows slower than normal grass. * Fruit tree growth is no longer blocked by grass and seed spots. * Pine trees now drop one extra wood when chopped down. * The initiation quest now counts wild slimes killed on the farm. * Thorns ring damage now stacks if you equip two of them, and monsters killed by a thorns ring now drop loot like regular kills. * With the Gatherer skill, the chance to double harvested forage now applies when using an iridium scythe too. * Son of Crimsonfish can now be caught during the night market. * Robin no longer constructs buildings during green rain in year 1. * Placing a bomb and then switching to a weapon no longer applies its enchantments to the bomb damage. * Added some items to shops: * Adventurer's Guild: Rusty Sword, Femur, Elf Blade, Steel Smallsword, Crystal Dagger, Obsidian Edge, and Work Boots. These unlock after you reach a certain mine level, regardless of whether you found them in a mine chest. * Marnie's shop: Cow Decal. * Hat mouse: Sports Cap. * Willy's shop: Advanced Iridium Rod. * Passing trains are now more likely to happen multiple times in the same session, but can no longer appear on consecutive days. * Willy's shop now opens on spring 2 in the first year even if you didn't read his letter. * Fixed Queen of Sauce reruns being affected by...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6146943657174036265",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "balance",
-        "content",
-        "ui",
-        "quest"
       ]
     }
   ]
