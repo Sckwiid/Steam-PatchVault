@@ -1,8 +1,26 @@
 {
   "appid": 739630,
-  "generated_at": "2026-11-23T12:59:36.515Z",
+  "generated_at": "2026-11-24T13:51:45.128Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-739630-1849827110445832",
+      "appid": 739630,
+      "title": "Phasmophobia v0.20.0.0 - Resonance Patch Notes",
+      "version_detected": "20.0.0",
+      "date": "2026-11-24T11:45:35.000Z",
+      "type": "hotfix",
+      "content": "Welcome back, Ghost Hunters.Today, we have released the Resonance update for Phasmophobia. The update is now available across all platforms where Phasmophobia is available. If you encounter any issues in downloading the update, or following, please do contact us via our Help Centre.Below, you’ll find details on what is included in the Resonance update, or you can head to our recent Development Preview for more information.New: Unity 6: The move to Unity 6 brings with it improvements across the board for Phasmophobia including performance, stability, lighting and more. Phasmophobia also now supports various different quality presets for in-game systems and different platforms such as Steam Deck. Importantly, this update brings with it a host of bug fixes, all of which can be found below. Performance Improvements & New Options: Unity 6 and its accompanying features has improved Phasmophobia’s performance and stability through notable changes. Resonance addresses commonly encountered crashes, improves CPU, GPU, VRAM and RAM usage as well as allowing for new overall quality presets. Elsewhere, a new Extreme shadow setting for compatible hardware has been added and an option to turn off/on the Live Camera Feed (for Photo & Video Cameras) is now available. Note: If Live Camera Feed is turned off, the Media highlight will still appear on the Camera. Lighting Improvements: As detailed in the recent Development Preview, Resonance brings with it an overhaul to the overall lighting system in Phasmophobia. These changes will be notable during all weather types where darker areas of a location will be lit through windows and doorways, and outside areas will be brighter. Areas of improvement also cover lighting on dynamic objects such as props and doors; originally, an interactable would be lit in a different way to others whereas now these will blend with the rest of the environment.As this lighting change is game-wide, we'll be looking out for any and all feedback via our Help Centre to help us continue to improve and refine it.Voice Recognition Improvements & Changes: In Resonance, we've made additions to Voice Recognition to allow for a more immersive experience with new ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110445832",
+      "source_type": "manual",
+      "keywords": [
+        "performance",
+        "stability",
+        "bug",
+        "fix",
+        "crash"
+      ]
+    },
     {
       "id": "steam-news-739630-1849458702694051",
       "appid": 739630,
@@ -163,21 +181,6 @@
       "keywords": [
         "ui",
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-739630-1839041357038727",
-      "appid": 739630,
-      "title": "Phasmophobia v0.18.0.1 - Hotfix",
-      "version_detected": "18.0.1",
-      "date": "2026-07-28T16:14:53.000Z",
-      "type": "hotfix",
-      "content": "Welcome back, Ghost Hunters. We've deployed a small hotfix to address feedback on the Equipment and Item slot assignments. Patch notes below: ChangesItems and Equipment will now be assigned a slot in the order they are picked up from 1-3. Flashlights will no longer be locked to 1. Igniters will default to 4.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357038727",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "ui"
       ]
     }
   ]
