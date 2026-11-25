@@ -1,8 +1,38 @@
 {
   "appid": 892970,
-  "generated_at": "2026-11-24T13:51:45.128Z",
+  "generated_at": "2026-11-25T13:04:38.521Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-892970-1850460852981078",
+      "appid": 892970,
+      "title": "Vote For Valheim in the Steam Awards!",
+      "version_detected": "1.0",
+      "date": "2026-11-25T12:51:30.000Z",
+      "type": "content",
+      "content": "We hope you would like to do us the honour of nominating us in this year's Steam Awards! You are, as always, free and encouraged to nominate us for whichever categories you want, but we would like to direct some special attention to the Better With Friends category. For what better way to experience Valheim with a trusty friend by your side as you sail to strange new lands, or as you build your new homestead or battle the Forsaken? Once again we want to thank you all for being here with us on our journey to 1.0, and we hope your adventures in the tenth world are going well! Skål! /The Iron Gate team",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852981078",
+      "source_type": "manual",
+      "keywords": [
+        "ui"
+      ]
+    },
+    {
+      "id": "steam-news-892970-1850460852980500",
+      "appid": 892970,
+      "title": "Patch 1.0.30",
+      "version_detected": "1.0.30",
+      "date": "2026-11-25T09:49:30.000Z",
+      "type": "hotfix",
+      "content": "It's time for a patch! This one features a bunch of fixes and improvements, including some long-awaited tweaks to the Forge of Potential. Please let us know what you think, and stay safe out there in the tenth world! Please note: This patch will affect crossplay compatibility, so please make sure that everyone in your group has updated their game before you try to connect! Patch Notes: Forge of Potential: * Forge of Potential will now return substantially more materials when failing * Forge of Potential initial RNG is no longer seeded on character names * Idol droprates are rebalanced to drop more evenly and show up more consistently in the biome after their target gear as intended * Fixed a number of items having the wrong idols for upgrading at the Forge of Potential * Forge of Potential location will now spawn further away from the middle of the map (only affects new worlds) Tweaks: * Made snow that had been removed by e.g. walking on terrain in Deep North regenerate over time * Krigen and Hexen naturally spawned in outdoors Deep North areas no longer follow players forever, will give up after a while * Made it much less likely for Kall Fimbulbringer’s aspects to sometimes accidentally spawn outside of the boss arena * Unlock “A catch worthy of Njord” achievement if a 5* fish is caught as well, not just 4* * Made it easier to exit the Smouldering Tomb * Tweaked snap points on Timberwood Drawbridge * Tweaked snap points on Ashwood Stairs * Added inverted 26 wood wall to the walls category in the build menu * Tweaked particle counts in SnowStorm environment to make it more performant * Music added to Sunken Crypt * Increased music volume for various locations * Updated music credits * Updated recipe for grausten chest; charred skulls instead of charred trophies * Tweaked drop rates of items in various chests * Updated rain damage, rain coverage for various build pieces * Make smoke particles look somewhat better * Made Tankards and Itemstand props in Deep North villages break on their own if not attached to something * Updated localization * Fixed darkwood beam 67 degree name * Lowered the health of some location setpieces (some rocks in Deep North and Meadows,...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852980500",
+      "source_type": "manual",
+      "keywords": [
+        "fix",
+        "balance",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-892970-1847920302230913",
       "appid": 892970,
@@ -170,34 +200,6 @@
         "quest",
         "event"
       ]
-    },
-    {
-      "id": "steam-news-892970-1836506165545761",
-      "appid": 892970,
-      "title": "Word From the Devs: See You Soon!",
-      "version_detected": "1.0",
-      "date": "2026-06-24T12:13:07.000Z",
-      "type": "content",
-      "content": "Hello vikings! What a month June has been! We were finally able to reveal our 1.0 release date at the PC Gaming Show earlier this month, and we’re delighted that so many of you seem excited for the launch! At last it is official that Valheim 1.0, with Deep North and all, releases on the 9th of September this year, with full crossplay between platforms. If you missed it, or if you just can’t get enough of it, you can watch the trailer right here: We’re very excited for you to be able to experience what we’ve been working on, and we really hope that you’ll have a great time! Leading up to the launch, we can also reveal that we will have a booth at the Gamescom showfloor in August. If you’ll be at the event in Cologne, make sure to come find us for a chance to chat to some of the devs, and to experience Valheim in a more immersive way than ever before. We look forward to seeing you there, it’s gonna be big! Another thing we want to make sure you don’t miss is our current Makehip campaign. Just like with the Rocky plushie last year, you have a limited time to get your hands on three brand new and unique Valheim plushies; the Valkyrie, the Serpent and the Jumbo Troll. They won’t be available after the campaign, so now’s your chance! {STEAM_CLAN_IMAGE}/33695701/43bbf50f0ec39463e30e8b80616c75ff48f15c22.jpg Build of the Month This month we want to highlight the Snowspire Citadel, by xiaoming. Impressive! {STEAM_CLAN_IMAGE}/33695701/35c12b2f3ac098f26737e64df784c2413a971ab0.png If you want your creation to be featured in this section, use the hashtag #ValheimBotM on social media. Please also send us a DM or email with a link to your post, to make sure that we see it. Now you can also submit builds on Discord, by posting in the build-of-the-month forum channel! No DM is necessary if you post there, as that’s our own forum. Skål! /The Iron Gate team If you’d like to discuss the content of this post, please visit our Discord, or our forums on Reddit and Steam, or make a comment on social media!",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165545761",
-      "source_type": "manual",
-      "keywords": [
-        "content",
-        "ui",
-        "event"
-      ]
-    },
-    {
-      "id": "steam-news-892970-1835236783557552",
-      "appid": 892970,
-      "title": "Tell Us Your Valheim Story!",
-      "version_detected": "1.0",
-      "date": "2026-06-10T13:25:49.000Z",
-      "type": "content",
-      "content": "Vikings! As Valheim nears its 1.0 release, we are looking to feature stories of our community members and fans who have played the game. Over the years we’ve heard many stories about players finding new friends, a welcoming community and even love through the game, and we’d love to highlight these tales of kinship and comraderie. Whether you played when the game initially released or you’re playing every week to this day, whether you’ve reunited with your friends through Valheim or found your future spouse in the Tenth Realm, we’d love to hear from you! If you’d like to share your personal Valheim Journey, we encourage you to record a video in which you describe your experience and submit it for a potential feature in an upcoming video piece that we’re putting together. You can do so below - don’t worry, it doesn't need to be a professionally shot video! Submit your video here.",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783557552",
-      "source_type": "manual",
-      "keywords": []
     }
   ]
 }
