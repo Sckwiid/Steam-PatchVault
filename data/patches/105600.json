@@ -1,8 +1,25 @@
 {
   "appid": 105600,
-  "generated_at": "2026-11-26T12:44:55.952Z",
+  "generated_at": "2026-11-27T12:36:24.904Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-105600-1850460852986815",
+      "appid": 105600,
+      "title": "Terraria State of the Game - November 2026",
+      "version_detected": "1.4.6",
+      "date": "2026-11-26T18:47:13.000Z",
+      "type": "hotfix",
+      "content": "Greetings Terrarians! Thanksgiving already?! Well at least for our US-based folks it is... but we always like to take a moment this time of year to reflect on how thankful each of us are for the opportunity that each of you provide us on a daily basis. Terraria - and our team - is what it is because of all of you. Yes, we do all of the code and art and such, but it is your passion, support, creativity, feedback, and more that help to keep that engine strong and driving forward. We never take that for granted, and we sincerely hope that we can continue to earn your trust and to keep producing amazing experiences for many years to come. From the bottom of our hearts, thank you so much for all you do and who you are - the community is as much a part of Terraria as the game itself. Shall we dive into a feast of the latest and greatest Terraria news? DEVELOPMENT NEWS - RE-LOGIC & DR STUDIOS TERRARIA 1.4.6 - CROSSPLAY PHASE ONE IS HERE! In case you missed it, Terraria 1.4.6 - Crossplay Phase One launched earlier this week! As we shared way back in the February State of the Game, Crossplay Phase One is focused on Local and Dedicated Server Crossplay. This should mean that anyone playing on the same network or utilizing a Dedicated Server (by this we mean a server provider that has done the work to handle port forwarding and such for you) should be able to play together pretty easily regardless of platform. Of course, we know bugs and issues and feedback will be coming our way - so please be sure to share your experiences so that we can get whatever hotfixes are needed on their way to you as quickly as possible. TERRARIA 1.4.6 LAUNCH & CHANGELOG THREAD Check out all of the details - and the changelog - for Terraria 1.4.6 via the link above! So, with Phase One out in the wild and hotfixes underway, what is next? As a reminder, we did Crossplay in two phases in order to ease the submissions/approvals process (truly, the hardest part of all of this), and to give us time to fine tune between Phase One and Phase Two. Hopefully, that will result in a better experience for everyone along the way. Work on Phase Two has already been underway in parallel with Phase One. The team ...",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852986815",
+      "source_type": "manual",
+      "keywords": [
+        "bug",
+        "fix",
+        "network",
+        "ui"
+      ]
+    },
     {
       "id": "steam-news-105600-1849827110446549",
       "appid": 105600,
@@ -167,21 +184,6 @@
       "keywords": [
         "mod",
         "ui"
-      ]
-    },
-    {
-      "id": "steam-news-105600-1831432155570207",
-      "appid": 105600,
-      "title": "Terraria State of the Game - April 2026",
-      "version_detected": "1.4.5",
-      "date": "2026-05-01T03:11:06.000Z",
-      "type": "hotfix",
-      "content": "{STEAM_CLAN_IMAGE}/3949769/80e58e939bf62e331ac0fa68e405305a119c1e18.png Greetings Terrarians! How in the world is it almost Summer already?! It feels like 1.4.5 launch was just yesterday... Our team has been head-down working away on post launch support for 1.4.5 and we really think everyone is going to enjoy what is coming soon in Terraria 1.4.5.7. You will get to see a bit more of that in the update sections below in this State of the Game. As it is balance focused, we are certain there will need to be some tweaks in what we assume will be 1.4.5.8 before we can hopefully - at long last - call 1.4.5 done and move on to the wonderful world of Crossplay. We received our Terraria Board Game copies as well, but we haven't really had time to dive in yet. There is so much more in the works for this year, it should be a fun ride! Shall we jump right in and see what this month's SOTG has in store? {STEAM_CLAN_IMAGE}/3949769/0fafbfc560bf0a25fbfca5b645c7c5e3f66ac51b.png PC - RE-LOGIC TERRARIA 1.4.5.7 - POLISHING THE ROUGH EDGES AND SOME NEW TOYS As mentioned previously, for 1.4.5.7, balance is the name of the game. What sorts of things have we been looking into, you might wonder... well, for example, we've added some new tools to handle frustrations in combat (aggro, invisible hitboxes, ranges, boss attacks, following on Gastropods shooting you offscreen, for example). We're also giving some less popular items fresh new life, and adding new items for niche playstyles. Of course, there are other places we are exploring, but that gives you a flavor for the scope of what 1.4.5.7 is tackling - and why its taking a good bit longer than the other 1.4.5.X fixes. In the process of our balance work, we have lots of deep and winding discussions about various issues and how best to tackle them. Those discussions spark a lot of other discussions, which lead to things like what we wanted to share with you this month... {STEAM_CLAN_IMAGE}/3949769/0975e6a538ad593f3834be149cd31352b3b75ac1.gif A fun new minion for Summoners that don't mind getting their hands dirty... Keep your thoughts and feedback rolling in, it is always helpful for us to take into account. Hopefully, we will have 1.4...",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1831432155570207",
-      "source_type": "manual",
-      "keywords": [
-        "fix",
-        "balance"
       ]
     }
   ]
