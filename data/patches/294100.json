@@ -1,8 +1,20 @@
 {
   "appid": 294100,
-  "generated_at": "2026-11-27T12:36:24.904Z",
+  "generated_at": "2026-11-28T11:55:33.718Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-294100-1850460852991371",
+      "appid": 294100,
+      "title": "Bundle up with the RimWorld winter collection ❄️",
+      "version_detected": "",
+      "date": "2026-11-27T20:56:57.000Z",
+      "type": "major",
+      "content": "Hi there, the winter trade caravan just pulled up to the colony! 🎁 They've brought a cozy RimWorld winter collection that'll keep you warm this holiday season. Stock is limited and this collection leaves on Jan 10, so grab yours now. We're also running a big Black Friday / Cyber Monday sale on our past plushes. It's all available on the official store: https://rimworld.store Want to know if your merch will arrive before Christmas? The items have timeline estimates under “Shipping”. ❄️ Winter goodies {STEAM_CLAN_IMAGE}/25160263/21128937a74b7d908e59239ceb5d10e7cacee5a6.jpg Frozen frontier sweater: A legendary quality sweater perfect for the next cold snap. Thrumbo blanket: Snuggle up with the thrumbo beneath the stars. Muffalo mini keychain plush: The favorite pack animal, made into an adorable keychain. Spelopede mini keychain plush: A charming addition to your bag, just mind the pincers. 🧊 Returning from cryptosleep We've also brought back several colonist faves, including the thrumbo, boomrat, megasloth, centipede, and hive queen plushes with up to 20% off. {STEAM_CLAN_IMAGE}/25160263/e449d1bd6b6f0f08d064810f9636a511aa505a0c.jpg Black Friday Sales RimWorld and its expansions Odyssey, Anomaly, Biotech, Ideology, and Royalty are on sale for Black Friday and Cyber Monday. Have a great holiday season! - Tia Website | X | BlueSky | Reddit | Facebook",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852991371",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-294100-1847286114046348",
       "appid": 294100,
@@ -169,20 +181,6 @@
         "mod",
         "ui",
         "quest"
-      ]
-    },
-    {
-      "id": "steam-news-294100-1813041031254610",
-      "appid": 294100,
-      "title": "Bring home a thrumbo and boomalope!",
-      "version_detected": "4.9",
-      "date": "2025-10-10T22:45:49.000Z",
-      "type": "content",
-      "content": "Hello everyone, our new RimWorld thrumbo figure and boomalope nightlight are now available on YouTooz: https://youtooz.com/collections/rimworld! It's a limited edition campaign, so get yours before it ends. - Thrumbo figure: The regal thrumbo in a 4.9\" flocked form for your desk. No taming required. - Boomalope night light: Recharge beside this slumbering boomalope and let its gentle glow light your nights. {STEAM_CLAN_IMAGE}/25160263/8b7f48519c351dd780e9ef76bb1f78040cac94ad.png We also have a Steam sale going on for RimWorld and several expansions until Oct 24 to celebrate the game’s upcoming 12th birthday! 🎉 https://store.steampowered.com/app/294100/RimWorld/ 10% off Anomaly 10% off Biotech 15% off Ideology 15% off Royalty Hope you're having a great week! - Tia and the Ludeon team",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813041031254610",
-      "source_type": "manual",
-      "keywords": [
-        "ui"
       ]
     }
   ]

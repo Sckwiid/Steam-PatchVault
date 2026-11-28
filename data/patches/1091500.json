@@ -1,8 +1,20 @@
 {
   "appid": 1091500,
-  "generated_at": "2026-11-27T12:36:24.904Z",
+  "generated_at": "2026-11-28T11:55:33.718Z",
   "source": "steam-static-db",
   "patches": [
+    {
+      "id": "steam-news-1091500-1850460852989830",
+      "appid": 1091500,
+      "title": "It’s All About You! — Cyberpunk: Edgerunners 2: The Next Edgerunners Legend",
+      "version_detected": "",
+      "date": "2026-11-27T14:20:26.000Z",
+      "type": "content",
+      "content": "Cyberpunk: Edgerunners 2 introduced us to a new range of characters who have joined Night City’s elite club of absolute legends 🙌This episode of “It’s All About You” showcases your love for them! Enjoy! ✨Are you something of a legend yourself, choom? Send us your artworks, fan arts, videos, and whatever other creations at http://cdpred.ly/AAY. See you next episode!",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1850460852989830",
+      "source_type": "manual",
+      "keywords": []
+    },
     {
       "id": "steam-news-1091500-1847286114045127",
       "appid": 1091500,
@@ -159,21 +171,6 @@
       "keywords": [
         "fix",
         "mod"
-      ]
-    },
-    {
-      "id": "steam-news-1091500-1785774543496368",
-      "appid": 1091500,
-      "title": "Take Your Shot in Photo Mode Challenge 3.0",
-      "version_detected": "3.0",
-      "date": "2024-12-11T16:15:19.000Z",
-      "type": "content",
-      "content": "To shoot or not to shoot — that’s not a question you hear often in Night City, but don’t worry, we’re talking about photos this time. In the City of Dreams, there’s always a story waiting to be captured. Now, it’s your turn to uncover it. Step into the role of a street-savvy stringer for “Night City Today” and take on our Cyberpunk 2077 Photo Mode Challenge. Show us Night City through your lens. Your editor-in-chief has two feature stories in mind, and it’s your call which one you wanna chase — or maybe you wanna try both? Hit the streets armed with nothing but your Kiroshis and an eye for the perfect shot. Here’s what’s on the table: Wheels of Night City Dive deep into the world of CHOOH2, slick rides, and revving engines. Snap anything that rolls, roars, or races… and make it out in one piece. Faces of Night City A great photographer sees past the mask and into the soul. Reveal the heart of Night City by capturing its people and letting their faces tell the story. Here’s what you need to know for your photo-journalist assignments: Do: Use only the in-game Photo Mode for your submission. Explore and use all the features of Photo Mode — no restrictions. Ensure your screenshot fits with the theme of your chosen category. Don’t: Edit the screenshot using external software (flipping or cropping is fine). Submit more than one screenshot per category. Time’s ticking, chooms! Freelance reporters thrive on tight deadlines, and this one’s no exception. You’ve got until January 7th, 2025, at 4:00 PM CET to submit your work. Use the dedicated submission form to get your photo-ops in before the clock runs out. The editorial board — featuring CD PROJEKT RED team members and virtual photography pros — will select three winning shots for each category. The results of the challenge will be revealed publicly by the end of January 2025, and the winners will score some seriously awesome prizes from Insert Coin, Displate, and MADRINAS. Want the full scoop? From the detailed task order to the complete ruleset and FAQ, everything you need is on the Cyberpunk 2077 Photo Mode Challenge website: https://cyberpunk.net/photo-mode-challenge/ Good luck out there!",
-      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1785774543496368",
-      "source_type": "manual",
-      "keywords": [
-        "mod",
-        "quest"
       ]
     }
   ]
